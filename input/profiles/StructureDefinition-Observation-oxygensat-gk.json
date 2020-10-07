@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "Observation-oxygensat-gk",
-  "url": "http://hl7.eu/fhir/gk/StructureDefinition/Observation-oxygensat-gk",
+  "url": "http://hl7.eu/fhir/ig/gk/StructureDefinition/Observation-oxygensat-gk",
   "version": "0.1.0",
   "name": "OxygenSatGK",
   "title": "Oxygen Saturation (Gatekeeper)",
@@ -47,10 +47,6 @@
   "derivation": "constraint",
   "differential": {
     "element": [
-      {
-        "id": "Observation",
-        "path": "Observation"
-      },
       {
         "id": "Observation.device",
         "path": "Observation.device",

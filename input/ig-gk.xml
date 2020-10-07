@@ -5,7 +5,7 @@
 	<!--  <extension url="http://hl7.org/fhir/tools/StructureDefinition/igpublisher-spreadsheet">
     <valueString value="resources-spreadsheet.xml"/>
   </extension>-->
-	<url value="http://hl7.eu/fhir/gk/ImplementationGuide/ig-gk"/>
+	<url value="http://hl7.eu/fhir/ig/gk/ImplementationGuide/ig-gk"/>
 	<!-- This version will propagate to all artifacts unless the "propagate-version" extension is overridden -->
 	<version value="0.0.1"/>
 	<name value="GateKeeperImplementationGuide"/>
@@ -42,7 +42,7 @@
 		<!-- <uri value="http://hl7.org/fhir/uv/ips/ImplementationGuide/ig-uv-ips"/> -->
 		<uri value="http://hl7.org/fhir/uv/ips/ImplementationGuide/hl7.fhir.uv.ips"/> 
 		<packageId value="hl7.fhir.uv.ips"/>
-		<version value="dev"/>
+		<version value="current"/>
 	</dependsOn>
 	<definition>	
 		<resource>
@@ -51,7 +51,7 @@
 			</reference>
 			<name value="Patient: patient example"/>
 			<description value="Patient: patient example"/>
-			<exampleCanonical value="http://hl7.eu/fhir/gk/StructureDefinition/Patient-eu-gk"/>
+			<exampleCanonical value="http://hl7.eu/fhir/ig/gk/StructureDefinition/Patient-eu-gk"/>
 		</resource>
 		<!-- You don't need to define any groupings.  The IGPublisher will define them for you.  You only need to do so if your IG is 'special' and it's
       inappropriate to use the defaults.  Feel free to provide feedback about the defaults... -->
@@ -63,9 +63,9 @@
 			<page>
 				<nameUrl value="index.html"/>
 				<title value="GateKeeper IG Home Page"/>
-				<generation value="html"/>
+				<generation value="markdown"/>
 			</page>
-			<page>
+<!-- 			<page>
 				<nameUrl value="background.html"/>
 				<title value="Background"/>
 				<generation value="html"/>
@@ -74,7 +74,7 @@
 				<nameUrl value="spec.html"/>
 				<title value="Detailed Specification"/>
 				<generation value="markdown"/>
-			</page>
+			</page> -->
 			<page>
 				<nameUrl value="downloads.html"/>
 				<title value="Useful Downloads"/>

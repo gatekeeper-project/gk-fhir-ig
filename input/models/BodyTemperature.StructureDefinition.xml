@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
 	<id value="bodyTemperature"/>
-	<url value="http://hl7.eu/fhir/gk/StructureDefinition/bodyTemperature"/>
+	<url value="http://hl7.eu/fhir/ig/gk/StructureDefinition/bodyTemperature"/>
 	<version value="0.0.1"/>
 	<name value="BodyTemperature"/>
 	<title value="Body Temperature [LM] (Gatekeeper)"/>
@@ -28,7 +28,7 @@
 			<max value="*"/>
 		<mapping>
 				<identity value="fhir-gk"/>
-				<map value="Observation.conformsTo('http://hl7.eu/fhir/gk/StructureDefinition/bodytemp')"/>
+				<map value="Observation.conformsTo('http://hl7.eu/fhir/ig/gk/StructureDefinition/bodytemp')"/>
 			</mapping>
 		</element>
 		<element id="bodyTemperature.deviceIdentifier">

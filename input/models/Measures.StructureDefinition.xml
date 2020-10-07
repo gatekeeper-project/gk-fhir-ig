@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
 	<id value="measures"/>
-	<url value="http://hl7.eu/fhir/gk/StructureDefinition/measures"/>
+	<url value="http://hl7.eu/fhir/ig/gk/StructureDefinition/measures"/>
 	<version value="0.0.1"/>
 	<name value="Measures"/>
 	<title value="Measures [LM] (Gatekeeper)"/>
@@ -38,11 +38,11 @@
 			<min value="0"/>
 			<max value="*"/>
 			<type>
-				<code value="http://hl7.eu/fhir/gk/StructureDefinition/oxygenSaturation"/>
+				<code value="http://hl7.eu/fhir/ig/gk/StructureDefinition/oxygenSaturation"/>
 			</type>
 			<mapping>
 				<identity value="fhir-gk"/>
-				<map value="Observation.conformsTo('http://hl7.eu/fhir/gk/StructureDefinition/oxygensat')"/>
+				<map value="Observation.conformsTo('http://hl7.eu/fhir/ig/gk/StructureDefinition/oxygensat')"/>
 			</mapping>
 		</element>
 		<element id="measures.bodyTemperature">
@@ -52,11 +52,11 @@
 			<min value="0"/>
 			<max value="*"/>
 			<type>
-				<code value="http://hl7.eu/fhir/gk/StructureDefinition/bodyTemperature"/>
+				<code value="http://hl7.eu/fhir/ig/gk/StructureDefinition/bodyTemperature"/>
 			</type>
 			<mapping>
 				<identity value="fhir-gk"/>
-				<map value="Observation.conformsTo('http://hl7.eu/fhir/gk/StructureDefinition/bodytemp')"/>
+				<map value="Observation.conformsTo('http://hl7.eu/fhir/ig/gk/StructureDefinition/bodytemp')"/>
 			</mapping>
 		</element>
 		<element id="measures.bloodGlucose">
@@ -66,11 +66,11 @@
 			<min value="0"/>
 			<max value="*"/>
 			<type>
-				<code value="http://hl7.eu/fhir/gk/StructureDefinition/bloodGlucose"/>
+				<code value="http://hl7.eu/fhir/ig/gk/StructureDefinition/bloodGlucose"/>
 			</type>
 			<mapping>
 				<identity value="fhir-gk"/>
-				<map value="Observation.conformsTo('http://hl7.eu/fhir/gk/StructureDefinition/bodytemp')"/>
+				<map value="Observation.conformsTo('http://hl7.eu/fhir/ig/gk/StructureDefinition/bodytemp')"/>
 			</mapping>
 		</element>
 		<element id="measures.bloodPressure">
@@ -80,11 +80,11 @@
 			<min value="0"/>
 			<max value="*"/>
 			<type>
-				<code value="http://hl7.eu/fhir/gk/StructureDefinition/bloodPressure"/>
+				<code value="http://hl7.eu/fhir/ig/gk/StructureDefinition/bloodPressure"/>
 			</type>
 			<mapping>
 				<identity value="fhir-gk"/>
-				<map value="Observation.conformsTo('http://hl7.eu/fhir/gk/StructureDefinition/bodytemp')"/>
+				<map value="Observation.conformsTo('http://hl7.eu/fhir/ig/gk/StructureDefinition/bodytemp')"/>
 			</mapping>
 		</element>
 		<element id="measures.heartRate">
@@ -94,11 +94,11 @@
 			<min value="0"/>
 			<max value="*"/>
 			<type>
-				<code value="http://hl7.eu/fhir/gk/StructureDefinition/heartRate"/>
+				<code value="http://hl7.eu/fhir/ig/gk/StructureDefinition/heartRate"/>
 			</type>
 			<mapping>
 				<identity value="fhir-gk"/>
-				<map value="Observation.conformsTo('http://hl7.eu/fhir/gk/StructureDefinition/bodytemp')"/>
+				<map value="Observation.conformsTo('http://hl7.eu/fhir/ig/gk/StructureDefinition/bodytemp')"/>
 			</mapping>
 		</element>
 	</differential>

@@ -5,7 +5,7 @@
 		<status value="generated"/>
 		<div xmlns="http://www.w3.org/1999/xhtml">This profile represents the constraints applied to the Patient resource by the GateKeeper (GK) FHIR Implementation Guide and describes the minimum expectations for the Patient resource when used in the GK composition or in one of the referred resources.</div>
 	</text>
-	<url value="http://hl7.eu/fhir/gk/StructureDefinition/Patient-eu-gk"/>
+	<url value="http://hl7.eu/fhir/ig/gk/StructureDefinition/Patient-eu-gk"/>
 	<name value="PatientGK"/>
 	<title value="Patient (GateKeeper)"/>
 	<status value="draft"/>
@@ -47,13 +47,13 @@
 		</element>
 		<element id="Patient.name.family">
 			<path value="Patient.name.family"/>
-			<min value="0"/>
+			<min value="1"/>
 			<max value="1"/>
 			<mustSupport value="true"/>
 		</element>
 		<element id="Patient.name.given">
 			<path value="Patient.name.given"/>
-			<min value="0"/>
+			<min value="1"/>
 			<mustSupport value="true"/>
 		</element>
 		<element id="Patient.telecom">
@@ -67,7 +67,7 @@
 		</element>
 		<element id="Patient.birthDate">
 			<path value="Patient.birthDate"/>
-			<min value="1"/>
+			<min value="0"/>
 			<mustSupport value="true"/>
 		</element>
 		<element id="Patient.address">

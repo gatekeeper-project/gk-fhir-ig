@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
 	<id value="oxygenSaturation"/>
-	<url value="http://hl7.eu/fhir/gk/StructureDefinition/oxygenSaturation"/>
+	<url value="http://hl7.eu/fhir/ig/gk/StructureDefinition/oxygenSaturation"/>
 	<version value="0.0.1"/>
 	<name value="OxygenSaturation"/>
 	<title value="Oxygen Saturation [LM] (Gatekeeper)"/>
@@ -28,7 +28,7 @@
 			<max value="*"/>
 		<mapping>
 				<identity value="fhir-gk"/>
-				<map value="Observation.conformsTo('http://hl7.eu/fhir/gk/StructureDefinition/oxygensat')"/>
+				<map value="Observation.conformsTo('http://hl7.eu/fhir/ig/gk/StructureDefinition/oxygensat')"/>
 			</mapping>
 		</element>
 		<element id="oxygenSaturation.deviceIdentifier">

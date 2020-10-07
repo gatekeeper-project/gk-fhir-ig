@@ -6,19 +6,19 @@
       <div xmlns="http://www.w3.org/1999/xhtml">
          <h2>GateKeeperImplementationGuide</h2>
          <p>The official URL for this implementation guide is: </p>
-         <pre>http://hl7.eu/fhir/gk/ImplementationGuide/hl7.eu.fhir.gk</pre>
+         <pre>http://hl7.eu/fhir/ig/gk/ImplementationGuide/hl7.eu.fhir.gk</pre>
          <div>
             <p>A brief description of what MyIG is about (probably the same text as in your readme)</p>
          </div>
       </div>
    </text>
-   <url value="http://hl7.eu/fhir/gk/ImplementationGuide/hl7.eu.fhir.gk"/>
+   <url value="http://hl7.eu/fhir/ig/gk/ImplementationGuide/hl7.eu.fhir.gk"/>
    <version value="0.0.1"/>
    <name value="GateKeeperImplementationGuide"/>
    <title value="GateKeeper FHIR Implementation Guide"/>
    <status value="draft"/>
    <experimental value="false"/>
-   <date value="2020-05-26T16:11:29+02:00"/>
+   <date value="2020-10-05T12:40:12+02:00"/>
    <publisher value="GateKeeper Project"/>
    <contact>
       <telecom>
@@ -39,9 +39,10 @@
    <dependsOn>
       <uri value="http://hl7.org/fhir/uv/ips/ImplementationGuide/hl7.fhir.uv.ips"/>
       <packageId value="hl7.fhir.uv.ips"/>
-      <version value="dev"/>
+      <version value="current"/>
    </dependsOn>
    <definition>
+
 
 
 
@@ -80,7 +81,7 @@
          </reference>
          <name value="Patient: patient example"/>
          <description value="Patient: patient example"/>
-         <exampleCanonical value="http://hl7.eu/fhir/gk/StructureDefinition/Patient-eu-gk"/>
+         <exampleCanonical value="http://hl7.eu/fhir/ig/gk/StructureDefinition/Patient-eu-gk"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -172,6 +173,20 @@
             <valueString value="StructureDefinition:logical:abstract"/>
          </extension>
          <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="StructureDefinition-Patient.html"/>
+         </extension>
+         <reference>
+            <reference value="StructureDefinition/Patient"/>
+         </reference>
+         <name value="Patient"/>
+         <description value="Minimal set of Patient data used by the Gatekeeper project."/>
+         <groupingId value="_str_logicalmodel"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="StructureDefinition:logical:abstract"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
             <valueUri value="StructureDefinition-wellBeing.html"/>
          </extension>
          <reference>
@@ -193,20 +208,6 @@
          </reference>
          <name value="Patient (GateKeeper)"/>
          <description value="This profile represents the constraints applied to the Patient resource by the GateKeeper (GK) FHIR Implementation Guide and describes the minimum expectations for the Patient resource when used in the GK composition or in one of the referred resources."/>
-         <groupingId value="_str_profile"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="StructureDefinition:resource"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="StructureDefinition-bodytemp.html"/>
-         </extension>
-         <reference>
-            <reference value="StructureDefinition/bodytemp"/>
-         </reference>
-         <name value="Body Temperature (Gatekeeper)"/>
-         <description value="This profile defines how to represent Body Temperature observations in FHIR using a standard LOINC code and UCUM units of measure."/>
          <groupingId value="_str_profile"/>
       </resource>
       <resource>
@@ -279,20 +280,6 @@
          <description value="This profile defines how to represent Oxygen Saturation Profile observations in FHIR using a standard LOINC code and UCUM units of measure."/>
          <groupingId value="_str_profile"/>
       </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="StructureDefinition:resource"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="StructureDefinition-oxygensat.html"/>
-         </extension>
-         <reference>
-            <reference value="StructureDefinition/oxygensat"/>
-         </reference>
-         <name value="Oxygen Saturation (Gatekeeper)"/>
-         <description value="This profile defines how to represent Oxygen Saturation Profile observations in FHIR using a standard LOINC code and UCUM units of measure."/>
-         <groupingId value="_str_profile"/>
-      </resource>
       <page>
          <nameUrl value="toc.html"/>
          <title value="Table of Contents"/>
@@ -300,16 +287,6 @@
          <page>
             <nameUrl value="index.html"/>
             <title value="GateKeeper IG Home Page"/>
-            <generation value="html"/>
-         </page>
-         <page>
-            <nameUrl value="background.html"/>
-            <title value="Background"/>
-            <generation value="html"/>
-         </page>
-         <page>
-            <nameUrl value="spec.html"/>
-            <title value="Detailed Specification"/>
             <generation value="markdown"/>
          </page>
          <page>
@@ -357,6 +334,11 @@
                <generation value="generated"/>
             </page>
             <page>
+               <nameUrl value="StructureDefinition-Patient.html"/>
+               <title value="Patient"/>
+               <generation value="generated"/>
+            </page>
+            <page>
                <nameUrl value="StructureDefinition-wellBeing.html"/>
                <title value="Well-being [LM] (Gatekeeper)"/>
                <generation value="generated"/>
@@ -364,11 +346,6 @@
             <page>
                <nameUrl value="StructureDefinition-Patient-eu-gk.html"/>
                <title value="Patient (GateKeeper)"/>
-               <generation value="generated"/>
-            </page>
-            <page>
-               <nameUrl value="StructureDefinition-bodytemp.html"/>
-               <title value="Body Temperature (Gatekeeper)"/>
                <generation value="generated"/>
             </page>
             <page>
@@ -393,11 +370,6 @@
             </page>
             <page>
                <nameUrl value="StructureDefinition-Observation-oxygensat-gk.html"/>
-               <title value="Oxygen Saturation (Gatekeeper)"/>
-               <generation value="generated"/>
-            </page>
-            <page>
-               <nameUrl value="StructureDefinition-oxygensat.html"/>
                <title value="Oxygen Saturation (Gatekeeper)"/>
                <generation value="generated"/>
             </page>
@@ -461,6 +433,14 @@
          <value value="input/testing"/>
       </parameter>
       <parameter>
+         <code value="path-resource"/>
+         <value value="input/history"/>
+      </parameter>
+      <parameter>
+         <code value="path-resource"/>
+         <value value="fsh-generated/resources"/>
+      </parameter>
+      <parameter>
          <code value="path-pages"/>
          <value value="template/config"/>
       </parameter>
@@ -498,7 +478,7 @@
       </parameter>
       <parameter>
          <code value="path-history"/>
-         <value value="http://hl7.eu/fhir/gk/history.html"/>
+         <value value="http://hl7.eu/fhir/ig/gk/history.html"/>
       </parameter>
       <parameter>
          <code value="template-html"/>

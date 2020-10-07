@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "Observation-bodytemp-gk",
-  "url": "http://hl7.eu/fhir/gk/StructureDefinition/Observation-bodytemp-gk",
+  "url": "http://hl7.eu/fhir/ig/gk/StructureDefinition/Observation-bodytemp-gk",
   "version": "0.1.0",
   "name": "BodyTempGK",
   "title": "Body Temperature (Gatekeeper)",
@@ -47,10 +47,6 @@
   "derivation": "constraint",
   "differential": {
     "element": [
-      {
-        "id": "Observation",
-        "path": "Observation"
-      },
       {
         "id": "Observation.device",
         "path": "Observation.device",

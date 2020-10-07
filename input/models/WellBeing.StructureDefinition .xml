@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
 	<id value="wellBeing"/>
-	<url value="http://hl7.eu/fhir/gk/StructureDefinition/wellBeing"/>
+	<url value="http://hl7.eu/fhir/ig/gk/StructureDefinition/wellBeing"/>
 	<version value="0.0.1"/>
 	<name value="WellBeing"/>
 	<title value="Well-being [LM] (Gatekeeper)"/>

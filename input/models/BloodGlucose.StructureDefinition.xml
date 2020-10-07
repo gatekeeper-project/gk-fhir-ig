@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
 	<id value="bloodGlucose"/>
-	<url value="http://hl7.eu/fhir/gk/StructureDefinition/bloodGlucose"/>
+	<url value="http://hl7.eu/fhir/ig/gk/StructureDefinition/bloodGlucose"/>
 	<version value="0.0.1"/>
 	<name value="BloodGlucose"/>
 	<title value="Blood Glucose [LM] (Gatekeeper)"/>
@@ -28,7 +28,7 @@
 			<max value="*"/>
 		<mapping>
 				<identity value="fhir-gk"/>
-				<map value="Observation.conformsTo('http://hl7.eu/fhir/gk/StructureDefinition/oxygensat')"/>
+				<map value="Observation.conformsTo('http://hl7.eu/fhir/ig/gk/StructureDefinition/oxygensat')"/>
 			</mapping>
 		</element>
 		<element id="bloodGlucose.deviceIdentifier">

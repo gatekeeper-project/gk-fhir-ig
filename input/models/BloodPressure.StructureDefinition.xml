@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../../fhir-all-xsd/structuredefinition.xsd">
 	<id value="bloodPressure"/>
-	<url value="http://hl7.eu/fhir/gk/StructureDefinition/bloodPressure"/>
+	<url value="http://hl7.eu/fhir/ig/gk/StructureDefinition/bloodPressure"/>
 	<name value="BloodPressure"/>
 	<title value="Blood Pressure"/>
 	<status value="draft"/>
@@ -27,6 +27,26 @@
 				<identity value="gk"/>
 				<map value="Observation.conformsTo('http://hl7.org/fhir/StructureDefinition/bp')"/>
 			</mapping>
+		</element>
+		<element id="bloodPressure.subject">
+			<path value="bloodPressure.subject"/>
+			<short value="Subject"/>
+			<definition value="The subject of the measure"/>
+			<min value="0"/>
+			<max value="1"/>
+			<type>
+				<code value="Patient"/>
+			</type>
+		</element>
+		<element id="bloodPressure.device">
+			<path value="bloodPressure.device"/>
+			<short value="Measuring device"/>
+			<definition value="Device performing the measure"/>
+			<min value="0"/>
+			<max value="1"/>
+			<type>
+				<code value="BackboneElement"/>
+			</type>
 		</element>
 		<element id="bloodPressure.measureDateTime">
 			<path value="bloodPressure.measureDateTime"/>
