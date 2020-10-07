@@ -39,3 +39,609 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "8480-6"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Systolic blood pressure",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://loinc.org",
+      "concept" : [{
+        "code" : "8480-6"
+      },
+      {
+        "code" : "8462-4"
+      },
+      {
+        "code" : "55423-8"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:7da766f6-348c-49c7-82dc-96d39049ff6a",
+    "timestamp" : "2020-10-07T09:43:43.748Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "excludeNested",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "version",
+      "valueString" : "http://loinc.org|2.68"
+    }],
+    "contains" : [{
+      "system" : "http://loinc.org",
+      "code" : "8480-6",
+      "display" : "Systolic blood pressure"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "8462-4",
+      "display" : "Diastolic blood pressure"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "55423-8",
+      "display" : "Number of steps in unspecified time Pedometer"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://loinc.org",
+      "concept" : [{
+        "code" : "85353-1"
+      },
+      {
+        "code" : "9279-1"
+      },
+      {
+        "code" : "8867-4"
+      },
+      {
+        "code" : "2708-6"
+      },
+      {
+        "code" : "8310-5"
+      },
+      {
+        "code" : "8302-2"
+      },
+      {
+        "code" : "9843-4"
+      },
+      {
+        "code" : "29463-7"
+      },
+      {
+        "code" : "39156-5"
+      },
+      {
+        "code" : "85354-9"
+      },
+      {
+        "code" : "8480-6"
+      },
+      {
+        "code" : "8462-4"
+      },
+      {
+        "code" : "8478-0"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:597d0dcd-350e-4361-9c74-1736a91cf7a1",
+    "timestamp" : "2020-10-07T09:43:44.108Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "version",
+      "valueString" : "http://loinc.org|2.68"
+    }],
+    "contains" : [{
+      "system" : "http://loinc.org",
+      "code" : "85353-1",
+      "display" : "Vital signs, weight, height, head circumference, oxygen saturation and BMI panel"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "9279-1",
+      "display" : "Respiratory rate"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "8867-4",
+      "display" : "Heart rate"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "2708-6",
+      "display" : "Oxygen saturation in Arterial blood"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "8310-5",
+      "display" : "Body temperature"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "8302-2",
+      "display" : "Body height"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "9843-4",
+      "display" : "Head Occipital-frontal circumference"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "29463-7",
+      "display" : "Body weight"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "39156-5",
+      "display" : "Body mass index (BMI) [Ratio]"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "85354-9",
+      "display" : "Blood pressure panel with all children optional"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "8480-6",
+      "display" : "Systolic blood pressure"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "8462-4",
+      "display" : "Diastolic blood pressure"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "8478-0",
+      "display" : "Mean blood pressure"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "41982-0"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Percentage of body fat Measured",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://loinc.org",
+      "concept" : [{
+        "code" : "41982-0"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:0bc760fc-6c1b-43c3-8d57-6ffdf5c77a59",
+    "timestamp" : "2020-10-07T11:05:39.091Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "excludeNested",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "version",
+      "valueString" : "http://loinc.org|2.68"
+    }],
+    "contains" : [{
+      "system" : "http://loinc.org",
+      "code" : "41982-0",
+      "display" : "Percentage of body fat Measured"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "29463-7"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Body weight",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "8302-2"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Body height",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "9843-4"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Head Occipital-frontal circumference",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "39156-5"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Body mass index (BMI) [Ratio]",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "73708-0"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Body fat [Mass] Calculated",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "8280-0"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Waist Circumference at umbilicus by Tape measure",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "1557-8"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Fasting glucose [Mass/volume] in Venous blood",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "1493-6"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Glucose [Mass/volume] in Serum or Plasma --1.5 hours post 0.05-0.15 U insulin/kg IV 12 hours fasting",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://loinc.org",
+      "concept" : [{
+        "code" : "1557-8"
+      },
+      {
+        "code" : "1556-0"
+      },
+      {
+        "code" : "41604-0"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 3 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on Loinc v2.68</p><p>All codes from system <code>http://loinc.org</code></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-1557-8\"> </a><a href=\"http://details.loinc.org/LOINC/1557-8.html\">1557-8</a></td><td>Fasting glucose [Mass/volume] in Venous blood</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-1556-0\"> </a><a href=\"http://details.loinc.org/LOINC/1556-0.html\">1556-0</a></td><td>Fasting glucose [Mass/volume] in Capillary blood</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-41604-0\"> </a><a href=\"http://details.loinc.org/LOINC/41604-0.html\">41604-0</a></td><td>Fasting glucose [Mass/volume] in Capillary blood by Glucometer</td></tr></table></div>"
+  },
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:3c3889ed-0bf0-4cb9-8b2e-fbb1456519c3",
+    "timestamp" : "2020-10-07T16:26:44.699Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "version",
+      "valueString" : "http://loinc.org|2.68"
+    }],
+    "contains" : [{
+      "system" : "http://loinc.org",
+      "code" : "1557-8",
+      "display" : "Fasting glucose [Mass/volume] in Venous blood"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "1556-0",
+      "display" : "Fasting glucose [Mass/volume] in Capillary blood"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "41604-0",
+      "display" : "Fasting glucose [Mass/volume] in Capillary blood by Glucometer"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://loinc.org",
+      "concept" : [{
+        "code" : "1493-6"
+      },
+      {
+        "code" : "10450-5"
+      },
+      {
+        "code" : "1554-5"
+      },
+      {
+        "code" : "17865-7"
+      },
+      {
+        "code" : "1558-6"
+      },
+      {
+        "code" : "35184-1"
+      },
+      {
+        "code" : "1500-8"
+      },
+      {
+        "code" : "1523-0"
+      },
+      {
+        "code" : "1550-3"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 9 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on Loinc v2.68</p><p>All codes from system <code>http://loinc.org</code></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-1493-6\"> </a><a href=\"http://details.loinc.org/LOINC/1493-6.html\">1493-6</a></td><td>Glucose [Mass/volume] in Serum or Plasma --1.5 hours post 0.05-0.15 U insulin/kg IV 12 hours fasting</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-10450-5\"> </a><a href=\"http://details.loinc.org/LOINC/10450-5.html\">10450-5</a></td><td>Glucose [Mass/volume] in Serum or Plasma --10 hours fasting</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-1554-5\"> </a><a href=\"http://details.loinc.org/LOINC/1554-5.html\">1554-5</a></td><td>Glucose [Mass/volume] in Serum or Plasma --12 hours fasting</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-17865-7\"> </a><a href=\"http://details.loinc.org/LOINC/17865-7.html\">17865-7</a></td><td>Glucose [Mass/volume] in Serum or Plasma --8 hours fasting</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-1558-6\"> </a><a href=\"http://details.loinc.org/LOINC/1558-6.html\">1558-6</a></td><td>Fasting glucose [Mass/volume] in Serum or Plasma</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-35184-1\"> </a><a href=\"http://details.loinc.org/LOINC/35184-1.html\">35184-1</a></td><td>Fasting glucose [Mass or Moles/volume] in Serum or Plasma</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-1500-8\"> </a><a href=\"http://details.loinc.org/LOINC/1500-8.html\">1500-8</a></td><td>Glucose [Mass/volume] in Serum or Plasma --1 hour post 0.05-0.15 U insulin/kg IV post 12H CFst</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-1523-0\"> </a><a href=\"http://details.loinc.org/LOINC/1523-0.html\">1523-0</a></td><td>Glucose [Mass/volume] in Serum or Plasma --30 minutes post 0.05-0.15 U insulin/kg IV post 12H CFst</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-1550-3\"> </a><a href=\"http://details.loinc.org/LOINC/1550-3.html\">1550-3</a></td><td>Glucose [Mass/volume] in Serum or Plasma --pre 12 hour fast</td></tr></table></div>"
+  },
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:9489ab3d-72e8-44da-aae7-b973683d1679",
+    "timestamp" : "2020-10-07T16:26:45.402Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "version",
+      "valueString" : "http://loinc.org|2.68"
+    }],
+    "contains" : [{
+      "system" : "http://loinc.org",
+      "code" : "1493-6",
+      "display" : "Glucose [Mass/volume] in Serum or Plasma --1.5 hours post 0.05-0.15 U insulin/kg IV 12 hours fasting"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "10450-5",
+      "display" : "Glucose [Mass/volume] in Serum or Plasma --10 hours fasting"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "1554-5",
+      "display" : "Glucose [Mass/volume] in Serum or Plasma --12 hours fasting"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "17865-7",
+      "display" : "Glucose [Mass/volume] in Serum or Plasma --8 hours fasting"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "1558-6",
+      "display" : "Fasting glucose [Mass/volume] in Serum or Plasma"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "35184-1",
+      "display" : "Fasting glucose [Mass or Moles/volume] in Serum or Plasma"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "1500-8",
+      "display" : "Glucose [Mass/volume] in Serum or Plasma --1 hour post 0.05-0.15 U insulin/kg IV post 12H CFst"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "1523-0",
+      "display" : "Glucose [Mass/volume] in Serum or Plasma --30 minutes post 0.05-0.15 U insulin/kg IV post 12H CFst"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "1550-3",
+      "display" : "Glucose [Mass/volume] in Serum or Plasma --pre 12 hour fast"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://loinc.org",
+      "concept" : [{
+        "code" : "41982-0"
+      },
+      {
+        "code" : "8280-0"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:681f9a9e-970b-4abc-abc2-d805cfb57586",
+    "timestamp" : "2020-10-07T16:26:48.793Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "excludeNested",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "version",
+      "valueString" : "http://loinc.org|2.68"
+    }],
+    "contains" : [{
+      "system" : "http://loinc.org",
+      "code" : "41982-0",
+      "display" : "Percentage of body fat Measured"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "8280-0",
+      "display" : "Waist Circumference at umbilicus by Tape measure"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "93831-6"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Deep sleep duration",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://loinc.org",
+      "concept" : [{
+        "code" : "93831-6"
+      },
+      {
+        "code" : "93830-8"
+      },
+      {
+        "code" : "93829-0"
+      },
+      {
+        "code" : "93832-4"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:86a98bb1-8782-4688-b022-3d62c00e266c",
+    "timestamp" : "2020-10-07T17:47:45.264Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "version",
+      "valueString" : "http://loinc.org|2.68"
+    }],
+    "contains" : [{
+      "system" : "http://loinc.org",
+      "code" : "93831-6",
+      "display" : "Deep sleep duration"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "93830-8",
+      "display" : "Light sleep duration"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "93829-0",
+      "display" : "REM sleep duration"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "93832-4",
+      "display" : "Sleep duration"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------

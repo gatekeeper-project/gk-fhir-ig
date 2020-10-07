@@ -58,11 +58,6 @@
         ]
       },
       {
-        "id": "Observation.device",
-        "path": "Observation.device",
-        "mustSupport": true
-      },
-      {
         "id": "Observation.hasMember",
         "path": "Observation.hasMember",
         "max": "0"

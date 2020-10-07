@@ -26,7 +26,8 @@
 		<coding>
 			<!-- This is the code for universal -->
 			<system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
-			<code value="001"/>
+			<code value="150"/>
+			<display value="Europe"/>
 			<!-- Change to this if the IG is country-specific
       <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
       <code value="001"/>

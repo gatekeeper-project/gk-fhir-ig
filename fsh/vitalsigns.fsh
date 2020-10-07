@@ -12,18 +12,17 @@ Alias: ips_Patient = http://hl7.org/fhir/uv/ips/StructureDefinition/Patient-uv-i
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 Profile:  BodyTempGK
 Parent:   temp_profile
-Id:       Observation-bodytemp-gk
+Id:       Observation-bodytemp-eu-gk
 Title:    "Body Temperature (Gatekeeper)"
 Description: "This profile defines how to represent Body Temperature observations in FHIR using a standard LOINC code and UCUM units of measure."
 
 //-------------------------------------------------------------------------------------------
-
 * device MS
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 Profile:  OxygenSatGK
 Parent:   os_profile
-Id:       Observation-oxygensat-gk
+Id:       Observation-oxygensat-eu-gk
 Title:    "Oxygen Saturation (Gatekeeper)"
 Description: "This profile defines how to represent Oxygen Saturation Profile observations in FHIR using a standard LOINC code and UCUM units of measure."
 
@@ -34,7 +33,7 @@ Description: "This profile defines how to represent Oxygen Saturation Profile ob
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 Profile:  BloodPressureGK
 Parent:   bp_profile
-Id:       Observation-bp-gk
+Id:       Observation-bp-eu-gk
 Title:    "Blood Pressure (Gatekeeper)"
 Description: "This profile defines how to represent Blood Pressure Profile observations in FHIR using a standard LOINC code and UCUM units of measure."
 
@@ -45,7 +44,7 @@ Description: "This profile defines how to represent Blood Pressure Profile obser
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 Profile:  HeartRateGK
 Parent:   hr_profile
-Id:       Observation-hr-gk
+Id:       Observation-hr-eu-gk
 Title:    "Heart Rate (Gatekeeper)"
 Description: "This profile defines how to represent Heart Rate Profile observations in FHIR using a standard LOINC code and UCUM units of measure."
 
@@ -56,7 +55,7 @@ Description: "This profile defines how to represent Heart Rate Profile observati
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 Profile:  BloodGlucoseGK
 Parent:   ips_result
-Id:       Observation-bloodGlucose-gk
+Id:       Observation-bloodGlucose-eu-gk
 Title:    "Blood Glucose (Gatekeeper)"
 Description: "This profile defines how to represent Blood Glucose Profile observations in FHIR using a standard LOINC code and UCUM units of measure."
 

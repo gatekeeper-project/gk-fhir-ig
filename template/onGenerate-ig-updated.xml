@@ -18,7 +18,7 @@
    <title value="GateKeeper FHIR Implementation Guide"/>
    <status value="draft"/>
    <experimental value="false"/>
-   <date value="2020-10-05T12:40:12+02:00"/>
+   <date value="2020-10-07T20:00:47+02:00"/>
    <publisher value="GateKeeper Project"/>
    <contact>
       <telecom>
@@ -30,7 +30,8 @@
    <jurisdiction>
       <coding>
          <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
-         <code value="001"/>
+         <code value="150"/>
+         <display value="Europe"/>
       </coding>
    </jurisdiction>
    <packageId value="hl7.eu.fhir.gk"/>
@@ -58,11 +59,17 @@
       </grouping>
 
 
+      <grouping id="_term_valueset">
+         <name value="Terminology: Value Sets"/>
+         <description value="These define sets of codes used by systems conforming with this implementation guide"/>
+      </grouping>
 
 
 
-
-
+      <grouping id="_map_conceptmap">
+         <name value="Terminology: Concept Maps"/>
+         <description value="These define transformations to convert between codes by systems conforming with this implementation guide"/>
+      </grouping>
 
       <grouping id="_ex_example">
          <name value="Example: Example Instances"/>
@@ -257,6 +264,20 @@
             <valueString value="StructureDefinition:resource"/>
          </extension>
          <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="StructureDefinition-Observation-fpg-gk.html"/>
+         </extension>
+         <reference>
+            <reference value="StructureDefinition/Observation-fpg-gk"/>
+         </reference>
+         <name value="Fasting plasma glucose (Gatekeeper)"/>
+         <description value="This profile defines how to represent Fasting plasma glucose observations in FHIR using a standard LOINC code and UCUM units of measure."/>
+         <groupingId value="_str_profile"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="StructureDefinition:resource"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
             <valueUri value="StructureDefinition-Observation-hr-gk.html"/>
          </extension>
          <reference>
@@ -279,6 +300,188 @@
          <name value="Oxygen Saturation (Gatekeeper)"/>
          <description value="This profile defines how to represent Oxygen Saturation Profile observations in FHIR using a standard LOINC code and UCUM units of measure."/>
          <groupingId value="_str_profile"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="StructureDefinition:resource"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="StructureDefinition-Observation-sleepDuration-gk.html"/>
+         </extension>
+         <reference>
+            <reference value="StructureDefinition/Observation-sleepDuration-gk"/>
+         </reference>
+         <name value="Sleep Duration (Gatekeeper)"/>
+         <description value="This profile defines how to represent Sleep Duration Observation in FHIR using a standard LOINC code and UCUM units of measure."/>
+         <groupingId value="_str_profile"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="StructureDefinition:resource"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="StructureDefinition-Observation-vitalsigns-gk.html"/>
+         </extension>
+         <reference>
+            <reference value="StructureDefinition/Observation-vitalsigns-gk"/>
+         </reference>
+         <name value="Vital Signs (Gatekeeper)"/>
+         <description value="This profile defines how to represent Vital Signs observations in FHIR using a standard LOINC code and UCUM units of measure."/>
+         <groupingId value="_str_profile"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="ValueSet"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="ValueSet-ValueSet-fastingGlucoseBlood-eu-gk.html"/>
+         </extension>
+         <reference>
+            <reference value="ValueSet/ValueSet-fastingGlucoseBlood-eu-gk"/>
+         </reference>
+         <name value="Fasting glucose blood [mg/dL] (Gatekeeper)"/>
+         <description value="LOINC codes used for capturing Fasting glucose in blood [mg/dL]"/>
+         <groupingId value="_term_valueset"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="ValueSet"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="ValueSet-ValueSet-fastingPlasmaGlucose-eu-gk.html"/>
+         </extension>
+         <reference>
+            <reference value="ValueSet/ValueSet-fastingPlasmaGlucose-eu-gk"/>
+         </reference>
+         <name value="Fasting Plasma Glucose [mg/dL] (Gatekeeper)"/>
+         <description value="LOINC codes used for capturing Fasting Plasma Glucose [mg/dL]"/>
+         <groupingId value="_term_valueset"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="ValueSet"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="ValueSet-ValueSet-labresults-gr-gk.html"/>
+         </extension>
+         <reference>
+            <reference value="ValueSet/ValueSet-labresults-gr-gk"/>
+         </reference>
+         <name value="Lab Results - Greece Cyprus (Gatekeeper)"/>
+         <description value="Observation Code used by the Greek and Cypriot pilots - Lab Results (Gatekeeper Project)"/>
+         <groupingId value="_term_valueset"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="ValueSet"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="ValueSet-ValueSet-lifestylefactor-gr-gk.html"/>
+         </extension>
+         <reference>
+            <reference value="ValueSet/ValueSet-lifestylefactor-gr-gk"/>
+         </reference>
+         <name value="Life Style Factor - Greece Cyprus (Gatekeeper)"/>
+         <description value="Observation Code used by the Greek and Cypriot pilots - Life Style Factor (Gatekeeper Project)"/>
+         <groupingId value="_term_valueset"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="ValueSet"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="ValueSet-ValueSet-nutrition-gr-gk.html"/>
+         </extension>
+         <reference>
+            <reference value="ValueSet/ValueSet-nutrition-gr-gk"/>
+         </reference>
+         <name value="Nutrition (code) - Greece Cyprus - (Gatekeeper)"/>
+         <description value="Nutrition Codes used by the Greek and Cypriot pilots (Gatekeeper Project)"/>
+         <groupingId value="_term_valueset"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="ValueSet"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="ValueSet-ValueSet-observationcode-gr-gk.html"/>
+         </extension>
+         <reference>
+            <reference value="ValueSet/ValueSet-observationcode-gr-gk"/>
+         </reference>
+         <name value="Observation Codes - Greece Cyprus (Gatekeeper)"/>
+         <description value="Observation Code used by the Greek and Cypriot pilots (Gatekeeper Project)"/>
+         <groupingId value="_term_valueset"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="ValueSet"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="ValueSet-ValueSet-otherobservations-gr-gk.html"/>
+         </extension>
+         <reference>
+            <reference value="ValueSet/ValueSet-otherobservations-gr-gk"/>
+         </reference>
+         <name value="Other Observations - Greece Cyprus (Gatekeeper)"/>
+         <description value="Observation Code used by the Greek and Cypriot pilots - Other Observations (Gatekeeper Project)"/>
+         <groupingId value="_term_valueset"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="ValueSet"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="ValueSet-ValueSet-sleepDuration-gk.html"/>
+         </extension>
+         <reference>
+            <reference value="ValueSet/ValueSet-sleepDuration-gk"/>
+         </reference>
+         <name value="Sleep Duration (Gatekeeper)"/>
+         <description value="Sleep Duration used by the Gatekeeper Project"/>
+         <groupingId value="_term_valueset"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="ValueSet"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="ValueSet-ValueSet-vitalsigns-eu-gk.html"/>
+         </extension>
+         <reference>
+            <reference value="ValueSet/ValueSet-vitalsigns-eu-gk"/>
+         </reference>
+         <name value="Vital Signs (Gatekeeper)"/>
+         <description value="Vital Signs captured for the Gatekeeper Project"/>
+         <groupingId value="_term_valueset"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="ValueSet"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="ValueSet-ValueSet-vitalsigns-gr-gk.html"/>
+         </extension>
+         <reference>
+            <reference value="ValueSet/ValueSet-vitalsigns-gr-gk"/>
+         </reference>
+         <name value="Vital Signs - Greece Cyprus (Gatekeeper)"/>
+         <description value="Vital Signs Codes used by the Greek and Cypriot pilots (Gatekeeper Project)"/>
+         <groupingId value="_term_valueset"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="ConceptMap"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="ConceptMap-vitalsigns-gr-eu-gk.html"/>
+         </extension>
+         <reference>
+            <reference value="ConceptMap/vitalsigns-gr-eu-gk"/>
+         </reference>
+         <name value="Vital Signs Value Set Mappings - Greece to Gatekeeper"/>
+         <description value="Vital Signs Value Set Mappings - Greece to Gatekeeper"/>
+         <groupingId value="_map_conceptmap"/>
       </resource>
       <page>
          <nameUrl value="toc.html"/>
@@ -364,6 +567,11 @@
                <generation value="generated"/>
             </page>
             <page>
+               <nameUrl value="StructureDefinition-Observation-fpg-gk.html"/>
+               <title value="Fasting plasma glucose (Gatekeeper)"/>
+               <generation value="generated"/>
+            </page>
+            <page>
                <nameUrl value="StructureDefinition-Observation-hr-gk.html"/>
                <title value="Heart Rate (Gatekeeper)"/>
                <generation value="generated"/>
@@ -371,6 +579,71 @@
             <page>
                <nameUrl value="StructureDefinition-Observation-oxygensat-gk.html"/>
                <title value="Oxygen Saturation (Gatekeeper)"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="StructureDefinition-Observation-sleepDuration-gk.html"/>
+               <title value="Sleep Duration (Gatekeeper)"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="StructureDefinition-Observation-vitalsigns-gk.html"/>
+               <title value="Vital Signs (Gatekeeper)"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="ValueSet-ValueSet-fastingGlucoseBlood-eu-gk.html"/>
+               <title value="Fasting glucose blood [mg/dL] (Gatekeeper)"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="ValueSet-ValueSet-fastingPlasmaGlucose-eu-gk.html"/>
+               <title value="Fasting Plasma Glucose [mg/dL] (Gatekeeper)"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="ValueSet-ValueSet-labresults-gr-gk.html"/>
+               <title value="Lab Results - Greece Cyprus (Gatekeeper)"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="ValueSet-ValueSet-lifestylefactor-gr-gk.html"/>
+               <title value="Life Style Factor - Greece Cyprus (Gatekeeper)"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="ValueSet-ValueSet-nutrition-gr-gk.html"/>
+               <title value="Nutrition (code) - Greece Cyprus - (Gatekeeper)"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="ValueSet-ValueSet-observationcode-gr-gk.html"/>
+               <title value="Observation Codes - Greece Cyprus (Gatekeeper)"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="ValueSet-ValueSet-otherobservations-gr-gk.html"/>
+               <title value="Other Observations - Greece Cyprus (Gatekeeper)"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="ValueSet-ValueSet-sleepDuration-gk.html"/>
+               <title value="Sleep Duration (Gatekeeper)"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="ValueSet-ValueSet-vitalsigns-eu-gk.html"/>
+               <title value="Vital Signs (Gatekeeper)"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="ValueSet-ValueSet-vitalsigns-gr-gk.html"/>
+               <title value="Vital Signs - Greece Cyprus (Gatekeeper)"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="ConceptMap-vitalsigns-gr-eu-gk.html"/>
+               <title value="Vital Signs Value Set Mappings - Greece to Gatekeeper"/>
                <generation value="generated"/>
             </page>
             <page>

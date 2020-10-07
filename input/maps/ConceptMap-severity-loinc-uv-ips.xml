@@ -1,0 +1,95 @@
+<ConceptMap xmlns="http://hl7.org/fhir">
+	<id value="vitalsigns-gr-eu-gk"/>
+	<url value="http://hl7.eu/fhir/ig/gk/ConceptMap/vitalsigns-gr-eu-gk"/>
+	<version value="4.0.1"/>
+	<name value="ConceptMapVitalSignsGreeceToGk"/>
+	<title value="Vital Signs Value Set Mappings - Greece to Gatekeeper"/>
+	<status value="active"/>
+	<experimental value="false"/>
+	<publisher value="HL7 International"/>
+	<description value="Vital Signs Value Set Mappings - Greece to Gatekeeper"/>
+	<contact>
+		<name value="HL7 International"/>
+		<telecom>
+			<system value="phone"/>
+			<value value="+1 734 677 7777"/>
+		</telecom>
+		<telecom>
+			<system value="fax"/>
+			<value value="+1 734 677 6622"/>
+		</telecom>
+		<telecom>
+			<system value="email"/>
+			<value value="info@hl7.org"/>
+		</telecom>
+	</contact>
+	<sourceUri value="http://hl7.eu/fhir/ig/gk/ValueSet/ValueSet-vitalsigns-gr-gk"/>
+	<targetUri value="http://hl7.eu/fhir/ig/gk/ValueSet/ValueSet-vitalsigns-eu-gk"/>
+	<group>
+		<source value="http://snomed.info/sct"/>
+		<target value="http://loinc.org"/>
+		<element>
+			<code value="27113001"/>
+			<display value="Body weight"/>
+			<target>
+				<code value="29463-7"/>
+				<display value="Body weight"/>
+				<equivalence value="equivalent"/>
+			</target>
+		</element>
+		<element>
+			<code value="50373000"/>
+			<display value="Body height"/>
+			<target>
+				<code value="8302-2"/>
+				<display value="Body height"/>
+				<equivalence value="equivalent"/>
+			</target>
+		</element>
+		<element>
+			<code value="248365001"/>
+			<display value="Circumference measure"/>
+			<target>
+				<code value="8280-0"/>
+				<display value="Waist Circumference at umbilicus by Tape measure"/>
+				<equivalence value="narrower"/>
+			</target>
+		</element>
+		<element>
+			<code value="60621009"/>
+			<display value="Body mass index"/>
+			<target>
+				<code value="39156-5"/>
+				<display value="Body mass index (BMI) [Ratio]"/>
+				<equivalence value="equivalent"/>
+			</target>
+		</element>
+		<element>
+			<code value="415945006"/>
+			<display value="Oral temperature"/>
+			<target>
+				<code value="8310-5"/>
+				<display value="Body temperature"/>
+				<equivalence value="wider"/>
+			</target>
+		</element>
+		<element>
+			<code value="366319001"/>
+			<display value="Body fat finding"/>
+			<target>
+				<code value="73708-0"/>
+				<display value="Body fat [Mass] Calculated"/>
+				<equivalence value="relatedto"/>
+			</target>
+		</element>
+		<element>
+			<code value="363810004"/>
+			<display value="Body Composition"/>
+			<target>
+				<code value="41982-0"/>
+				<display value="Percentage of body fat Measured"/>
+				<equivalence value="relatedto"/>
+			</target>
+		</element>
+	</group>
+</ConceptMap>
