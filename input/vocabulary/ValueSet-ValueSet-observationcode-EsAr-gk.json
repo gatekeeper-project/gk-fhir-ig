@@ -1,0 +1,24 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "VsObservationCodeEsArGK",
+  "id": "ValueSet-observationcode-EsAr-gk",
+  "title": "Observation Codes - Aragon (Gatekeeper)",
+  "description": "Observation Code used by the Aragon pilot (Gatekeeper Project)",
+  "version": "0.1.0",
+  "url": "http://hl7.eu/fhir/ig/gk/ValueSet/ValueSet-observationcode-EsAr-gk",
+  "compose": {
+    "include": [
+      {
+        "valueSet": [
+          "http://hl7.eu/fhir/ig/gk/ValueSet/ValueSet-diagnosis-EsAr-gk"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.eu/fhir/ig/gk/ValueSet/ValueSet-lifestylefactor-EsAr-gk"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "VsVitalSignsESPV",
+  "id": "ValueSet-vitalsigns-espv-gk",
+  "title": "Vital Signs - Basque Country (Gatekeeper)",
+  "description": "Vital Signs Codes used by the Basque Country pilot (Gatekeeper Project)",
+  "version": "0.1.0",
+  "url": "http://hl7.eu/fhir/ig/gk/ValueSet/ValueSet-vitalsigns-espv-gk",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "64075005"
+          },
+          {
+            "code": "27113001"
+          },
+          {
+            "code": "50373000"
+          },
+          {
+            "code": "248365001"
+          },
+          {
+            "code": "60621009"
+          },
+          {
+            "code": "415945006"
+          }
+        ]
+      },
+      {
+        "system": "http://loinc.org",
+        "concept": [
+          {
+            "code": "8480-6"
+          },
+          {
+            "code": "8462-4"
+          }
+        ]
+      }
+    ]
+  }
+}

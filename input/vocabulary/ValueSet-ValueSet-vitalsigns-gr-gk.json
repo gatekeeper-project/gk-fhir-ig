@@ -1,0 +1,50 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "VsVitalSignsGKGR",
+  "id": "ValueSet-vitalsigns-gr-gk",
+  "title": "Vital Signs - Greece Cyprus (Gatekeeper)",
+  "description": "Vital Signs Codes used by the Greek and Cypriot pilots (Gatekeeper Project)",
+  "version": "0.1.0",
+  "url": "http://hl7.eu/fhir/ig/gk/ValueSet/ValueSet-vitalsigns-gr-gk",
+  "copyright": "This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "64075005"
+          },
+          {
+            "code": "27113001"
+          },
+          {
+            "code": "50373000"
+          },
+          {
+            "code": "248365001"
+          },
+          {
+            "code": "60621009"
+          },
+          {
+            "code": "366319001"
+          },
+          {
+            "code": "256668009"
+          },
+          {
+            "code": "32457005"
+          },
+          {
+            "code": "415945006"
+          },
+          {
+            "code": "363810004"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "Appointment-gk",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-category",
+      "valueString": "Base.Workflow"
+    },
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category",
+      "valueCode": "patient"
+    }
+  ],
+  "url": "http://hl7.eu/fhir/ig/gk/StructureDefinition/Appointment-gk",
+  "version": "0.1.0",
+  "name": "AppointmentGK",
+  "title": "Appointment (Gatekeeper)",
+  "status": "active",
+  "description": "This profile defines how to represent Appointments in FHIR in Gatekeeper.",
+  "fhirVersion": "4.0.1",
+  "mapping": [
+    {
+      "identity": "workflow",
+      "uri": "http://hl7.org/fhir/workflow",
+      "name": "Workflow Pattern"
+    },
+    {
+      "identity": "rim",
+      "uri": "http://hl7.org/v3",
+      "name": "RIM Mapping"
+    },
+    {
+      "identity": "ical",
+      "uri": "http://ietf.org/rfc/2445",
+      "name": "iCalendar"
+    },
+    {
+      "identity": "w5",
+      "uri": "http://hl7.org/fhir/fivews",
+      "name": "FiveWs Pattern Mapping"
+    },
+    {
+      "identity": "v2",
+      "uri": "http://hl7.org/v2",
+      "name": "HL7 v2 Mapping"
+    }
+  ],
+  "kind": "resource",
+  "abstract": false,
+  "type": "Appointment",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Appointment",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Appointment.identifier",
+        "path": "Appointment.identifier",
+        "mustSupport": true
+      },
+      {
+        "id": "Appointment.status",
+        "path": "Appointment.status",
+        "mustSupport": true
+      },
+      {
+        "id": "Appointment.appointmentType",
+        "path": "Appointment.appointmentType",
+        "mustSupport": true
+      },
+      {
+        "id": "Appointment.start",
+        "path": "Appointment.start",
+        "mustSupport": true
+      },
+      {
+        "id": "Appointment.end",
+        "path": "Appointment.end",
+        "mustSupport": true
+      },
+      {
+        "id": "Appointment.slot",
+        "path": "Appointment.slot",
+        "mustSupport": true
+      },
+      {
+        "id": "Appointment.created",
+        "path": "Appointment.created",
+        "mustSupport": true
+      },
+      {
+        "id": "Appointment.participant.actor",
+        "path": "Appointment.participant.actor",
+        "mustSupport": true
+      },
+      {
+        "id": "Appointment.participant.status",
+        "path": "Appointment.participant.status",
+        "mustSupport": true
+      }
+    ]
+  }
+}

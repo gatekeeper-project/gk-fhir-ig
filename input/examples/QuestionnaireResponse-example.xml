@@ -1,0 +1,614 @@
+<QuestionnaireResponse xmlns="http://hl7.org/fhir">
+	<id value="saxony-gatekeeper-example" />
+  <status value="completed" />
+  <authored value="2020-09-30T00:00:00+01:00" />
+  <item>
+    <linkId value="PatientFirstName" />
+    <text value="Vorname" />
+    <answer>
+      <valueString value="Melanie" />
+    </answer>
+  </item>
+  <item>
+    <linkId value="PatientLastName" />
+    <text value="Nachname" />
+    <answer>
+      <valueString value="Musterfrau" />
+    </answer>
+  </item>
+  <item>
+    <linkId value="PatientAge" />
+    <text value="Alter" />
+    <answer>
+      <valueInteger value="31" />
+    </answer>
+  </item>
+  <item>
+    <linkId value="PatientGender" />
+    <text value="Geschlecht" />
+    <answer>
+      <valueCoding>
+        <system value="http://hl7.org/fhir/administrative-gender" />
+        <code value="female" />
+        <display value="weiblich" />
+      </valueCoding>
+    </answer>
+  </item>
+  <item>
+    <linkId value="PatientNationality" />
+    <text value="Nationalität" />
+    <answer>
+      <valueCoding>
+        <system value="urn:iso:std:iso:3166" />
+        <code value="DE" />
+        <display value="Deutschland" />
+      </valueCoding>
+    </answer>
+  </item>
+  <item>
+    <linkId value="PatientBodyHeight" />
+    <text value="Körpergröße" />
+    <answer>
+      <valueInteger value="180" />
+    </answer>
+  </item>
+  <item>
+    <linkId value="PatientBodyWeight" />
+    <text value="Körpergewicht" />
+    <answer>
+      <valueInteger value="63" />
+    </answer>
+  </item>
+  <item>
+    <linkId value="PatientLastProfessionalActivity" />
+    <text value="Letzte (oder zuletzt ausgeübte) berufliche Tätigkeit?" />
+    <answer>
+      <valueString value="Floristin" />
+    </answer>
+  </item>
+  <item>
+    <linkId value="PatientEducationalAttainment" />
+    <text value="Höchster Ausbildungsabschluss" />
+    <answer>
+      <valueString value="Fachhochschule/Universität" />
+    </answer>
+  </item>
+  <item>
+    <linkId value="MedicationIntake" />
+    <text value="Nehmen Sie regelmäßig Medikamente ein?" />
+    <answer>
+      <valueBoolean value="true" />
+      <item>
+        <linkId value="PsychotropicMed" />
+        <text value="Psychopharmaka" />
+        <item>
+          <linkId value="PsychotropicMedName" />
+          <text value="Name" />
+          <answer>
+            <valueCoding>
+              <system value="http://tele-neps.de/fhir/CodeSystem/psychopharmaka-med-list" />
+              <code value="Lorazepam_Tavor_Tolid" />
+              <display value="Lorazepam, Tavor, Tolid" />
+            </valueCoding>
+          </answer>
+        </item>
+        <item>
+          <linkId value="PsychotropicMedIntakeComment" />
+          <text value="Kommentar" />
+          <answer>
+            <valueString value="1x" />
+          </answer>
+        </item>
+        <item>
+          <linkId value="PsychotropicMedIntakeAsNeeded" />
+          <text value="Bei Bedarf" />
+          <answer>
+            <valueBoolean value="true" />
+          </answer>
+        </item>
+      </item>
+      <item>
+        <linkId value="OtherMed" />
+        <text value="Anderes Medikament" />
+        <item>
+          <linkId value="OtherMedName" />
+          <text value="Name" />
+          <answer>
+            <valueString value="Pille" />
+          </answer>
+        </item>
+        <item>
+          <linkId value="OtherMedStrength" />
+          <text value="Stärke" />
+          <answer>
+            <valueInteger value="15" />
+          </answer>
+        </item>
+        <item>
+          <linkId value="OtherMedUnit" />
+          <text value="Einheit" />
+          <answer>
+            <valueCoding>
+              <system value="http://fhir.de/ValueSet/kbv/s-bmp-dosiereinheit" />
+              <code value="v" />
+              <display value="mg" />
+            </valueCoding>
+          </answer>
+        </item>
+        <item>
+          <linkId value="OtherMedFrequency" />
+          <text value="Wie oft am Tag?" />
+          <item>
+            <linkId value="OtherMedIntakeMorning" />
+            <text value="Morgens" />
+            <answer>
+              <valueInteger value="0" />
+            </answer>
+          </item>
+          <item>
+            <linkId value="OtherMedIntakeNoon" />
+            <text value="Mittags" />
+            <answer>
+              <valueInteger value="1" />
+            </answer>
+          </item>
+          <item>
+            <linkId value="OtherMedIntakeEvening" />
+            <text value="Abends" />
+            <answer>
+              <valueInteger value="0" />
+            </answer>
+          </item>
+          <item>
+            <linkId value="OtherMedIntakeNight" />
+            <text value="Zur Nacht" />
+            <answer>
+              <valueInteger value="0" />
+            </answer>
+          </item>
+        </item>
+      </item>
+    </answer>
+  </item>
+  <item>
+    <linkId value="DiseaseHospitalization" />
+    <text value="Hatten Sie Erkrankungen oder Klinikaufenthalte während der Kindheit, Jugend- und Erwachsenzeit?" />
+    <answer>
+      <valueBoolean value="true" />
+      <item>
+        <linkId value="HospitalizationGroup" />
+        <text value="Klinikaufenthalt" />
+        <item>
+          <linkId value="Hospitalization" />
+          <text value="Welcher Klinikaufenthalt?" />
+          <answer>
+            <valueCoding>
+              <system value="http://loinc.org" />
+              <code value="LA46-8" />
+              <display value="Anderer" />
+            </valueCoding>
+          </answer>
+        </item>
+        <item>
+          <linkId value="OtherHospitalization" />
+          <text value="Anderer Klinikaufenthalt" />
+          <answer>
+            <valueString value="Kinder- u. Jugendpsychatrie" />
+          </answer>
+        </item>
+        <item>
+          <linkId value="HospitalizationYear" />
+          <text value="Welches Jahr?" />
+          <answer>
+            <valueInteger value="2007" />
+          </answer>
+        </item>
+        <item>
+          <linkId value="HospitalizationComment" />
+          <text value="Kommentar" />
+          <answer>
+            <valueString value="3 Wo" />
+          </answer>
+        </item>
+      </item>
+      <item>
+        <linkId value="HospitalizationGroup" />
+        <text value="Klinikaufenthalt" />
+        <item>
+          <linkId value="Hospitalization" />
+          <text value="Welcher Klinikaufenthalt?" />
+          <answer>
+            <valueCoding>
+              <system value="http://loinc.org" />
+              <code value="LA46-8" />
+              <display value="Anderer" />
+            </valueCoding>
+          </answer>
+        </item>
+        <item>
+          <linkId value="OtherHospitalization" />
+          <text value="Anderer Klinikaufenthalt" />
+          <answer>
+            <valueString value="Blinddarm-OP" />
+          </answer>
+        </item>
+        <item>
+          <linkId value="HospitalizationYear" />
+          <text value="Welches Jahr?" />
+          <answer>
+            <valueInteger value="2015" />
+          </answer>
+        </item>
+      </item>
+    </answer>
+  </item>
+  <item>
+    <linkId value="PastAccidentsAndOperations" />
+    <text value="Hatten Sie Unfälle oder Operationen während der Kindheit, Jugend- und Erwachsenzeit?" />
+    <answer>
+      <valueBoolean value="false" />
+    </answer>
+  </item>
+  <item>
+    <linkId value="PastDiseaseImpairment" />
+    <text value="Bestehen heute noch Beeinträchtigungen, die von früheren Erkrankungen herrühren?" />
+    <answer>
+      <valueBoolean value="false" />
+    </answer>
+  </item>
+  <item>
+    <linkId value="PastUnfitnessForWork" />
+    <text value="Waren Sie in den letzten 12 Monaten arbeitsunfähig?" />
+    <answer>
+      <valueBoolean value="true" />
+      <item>
+        <linkId value="PastUnfitnessForWorkGroup" />
+        <item>
+          <linkId value="PastUnfitnessForWorkTotal" />
+          <text value="Wie viele Tage insgesamt?" />
+          <answer>
+            <valueInteger value="14" />
+          </answer>
+        </item>
+      </item>
+    </answer>
+  </item>
+  <item>
+    <linkId value="PresentUnfitnessForWork" />
+    <text value="Sind Sie aktuell von einem Arzt arbeitsunfähig geschrieben?" />
+    <answer>
+      <valueBoolean value="true" />
+      <item>
+        <linkId value="PresentUnfitnessForWorkGroup" />
+        <item>
+          <linkId value="PresentUnfitnessForWorkFrom" />
+          <text value="Von" />
+          <answer>
+            <valueDate value="2020-09-16" />
+          </answer>
+        </item>
+        <item>
+          <linkId value="PresentUnfitnessForWorkUntil" />
+          <text value="Bis" />
+          <answer>
+            <valueDate value="2020-10-02" />
+          </answer>
+        </item>
+      </item>
+    </answer>
+  </item>
+  <item>
+    <linkId value="PensionApplicationApproval" />
+    <text value="Haben Sie (teilweise) EU-Rente beantragt oder ist diese bewilligt?" />
+    <answer>
+      <valueBoolean value="false" />
+    </answer>
+  </item>
+  <item>
+    <linkId value="TobaccoSmokingStatus" />
+    <text value="Rauchen Sie?" />
+    <answer>
+      <valueCoding>
+        <system value="http://loinc.org" />
+        <code value="LA18979-7" />
+        <display value="Ja" />
+      </valueCoding>
+      <item>
+        <linkId value="TobaccoSmokingStatusGroup" />
+        <item>
+          <linkId value="TobaccoSmokingStatusCigarettsPerDay" />
+          <text value="Wie viele Zigaretten pro Tag?" />
+          <answer>
+            <valueInteger value="15" />
+          </answer>
+        </item>
+      </item>
+    </answer>
+  </item>
+  <item>
+    <linkId value="AUDIT-C.1" />
+    <text value="Wie oft trinken Sie Alkohol?" />
+    <answer>
+      <valueCoding>
+        <system value="http://loinc.org" />
+        <code value="LA18926-8" />
+        <display value="1mal im Monat oder seltener" />
+      </valueCoding>
+    </answer>
+  </item>
+  <item>
+    <linkId value="AUDIT-C.2" />
+    <text value="Wenn Sie Alkohol trinken, wie viele Gläser trinken Sie dann üblicherweise an einem Tag? (ein Glas entspricht 0.33 L Bier, 0.25 L Wein/Sekt, 0.02 L Spirituosen)" />
+    <answer>
+      <valueCoding>
+        <system value="http://loinc.org" />
+        <code value="LA15694-5" />
+        <display value="1-2" />
+      </valueCoding>
+    </answer>
+  </item>
+  <item>
+    <linkId value="AUDIT-C.3" />
+    <text value="Wie oft trinken Sie sechs oder mehr Gläser alkoholischer Getränke bei einer Gelegenheit (z.B. beim Abendessen, auf einer Party)? (ein Glas entspricht 0.33 L Bier, 0.25 L Wein/Sekt, 0.02 L Spirituosen)" />
+    <answer>
+      <valueCoding>
+        <system value="http://loinc.org" />
+        <code value="LA18933-4" />
+        <display value="Seltener als 1mal im Monat" />
+      </valueCoding>
+    </answer>
+  </item>
+  <item>
+    <linkId value="DrugAbuse" />
+    <text value="Haben Sie in Ihrem Leben schon mehrmals Drogen wie z.B. Haschisch, Crystal, Ecstasy, Kokain oder Heroin eingenommen?" />
+    <answer>
+      <valueBoolean value="true" />
+    </answer>
+  </item>
+  <item>
+    <linkId value="TreatmentReason" />
+    <text value="Schildern Sie bitte mit Ihren eigenen Worten den Grund für den Wunsch der Behandlung." />
+    <answer>
+      <valueString value="vor einigen Monaten hatte ich eine Kur und dabei sind mir Bilder meiner Kindheit wieder hochgekommen, die mich jetzt nicht loslassen; Angst &amp; Panik" />
+    </answer>
+  </item>
+  <item>
+    <linkId value="LifeEventsChecklist" />
+    <text value="Viele Menschen haben irgendwann einmal in ihrem Leben ein sehr belastendes oder traumatisches Erlebnis oder werden Zeugen eines solchen Ereignisses. Bitte geben Sie für jedes der folgenden Ereignisse an, ob Sie es erlebt haben, entweder persönlich oder als Zeuge. Bitte kreuzen Sie JA an, wenn dies der Fall war, und NEIN, wenn dies nicht der Fall war." />
+    <item>
+      <linkId value="LifeEventsChecklist.AccidentFireExplosion" />
+      <text value="Schwerer Unfall, Feuer, Explosion (z.B. Arbeitsunfall, Verkehrsunfall)" />
+      <answer>
+        <valueBoolean value="true" />
+      </answer>
+    </item>
+    <item>
+      <linkId value="LifeEventsChecklist.NaturalDisaster" />
+      <text value="Naturkatastrophe (z.B. Sturm, Überschwemmung, Erdbeben, Lawine)" />
+      <answer>
+        <valueBoolean value="false" />
+      </answer>
+    </item>
+    <item>
+      <linkId value="LifeEventsChecklist.PhysicalAssaultFamilyFriends" />
+      <text value="Gewalttätiger Angriff durch jemanden aus dem Familien- oder Bekanntenkreis (z.B. körperlicher Angriff, Raub, mit Schusswaffe bedroht werden, Stichverletzung bekommen)" />
+      <answer>
+        <valueBoolean value="false" />
+      </answer>
+    </item>
+    <item>
+      <linkId value="LifeEventsChecklist.PhysicalAssaultForeignPerson" />
+      <text value="Gewalttätiger Angriff durch fremde Person (z.B. körperlicher Angriff, Raub, mit Schusswaffe bedroht werden, Stichverletzung bekommen)" />
+      <answer>
+        <valueBoolean value="true" />
+      </answer>
+    </item>
+    <item>
+      <linkId value="LifeEventsChecklist.SexualAssaultFamilyFriends" />
+      <text value="Sexueller Angriff durch jemanden aus dem Familien- oder Bekanntenkreis (z.B. Vergewaltigung, Nötigung)" />
+      <answer>
+        <valueBoolean value="false" />
+      </answer>
+    </item>
+    <item>
+      <linkId value="LifeEventsChecklist.SexualAssaultForeignPerson" />
+      <text value="Sexueller Angriff durch fremde Person (z.B. Vergewaltigung, Nötigung)" />
+      <answer>
+        <valueBoolean value="true" />
+      </answer>
+    </item>
+    <item>
+      <linkId value="LifeEventsChecklist.CombatExposureWarZone" />
+      <text value="Kampfeinsatz im Krieg oder Aufenthalt im Kriegsgebiet" />
+      <answer>
+        <valueBoolean value="false" />
+      </answer>
+    </item>
+    <item>
+      <linkId value="LifeEventsChecklist.SexualAbuseUnderage" />
+      <text value="Sexueller Kontakt im Alter von unter 18 Jahren mit einer Person, die mindestens fünf Jahre älter war" />
+      <answer>
+        <valueBoolean value="true" />
+      </answer>
+    </item>
+    <item>
+      <linkId value="LifeEventsChecklist.Captivity" />
+      <text value="Gefangenschaft" />
+      <answer>
+        <valueBoolean value="false" />
+      </answer>
+    </item>
+    <item>
+      <linkId value="LifeEventsChecklist.SevereHumanSuffering" />
+      <text value="Folter" />
+      <answer>
+        <valueBoolean value="false" />
+      </answer>
+    </item>
+    <item>
+      <linkId value="LifeEventsChecklist.LifeThreateningIllnessInjury" />
+      <text value="Lebensbedrohliche Krankheit" />
+      <answer>
+        <valueBoolean value="false" />
+      </answer>
+    </item>
+    <item>
+      <linkId value="LifeEventsChecklist.OtherTraumaticEvent" />
+      <text value="Anderes traumatisches Ereignis" />
+      <answer>
+        <valueBoolean value="true" />
+        <item>
+          <linkId value="LifeEventsChecklist.OtherTraumaticEventGroup" />
+          <item>
+            <linkId value="LifeEventsChecklist.OtherTraumaticEventDetails" />
+            <text value="Beschreiben Sie dieses Ereignis" />
+            <answer>
+              <valueString value="Suizid Vater, 2008" />
+            </answer>
+          </item>
+        </item>
+      </answer>
+    </item>
+    <item>
+      <linkId value="LifeEventsChecklist.MostStressfulEventGroup" />
+      <text value="Wenn Sie mehrmals JA angekreuzt haben, geben Sie bitte hier die Nummer desjenigen Erlebnisses an, das Sie am meisten belastet" />
+      <item>
+        <linkId value="LifeEventsChecklist.MostStressfullEventNumber" />
+        <text value="Nr." />
+        <answer>
+          <valueInteger value="6" />
+        </answer>
+      </item>
+      <item>
+        <linkId value="LifeEventsChecklist.MostStressfulEventDetails" />
+        <text value="Beschreiben Sie kurz dieses belastende Ereignis in Stichworten" />
+        <answer>
+          <valueString value="Beim Spielen im Wald von Fremden angegriffen; sex. Mißbrauch" />
+        </answer>
+      </item>
+    </item>
+  </item>
+  <item>
+    <linkId value="LifeEventsChecklist.MostStressfulEventPeriod" />
+    <text value="Wann ist dieses belastende Ereignis passiert?" />
+    <answer>
+      <valueString value="vor mehr als 5 Jahren" />
+      <item>
+        <linkId value="LifeEventsChecklist.MostStressfulEventAge" />
+        <text value="Im Alter von" />
+        <answer>
+          <valueInteger value="7" />
+        </answer>
+      </item>
+    </answer>
+  </item>
+  <item>
+    <linkId value="PC-PTSD-5" />
+    <text value="Waren Sie oder haben Sie im vergangenen Monat..." />
+    <item>
+      <linkId value="PC-PTSD-5.1" />
+      <text value="... Alpträume von dem/den Ereignis(sen) gehabt oder dachten Sie an das/die Ereignis(se) wenn Sie es nicht wollten?" />
+      <answer>
+        <valueBoolean value="true" />
+      </answer>
+    </item>
+    <item>
+      <linkId value="PC-PTSD-5.2" />
+      <text value="... sich sehr bemüht nicht an das/die Ereignis(se) zu denken oder sich große Mühe gegeben, Situationen zu vermeiden, die Sie an das/die Ereignis(se) erinnerten?" />
+      <answer>
+        <valueBoolean value="true" />
+      </answer>
+    </item>
+    <item>
+      <linkId value="PC-PTSD-5.3" />
+      <text value="... ständig auf der Hut, wachsam oder leicht zu erschrecken?" />
+      <answer>
+        <valueBoolean value="true" />
+      </answer>
+    </item>
+    <item>
+      <linkId value="PC-PTSD-5.4" />
+      <text value="... sich wie betäubt gefühlt oder entfremdet von anderen Menschen, Aktivitäten oder Ihrer Umgebung?" />
+      <answer>
+        <valueBoolean value="true" />
+      </answer>
+    </item>
+    <item>
+      <linkId value="PC-PTSD-5.5" />
+      <text value="... sich schuldig gefühlt oder konnten Sie nicht damit aufhören sich oder anderen Vorwürfe wegen des/der Ereignisse(s) zu machen oder wegen irgendwelcher Probleme, die durch das/die Ereignis(se) verursacht sein könnten?" />
+      <answer>
+        <valueBoolean value="true" />
+      </answer>
+    </item>
+  </item>
+  <item>
+    <linkId value="PHQ-Mix" />
+    <text value="Wie oft fühlten Sie sich im Verlauf der letzten 2 Wochen durch die folgenden Beschwerden beeinträchtigt?" />
+    <item>
+      <linkId value="PHQ-9.1" />
+      <text value="Wenig Interesse oder Freude an Ihren Tätigkeiten" />
+      <answer>
+        <valueCoding>
+          <system value="http://loinc.org" />
+          <code value="LA6569-3" />
+          <display value="An einzelnen Tagen" />
+        </valueCoding>
+      </answer>
+    </item>
+    <item>
+      <linkId value="PHQ-9.2" />
+      <text value="Niedergeschlagenheit, Schwermut oder Hoffnungslosigkeit" />
+      <answer>
+        <valueCoding>
+          <system value="http://loinc.org" />
+          <code value="LA6570-1" />
+          <display value="An mehr als der Hälfte der Tage" />
+        </valueCoding>
+      </answer>
+    </item>
+    <item>
+      <linkId value="PHQ-9.9" />
+      <text value="Gedanken, dass Sie lieber tot wären oder sich Leid zufügen möchten" />
+      <answer>
+        <valueCoding>
+          <system value="http://loinc.org" />
+          <code value="LA6569-3" />
+          <display value="An einzelnen Tagen" />
+        </valueCoding>
+      </answer>
+    </item>
+    <item>
+      <linkId value="PHQ-4.1" />
+      <text value="Nervosität, Ängstlichkeit oder Anspannung" />
+      <answer>
+        <valueCoding>
+          <system value="http://loinc.org" />
+          <code value="LA6571-9" />
+          <display value="Beinahe jeden Tag" />
+        </valueCoding>
+      </answer>
+    </item>
+    <item>
+      <linkId value="PHQ-SADS.B2" />
+      <text value="Nicht in der Lage sein, Sorgen zu stoppen oder zu kontrollieren" />
+      <answer>
+        <valueCoding>
+          <system value="http://loinc.org" />
+          <code value="LA6569-3" />
+          <display value="An einzelnen Tagen" />
+        </valueCoding>
+      </answer>
+    </item>
+  </item>
+  <item>
+    <linkId value="PHQ-15.11" />
+    <text value="Wenn eines oder mehrere der bisher in diesem Fragebogen beschriebenen Probleme bei Ihnen vorliegen, geben Sie bitte an, wie sehr diese Probleme es Ihnen erschwert haben, Ihre Arbeit zu tun, Ihren Haushalt zu regeln oder mit anderen Menschen zurechtzukommen" />
+    <answer>
+      <valueCoding>
+        <system value="http://loinc.org" />
+        <code value="LA6575-0" />
+        <display value="Relativ stark erschwert" />
+      </valueCoding>
+    </answer>
+  </item>
+</QuestionnaireResponse>

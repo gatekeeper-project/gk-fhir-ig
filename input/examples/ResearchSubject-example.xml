@@ -1,0 +1,19 @@
+<ResearchSubject xmlns="http://hl7.org/fhir">
+  <id value="saxony-gatekeeper-example" />
+  <identifier>
+    <use value="temp" />
+    <system value="http://example.com" />
+    <value value="P123456" />
+  </identifier>
+  <status value="on-study" />
+  <study>
+    <reference value="ResearchStudy/gatekeeper-saxony-mild-example" />
+  </study>
+  <individual>
+    <reference value="Patient/saxony-gatekeeper-example" />
+  </individual>
+  <assignedArm value="control" />
+  <consent>
+    <reference value="Consent/saxony-gatekeeper-example" />
+  </consent>
+</ResearchSubject>

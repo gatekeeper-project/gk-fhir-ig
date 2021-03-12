@@ -53,6 +53,7 @@
 				<code value="8280-0"/>
 				<display value="Waist Circumference at umbilicus by Tape measure"/>
 				<equivalence value="narrower"/>
+				<comment value="The target specify the location and the device used for the measure"/>
 			</target>
 		</element>
 		<element>

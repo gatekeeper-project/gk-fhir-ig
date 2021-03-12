@@ -1,0 +1,30 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "VsActivityCodeEsPvGK",
+  "id": "ValueSet-otherobservations-espv-gk",
+  "title": "Other Observations - Basque Country (Gatekeeper)",
+  "description": "Observation Code used by the Basque Country pilot - Other Observations (Gatekeeper Project)",
+  "version": "0.1.0",
+  "url": "http://hl7.eu/fhir/ig/gk/ValueSet/ValueSet-otherobservations-espv-gk",
+  "compose": {
+    "include": [
+      {
+        "system": "http://loinc.org",
+        "concept": [
+          {
+            "code": "55423-8"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "258158006"
+          }
+        ]
+      }
+    ]
+  }
+}

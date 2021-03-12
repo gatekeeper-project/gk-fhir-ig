@@ -1,0 +1,19 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "VsLabTestGK",
+  "id": "ValueSet-labTest-eu-gk",
+  "title": "Laboratory Test types(Gatekeeper)",
+  "description": "Laboratory Test types captured for the Gatekeeper Project",
+  "version": "0.1.0",
+  "url": "http://hl7.eu/fhir/ig/gk/ValueSet/ValueSet-labTest-eu-gk",
+  "compose": {
+    "include": [
+      {
+        "valueSet": [
+          "http://hl7.eu/fhir/ig/gk/ValueSet/ValueSet-labTestPercentage-eu-gk"
+        ]
+      }
+    ]
+  }
+}

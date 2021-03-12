@@ -1,0 +1,28 @@
+<Consent xmlns="http://hl7.org/fhir">
+	<id value="saxony-gatekeeper-example" />
+	<status value="active" />
+	<scope>
+		<coding>
+			<system value="http://terminology.hl7.org/CodeSystem/consentscope" />
+			<code value="research" />
+		</coding>
+	</scope>
+	<category>
+		<coding>
+			<system value="http://loinc.org" />
+			<code value="57016-8" />
+		</coding>
+	</category>
+	<dateTime value="2020-01-01" />
+	<performer>
+		<reference value="Patient/saxony-gatekeeper-example" />
+	</performer>
+	<sourceAttachment>
+		<contentType value="application/pdf" />
+		<url value="http://example.com/example-consent.pdf" />
+	</sourceAttachment>
+	<!-- ADDED policy -->
+	<policy>
+		<uri value="http://example.com/example-policy.pdf" />
+	</policy>
+</Consent>

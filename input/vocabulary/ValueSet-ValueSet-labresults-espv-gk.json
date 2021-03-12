@@ -1,0 +1,70 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "VsLabResultsCodeEsPvGK",
+  "id": "ValueSet-labresults-espv-gk",
+  "title": "Lab Results - Basque Country (Gatekeeper)",
+  "description": "Observation Code used by the Basque Country pilot - Lab Results (Gatekeeper Project)",
+  "version": "0.1.0",
+  "url": "http://hl7.eu/fhir/ig/gk/ValueSet/ValueSet-labresults-espv-gk",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "33747003"
+          },
+          {
+            "code": "166712009"
+          },
+          {
+            "code": "365845005"
+          },
+          {
+            "code": "442166002"
+          },
+          {
+            "code": "45896001"
+          },
+          {
+            "code": "166646003"
+          },
+          {
+            "code": "121868005"
+          },
+          {
+            "code": "102811001"
+          },
+          {
+            "code": "102739008"
+          },
+          {
+            "code": "102737005"
+          },
+          {
+            "code": "365755003"
+          },
+          {
+            "code": "274769005"
+          },
+          {
+            "code": "14740000"
+          },
+          {
+            "code": "32789000"
+          },
+          {
+            "code": "102680009"
+          },
+          {
+            "code": "1023491000000104"
+          },
+          {
+            "code": "80274001"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "VsObservationCodeEsPvGK",
+  "id": "ValueSet-observationcode-espv-gk",
+  "title": "Observation Codes - Basque Country (Gatekeeper)",
+  "description": "Observation Code used by the Basque Country pilot (Gatekeeper Project)",
+  "version": "0.1.0",
+  "url": "http://hl7.eu/fhir/ig/gk/ValueSet/ValueSet-observationcode-espv-gk",
+  "compose": {
+    "include": [
+      {
+        "valueSet": [
+          "http://hl7.eu/fhir/ig/gk/ValueSet/ValueSet-diagnosis-espv-gk"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.eu/fhir/ig/gk/ValueSet/ValueSet-lifestylefactor-espv-gk"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.eu/fhir/ig/gk/ValueSet/ValueSet-otherobservations-espv-gk"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.eu/fhir/ig/gk/ValueSet/ValueSet-otherobservations-espv-gk"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.eu/fhir/ig/gk/ValueSet/ValueSet-labresults-espv-gk"
+        ]
+      }
+    ]
+  }
+}

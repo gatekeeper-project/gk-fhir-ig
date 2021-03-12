@@ -1,0 +1,5 @@
+<ResearchStudy xmlns="http://hl7.org/fhir">
+  <id value="gatekeeper-saxony-mild-example" />
+  <title value="GATEKEEPER Saxony RUC Mild" />
+  <status value="active" />
+</ResearchStudy>

@@ -1,0 +1,38 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "VsNutritionCodeGKGR",
+  "id": "ValueSet-nutrition-gr-gk",
+  "title": "Nutrition (code) - Greece Cyprus - (Gatekeeper)",
+  "description": "Nutrition Codes used by the Greek and Cypriot pilots (Gatekeeper Project)",
+  "version": "0.1.0",
+  "url": "http://hl7.eu/fhir/ig/gk/ValueSet/ValueSet-nutrition-gr-gk",
+  "copyright": "This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "88878007"
+          },
+          {
+            "code": "2331003"
+          },
+          {
+            "code": "256674009"
+          },
+          {
+            "code": "39972003"
+          },
+          {
+            "code": "74801000"
+          },
+          {
+            "code": "84698008"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -48,9 +48,8 @@
   "differential": {
     "element": [
       {
-        "id": "Observation.device",
-        "path": "Observation.device",
-        "mustSupport": true
+        "id": "Observation",
+        "path": "Observation"
       }
     ]
   }

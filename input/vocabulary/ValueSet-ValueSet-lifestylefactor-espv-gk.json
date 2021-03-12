@@ -1,0 +1,22 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "VsLifeStyleFactorEsPvGK",
+  "id": "ValueSet-lifestylefactor-espv-gk",
+  "title": "Life Style Factor - Basque Country (Gatekeeper)",
+  "description": "Observation Code used by the Basque Country pilot - Life Style Factor (Gatekeeper Project)",
+  "version": "0.1.0",
+  "url": "http://hl7.eu/fhir/ig/gk/ValueSet/ValueSet-lifestylefactor-espv-gk",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "77176002"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "VsSleepDurationGK",
+  "id": "ValueSet-sleepDuration-gk",
+  "title": "Sleep Duration (Gatekeeper)",
+  "description": "Sleep Duration used by the Gatekeeper Project",
+  "version": "0.1.0",
+  "url": "http://hl7.eu/fhir/ig/gk/ValueSet/ValueSet-sleepDuration-gk",
+  "copyright": "This material contains content from LOINC (http://loinc.org). LOINC is copyright © 1995-2020, Regenstrief Institute, Inc. and the Logical Observation Identifiers Names and Codes (LOINC) Committee and is available at no cost under the license at http://loinc.org/license. LOINC® is a registered United States trademark of Regenstrief Institute, Inc",
+  "compose": {
+    "include": [
+      {
+        "system": "http://loinc.org",
+        "concept": [
+          {
+            "code": "93831-6"
+          },
+          {
+            "code": "93830-8"
+          },
+          {
+            "code": "93829-0"
+          },
+          {
+            "code": "93832-4"
+          }
+        ]
+      }
+    ]
+  }
+}

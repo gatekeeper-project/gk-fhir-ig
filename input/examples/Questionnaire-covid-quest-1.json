@@ -1,0 +1,148 @@
+{
+  "resourceType": "Questionnaire",
+  "id": "covid-quest-1",
+  "version": "0.0.1",
+  "name": "GkCovidSurvey2021",
+  "title": "GATEKEEPER COVID-19 Survey",
+  "status": "draft",
+  "date": "2021-03-05",
+  "publisher": "GATEKEEPER Project",
+  "description": "GATEKEEPER COVID-19 Survey",
+  "purpose": "Collect information about the Health status, Medical history, COVID-19 Health / Exposure Status",
+  "item": [
+    {
+      "prefix": "1",
+      "text": "BASIC DEMOGRAPHY",
+      "linkId": "demography",
+      "type": "group",
+      "required": true,
+      "item": [
+        {
+          "prefix": "1.1",
+          "text": "What year were you born:",
+          "linkId": "demography.birthDate",
+          "type": "date",
+          "required": true
+        },
+        {
+          "prefix": "1.2",
+          "text": "Please specify your gender:",
+          "linkId": "demography.gender",
+          "type": "choice",
+          "answerValueSet": "http://hl7.org/fhir/ValueSet/administrative-gender",
+          "required": true
+        }
+      ]
+    },
+    {
+      "prefix": "2",
+      "text": "OVERALL HEALTH STATUS",
+      "linkId": "overallHealthStatus",
+      "type": "group",
+      "required": true,
+      "item": [
+        {
+          "prefix": "A)",
+          "text": "Health status",
+          "linkId": "healthStatus",
+          "type": "group",
+          "item": [
+            {
+              "prefix": "2.1",
+              "text": "How would you rate your overall physical health in the last 2 weeks?",
+              "linkId": "healthStatus.rate",
+              "type": "choice",
+              "answerOption": [
+                {
+                  "valueCoding": {
+                    "code": "LA9206-9",
+                    "system": "http://loinc.org",
+                    "display": "Excellent"
+                  }
+                },
+                {
+                  "valueCoding": {
+                    "code": "LA13913-1",
+                    "system": "http://loinc.org",
+                    "display": "Very Good"
+                  }
+                },
+                {
+                  "valueCoding": {
+                    "code": "LA8967-7",
+                    "system": "http://loinc.org",
+                    "display": "Good"
+                  }
+                },
+                {
+                  "valueCoding": {
+                    "code": "LA8968-5",
+                    "system": "http://loinc.org",
+                    "display": "Fair"
+                  }
+                },
+                {
+                  "valueCoding": {
+                    "code": "LA8969-3",
+                    "system": "http://loinc.org",
+                    "display": "Poor"
+                  }
+                }
+              ],
+              "required": true
+            }
+          ]
+        },
+        {
+          "prefix": "B)",
+          "text": "Medical history",
+          "linkId": "medicalHistory",
+          "type": "group",
+          "required": true,
+          "item": [
+            {
+              "prefix": "2.2",
+              "text": "Has a health professional ever told you that you had any of the following health conditions? (check all that apply)",
+              "linkId": "medicalHistory.problems",
+              "type": "open-choice",
+              "repeats": true,
+              "answerOption": [
+                {
+                  "valueString": "Respiratory illness"
+                },
+                {
+                  "valueString": "Diabetes Type 2"
+                },
+                {
+                  "valueString": "Obesity"
+                },
+                {
+                  "valueString": "Cardiovascular disease: heart failure, coronary artery disease or cardiomyopathies"
+                },
+                {
+                  "valueString": "Cancer"
+                },
+                {
+                  "valueString": "Chronic kidney disease"
+                },
+                {
+                  "valueString": "Arthritis"
+                },
+                {
+                  "valueString": "Immune disorder"
+                },
+                {
+                  "valueString": "Immune disorder"
+                },
+                {
+                  "valueString": "Other (name):"
+                }
+              ],
+              "required": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

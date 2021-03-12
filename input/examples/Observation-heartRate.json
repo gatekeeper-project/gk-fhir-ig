@@ -1,0 +1,35 @@
+{
+  "resourceType": "Observation",
+  "id": "heartRate",
+  "status": "final",
+  "category": [
+    {
+      "coding": [
+        {
+          "code": "vital-signs",
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "display": "Vital Signs"
+        }
+      ]
+    }
+  ],
+  "code": {
+    "coding": [
+      {
+        "code": "8867-4",
+        "system": "http://loinc.org",
+        "display": "Heart rate"
+      }
+    ],
+    "text": "Heart rate"
+  },
+  "effectiveDateTime": "2021-01-12T11:17:48.887807025Z",
+  "valueQuantity": {
+    "value": 66,
+    "code": "{Beats}/min",
+    "system": "http://unitsofmeasure.org"
+  },
+  "device": {
+    "reference": "Device/2"
+  }
+}

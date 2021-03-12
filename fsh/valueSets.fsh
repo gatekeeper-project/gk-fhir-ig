@@ -11,10 +11,44 @@ Id: ValueSet-vitalsigns-eu-gk
 Title: "Vital Signs (Gatekeeper)"
 Description: "Vital Signs captured for the Gatekeeper Project"
 //-------------------------------------------------------------------------------------------
+* ^copyright = "This material contains content from LOINC (http://loinc.org). LOINC is copyright © 1995-2020, Regenstrief Institute, Inc. and the Logical Observation Identifiers Names and Codes (LOINC) Committee and is available at no cost under the license at http://loinc.org/license. LOINC® is a registered United States trademark of Regenstrief Institute, Inc"
 * include codes from valueset http://hl7.org/fhir/ValueSet/observation-vitalsignresult
 * LOINC#41982-0 // Percentage of body fat Measured
 * LOINC#8280-0 // Waist Circumference at umbilicus by Tape measure; other measures available
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ValueSet: VsLabTestGK
+Id: ValueSet-labTest-eu-gk
+Title: "Laboratory Test types(Gatekeeper)"
+Description: "Laboratory Test types captured for the Gatekeeper Project"
+//-------------------------------------------------------------------------------------------
+* include codes from valueset http://hl7.eu/fhir/ig/gk/ValueSet/ValueSet-labTestPercentage-eu-gk
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ValueSet: VsLabSelfTestGK
+Id: ValueSet-labSelfTest-eu-gk
+Title: "Laboratory Self Test types(Gatekeeper)"
+Description: "Laboratory Self Test types captured for the Gatekeeper Project"
+//-------------------------------------------------------------------------------------------
+* include codes from valueset http://hl7.eu/fhir/ig/gk/ValueSet/ValueSet-labTestPercentage-eu-gk
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ValueSet: VsLabTestPercentageGK
+Id: ValueSet-labTestPercentage-eu-gk
+Title: "Laboratory Test types percentage results (Gatekeeper)"
+Description: "Laboratory Self Test types captured for the Gatekeeper Project having as results percentages"
+//-------------------------------------------------------------------------------------------
+* ^copyright = "This material contains content from LOINC (http://loinc.org). LOINC is copyright © 1995-2020, Regenstrief Institute, Inc. and the Logical Observation Identifiers Names and Codes (LOINC) Committee and is available at no cost under the license at http://loinc.org/license. LOINC® is a registered United States trademark of Regenstrief Institute, Inc"
+* LOINC#20570-8 // Hematocrit [Volume Fraction] of Blood
+* LOINC#4548-4	// Hemoglobin A1c/Hemoglobin.total in Blood
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ValueSet: VsFastingGlucoseBloodGK
@@ -23,6 +57,7 @@ Title: "Fasting glucose blood [mg/dL] (Gatekeeper)"
 Description: "LOINC codes used for capturing Fasting glucose in blood [mg/dL]"
 // restricted to Mass Volume
 //-------------------------------------------------------------------------------------------
+* ^copyright = "This material contains content from LOINC (http://loinc.org). LOINC is copyright © 1995-2020, Regenstrief Institute, Inc. and the Logical Observation Identifiers Names and Codes (LOINC) Committee and is available at no cost under the license at http://loinc.org/license. LOINC® is a registered United States trademark of Regenstrief Institute, Inc"
 * LOINC#1557-8 // Fasting glucose [Mass/volume] in Venous blood [mg/dL]
 * LOINC#1556-0 // Fasting glucose [Mass/volume] in Capillary blood [mg/dL]
 * LOINC#41604-0 // Fasting glucose [Mass/volume] in Capillary blood by Glucometer [mg/dL]
@@ -34,6 +69,7 @@ Title: "Fasting Plasma Glucose [mg/dL] (Gatekeeper)"
 Description: "LOINC codes used for capturing Fasting Plasma Glucose [mg/dL]"
 // restricted to Mass Volume
 //-------------------------------------------------------------------------------------------
+* ^copyright = "This material contains content from LOINC (http://loinc.org). LOINC is copyright © 1995-2020, Regenstrief Institute, Inc. and the Logical Observation Identifiers Names and Codes (LOINC) Committee and is available at no cost under the license at http://loinc.org/license. LOINC® is a registered United States trademark of Regenstrief Institute, Inc"
 * LOINC#1493-6   // Glucose [Mass/volume] in Serum or Plasma --1.5 hours post 0.05-0.15 U insulin/kg IV 12 hours fasting
 * LOINC#10450-5  // Glucose [Mass/volume] in Serum or Plasma --10 hours fasting
 * LOINC#1554-5	// Glucose [Mass/volume] in Serum or Plasma --12 hours fasting
@@ -71,6 +107,9 @@ Description: "Observation Code used by the Greek and Cypriot pilots (Gatekeeper 
 
 
 //-------------------------------------------------------------------------------------------
+* ^copyright = "This material contains content from LOINC (http://loinc.org). LOINC is copyright © 1995-2020, Regenstrief Institute, Inc. and the Logical Observation Identifiers Names and Codes (LOINC) Committee and is available at no cost under the license at http://loinc.org/license. LOINC® is a registered United States trademark of Regenstrief Institute, Inc.
+This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement"
+
 * SCT#33747003	// bloodGlucose	Blood Glucose (mg/dL)
 * SCT#64075005	// Pulse	Pulse (ang bpm)
 * SCT#258158006	// Sleep	Sleep, unit minutes
@@ -119,6 +158,7 @@ Id: ValueSet-lifestylefactor-gr-gk
 Title: "Life Style Factor - Greece Cyprus (Gatekeeper)"
 Description: "Observation Code used by the Greek and Cypriot pilots - Life Style Factor (Gatekeeper Project)"
 //-------------------------------------------------------------------------------------------
+* ^copyright = "This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement"
 * SCT#77176002	// Smoking	Smoking Habits [Yes, No]
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -127,6 +167,7 @@ Id: ValueSet-otherobservations-gr-gk
 Title: "Other Observations - Greece Cyprus (Gatekeeper)"
 Description: "Observation Code used by the Greek and Cypriot pilots - Other Observations (Gatekeeper Project)"
 //-------------------------------------------------------------------------------------------
+* ^copyright = "This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement"
 * SCT#258158006	// Sleep	Sleep, unit minutes
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -135,6 +176,7 @@ Id: ValueSet-labresults-gr-gk
 Title: "Lab Results - Greece Cyprus (Gatekeeper)"
 Description: "Observation Code used by the Greek and Cypriot pilots - Lab Results (Gatekeeper Project)"
 //-------------------------------------------------------------------------------------------
+* ^copyright = "This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement"
 * SCT#33747003	// bloodGlucose	Blood Glucose (mg/dL)
 * SCT#166712009	// Creatine	Creatine, unit [mg/dL]
 * SCT#365845005	// HbA1c	HbA1c, unit [%]
@@ -161,6 +203,7 @@ Id: ValueSet-vitalsigns-gr-gk
 Title: "Vital Signs - Greece Cyprus (Gatekeeper)"
 Description: "Vital Signs Codes used by the Greek and Cypriot pilots (Gatekeeper Project)"
 //-------------------------------------------------------------------------------------------
+* ^copyright = "This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement"
 * SCT#64075005	// Pulse	Pulse (ang bpm)
 * SCT#27113001	// Weight	Weight, unit [Kg]
 * SCT#50373000	// Height	Height, unit [cm]
@@ -178,6 +221,7 @@ Id: ValueSet-nutrition-gr-gk
 Title: "Nutrition (code) - Greece Cyprus - (Gatekeeper)"
 Description: "Nutrition Codes used by the Greek and Cypriot pilots (Gatekeeper Project)"
 //-------------------------------------------------------------------------------------------
+* ^copyright = "This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement"
 * SCT#88878007	// Nutrition Protein	Protein, unit[g]
 * SCT#2331003	// NutritionCarbs	Carbohydrates, unit[g]
 * SCT#256674009	// NutritionFat	Fat, unit[g]
@@ -192,7 +236,7 @@ Id: ValueSet-sleepDuration-gk
 Title: "Sleep Duration (Gatekeeper)"
 Description: "Sleep Duration used by the Gatekeeper Project"
 //-------------------------------------------------------------------------------------------
-
+* ^copyright = "This material contains content from LOINC (http://loinc.org). LOINC is copyright © 1995-2020, Regenstrief Institute, Inc. and the Logical Observation Identifiers Names and Codes (LOINC) Committee and is available at no cost under the license at http://loinc.org/license. LOINC® is a registered United States trademark of Regenstrief Institute, Inc"
 * LOINC#93831-6 // Deep sleep duration [min]
 * LOINC#93830-8	// Light sleep duration
 * LOINC#93829-0	// REM sleep duration 
