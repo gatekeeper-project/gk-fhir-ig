@@ -1,6 +1,18 @@
 {
   "resourceType": "Observation",
   "id": "bloodPressure",
+  "contained": [
+    {
+      "resourceType": "Device",
+      "id": "dev-2",
+      "identifier": [
+        {
+          "system": "http://goodcare.org/devices/id",
+          "value": "987654"
+        }
+      ]
+    }
+  ],
   "status": "final",
   "category": [
     {
@@ -23,9 +35,13 @@
     ],
     "text": "Blood pressure systolic and diastolic"
   },
-  "effectiveDateTime": "2021-01-12T11:17:48.887807025Z",
+  "subject": {
+    "reference": "Patient/pat-1",
+    "display": "Alexander Heig"
+  },
+  "effectiveDateTime": "2021-01-12T11:17:48.000088Z",
   "device": {
-    "reference": "Device/2"
+    "reference": "#dev-2"
   },
   "component": [
     {
@@ -41,7 +57,8 @@
       "valueQuantity": {
         "value": 103,
         "code": "mm[Hg]",
-        "system": "http://unitsofmeasure.org"
+        "system": "http://unitsofmeasure.org",
+        "unit": "mm[Hg]"
       }
     },
     {
@@ -57,7 +74,8 @@
       "valueQuantity": {
         "value": 74,
         "code": "mm[Hg]",
-        "system": "http://unitsofmeasure.org"
+        "system": "http://unitsofmeasure.org",
+        "unit": "mm[Hg]"
       }
     }
   ]

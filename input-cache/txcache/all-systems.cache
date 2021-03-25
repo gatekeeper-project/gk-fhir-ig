@@ -15,3 +15,77 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "https://www.phenxtoolkit.org",
+      "concept" : [{
+        "code" : "63597-9",
+        "display" : "During the past 30 days, on how many days did you drink one or more drinks of an alcoholic beverage"
+      },
+      {
+        "code" : "PX070801190200",
+        "display" : "PX070801_Diabetes_Mellitus_Year"
+      }]
+    },
+    {
+      "system" : "http://hl7.eu/fhir/ig/gk/CodeSystem/gatekeeper",
+      "concept" : [{
+        "code" : "people-living"
+      }]
+    },
+    {
+      "system" : "http://loinc.org",
+      "concept" : [{
+        "code" : "73985-4",
+        "display" : "Exercise activity"
+      },
+      {
+        "code" : "2166-2",
+        "display" : "Tobacco smoking status"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system https://www.phenxtoolkit.org"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://loinc.org",
+      "concept" : [{
+        "code" : "63597-9",
+        "display" : "During the past 30 days, on how many days did you drink one or more drinks of an alcoholic beverage"
+      },
+      {
+        "code" : "73985-4",
+        "display" : "Exercise activity"
+      },
+      {
+        "code" : "2166-2",
+        "display" : "Tobacco smoking status"
+      }]
+    },
+    {
+      "system" : "http://hl7.eu/fhir/ig/gk/CodeSystem/gatekeeper",
+      "concept" : [{
+        "code" : "people-living"
+      }]
+    },
+    {
+      "system" : "https://www.phenxtoolkit.org",
+      "concept" : [{
+        "code" : "PX070801190200",
+        "display" : "PX070801_Diabetes_Mellitus_Year"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system https://www.phenxtoolkit.org"
+}
+-------------------------------------------------------------------------------------

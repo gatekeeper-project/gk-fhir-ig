@@ -23,13 +23,15 @@
     ],
     "text": "Weight Measured"
   },
-  "effectiveDateTime": "2021-01-12T11:19:03.65350112Z",
+  "subject": {
+    "reference": "Patient/pat-1",
+    "display": "Alexander Heig"
+  },
+  "effectiveDateTime": "2021-01-12T11:19:03.000065Z",
   "valueQuantity": {
     "value": 64.7,
     "code": "kg",
-    "system": "http://unitsofmeasure.org"
-  },
-  "device": {
-    "reference": "Device/3"
+    "system": "http://unitsofmeasure.org",
+    "unit": "kg"
   }
 }

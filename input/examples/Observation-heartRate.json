@@ -1,6 +1,18 @@
 {
   "resourceType": "Observation",
   "id": "heartRate",
+  "contained": [
+    {
+      "resourceType": "Device",
+      "id": "dev-1",
+      "identifier": [
+        {
+          "system": "http://goodcare.org/devices/id",
+          "value": "345675"
+        }
+      ]
+    }
+  ],
   "status": "final",
   "category": [
     {
@@ -23,13 +35,18 @@
     ],
     "text": "Heart rate"
   },
-  "effectiveDateTime": "2021-01-12T11:17:48.887807025Z",
+  "subject": {
+    "reference": "Patient/pat-1",
+    "display": "Alexander Heig"
+  },
+  "effectiveDateTime": "2021-01-12T11:17:48.000088Z",
   "valueQuantity": {
     "value": 66,
-    "code": "{Beats}/min",
-    "system": "http://unitsofmeasure.org"
+    "code": "/min",
+    "system": "http://unitsofmeasure.org",
+    "unit": "beats per min"
   },
   "device": {
-    "reference": "Device/2"
+    "reference": "#dev-1"
   }
 }

@@ -1,12 +1,12 @@
 {
   "resourceType": "StructureDefinition",
-  "id": "Observation-labResult-gk",
-  "url": "http://hl7.eu/fhir/ig/gk/StructureDefinition/Observation-labResult-gk",
+  "id": "Observation-gk",
+  "url": "http://hl7.eu/fhir/ig/gk/StructureDefinition/Observation-gk",
   "version": "0.1.0",
-  "name": "LabResultGK",
-  "title": "Laboratory results (Gatekeeper)",
+  "name": "ObservationGK",
+  "title": "Observation (Gatekeeper)",
   "status": "active",
-  "description": "This profile defines how to represent laboratory results performed by an authorized loboratory in FHIR using a standard LOINC code and UCUM units of measure. It is based on the Laboratory IPS profile",
+  "description": "This profile defines how to represent observations in FHIR for the scope of the Gatekeeper project",
   "fhirVersion": "4.0.1",
   "mapping": [
     {
@@ -43,7 +43,7 @@
   "kind": "resource",
   "abstract": false,
   "type": "Observation",
-  "baseDefinition": "http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-results-laboratory-uv-ips",
+  "baseDefinition": "http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-results-uv-ips",
   "derivation": "constraint",
   "differential": {
     "element": [
@@ -51,8 +51,8 @@
         "id": "Observation.code",
         "path": "Observation.code",
         "binding": {
-          "strength": "required",
-          "valueSet": "http://hl7.eu/fhir/ig/gk/ValueSet/ValueSet-labTest-eu-gk"
+          "strength": "extensible",
+          "valueSet": "http://hl7.eu/fhir/ig/gk/ValueSet/ValueSet-observation-eu-gk"
         }
       }
     ]
