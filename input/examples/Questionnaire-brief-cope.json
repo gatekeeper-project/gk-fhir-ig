@@ -1,0 +1,384 @@
+{
+  "resourceType": "Questionnaire",
+  "id": "brief-cope",
+  "version": "0.0.1",
+  "language": "de-DE",
+  "name": "BriefCope",
+  "title": "Brief COPE",
+  "status": "draft",
+  "date": "2021-03-26",
+  "publisher": "GATEKEEPER Project - Saxony Pilot Site",
+  "description": "Fragebogen zur Messung der Stressbewältigung",
+  "subjectType": ["Patient"],
+  "item": [
+    {
+      "linkId": "BriefCope.Instruction",
+      "type": "display",
+      "text": "Beurteilen Sie jetzt bitte, inwiefern die folgenden Aussagen auf Ihr Denken und Handeln in vergangenen unangenehmen oder schwierigen Situationen zutreffen. Bitte machen Sie für jede Aussage eine Angabe."
+    },
+    {
+      "linkId": "BriefCope.1",
+      "type": "choice",
+      "text": "Ich habe mich mit Arbeit oder anderen Sachen beschäftigt, um auf andere Gedanken zu kommen.",
+      "answerOption": [
+        {"valueString": "überhaupt nicht"},
+        {"valueString": "ein bißchen"},
+        {"valueString": "ziemlich"},
+        {"valueString": "sehr"}
+      ],
+      "required": true,
+      "repeats": false
+    },
+    {
+      "linkId": "BriefCope.2",
+      "type": "choice",
+      "text": "Ich habe mich darauf konzentriert, etwas an meiner Situation zu verändern.",
+      "answerOption": [
+        {"valueString": "überhaupt nicht"},
+        {"valueString": "ein bißchen"},
+        {"valueString": "ziemlich"},
+        {"valueString": "sehr"}
+      ],
+      "required": true,
+      "repeats": false
+    },
+    {
+      "linkId": "BriefCope.3",
+      "type": "choice",
+      "text": "Ich habe mir eingeredet, daß das alles nicht wahr ist.",
+      "answerOption": [
+        {"valueString": "überhaupt nicht"},
+        {"valueString": "ein bißchen"},
+        {"valueString": "ziemlich"},
+        {"valueString": "sehr"}
+      ],
+      "required": true,
+      "repeats": false
+    },
+    {
+      "linkId": "BriefCope.4",
+      "type": "choice",
+      "text": "Ich habe Alkohol oder andere Mittel zu mir genommen, um mich besser zu fühlen.",
+      "answerOption": [
+        {"valueString": "überhaupt nicht"},
+        {"valueString": "ein bißchen"},
+        {"valueString": "ziemlich"},
+        {"valueString": "sehr"}
+      ],
+      "required": true,
+      "repeats": false
+    },
+    {
+      "linkId": "BriefCope.5",
+      "type": "choice",
+      "text": "Ich habe aufmunternde Unterstützung von anderen erhalten.",
+      "answerOption": [
+        {"valueString": "überhaupt nicht"},
+        {"valueString": "ein bißchen"},
+        {"valueString": "ziemlich"},
+        {"valueString": "sehr"}
+      ],
+      "required": true,
+      "repeats": false
+    },
+    {
+      "linkId": "BriefCope.6",
+      "type": "choice",
+      "text": "Ich habe es aufgegeben, mich damit zu beschäftigen.",
+      "answerOption": [
+        {"valueString": "überhaupt nicht"},
+        {"valueString": "ein bißchen"},
+        {"valueString": "ziemlich"},
+        {"valueString": "sehr"}
+      ],
+      "required": true,
+      "repeats": false
+    },
+    {
+      "linkId": "BriefCope.7",
+      "type": "choice",
+      "text": "Ich habe aktiv gehandelt, um die Situation zu verbessern.",
+      "answerOption": [
+        {"valueString": "überhaupt nicht"},
+        {"valueString": "ein bißchen"},
+        {"valueString": "ziemlich"},
+        {"valueString": "sehr"}
+      ],
+      "required": true,
+      "repeats": false
+    },
+    {
+      "linkId": "BriefCope.8",
+      "type": "choice",
+      "text": "Ich wollte einfach nicht glauben, daß mir das passiert.",
+      "answerOption": [
+        {"valueString": "überhaupt nicht"},
+        {"valueString": "ein bißchen"},
+        {"valueString": "ziemlich"},
+        {"valueString": "sehr"}
+      ],
+      "required": true,
+      "repeats": false
+    },
+    {
+      "linkId": "BriefCope.9",
+      "type": "choice",
+      "text": "Ich habe meinen Gefühlen freien Lauf gelassen.",
+      "answerOption": [
+        {"valueString": "überhaupt nicht"},
+        {"valueString": "ein bißchen"},
+        {"valueString": "ziemlich"},
+        {"valueString": "sehr"}
+      ],
+      "required": true,
+      "repeats": false
+    },
+    {
+      "linkId": "BriefCope.10",
+      "type": "choice",
+      "text": "Ich habe andere Menschen um Hilfe und Rat gebeten.",
+      "answerOption": [
+        {"valueString": "überhaupt nicht"},
+        {"valueString": "ein bißchen"},
+        {"valueString": "ziemlich"},
+        {"valueString": "sehr"}
+      ],
+      "required": true,
+      "repeats": false
+    },
+    {
+      "linkId": "BriefCope.11",
+      "type": "choice",
+      "text": "Um das durchzustehen, habe ich mich mit Alkohol oder anderen Mitteln besänftigt.",
+      "answerOption": [
+        {"valueString": "überhaupt nicht"},
+        {"valueString": "ein bißchen"},
+        {"valueString": "ziemlich"},
+        {"valueString": "sehr"}
+      ],
+      "required": true,
+      "repeats": false
+    },
+    {
+      "linkId": "BriefCope.12",
+      "type": "choice",
+      "text": "Ich habe versucht, die Dinge von einer positiveren Seite zu betrachten.",
+      "answerOption": [
+        {"valueString": "überhaupt nicht"},
+        {"valueString": "ein bißchen"},
+        {"valueString": "ziemlich"},
+        {"valueString": "sehr"}
+      ],
+      "required": true,
+      "repeats": false
+    },
+    {
+      "linkId": "BriefCope.13",
+      "type": "choice",
+      "text": "Ich habe mich selbst kritisiert und mir Vorwürfe gemacht.",
+      "answerOption": [
+        {"valueString": "überhaupt nicht"},
+        {"valueString": "ein bißchen"},
+        {"valueString": "ziemlich"},
+        {"valueString": "sehr"}
+      ],
+      "required": true,
+      "repeats": false
+    },
+    {
+      "linkId": "BriefCope.14",
+      "type": "choice",
+      "text": "Ich habe versucht, mir einen Plan zu überlegen, was ich tun kann.",
+      "answerOption": [
+        {"valueString": "überhaupt nicht"},
+        {"valueString": "ein bißchen"},
+        {"valueString": "ziemlich"},
+        {"valueString": "sehr"}
+      ],
+      "required": true,
+      "repeats": false
+    },
+    {
+      "linkId": "BriefCope.15",
+      "type": "choice",
+      "text": "Jemand hat mich getröstet und mir Verständnis entgegengebracht.",
+      "answerOption": [
+        {"valueString": "überhaupt nicht"},
+        {"valueString": "ein bißchen"},
+        {"valueString": "ziemlich"},
+        {"valueString": "sehr"}
+      ],
+      "required": true,
+      "repeats": false
+    },
+    {
+      "linkId": "BriefCope.16",
+      "type": "choice",
+      "text": "Ich habe gar nicht mehr versucht, die Situation in den Griff zu kriegen.",
+      "answerOption": [
+        {"valueString": "überhaupt nicht"},
+        {"valueString": "ein bißchen"},
+        {"valueString": "ziemlich"},
+        {"valueString": "sehr"}
+      ],
+      "required": true,
+      "repeats": false
+    },
+    {
+      "linkId": "BriefCope.17",
+      "type": "choice",
+      "text": "Ich habe versucht, etwas Gutes in dem zu finden, was mir passiert ist.",
+      "answerOption": [
+        {"valueString": "überhaupt nicht"},
+        {"valueString": "ein bißchen"},
+        {"valueString": "ziemlich"},
+        {"valueString": "sehr"}
+      ],
+      "required": true,
+      "repeats": false
+    },
+    {
+      "linkId": "BriefCope.18",
+      "type": "choice",
+      "text": "Ich habe Witze darüber gemacht.",
+      "answerOption": [
+        {"valueString": "überhaupt nicht"},
+        {"valueString": "ein bißchen"},
+        {"valueString": "ziemlich"},
+        {"valueString": "sehr"}
+      ],
+      "required": true,
+      "repeats": false
+    },
+    {
+      "linkId": "BriefCope.19",
+      "type": "choice",
+      "text": "Ich habe etwas unternommen, um mich abzulenken.",
+      "answerOption": [
+        {"valueString": "überhaupt nicht"},
+        {"valueString": "ein bißchen"},
+        {"valueString": "ziemlich"},
+        {"valueString": "sehr"}
+      ],
+      "required": true,
+      "repeats": false
+    },
+    {
+      "linkId": "BriefCope.20",
+      "type": "choice",
+      "text": "Ich habe mich damit abgefunden, daß es passiert ist.",
+      "answerOption": [
+        {"valueString": "überhaupt nicht"},
+        {"valueString": "ein bißchen"},
+        {"valueString": "ziemlich"},
+        {"valueString": "sehr"}
+      ],
+      "required": true,
+      "repeats": false
+    },
+    {
+      "linkId": "BriefCope.21",
+      "type": "choice",
+      "text": "Ich habe offen gezeigt, wie schlecht ich mich fühle.",
+      "answerOption": [
+        {"valueString": "überhaupt nicht"},
+        {"valueString": "ein bißchen"},
+        {"valueString": "ziemlich"},
+        {"valueString": "sehr"}
+      ],
+      "required": true,
+      "repeats": false
+    },
+    {
+      "linkId": "BriefCope.22",
+      "type": "choice",
+      "text": "Ich habe versucht, Halt in meinem Glauben zu finden.",
+      "answerOption": [
+        {"valueString": "überhaupt nicht"},
+        {"valueString": "ein bißchen"},
+        {"valueString": "ziemlich"},
+        {"valueString": "sehr"}
+      ],
+      "required": true,
+      "repeats": false
+    },
+    {
+      "linkId": "BriefCope.23",
+      "type": "choice",
+      "text": "Ich habe versucht, von anderen Menschen Rat oder Hilfe einzuholen.",
+      "answerOption": [
+        {"valueString": "überhaupt nicht"},
+        {"valueString": "ein bißchen"},
+        {"valueString": "ziemlich"},
+        {"valueString": "sehr"}
+      ],
+      "required": true,
+      "repeats": false
+    },
+    {
+      "linkId": "BriefCope.24",
+      "type": "choice",
+      "text": "Ich habe gelernt, damit zu leben.",
+      "answerOption": [
+        {"valueString": "überhaupt nicht"},
+        {"valueString": "ein bißchen"},
+        {"valueString": "ziemlich"},
+        {"valueString": "sehr"}
+      ],
+      "required": true,
+      "repeats": false
+    },
+    {
+      "linkId": "BriefCope.25",
+      "type": "choice",
+      "text": "Ich habe mir viele Gedanken darüber gemacht, was hier das Richtige wäre.",
+      "answerOption": [
+        {"valueString": "überhaupt nicht"},
+        {"valueString": "ein bißchen"},
+        {"valueString": "ziemlich"},
+        {"valueString": "sehr"}
+      ],
+      "required": true,
+      "repeats": false
+    },
+    {
+      "linkId": "BriefCope.26",
+      "type": "choice",
+      "text": "Ich habe mir für die Dinge, die mir widerfahren sind, selbst die Schuld gegeben.",
+      "answerOption": [
+        {"valueString": "überhaupt nicht"},
+        {"valueString": "ein bißchen"},
+        {"valueString": "ziemlich"},
+        {"valueString": "sehr"}
+      ],
+      "required": true,
+      "repeats": false
+    },
+    {
+      "linkId": "BriefCope.27",
+      "type": "choice",
+      "text": "Ich habe gebetet oder meditiert.",
+      "answerOption": [
+        {"valueString": "überhaupt nicht"},
+        {"valueString": "ein bißchen"},
+        {"valueString": "ziemlich"},
+        {"valueString": "sehr"}
+      ],
+      "required": true,
+      "repeats": false
+    },
+    {
+      "linkId": "BriefCope.28",
+      "type": "choice",
+      "text": "Ich habe alles mit Humor genommen.",
+      "answerOption": [
+        {"valueString": "überhaupt nicht"},
+        {"valueString": "ein bißchen"},
+        {"valueString": "ziemlich"},
+        {"valueString": "sehr"}
+      ],
+      "required": true,
+      "repeats": false
+    }
+  ]
+}

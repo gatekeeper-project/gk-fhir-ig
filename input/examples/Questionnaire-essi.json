@@ -1,0 +1,90 @@
+{
+  "resourceType": "Questionnaire",
+  "id": "essi",
+  "version": "0.0.1",
+  "language": "de-DE",
+  "name": "Essi",
+  "title": "Enriched Social Support Instrument (ESSI)",
+  "status": "draft",
+  "date": "2021-03-26",
+  "publisher": "GATEKEEPER Project - Saxony Pilot Site",
+  "description": "Fragebogen zur Erfassung der wahrgenommenen sozialen Unterstützung",
+  "subjectType": ["Patient"],
+  "item": [
+    {
+      "linkId": "Essi.Instruction",
+      "type": "display",
+      "text": "Denken Sie an Menschen, die Ihnen nahe stehen und kreuzen Sie die Kategorie an, die auf Sie zutreffend scheint."
+    },
+    {
+      "linkId": "Essi.1",
+      "type": "choice",
+      "text": "Wenn Sie ein Gespräch brauchen, gibt es jemanden, der Ihnen richtig zuhört?",
+      "answerOption": [
+        {"valueString": "Nie"},
+        {"valueString": "Selten"},
+        {"valueString": "Manchmal"},
+        {"valueString": "Meistens"},
+        {"valueString": "Immer"}
+      ],
+      "required": true,
+      "repeats": false
+    },
+    {
+      "linkId": "Essi.2",
+      "type": "choice",
+      "text": "Gibt es jemanden, der Ihnen einen guten Rat gibt, wenn Sie ein Problem haben?",
+      "answerOption": [
+        {"valueString": "Nie"},
+        {"valueString": "Selten"},
+        {"valueString": "Manchmal"},
+        {"valueString": "Meistens"},
+        {"valueString": "Immer"}
+      ],
+      "required": true,
+      "repeats": false
+    },
+    {
+      "linkId": "Essi.3",
+      "type": "choice",
+      "text": "Gibt es jemanden, der Ihnen Liebe und Zuneigung zeigt?",
+      "answerOption": [
+        {"valueString": "Nie"},
+        {"valueString": "Selten"},
+        {"valueString": "Manchmal"},
+        {"valueString": "Meistens"},
+        {"valueString": "Immer"}
+      ],
+      "required": true,
+      "repeats": false
+    },
+    {
+      "linkId": "Essi.4",
+      "type": "choice",
+      "text": "Können Sie auf jemanden zählen, der Sie emotional unterstützt (z.B. mit Ihnen über Ihre Sorgen spricht oder Ihnen bei schwierigen Entscheidungen hilft?",
+      "answerOption": [
+        {"valueString": "Nie"},
+        {"valueString": "Selten"},
+        {"valueString": "Manchmal"},
+        {"valueString": "Meistens"},
+        {"valueString": "Immer"}
+      ],
+      "required": true,
+      "repeats": false
+    },
+    {
+      "linkId": "Essi.5",
+      "type": "choice",
+      "text": "Haben Sie zu einem Menschen, dem Sie sich nahe fühlen und dem Sie vertrauen, so viel Kontakt, wie Sie sich das wünschen?",
+      "answerOption": [
+        {"valueString": "Nie"},
+        {"valueString": "Selten"},
+        {"valueString": "Manchmal"},
+        {"valueString": "Meistens"},
+        {"valueString": "Immer"}
+      ],
+      "required": true,
+      "repeats": false
+    }
+  ]
+}

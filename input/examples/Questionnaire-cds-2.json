@@ -1,0 +1,46 @@
+{
+  "resourceType": "Questionnaire",
+  "id": "cds-2",
+  "version": "0.0.1",
+  "language": "de-DE",
+  "name": "Cds2",
+  "title": "Cambridge Depersonalization Scale (CDS-2)",
+  "status": "draft",
+  "date": "2021-03-26",
+  "publisher": "GATEKEEPER Project - Saxony Pilot Site",
+  "description": "Fragebogen zur Erfassung Häufigkeit und Dauer von Symptomen der Depersonalisation",
+  "subjectType": ["Patient"],
+  "item": [
+    {
+      "linkId": "Cds2.Instruction",
+      "type": "display",
+      "text": "Wie oft fühlten Sie sich im Verlauf der letzten 2 Wochen durch die folgenden Beschwerden beeinträchtigt?"
+    },
+    {
+      "linkId": "Cds2.1",
+      "type": "choice",
+      "text": "Ich erlebe mich wie abgetrennt von meiner Umgebung oder diese erscheint mir unwirklich, so als ob ein Schleier zwischen mir und dere äußeren Welt wäre.",
+      "answerOption": [
+        {"valueString": "überhaupt nicht"},
+        {"valueString": "an einzelnen Tagen"},
+        {"valueString": "an mehr als der Hälfte der Tage"},
+        {"valueString": "beinahe jeden Tag"}
+      ],
+      "required": true,
+      "repeats": false
+    },
+    {
+      "linkId": "Cds2.2",
+      "type": "choice",
+      "text": "Aus heiterem Himmel fühle ich mich fremd, als ob ich nicht wirklich wäre oder als ob ich von der Welt abgeschnitten wäre.",
+      "answerOption": [
+        {"valueString": "überhaupt nicht"},
+        {"valueString": "an einzelnen Tagen"},
+        {"valueString": "an mehr als der Hälfte der Tage"},
+        {"valueString": "beinahe jeden Tag"}
+      ],
+      "required": true,
+      "repeats": false
+    }
+  ]
+}
