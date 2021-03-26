@@ -18,7 +18,7 @@
    <title value="GateKeeper FHIR Implementation Guide"/>
    <status value="draft"/>
    <experimental value="false"/>
-   <date value="2021-03-26T13:56:35+01:00"/>
+   <date value="2021-03-26T18:29:56+01:00"/>
    <publisher value="GateKeeper Project"/>
    <contact>
       <telecom>
@@ -1062,6 +1062,11 @@
          <page>
             <nameUrl value="profiles.html"/>
             <title value="FHIR Profiles"/>
+            <generation value="markdown"/>
+         </page>
+         <page>
+            <nameUrl value="terminologies.html"/>
+            <title value="Terminologies"/>
             <generation value="markdown"/>
          </page>
          <page>

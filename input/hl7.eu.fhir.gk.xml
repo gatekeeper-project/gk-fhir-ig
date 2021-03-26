@@ -143,12 +143,17 @@
 				<nameUrl value="models.html"/>
 				<title value="Logical Models"/>
 				<generation value="markdown"/>
-			</page> 
+			</page>
 			<page>
 				<nameUrl value="profiles.html"/>
 				<title value="FHIR Profiles"/>
 				<generation value="markdown"/>
-			</page> 
+			</page>
+			<page>
+				<nameUrl value="terminologies.html"/>
+				<title value="Terminologies"/>
+				<generation value="markdown"/>
+			</page>
 			<page>
 				<nameUrl value="downloads.html"/>
 				<title value="Useful Downloads"/>
