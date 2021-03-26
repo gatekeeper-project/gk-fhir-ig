@@ -2,11 +2,11 @@
 <!-- Start by finding all references to "myig" and updating to appropriate text for your IG, including changing realm -->
 <ImplementationGuide xmlns="http://hl7.org/fhir"
                    	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<id value="ig-gk"/>
+	<id value="hl7.eu.fhir.gk"/>
 	<!--  <extension url="http://hl7.org/fhir/tools/StructureDefinition/igpublisher-spreadsheet">
     <valueString value="resources-spreadsheet.xml"/>
   </extension>-->
-	<url value="http://hl7.eu/fhir/ig/gk/ImplementationGuide/ig-gk"/>
+	<url value="http://hl7.eu/fhir/ig/gk/ImplementationGuide/hl7.eu.fhir.gk"/>
 	<!-- This version will propagate to all artifacts unless the "propagate-version" extension is overridden -->
 	<version value="0.0.1"/>
 	<name value="GateKeeperImplementationGuide"/>
@@ -139,16 +139,16 @@
 				<title value="GateKeeper IG Home Page"/>
 				<generation value="markdown"/>
 			</page>
-			<!-- 			<page>
-				<nameUrl value="background.html"/>
-				<title value="Background"/>
-				<generation value="html"/>
-			</page>
 			<page>
-				<nameUrl value="spec.html"/>
-				<title value="Detailed Specification"/>
+				<nameUrl value="models.html"/>
+				<title value="Logical Models"/>
 				<generation value="markdown"/>
-			</page> -->
+			</page> 
+			<page>
+				<nameUrl value="profiles.html"/>
+				<title value="FHIR Profiles"/>
+				<generation value="markdown"/>
+			</page> 
 			<page>
 				<nameUrl value="downloads.html"/>
 				<title value="Useful Downloads"/>

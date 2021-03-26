@@ -13,10 +13,10 @@
   ],
   "url": "http://hl7.eu/fhir/ig/gk/StructureDefinition/Observation-social-gk",
   "version": "0.1.0",
-  "name": "SocialObservationGK",
-  "title": "Social Observation (Gatekeeper)",
+  "name": "ObservationSocialGK",
+  "title": "Observation Social Assessment(Gatekeeper)",
   "status": "active",
-  "description": "This profile defines how to represent social observations (activity; tobacco use;..) in FHIR for the scope of Gatekeeper.",
+  "description": "This profile defines how to represent social observations (living status; tobacco use;..) for the scope of the Gatekeeper project",
   "fhirVersion": "4.0.1",
   "mapping": [
     {
@@ -53,7 +53,7 @@
   "kind": "resource",
   "abstract": false,
   "type": "Observation",
-  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Observation",
+  "baseDefinition": "http://hl7.eu/fhir/ig/gk/StructureDefinition/Observation-gk",
   "derivation": "constraint",
   "differential": {
     "element": [
@@ -61,15 +61,14 @@
         "id": "Observation.code",
         "path": "Observation.code",
         "binding": {
-          "strength": "required",
+          "strength": "extensible",
           "valueSet": "http://hl7.eu/fhir/ig/gk/ValueSet/ValueSet-socialObservation-gk"
         }
       },
       {
         "id": "Observation.subject",
         "path": "Observation.subject",
-        "min": 1,
-        "mustSupport": true
+        "min": 1
       }
     ]
   }

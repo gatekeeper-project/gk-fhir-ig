@@ -18,7 +18,7 @@
    <title value="GateKeeper FHIR Implementation Guide"/>
    <status value="draft"/>
    <experimental value="false"/>
-   <date value="2021-03-25T17:42:59+01:00"/>
+   <date value="2021-03-26T13:56:35+01:00"/>
    <publisher value="GateKeeper Project"/>
    <contact>
       <telecom>
@@ -593,8 +593,8 @@
          <reference>
             <reference value="StructureDefinition/Observation-social-gk"/>
          </reference>
-         <name value="Social Observation (Gatekeeper)"/>
-         <description value="This profile defines how to represent social observations (activity; tobacco use;..) in FHIR for the scope of Gatekeeper."/>
+         <name value="Observation Social Assessment(Gatekeeper)"/>
+         <description value="This profile defines how to represent social observations (living status; tobacco use;..) for the scope of the Gatekeeper project"/>
          <groupingId value="_str_profile"/>
       </resource>
       <resource>
@@ -1055,6 +1055,16 @@
             <generation value="markdown"/>
          </page>
          <page>
+            <nameUrl value="models.html"/>
+            <title value="Logical Models"/>
+            <generation value="markdown"/>
+         </page>
+         <page>
+            <nameUrl value="profiles.html"/>
+            <title value="FHIR Profiles"/>
+            <generation value="markdown"/>
+         </page>
+         <page>
             <nameUrl value="downloads.html"/>
             <title value="Useful Downloads"/>
             <generation value="html"/>
@@ -1200,7 +1210,7 @@
             </page>
             <page>
                <nameUrl value="StructureDefinition-Observation-social-gk.html"/>
-               <title value="Social Observation (Gatekeeper)"/>
+               <title value="Observation Social Assessment(Gatekeeper)"/>
                <generation value="generated"/>
             </page>
             <page>

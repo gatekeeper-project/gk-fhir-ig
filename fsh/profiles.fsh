@@ -1,7 +1,7 @@
 //============== ALIAS ===============
-Alias: temp_profile = http://hl7.org/fhir/StructureDefinition/bodytemp
-Alias: os_profile = http://hl7.org/fhir/StructureDefinition/oxygensat
-Alias: bp_profile = http://hl7.org/fhir/StructureDefinition/bp
+Alias: $bodytemp = http://hl7.org/fhir/StructureDefinition/bodytemp
+Alias: $oxygensat = http://hl7.org/fhir/StructureDefinition/oxygensat
+Alias: $bp = http://hl7.org/fhir/StructureDefinition/bp
 Alias: hr_profile = http://hl7.org/fhir/StructureDefinition/heartrate
 Alias: vs_profile = http://hl7.org/fhir/StructureDefinition/vitalsigns
 Alias: $Observation-results-uv-ips = http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-results-uv-ips
@@ -27,12 +27,19 @@ Description: "This profile defines how to represent patient conditions in FHIR f
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 Profile:  ObservationGK
-Parent:   $Observation-results-uv-ips // TO BE CHANGED TO INCLUDE VITAL SIGNS AND OTHER OBSERVATIONS
+Parent:   Observation 
 Id:       Observation-gk
 Title:    "Observation (Gatekeeper)"
 Description: "This profile defines how to represent observations in FHIR for the scope of the Gatekeeper project"
 //-------------------------------------------------------------------------------------------
-* code from VsObservationGK (extensible)
+
+* status 1..1	MS // code	registered | preliminary | final | amended +
+* code	1..1 MS
+* code	from VsObservationGK (extensible)
+* subject	0..1 MS
+// * subject only PatientGK //	Who and/or what the observation is about
+* effective[x]	MS
+
 
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -169,7 +176,7 @@ Description: "This profile defines how to represent Vital Signs observations in 
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 Profile:  BodyTempGK
-Parent:   temp_profile
+Parent:   $bodytemp
 Id:       Observation-bodytemp-gk
 Title:    "Body Temperature (Gatekeeper)"
 Description: "This profile defines how to represent Body Temperature observations in FHIR using a standard LOINC code and UCUM units of measure."
@@ -179,7 +186,7 @@ Description: "This profile defines how to represent Body Temperature observation
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 Profile:  OxygenSatGK
-Parent:   os_profile
+Parent:   $oxygensat
 Id:       Observation-oxygensat-gk
 Title:    "Oxygen Saturation (Gatekeeper)"
 Description: "This profile defines how to represent Oxygen Saturation Profile observations in FHIR using a standard LOINC code and UCUM units of measure."
@@ -189,7 +196,7 @@ Description: "This profile defines how to represent Oxygen Saturation Profile ob
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 Profile:  BloodPressureGK
-Parent:   bp_profile
+Parent:   $bp
 Id:       Observation-bp-gk
 Title:    "Blood Pressure (Gatekeeper)"
 Description: "This profile defines how to represent Blood Pressure Profile observations in FHIR using a standard LOINC code and UCUM units of measure."
@@ -254,16 +261,16 @@ Description: "This profile defines how to represent Blood Glucose Profile observ
 * value[x] 1..1 MS
 * hasMember 0..0
 
+
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-Profile:  SocialObservationGK
-Parent:   Observation
+Profile:  ObservationSocialGK
+Parent:   ObservationGK 
 Id:       Observation-social-gk
-Title:    "Social Observation (Gatekeeper)"
-Description: "This profile defines how to represent social observations (activity; tobacco use;..) in FHIR for the scope of Gatekeeper."
+Title:    "Observation Social Assessment(Gatekeeper)"
+Description: "This profile defines how to represent social observations (living status; tobacco use;..) for the scope of the Gatekeeper project"
 //-------------------------------------------------------------------------------------------
 * subject 1..1 MS
-* code from VsSocialObservationGK
-
+* code	from VsSocialObservationGK (extensible)
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 Profile:  FastingPlasmaGlucoseGK

@@ -1,6 +1,16 @@
 {
   "resourceType": "StructureDefinition",
   "id": "Observation-gk",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-category",
+      "valueString": "Clinical.Diagnostics"
+    },
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category",
+      "valueCode": "patient"
+    }
+  ],
   "url": "http://hl7.eu/fhir/ig/gk/StructureDefinition/Observation-gk",
   "version": "0.1.0",
   "name": "ObservationGK",
@@ -43,17 +53,33 @@
   "kind": "resource",
   "abstract": false,
   "type": "Observation",
-  "baseDefinition": "http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-results-uv-ips",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Observation",
   "derivation": "constraint",
   "differential": {
     "element": [
       {
+        "id": "Observation.status",
+        "path": "Observation.status",
+        "mustSupport": true
+      },
+      {
         "id": "Observation.code",
         "path": "Observation.code",
+        "mustSupport": true,
         "binding": {
           "strength": "extensible",
           "valueSet": "http://hl7.eu/fhir/ig/gk/ValueSet/ValueSet-observation-eu-gk"
         }
+      },
+      {
+        "id": "Observation.subject",
+        "path": "Observation.subject",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.effective[x]",
+        "path": "Observation.effective[x]",
+        "mustSupport": true
       }
     ]
   }
