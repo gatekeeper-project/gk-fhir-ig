@@ -1415,3 +1415,140 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "197321007"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Steatosis of liver",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "3834100"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Unable to find code 3834100 in http://snomed.info/sct (version http://snomed.info/sct/900000000000207008/version/20210131); The code \"3834100\" is not valid in the system http://snomed.info/sct; The code provided (http://snomed.info/sct#3834100) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "84114007"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Heart failure",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "13645005"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Chronic obstructive lung disease",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "709044004"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Chronic kidney disease",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "414545008"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Ischemic heart disease (disorder)",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "197321007",
+        "display" : "Steatosis of liver (disorder)"
+      },
+      {
+        "code" : "3834100",
+        "display" : "Hypertensive disorder, systemic arterial (disorder)"
+      },
+      {
+        "code" : "84114007",
+        "display" : "Heart failure (disorder)"
+      },
+      {
+        "code" : "13645005",
+        "display" : "Chronic obstructive lung disease (disorder)"
+      },
+      {
+        "code" : "709044004",
+        "display" : "Chronic kidney disease (disorder)"
+      },
+      {
+        "code" : "414545008",
+        "display" : "Ischemic heart disease (disorder)"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:d66f5bf3-6e9e-4816-8317-e94f0743f28a",
+    "timestamp" : "2021-03-25T15:07:35.400Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "version",
+      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20210131"
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "197321007",
+      "display" : "Steatosis of liver (disorder)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "84114007",
+      "display" : "Heart failure (disorder)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "13645005",
+      "display" : "Chronic obstructive lung disease (disorder)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "709044004",
+      "display" : "Chronic kidney disease (disorder)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "414545008",
+      "display" : "Ischemic heart disease (disorder)"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------

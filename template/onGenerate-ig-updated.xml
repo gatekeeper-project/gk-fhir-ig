@@ -18,7 +18,7 @@
    <title value="GateKeeper FHIR Implementation Guide"/>
    <status value="draft"/>
    <experimental value="false"/>
-   <date value="2021-03-11T17:48:53+01:00"/>
+   <date value="2021-03-26T18:29:56+01:00"/>
    <publisher value="GateKeeper Project"/>
    <contact>
       <telecom>
@@ -66,13 +66,20 @@
          <name value="Terminology: Value Sets"/>
          <description value="These define sets of codes used by systems conforming to this implementation guide"/>
       </grouping>
-
+      <grouping id="_term_codesystem">
+         <name value="Terminology: Code Systems"/>
+         <description value="These define new code systems used by systems conforming to this implementation guide"/>
+      </grouping>
 
 
       <grouping id="_map_conceptmap">
          <name value="Terminology: Concept Maps"/>
          <description value="These define transformations to convert between codes by systems conforming with this implementation guide"/>
       </grouping>
+
+
+
+
 
       <grouping id="_ex_example">
          <name value="Example: Example Instances"/>
@@ -228,20 +235,6 @@
       </resource>
       <resource>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Questionnaire"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Questionnaire-eingangsfragebogen.html"/>
-         </extension>
-         <reference>
-            <reference value="Questionnaire/eingangsfragebogen"/>
-         </reference>
-         <name value="Eingangsfragebogen Tele-NePS"/>
-         <description value="Eingangsfragebogen im Rahmen der Anamnese zur Erstbefragung von Patient*innen"/>
-         <groupingId value="_str_questionnaire"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
             <valueString value="StructureDefinition:logical:abstract"/>
          </extension>
          <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
@@ -385,6 +378,20 @@
             <valueString value="StructureDefinition:resource"/>
          </extension>
          <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="StructureDefinition-Condition-gk.html"/>
+         </extension>
+         <reference>
+            <reference value="StructureDefinition/Condition-gk"/>
+         </reference>
+         <name value="Condition (Gatekeeper)"/>
+         <description value="This profile defines how to represent patient conditions in FHIR for the scope of the Gatekeeper project"/>
+         <groupingId value="_str_profile"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="StructureDefinition:resource"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
             <valueUri value="StructureDefinition-Encounter-gk.html"/>
          </extension>
          <reference>
@@ -462,6 +469,20 @@
          </reference>
          <name value="Fasting plasma glucose (Gatekeeper)"/>
          <description value="This profile defines how to represent Fasting plasma glucose observations in FHIR using a standard LOINC code and UCUM units of measure."/>
+         <groupingId value="_str_profile"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="StructureDefinition:resource"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="StructureDefinition-Observation-gk.html"/>
+         </extension>
+         <reference>
+            <reference value="StructureDefinition/Observation-gk"/>
+         </reference>
+         <name value="Observation (Gatekeeper)"/>
+         <description value="This profile defines how to represent observations in FHIR for the scope of the Gatekeeper project"/>
          <groupingId value="_str_profile"/>
       </resource>
       <resource>
@@ -567,6 +588,20 @@
             <valueString value="StructureDefinition:resource"/>
          </extension>
          <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="StructureDefinition-Observation-social-gk.html"/>
+         </extension>
+         <reference>
+            <reference value="StructureDefinition/Observation-social-gk"/>
+         </reference>
+         <name value="Observation Social Assessment(Gatekeeper)"/>
+         <description value="This profile defines how to represent social observations (living status; tobacco use;..) for the scope of the Gatekeeper project"/>
+         <groupingId value="_str_profile"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="StructureDefinition:resource"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
             <valueUri value="StructureDefinition-Observation-vitalsigns-gk.html"/>
          </extension>
          <reference>
@@ -617,6 +652,34 @@
          <name value="QuestionnaireResponse (Gatekeeper - Aragon)"/>
          <description value="This profile defines how to represent QuestionnaireResponse responses in the Aragon Pilot."/>
          <groupingId value="_str_profile"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="CodeSystem"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="CodeSystem-gatekeeper.html"/>
+         </extension>
+         <reference>
+            <reference value="CodeSystem/gatekeeper"/>
+         </reference>
+         <name value="Gatekeeper internal Code System"/>
+         <description value="Gatekeeper internal Code System"/>
+         <groupingId value="_term_codesystem"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="ValueSet"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="ValueSet-ValueSet-condition-eu-gk.html"/>
+         </extension>
+         <reference>
+            <reference value="ValueSet/ValueSet-condition-eu-gk"/>
+         </reference>
+         <name value="Conditions (Gatekeeper)"/>
+         <description value="Conditions captured for the Gatekeeper Project"/>
+         <groupingId value="_term_valueset"/>
       </resource>
       <resource>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -805,6 +868,20 @@
             <valueString value="ValueSet"/>
          </extension>
          <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="ValueSet-ValueSet-observation-eu-gk.html"/>
+         </extension>
+         <reference>
+            <reference value="ValueSet/ValueSet-observation-eu-gk"/>
+         </reference>
+         <name value="Observation codes (Gatekeeper)"/>
+         <description value="Types of Observations captured for the Gatekeeper Project"/>
+         <groupingId value="_term_valueset"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="ValueSet"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
             <valueUri value="ValueSet-ValueSet-observationcode-EsAr-gk.html"/>
          </extension>
          <reference>
@@ -889,6 +966,20 @@
             <valueString value="ValueSet"/>
          </extension>
          <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="ValueSet-ValueSet-socialObservation-gk.html"/>
+         </extension>
+         <reference>
+            <reference value="ValueSet/ValueSet-socialObservation-gk"/>
+         </reference>
+         <name value="Social History Observation (Gatekeeper)"/>
+         <description value="Social History Observation (Gatekeeper)"/>
+         <groupingId value="_term_valueset"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="ValueSet"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
             <valueUri value="ValueSet-ValueSet-vitalsigns-espv-gk.html"/>
          </extension>
          <reference>
@@ -964,6 +1055,21 @@
             <generation value="markdown"/>
          </page>
          <page>
+            <nameUrl value="models.html"/>
+            <title value="Logical Models"/>
+            <generation value="markdown"/>
+         </page>
+         <page>
+            <nameUrl value="profiles.html"/>
+            <title value="FHIR Profiles"/>
+            <generation value="markdown"/>
+         </page>
+         <page>
+            <nameUrl value="terminologies.html"/>
+            <title value="Terminologies"/>
+            <generation value="markdown"/>
+         </page>
+         <page>
             <nameUrl value="downloads.html"/>
             <title value="Useful Downloads"/>
             <generation value="html"/>
@@ -1023,11 +1129,6 @@
                <generation value="generated"/>
             </page>
             <page>
-               <nameUrl value="Questionnaire-eingangsfragebogen.html"/>
-               <title value="Eingangsfragebogen Tele-NePS"/>
-               <generation value="generated"/>
-            </page>
-            <page>
                <nameUrl value="StructureDefinition-Appointment-gk.html"/>
                <title value="Appointment (Gatekeeper)"/>
                <generation value="generated"/>
@@ -1035,6 +1136,11 @@
             <page>
                <nameUrl value="StructureDefinition-CarePlan-gk.html"/>
                <title value="CarePlan (Gatekeeper)"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="StructureDefinition-Condition-gk.html"/>
+               <title value="Condition (Gatekeeper)"/>
                <generation value="generated"/>
             </page>
             <page>
@@ -1065,6 +1171,11 @@
             <page>
                <nameUrl value="StructureDefinition-Observation-fpg-gk.html"/>
                <title value="Fasting plasma glucose (Gatekeeper)"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="StructureDefinition-Observation-gk.html"/>
+               <title value="Observation (Gatekeeper)"/>
                <generation value="generated"/>
             </page>
             <page>
@@ -1103,6 +1214,11 @@
                <generation value="generated"/>
             </page>
             <page>
+               <nameUrl value="StructureDefinition-Observation-social-gk.html"/>
+               <title value="Observation Social Assessment(Gatekeeper)"/>
+               <generation value="generated"/>
+            </page>
+            <page>
                <nameUrl value="StructureDefinition-Observation-vitalsigns-gk.html"/>
                <title value="Vital Signs (Gatekeeper)"/>
                <generation value="generated"/>
@@ -1120,6 +1236,11 @@
             <page>
                <nameUrl value="StructureDefinition-QuestionnaireResponse-ar-gk.html"/>
                <title value="QuestionnaireResponse (Gatekeeper - Aragon)"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="ValueSet-ValueSet-condition-eu-gk.html"/>
+               <title value="Conditions (Gatekeeper)"/>
                <generation value="generated"/>
             </page>
             <page>
@@ -1188,6 +1309,11 @@
                <generation value="generated"/>
             </page>
             <page>
+               <nameUrl value="ValueSet-ValueSet-observation-eu-gk.html"/>
+               <title value="Observation codes (Gatekeeper)"/>
+               <generation value="generated"/>
+            </page>
+            <page>
                <nameUrl value="ValueSet-ValueSet-observationcode-EsAr-gk.html"/>
                <title value="Observation Codes - Aragon (Gatekeeper)"/>
                <generation value="generated"/>
@@ -1218,6 +1344,11 @@
                <generation value="generated"/>
             </page>
             <page>
+               <nameUrl value="ValueSet-ValueSet-socialObservation-gk.html"/>
+               <title value="Social History Observation (Gatekeeper)"/>
+               <generation value="generated"/>
+            </page>
+            <page>
                <nameUrl value="ValueSet-ValueSet-vitalsigns-espv-gk.html"/>
                <title value="Vital Signs - Basque Country (Gatekeeper)"/>
                <generation value="generated"/>
@@ -1230,6 +1361,11 @@
             <page>
                <nameUrl value="ValueSet-ValueSet-vitalsigns-gr-gk.html"/>
                <title value="Vital Signs - Greece Cyprus (Gatekeeper)"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="CodeSystem-gatekeeper.html"/>
+               <title value="Gatekeeper internal Code System"/>
                <generation value="generated"/>
             </page>
             <page>

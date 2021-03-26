@@ -23,6 +23,30 @@
           },
           {
             "code": "8280-0"
+          },
+          {
+            "code": "29463-7",
+            "display": "Body weight"
+          },
+          {
+            "code": "8867-4",
+            "display": "Heart rate"
+          },
+          {
+            "code": "85354-9",
+            "display": "Blood pressure panel with all children optional"
+          },
+          {
+            "code": "8480-6",
+            "display": "Systolic blood pressure"
+          },
+          {
+            "code": "8462-4",
+            "display": "Diastolic blood pressure"
+          },
+          {
+            "code": "8302-2",
+            "display": "Body height"
           }
         ]
       }

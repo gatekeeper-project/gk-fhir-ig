@@ -1,0 +1,19 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "active",
+  "content": "complete",
+  "name": "CsGatekeeper",
+  "id": "gatekeeper",
+  "title": "Gatekeeper internal Code System",
+  "description": "Gatekeeper internal Code System",
+  "version": "0.1.0",
+  "url": "http://hl7.eu/fhir/ig/gk/CodeSystem/gatekeeper",
+  "concept": [
+    {
+      "code": "people-living",
+      "display": "People living",
+      "definition": "People living"
+    }
+  ],
+  "count": 1
+}

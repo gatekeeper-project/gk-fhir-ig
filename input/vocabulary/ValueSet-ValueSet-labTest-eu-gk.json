@@ -7,8 +7,74 @@
   "description": "Laboratory Test types captured for the Gatekeeper Project",
   "version": "0.1.0",
   "url": "http://hl7.eu/fhir/ig/gk/ValueSet/ValueSet-labTest-eu-gk",
+  "copyright": "This material contains content from LOINC (http://loinc.org). LOINC is copyright © 1995-2020, Regenstrief Institute, Inc. and the Logical Observation Identifiers Names and Codes (LOINC) Committee and is available at no cost under the license at http://loinc.org/license. LOINC® is a registered United States trademark of Regenstrief Institute, Inc",
   "compose": {
     "include": [
+      {
+        "system": "http://loinc.org",
+        "concept": [
+          {
+            "code": "59261-8",
+            "display": "Hemoglobin A1c/Hemoglobin.total in Blood by IFCC protocol"
+          },
+          {
+            "code": "2093-3",
+            "display": "Cholesterol [Mass/volume] in Serum or Plasma"
+          },
+          {
+            "code": "2085-9",
+            "display": "Cholesterol in HDL [Mass/volume] in Serum or Plasma"
+          },
+          {
+            "code": "2089-1",
+            "display": "Cholesterol in LDL [Mass/volume] in Serum or Plasma"
+          },
+          {
+            "code": "2571-8",
+            "display": "Triglyceride [Mass/volume] in Serum or Plasma"
+          },
+          {
+            "code": "43396-1",
+            "display": "Cholesterol non HDL [Mass/volume] in Serum or Plasma"
+          },
+          {
+            "code": "2160-0",
+            "display": "Creatinine [Mass/volume] in Serum or Plasma"
+          },
+          {
+            "code": "14959-1",
+            "display": "Microalbumin/Creatinine [Mass Ratio] in Urine"
+          },
+          {
+            "code": "1742-6",
+            "display": "Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma"
+          },
+          {
+            "code": "1920-8",
+            "display": "Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma"
+          },
+          {
+            "code": "2324-2",
+            "display": "Gamma glutamyl transferase [Enzymatic activity/volume] in Serum or Plasma"
+          },
+          {
+            "code": "6768-6",
+            "display": "Alkaline phosphatase [Enzymatic activity/volume] in Serum or Plasma"
+          },
+          {
+            "code": "3084-1",
+            "display": "Urate [Mass/volume] in Serum or Plasma"
+          },
+          {
+            "code": "48642-3",
+            "display": "Glomerular filtration rate/1.73 sq M.predicted among non-blacks [Volume Rate/Area] in Serum, Plasma or Blood by Creatinine-based formula (MDRD)"
+          },
+          {
+            "code": "5802-4",
+            "display": "Nitrite [Presence] in Urine by Test strip"
+          }
+        ]
+      },
       {
         "valueSet": [
           "http://hl7.eu/fhir/ig/gk/ValueSet/ValueSet-labTestPercentage-eu-gk"

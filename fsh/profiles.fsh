@@ -1,21 +1,56 @@
 //============== ALIAS ===============
-Alias: temp_profile = http://hl7.org/fhir/StructureDefinition/bodytemp
-Alias: os_profile = http://hl7.org/fhir/StructureDefinition/oxygensat
-Alias: bp_profile = http://hl7.org/fhir/StructureDefinition/bp
+Alias: $bodytemp = http://hl7.org/fhir/StructureDefinition/bodytemp
+Alias: $oxygensat = http://hl7.org/fhir/StructureDefinition/oxygensat
+Alias: $bp = http://hl7.org/fhir/StructureDefinition/bp
 Alias: hr_profile = http://hl7.org/fhir/StructureDefinition/heartrate
 Alias: vs_profile = http://hl7.org/fhir/StructureDefinition/vitalsigns
-Alias: ips_result = http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-results-uv-ips
+Alias: $Observation-results-uv-ips = http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-results-uv-ips
 Alias: ips_lab_result = http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-results-laboratory-uv-ips
 Alias: ips_path_result = http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-results-pathology-uv-ips
 Alias: ips_rad_result = http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-results-radiology-uv-ips
 Alias: $ipsPatient = http://hl7.org/fhir/uv/ips/StructureDefinition/Patient-uv-ips
 Alias: $ipsPractitioner = http://hl7.org/fhir/uv/ips/StructureDefinition/Practitioner-uv-ips
+Alias: $Condition-uv-ips = http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips
 //=========================
 
 //====== Profiles =====================================
 
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Profile:  ConditionGK
+Parent:   $Condition-uv-ips
+Id:       Condition-gk
+Title:    "Condition (Gatekeeper)"
+Description: "This profile defines how to represent patient conditions in FHIR for the scope of the Gatekeeper project"
+//-------------------------------------------------------------------------------------------
+* code from VsConditionGK (extensible)
 
 
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Profile:  ObservationGK
+Parent:   Observation 
+Id:       Observation-gk
+Title:    "Observation (Gatekeeper)"
+Description: "This profile defines how to represent observations in FHIR for the scope of the Gatekeeper project"
+//-------------------------------------------------------------------------------------------
+
+* status 1..1	MS // code	registered | preliminary | final | amended +
+* code	1..1 MS
+* code	from VsObservationGK (extensible)
+* subject	0..1 MS
+// * subject only PatientGK //	Who and/or what the observation is about
+* effective[x]	MS
+
+
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Profile:  LabResultGK
+Parent:   ips_lab_result
+Id:       Observation-labResult-gk
+Title:    "Laboratory results (Gatekeeper)"
+Description: "This profile defines how to represent laboratory results performed by an authorized loboratory in FHIR using a standard LOINC code and UCUM units of measure. It is based on the Laboratory IPS profile"
+
+//-------------------------------------------------------------------------------------------
+* code from VsLabTestGK
 
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -141,7 +176,7 @@ Description: "This profile defines how to represent Vital Signs observations in 
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 Profile:  BodyTempGK
-Parent:   temp_profile
+Parent:   $bodytemp
 Id:       Observation-bodytemp-gk
 Title:    "Body Temperature (Gatekeeper)"
 Description: "This profile defines how to represent Body Temperature observations in FHIR using a standard LOINC code and UCUM units of measure."
@@ -151,7 +186,7 @@ Description: "This profile defines how to represent Body Temperature observation
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 Profile:  OxygenSatGK
-Parent:   os_profile
+Parent:   $oxygensat
 Id:       Observation-oxygensat-gk
 Title:    "Oxygen Saturation (Gatekeeper)"
 Description: "This profile defines how to represent Oxygen Saturation Profile observations in FHIR using a standard LOINC code and UCUM units of measure."
@@ -161,7 +196,7 @@ Description: "This profile defines how to represent Oxygen Saturation Profile ob
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 Profile:  BloodPressureGK
-Parent:   bp_profile
+Parent:   $bp
 Id:       Observation-bp-gk
 Title:    "Blood Pressure (Gatekeeper)"
 Description: "This profile defines how to represent Blood Pressure Profile observations in FHIR using a standard LOINC code and UCUM units of measure."
@@ -175,16 +210,6 @@ Parent:   hr_profile
 Id:       Observation-hr-gk
 Title:    "Heart Rate (Gatekeeper)"
 Description: "This profile defines how to represent Heart Rate Profile observations in FHIR using a standard LOINC code and UCUM units of measure."
-
-//-------------------------------------------------------------------------------------------
-
-
-//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-Profile:  LabResultGK
-Parent:   ips_lab_result
-Id:       Observation-labResult-gk
-Title:    "Laboratory results (Gatekeeper)"
-Description: "This profile defines how to represent laboratory results performed by an authorized loboratory in FHIR using a standard LOINC code and UCUM units of measure. It is based on the Laboratory IPS profile"
 
 //-------------------------------------------------------------------------------------------
 
@@ -209,7 +234,7 @@ Description: "This profile defines how to represent pathology results in FHIR. I
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 Profile:  LabSelfTestGK
-Parent:   ips_result
+Parent:   $Observation-results-uv-ips
 Id:       Observation-labSelfTest-gk
 Title:    "Laboratory self test results (Gatekeeper)"
 Description: "This profile defines how to represent self test results in FHIR for the scope of Gatekeeper. using a standard LOINC code and UCUM units of measure."
@@ -225,7 +250,7 @@ Description: "This profile defines how to represent self test results in FHIR fo
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 Profile:  BloodGlucoseGK
-Parent:   ips_result
+Parent:   $Observation-results-uv-ips
 Id:       Observation-bloodGlucose-gk
 Title:    "Blood Glucose (Gatekeeper)"
 Description: "This profile defines how to represent Blood Glucose Profile observations in FHIR using a standard LOINC code and UCUM units of measure."
@@ -237,10 +262,19 @@ Description: "This profile defines how to represent Blood Glucose Profile observ
 * hasMember 0..0
 
 
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Profile:  ObservationSocialGK
+Parent:   ObservationGK 
+Id:       Observation-social-gk
+Title:    "Observation Social Assessment(Gatekeeper)"
+Description: "This profile defines how to represent social observations (living status; tobacco use;..) for the scope of the Gatekeeper project"
+//-------------------------------------------------------------------------------------------
+* subject 1..1 MS
+* code	from VsSocialObservationGK (extensible)
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 Profile:  FastingPlasmaGlucoseGK
-Parent:   ips_result
+Parent:   $Observation-results-uv-ips
 Id:       Observation-fpg-gk
 Title:    "Fasting plasma glucose (Gatekeeper)"
 Description: "This profile defines how to represent Fasting plasma glucose observations in FHIR using a standard LOINC code and UCUM units of measure."
@@ -254,7 +288,7 @@ Description: "This profile defines how to represent Fasting plasma glucose obser
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 Profile:  SleepDurationGK
-Parent:   ips_result
+Parent:   $Observation-results-uv-ips
 Id:       Observation-sleepDuration-gk
 Title:    "Sleep Duration (Gatekeeper)"
 Description: "This profile defines how to represent Sleep Duration Observation in FHIR using a standard LOINC code and UCUM units of measure."

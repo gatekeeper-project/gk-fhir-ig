@@ -1,0 +1,39 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "VsSocialObservationGK",
+  "id": "ValueSet-socialObservation-gk",
+  "title": "Social History Observation (Gatekeeper)",
+  "description": "Social History Observation (Gatekeeper)",
+  "version": "0.1.0",
+  "url": "http://hl7.eu/fhir/ig/gk/ValueSet/ValueSet-socialObservation-gk",
+  "compose": {
+    "include": [
+      {
+        "system": "http://loinc.org",
+        "concept": [
+          {
+            "code": "63597-9",
+            "display": "During the past 30 days, on how many days did you drink one or more drinks of an alcoholic beverage"
+          },
+          {
+            "code": "73985-4",
+            "display": "Exercise activity"
+          },
+          {
+            "code": "2166-2",
+            "display": "Tobacco smoking status"
+          }
+        ]
+      },
+      {
+        "system": "http://hl7.eu/fhir/ig/gk/CodeSystem/gatekeeper",
+        "concept": [
+          {
+            "code": "people-living"
+          }
+        ]
+      }
+    ]
+  }
+}
