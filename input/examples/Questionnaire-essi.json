@@ -3,7 +3,7 @@
   "id": "essi",
   "version": "0.0.1",
   "language": "de-DE",
-  "name": "Essi",
+  "name": "ESSI",
   "title": "Enriched Social Support Instrument (ESSI)",
   "status": "draft",
   "date": "2021-03-26",
@@ -12,12 +12,12 @@
   "subjectType": ["Patient"],
   "item": [
     {
-      "linkId": "Essi.Instruction",
+      "linkId": "ESSI.Instruction",
       "type": "display",
       "text": "Denken Sie an Menschen, die Ihnen nahe stehen und kreuzen Sie die Kategorie an, die auf Sie zutreffend scheint."
     },
     {
-      "linkId": "Essi.1",
+      "linkId": "ESSI.1",
       "type": "choice",
       "text": "Wenn Sie ein Gespräch brauchen, gibt es jemanden, der Ihnen richtig zuhört?",
       "answerOption": [
@@ -31,7 +31,7 @@
       "repeats": false
     },
     {
-      "linkId": "Essi.2",
+      "linkId": "ESSI.2",
       "type": "choice",
       "text": "Gibt es jemanden, der Ihnen einen guten Rat gibt, wenn Sie ein Problem haben?",
       "answerOption": [
@@ -45,7 +45,7 @@
       "repeats": false
     },
     {
-      "linkId": "Essi.3",
+      "linkId": "ESSI.3",
       "type": "choice",
       "text": "Gibt es jemanden, der Ihnen Liebe und Zuneigung zeigt?",
       "answerOption": [
@@ -59,7 +59,7 @@
       "repeats": false
     },
     {
-      "linkId": "Essi.4",
+      "linkId": "ESSI.4",
       "type": "choice",
       "text": "Können Sie auf jemanden zählen, der Sie emotional unterstützt (z.B. mit Ihnen über Ihre Sorgen spricht oder Ihnen bei schwierigen Entscheidungen hilft?",
       "answerOption": [
@@ -73,7 +73,7 @@
       "repeats": false
     },
     {
-      "linkId": "Essi.5",
+      "linkId": "ESSI.5",
       "type": "choice",
       "text": "Haben Sie zu einem Menschen, dem Sie sich nahe fühlen und dem Sie vertrauen, so viel Kontakt, wie Sie sich das wünschen?",
       "answerOption": [

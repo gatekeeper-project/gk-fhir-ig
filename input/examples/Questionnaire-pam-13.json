@@ -1,9 +1,9 @@
 {
   "resourceType": "Questionnaire",
-  "id": "pam-13",
+  "id": "pam13",
   "version": "0.0.1",
   "language": "de-DE",
-  "name": "Pam13",
+  "name": "PAM13",
   "title": "Patient Activation Measure (PAM-13)",
   "status": "draft",
   "date": "2021-03-26",
@@ -12,12 +12,12 @@
   "subjectType": ["Patient"],
   "item": [
     {
-      "linkId": "Pam13.Instruction",
+      "linkId": "PAM-13.Instruction",
       "type": "display",
       "text": "Nachstehend finden Sie einige Aussagen, die Leute manchmal machen, wenn sie sich über ihre Gesundheit unterhalten. Bitte geben Sie an, wie stark diese Aussagen für Sie zutreffen."
     },
     {
-      "linkId": "Pam13.1",
+      "linkId": "PAM-13.1",
       "type": "choice",
       "text": "Letzten Endes bin ich derjenige, der dafür verantwortlich ist, für meine Gesundheit zu sorgen",
       "answerOption": [
@@ -30,7 +30,7 @@
       "repeats": false
     },
     {
-      "linkId": "Pam13.2",
+      "linkId": "PAM-13.2",
       "type": "choice",
       "text": "Das Wichtigste für meine Gesundheit ist eine aktive Rolle in meiner Gesundheitsversorgung zu übernehmen",
       "answerOption": [
@@ -43,7 +43,7 @@
       "repeats": false
     },
     {
-      "linkId": "Pam13.3",
+      "linkId": "PAM-13.3",
       "type": "choice",
       "text": "Ich bin überzeugt, dass ich selbst etwas unternehmen kann, um Krankheiten vorzubeugen.",
       "answerOption": [
@@ -56,7 +56,7 @@
       "repeats": false
     },
     {
-      "linkId": "Pam13.4",
+      "linkId": "PAM-13.4",
       "type": "choice",
       "text": "Ich weiss bei jedem meiner Medikamente, weshalb ich es nehme.",
       "answerOption": [
@@ -69,7 +69,7 @@
       "repeats": false
     },
     {
-      "linkId": "Pam13.5",
+      "linkId": "PAM-13.5",
       "type": "choice",
       "text": "Ich bin überzeugt zu wissen, wann ich zum Arzt gehen muss und wann ich ein Gesundheitsproblem selbst behandeln kann.",
       "answerOption": [
@@ -82,7 +82,7 @@
       "repeats": false
     },
     {
-      "linkId": "Pam13.6",
+      "linkId": "PAM-13.6",
       "type": "choice",
       "text": "Ich bin überzeugt, dass ich meinem Hausarzt meine Sorgen mitteilen kann, auch wenn er mich nicht direkt darauf anspricht.",
       "answerOption": [
@@ -95,7 +95,7 @@
       "repeats": false
     },
     {
-      "linkId": "Pam13.7",
+      "linkId": "PAM-13.7",
       "type": "choice",
       "text": "Ich bin überzeugt, dass ich die zu Hause notwendigen medizinischen Behandlungen selbst durchführen kann.",
       "answerOption": [
@@ -108,7 +108,7 @@
       "repeats": false
     },
     {
-      "linkId": "Pam13.8",
+      "linkId": "PAM-13.8",
       "type": "choice",
       "text": "Ich kenne die Ursachen meiner Beschwerden.",
       "answerOption": [
@@ -121,7 +121,7 @@
       "repeats": false
     },
     {
-      "linkId": "Pam13.9",
+      "linkId": "PAM-13.9",
       "type": "choice",
       "text": "Ich kenne verschiedene Behandlungsoptionen für meine Erkrankungen.",
       "answerOption": [
@@ -134,7 +134,7 @@
       "repeats": false
     },
     {
-      "linkId": "Pam13.10",
+      "linkId": "PAM-13.10",
       "type": "choice",
       "text": "Ich war bisher in der Lage, Veränderungen meiner Lebensgewohnheiten - wie gesunde Ernährung und Bewegung - aufrechtzuerhalten.",
       "answerOption": [
@@ -147,7 +147,7 @@
       "repeats": false
     },
     {
-      "linkId": "Pam13.11",
+      "linkId": "PAM-13.11",
       "type": "choice",
       "text": "Ich weiss, wie ich einer Verschlechterung meiner Gesundheit vorbeugen kann.",
       "answerOption": [
@@ -160,7 +160,7 @@
       "repeats": false
     },
     {
-      "linkId": "Pam13.12",
+      "linkId": "PAM-13.12",
       "type": "choice",
       "text": "Ich bin überzeugt, Lösungen zu finden, wenn sich meine Gesundheit verschlechtert.",
       "answerOption": [
@@ -173,7 +173,7 @@
       "repeats": false
     },
     {
-      "linkId": "Pam13.13",
+      "linkId": "PAM-13.13",
       "type": "choice",
       "text": "Ich bin überzeugt, dass ich Veränderungen meiner Lebensgewohnheiten - wie Diät und körperliche Bewegung - auch in stressigen Zeiten fortführen kann.",
       "answerOption": [

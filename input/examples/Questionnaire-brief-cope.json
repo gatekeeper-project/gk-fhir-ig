@@ -1,9 +1,9 @@
 {
   "resourceType": "Questionnaire",
-  "id": "brief-cope",
+  "id": "briefcope",
   "version": "0.0.1",
   "language": "de-DE",
-  "name": "BriefCope",
+  "name": "BriefCOPE",
   "title": "Brief COPE",
   "status": "draft",
   "date": "2021-03-26",
@@ -12,12 +12,12 @@
   "subjectType": ["Patient"],
   "item": [
     {
-      "linkId": "BriefCope.Instruction",
+      "linkId": "Brief_COPE.Instruction",
       "type": "display",
       "text": "Beurteilen Sie jetzt bitte, inwiefern die folgenden Aussagen auf Ihr Denken und Handeln in vergangenen unangenehmen oder schwierigen Situationen zutreffen. Bitte machen Sie für jede Aussage eine Angabe."
     },
     {
-      "linkId": "BriefCope.1",
+      "linkId": "Brief_COPE.1",
       "type": "choice",
       "text": "Ich habe mich mit Arbeit oder anderen Sachen beschäftigt, um auf andere Gedanken zu kommen.",
       "answerOption": [
@@ -30,7 +30,7 @@
       "repeats": false
     },
     {
-      "linkId": "BriefCope.2",
+      "linkId": "Brief_COPE.2",
       "type": "choice",
       "text": "Ich habe mich darauf konzentriert, etwas an meiner Situation zu verändern.",
       "answerOption": [
@@ -43,7 +43,7 @@
       "repeats": false
     },
     {
-      "linkId": "BriefCope.3",
+      "linkId": "Brief_COPE.3",
       "type": "choice",
       "text": "Ich habe mir eingeredet, daß das alles nicht wahr ist.",
       "answerOption": [
@@ -56,7 +56,7 @@
       "repeats": false
     },
     {
-      "linkId": "BriefCope.4",
+      "linkId": "Brief_COPE.4",
       "type": "choice",
       "text": "Ich habe Alkohol oder andere Mittel zu mir genommen, um mich besser zu fühlen.",
       "answerOption": [
@@ -69,7 +69,7 @@
       "repeats": false
     },
     {
-      "linkId": "BriefCope.5",
+      "linkId": "Brief_COPE.5",
       "type": "choice",
       "text": "Ich habe aufmunternde Unterstützung von anderen erhalten.",
       "answerOption": [
@@ -82,7 +82,7 @@
       "repeats": false
     },
     {
-      "linkId": "BriefCope.6",
+      "linkId": "Brief_COPE.6",
       "type": "choice",
       "text": "Ich habe es aufgegeben, mich damit zu beschäftigen.",
       "answerOption": [
@@ -95,7 +95,7 @@
       "repeats": false
     },
     {
-      "linkId": "BriefCope.7",
+      "linkId": "Brief_COPE.7",
       "type": "choice",
       "text": "Ich habe aktiv gehandelt, um die Situation zu verbessern.",
       "answerOption": [
@@ -108,7 +108,7 @@
       "repeats": false
     },
     {
-      "linkId": "BriefCope.8",
+      "linkId": "Brief_COPE.8",
       "type": "choice",
       "text": "Ich wollte einfach nicht glauben, daß mir das passiert.",
       "answerOption": [
@@ -121,7 +121,7 @@
       "repeats": false
     },
     {
-      "linkId": "BriefCope.9",
+      "linkId": "Brief_COPE.9",
       "type": "choice",
       "text": "Ich habe meinen Gefühlen freien Lauf gelassen.",
       "answerOption": [
@@ -134,7 +134,7 @@
       "repeats": false
     },
     {
-      "linkId": "BriefCope.10",
+      "linkId": "Brief_COPE.10",
       "type": "choice",
       "text": "Ich habe andere Menschen um Hilfe und Rat gebeten.",
       "answerOption": [
@@ -147,7 +147,7 @@
       "repeats": false
     },
     {
-      "linkId": "BriefCope.11",
+      "linkId": "Brief_COPE.11",
       "type": "choice",
       "text": "Um das durchzustehen, habe ich mich mit Alkohol oder anderen Mitteln besänftigt.",
       "answerOption": [
@@ -160,7 +160,7 @@
       "repeats": false
     },
     {
-      "linkId": "BriefCope.12",
+      "linkId": "Brief_COPE.12",
       "type": "choice",
       "text": "Ich habe versucht, die Dinge von einer positiveren Seite zu betrachten.",
       "answerOption": [
@@ -173,7 +173,7 @@
       "repeats": false
     },
     {
-      "linkId": "BriefCope.13",
+      "linkId": "Brief_COPE.13",
       "type": "choice",
       "text": "Ich habe mich selbst kritisiert und mir Vorwürfe gemacht.",
       "answerOption": [
@@ -186,7 +186,7 @@
       "repeats": false
     },
     {
-      "linkId": "BriefCope.14",
+      "linkId": "Brief_COPE.14",
       "type": "choice",
       "text": "Ich habe versucht, mir einen Plan zu überlegen, was ich tun kann.",
       "answerOption": [
@@ -199,7 +199,7 @@
       "repeats": false
     },
     {
-      "linkId": "BriefCope.15",
+      "linkId": "Brief_COPE.15",
       "type": "choice",
       "text": "Jemand hat mich getröstet und mir Verständnis entgegengebracht.",
       "answerOption": [
@@ -212,7 +212,7 @@
       "repeats": false
     },
     {
-      "linkId": "BriefCope.16",
+      "linkId": "Brief_COPE.16",
       "type": "choice",
       "text": "Ich habe gar nicht mehr versucht, die Situation in den Griff zu kriegen.",
       "answerOption": [
@@ -225,7 +225,7 @@
       "repeats": false
     },
     {
-      "linkId": "BriefCope.17",
+      "linkId": "Brief_COPE.17",
       "type": "choice",
       "text": "Ich habe versucht, etwas Gutes in dem zu finden, was mir passiert ist.",
       "answerOption": [
@@ -238,7 +238,7 @@
       "repeats": false
     },
     {
-      "linkId": "BriefCope.18",
+      "linkId": "Brief_COPE.18",
       "type": "choice",
       "text": "Ich habe Witze darüber gemacht.",
       "answerOption": [
@@ -251,7 +251,7 @@
       "repeats": false
     },
     {
-      "linkId": "BriefCope.19",
+      "linkId": "Brief_COPE.19",
       "type": "choice",
       "text": "Ich habe etwas unternommen, um mich abzulenken.",
       "answerOption": [
@@ -264,7 +264,7 @@
       "repeats": false
     },
     {
-      "linkId": "BriefCope.20",
+      "linkId": "Brief_COPE.20",
       "type": "choice",
       "text": "Ich habe mich damit abgefunden, daß es passiert ist.",
       "answerOption": [
@@ -277,7 +277,7 @@
       "repeats": false
     },
     {
-      "linkId": "BriefCope.21",
+      "linkId": "Brief_COPE.21",
       "type": "choice",
       "text": "Ich habe offen gezeigt, wie schlecht ich mich fühle.",
       "answerOption": [
@@ -290,7 +290,7 @@
       "repeats": false
     },
     {
-      "linkId": "BriefCope.22",
+      "linkId": "Brief_COPE.22",
       "type": "choice",
       "text": "Ich habe versucht, Halt in meinem Glauben zu finden.",
       "answerOption": [
@@ -303,7 +303,7 @@
       "repeats": false
     },
     {
-      "linkId": "BriefCope.23",
+      "linkId": "Brief_COPE.23",
       "type": "choice",
       "text": "Ich habe versucht, von anderen Menschen Rat oder Hilfe einzuholen.",
       "answerOption": [
@@ -316,7 +316,7 @@
       "repeats": false
     },
     {
-      "linkId": "BriefCope.24",
+      "linkId": "Brief_COPE.24",
       "type": "choice",
       "text": "Ich habe gelernt, damit zu leben.",
       "answerOption": [
@@ -329,7 +329,7 @@
       "repeats": false
     },
     {
-      "linkId": "BriefCope.25",
+      "linkId": "Brief_COPE.25",
       "type": "choice",
       "text": "Ich habe mir viele Gedanken darüber gemacht, was hier das Richtige wäre.",
       "answerOption": [
@@ -342,7 +342,7 @@
       "repeats": false
     },
     {
-      "linkId": "BriefCope.26",
+      "linkId": "Brief_COPE.26",
       "type": "choice",
       "text": "Ich habe mir für die Dinge, die mir widerfahren sind, selbst die Schuld gegeben.",
       "answerOption": [
@@ -355,7 +355,7 @@
       "repeats": false
     },
     {
-      "linkId": "BriefCope.27",
+      "linkId": "Brief_COPE.27",
       "type": "choice",
       "text": "Ich habe gebetet oder meditiert.",
       "answerOption": [
@@ -368,7 +368,7 @@
       "repeats": false
     },
     {
-      "linkId": "BriefCope.28",
+      "linkId": "Brief_COPE.28",
       "type": "choice",
       "text": "Ich habe alles mit Humor genommen.",
       "answerOption": [
