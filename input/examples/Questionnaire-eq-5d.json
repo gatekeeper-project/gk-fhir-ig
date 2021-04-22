@@ -1,0 +1,85 @@
+{
+  "resourceType": "Questionnaire",
+  "id": "eq5d",
+  "version": "0.0.1",
+  "language": "de-DE",
+  "name": "EQ5D",
+  "title": "EQ-5D",
+  "status": "draft",
+  "date": "2021-03-26",
+  "publisher": "GATEKEEPER Project - Saxony Pilot Site",
+  "description": "Fragebogen zur Messung des Gesundheitszustandes",
+  "subjectType": ["Patient"],
+  "item": [
+    {
+      "linkId": "EQ-5D.1",
+      "type": "choice",
+      "text": "Beweglichkeit / Mobilität...",
+      "answerOption": [
+        {"valueString": "Ich habe keine Probleme herumzugehen."},
+        {"valueString": "Ich habe leichte Probleme herumzugehen."},
+        {"valueString": "Ich habe mäßige Probleme herumzugehen."},
+        {"valueString": "Ich habe große Probleme herumzugehen."},
+        {"valueString": "Ich bin nicht in der Lage herumzugehen."}
+      ],
+      "required": true,
+      "repeats": false
+    },
+    {
+      "linkId": "EQ-5D.2",
+      "type": "choice",
+      "text": "Für sich selbst sorgen...",
+      "answerOption": [
+        {"valueString": "Ich habe keine Probleme, mich selbst zu waschen oder anzuziehen."},
+        {"valueString": "Ich habe leichte Probleme, mich selbst zu waschen oder anzuziehen."},
+        {"valueString": "Ich habe mäßige Probleme, mich selbst zu waschen oder anzuziehen."},
+        {"valueString": "Ich habe große Probleme, mich selbst zu waschen oder anzuziehen."},
+        {"valueString": "Ich bin nicht in der Lage, mich selbst zu waschen oder anzuziehen."}
+      ],
+      "required": true,
+      "repeats": false
+    },
+    {
+      "linkId": "EQ-5D.3",
+      "type": "choice",
+      "text": "Alltägliche Tätigkeiten (z.B. Arbeit, Studium, Hausarbeit, Familien- / Freizeitaktivitäten)...",
+      "answerOption": [
+        {"valueString": "Ich habe keine Probleme, meinen alltäglichen Tätigkeiten nachzugehen."},
+        {"valueString": "Ich habe leichte Probleme, meinen alltäglichen Tätigkeiten nachzugehen."},
+        {"valueString": "Ich habe mäßige Probleme, meinen alltäglichen Tätigkeiten nachzugehen."},
+        {"valueString": "Ich habe große Probleme, meinen alltäglichen Tätigkeiten nachzugehen."},
+        {"valueString": "Ich bin nicht in der Lage, meinen alltäglichen Tätigkeiten nachzugehen."}
+      ],
+      "required": true,
+      "repeats": false
+    },
+    {
+      "linkId": "EQ-5D.4",
+      "type": "choice",
+      "text": "Schmerzen / Körperliche Beschwerden ...",
+      "answerOption": [
+        {"valueString": "Ich habe keine Schmerzen oder Beschwerden."},
+        {"valueString": "Ich habe leichte Schmerzen oder Beschwerden."},
+        {"valueString": "Ich habe mäßige Schmerzen oder Beschwerden."},
+        {"valueString": "Ich habe starke Schmerzen oder Beschwerden."},
+        {"valueString": "Ich habe extreme Schmerzen oder Beschwerden."}
+      ],
+      "required": true,
+      "repeats": false
+    },
+    {
+      "linkId": "EQ-5D.5",
+      "type": "choice",
+      "text": "Angst / Niedergeschlagenheit",
+      "answerOption": [
+        {"valueString": "Ich bin nicht ängstlich oder deprimiert."},
+        {"valueString": "Ich bin ein wenig ängstlich oder deprimiert."},
+        {"valueString": "Ich bin mäßig ängstlich oder deprimiert."},
+        {"valueString": "Ich bin sehr ängstlich oder deprimiert."},
+        {"valueString": "Ich bin extrem ängstlich oder deprimiert."}
+      ],
+      "required": true,
+      "repeats": false
+    }
+  ]
+}

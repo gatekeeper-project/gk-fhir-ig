@@ -1,0 +1,100 @@
+{
+  "resourceType": "Questionnaire",
+  "id": "who5",
+  "version": "0.0.1",
+  "language": "de-DE",
+  "name": "WHO5",
+  "title": "WHO Well-being Index (WHO-5)",
+  "status": "draft",
+  "date": "2021-03-26",
+  "publisher": "GATEKEEPER Project - Saxony Pilot Site",
+  "description": "Fragebogen zur Messung des psychischen Wohlbefindens",
+  "subjectType": ["Patient"],
+  "item": [
+    {
+      "linkId": "WHO-5.Instruction",
+      "type": "display",
+      "text": "Die folgenden Aussagen betreffen Ihr Wohlbefinden in den letzten zwei Wochen. Bitte markieren Sie bei jeder Aussage die Rubrik, die Ihrer Meinung nach am besten beschreibt, wie Sie sich in den letzten zwei Wochen gefühlt haben."
+    },
+    {
+      "linkId": "WHO-5.Prefix",
+      "type": "display",
+      "text": "Waren Sie oder haben Sie im vergangenen Monat..."
+    },
+    {
+      "linkId": "WHO-5.1",
+      "type": "choice",
+      "text": "...war ich froh und guter Laune",
+      "answerOption": [
+        {"valueString": "Die ganze Zeit"},
+        {"valueString": "Meistens"},
+        {"valueString": "Etwas mehr als die Hälfte der Zeit"},
+        {"valueString": "Etwas weniger als die Hälfte der Zeit"},
+        {"valueString": "Ab und zu"},
+        {"valueString": "Zu keinem Zeitpunkt"}
+      ],
+      "required": true,
+      "repeats": false
+    },
+    {
+      "linkId": "WHO-5.2",
+      "type": "choice",
+      "text": "...habe ich mich ruhig und entspannt gefühlt",
+      "answerOption": [
+        {"valueString": "Die ganze Zeit"},
+        {"valueString": "Meistens"},
+        {"valueString": "Etwas mehr als die Hälfte der Zeit"},
+        {"valueString": "Etwas weniger als die Hälfte der Zeit"},
+        {"valueString": "Ab und zu"},
+        {"valueString": "Zu keinem Zeitpunkt"}
+      ],
+      "required": true,
+      "repeats": false
+    },
+    {
+      "linkId": "WHO-5.3",
+      "type": "choice",
+      "text": "... habe ich mich energisch und aktiv gefühlt",
+      "answerOption": [
+        {"valueString": "Die ganze Zeit"},
+        {"valueString": "Meistens"},
+        {"valueString": "Etwas mehr als die Hälfte der Zeit"},
+        {"valueString": "Etwas weniger als die Hälfte der Zeit"},
+        {"valueString": "Ab und zu"},
+        {"valueString": "Zu keinem Zeitpunkt"}
+      ],
+      "required": true,
+      "repeats": false
+    },
+    {
+      "linkId": "WHO-5.4",
+      "type": "choice",
+      "text": "...habe ich mich beim Aufwachen frisch und ausgeruht gefühlt",
+      "answerOption": [
+        {"valueString": "Die ganze Zeit"},
+        {"valueString": "Meistens"},
+        {"valueString": "Etwas mehr als die Hälfte der Zeit"},
+        {"valueString": "Etwas weniger als die Hälfte der Zeit"},
+        {"valueString": "Ab und zu"},
+        {"valueString": "Zu keinem Zeitpunkt"}
+      ],
+      "required": true,
+      "repeats": false
+    },
+    {
+      "linkId": "WHO-5.5",
+      "type": "choice",
+      "text": "... war mein Alltag voller Dinge, die mich interessieren",
+      "answerOption": [
+        {"valueString": "Die ganze Zeit"},
+        {"valueString": "Meistens"},
+        {"valueString": "Etwas mehr als die Hälfte der Zeit"},
+        {"valueString": "Etwas weniger als die Hälfte der Zeit"},
+        {"valueString": "Ab und zu"},
+        {"valueString": "Zu keinem Zeitpunkt"}
+      ],
+      "required": true,
+      "repeats": false
+    }
+  ]
+}

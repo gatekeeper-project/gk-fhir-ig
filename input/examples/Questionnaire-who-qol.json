@@ -1,0 +1,29 @@
+{
+  "resourceType": "Questionnaire",
+  "id": "whoqol",
+  "version": "0.0.1",
+  "language": "de-DE",
+  "name": "WHOQOL",
+  "title": "WHO Quality of Life (WHO-QOL)",
+  "status": "draft",
+  "date": "2021-03-26",
+  "publisher": "GATEKEEPER Project - Saxony Pilot Site",
+  "description": "Fragebogen zur Messung der gesundheitsbezogenen Lebensqualität",
+  "subjectType": ["Patient"],
+  "item": [
+    {
+      "linkId": "WHO-QOL.1",
+      "type": "choice",
+      "text": "Wie würden Sie Ihre Lebensqualität insgesamt zum jetzigen Zeitpunkt beurteilen?",
+      "answerOption": [
+        {"valueString": "sehr schlecht"},
+        {"valueString": "schlecht"},
+        {"valueString": "mittelmäßig"},
+        {"valueString": "gut"},
+        {"valueString": "sehr gut"}
+      ],
+      "required": true,
+      "repeats": false
+    }
+  ]
+}

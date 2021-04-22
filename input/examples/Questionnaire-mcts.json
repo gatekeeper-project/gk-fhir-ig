@@ -1,0 +1,184 @@
+{
+  "resourceType": "Questionnaire",
+  "id": "mcts",
+  "version": "0.0.1",
+  "language": "de-DE",
+  "name": "MCTS",
+  "title": "Modified Conflict Tactic Scale (MCTS)",
+  "status": "draft",
+  "date": "2021-03-26",
+  "publisher": "GATEKEEPER Project - Saxony Pilot Site",
+  "description": "Fragebogen zur Erfassung von angewandten Taktiken zur Austragung von Konflikten",
+  "subjectType": ["Patient"],
+  "item": [
+    {
+      "linkId": "MCTS.Instruction.1",
+      "type": "display",
+      "text": "Für Pflegepersonal: Hier sind einige Methoden genannt, die das Pflegepersonal manchmal anwendet, wenn ältere Menschen die Anweisungen ihres Arztes nicht befolgen oder nicht das tun, was das Pflegepersonal meint, das sie tun sollten."
+    },
+    {
+      "linkId": "MCTS.Instruction.2",
+      "type": "display",
+      "text": "Für Pflegeempfänger: Hier sind einige Methoden genannt, die Menschen benutzen, um andere dazu zu bringen, das zu tun, was sie wollen."
+    },
+    {
+      "linkId": "MCTS.Instruction.3",
+      "type": "display",
+      "text": "Wie oft kamen die genannten Handlungen bei dem Pflegepersonal/Ihnen vor?"
+    },
+    {
+      "linkId": "MCTS.1",
+      "type": "choice",
+      "text": "Schreien und angeschrien werden",
+      "answerOption": [
+        {"valueString": "nie"},
+        {"valueString": "fast nie"},
+        {"valueString": "manchmal"},
+        {"valueString": "meistens"},
+        {"valueString": "immer"}
+      ],
+      "required": true,
+      "repeats": false
+    },
+    {
+      "linkId": "MCTS.2",
+      "type": "choice",
+      "text": "rauen Tonfall benutzen, beleidigen, beschimpfen",
+      "answerOption": [
+        {"valueString": "nie"},
+        {"valueString": "fast nie"},
+        {"valueString": "manchmal"},
+        {"valueString": "meistens"},
+        {"valueString": "immer"}
+      ],
+      "required": true,
+      "repeats": false
+    },
+    {
+      "linkId": "MCTS.3",
+      "type": "choice",
+      "text": "mit Einweisung ins Pflegeheim drohen",
+      "answerOption": [
+        {"valueString": "nie"},
+        {"valueString": "fast nie"},
+        {"valueString": "manchmal"},
+        {"valueString": "meistens"},
+        {"valueString": "immer"}
+      ],
+      "required": true,
+      "repeats": false
+    },
+    {
+      "linkId": "MCTS.4",
+      "type": "choice",
+      "text": "Damit zu drohen, sich nicht mehr um sie zu kümmern oder aufzugeben",
+      "answerOption": [
+        {"valueString": "nie"},
+        {"valueString": "fast nie"},
+        {"valueString": "manchmal"},
+        {"valueString": "meistens"},
+        {"valueString": "immer"}
+      ],
+      "required": true,
+      "repeats": false
+    },
+    {
+      "linkId": "MCTS.5",
+      "type": "choice",
+      "text": "Androhung von körperlicher Gewalt",
+      "answerOption": [
+        {"valueString": "nie"},
+        {"valueString": "fast nie"},
+        {"valueString": "manchmal"},
+        {"valueString": "meistens"},
+        {"valueString": "immer"}
+      ],
+      "required": true,
+      "repeats": false
+    },
+    {
+      "linkId": "MCTS.6",
+      "type": "choice",
+      "text": "Befürchtung, dass der Betreuer schlagen oder versuchen könnte, zu verletzen",
+      "answerOption": [
+        {"valueString": "nie"},
+        {"valueString": "fast nie"},
+        {"valueString": "manchmal"},
+        {"valueString": "meistens"},
+        {"valueString": "immer"}
+      ],
+      "required": true,
+      "repeats": false
+    },
+    {
+      "linkId": "MCTS.7",
+      "type": "choice",
+      "text": "Vorenthalten von Nahrung",
+      "answerOption": [
+        {"valueString": "nie"},
+        {"valueString": "fast nie"},
+        {"valueString": "manchmal"},
+        {"valueString": "meistens"},
+        {"valueString": "immer"}
+      ],
+      "required": true,
+      "repeats": false
+    },
+    {
+      "linkId": "MCTS.8",
+      "type": "choice",
+      "text": "Schlagen oder ohrfeigen",
+      "answerOption": [
+        {"valueString": "nie"},
+        {"valueString": "fast nie"},
+        {"valueString": "manchmal"},
+        {"valueString": "meistens"},
+        {"valueString": "immer"}
+      ],
+      "required": true,
+      "repeats": false
+    },
+    {
+      "linkId": "MCTS.9",
+      "type": "choice",
+      "text": "Schütteln",
+      "answerOption": [
+        {"valueString": "nie"},
+        {"valueString": "fast nie"},
+        {"valueString": "manchmal"},
+        {"valueString": "meistens"},
+        {"valueString": "immer"}
+      ],
+      "required": true,
+      "repeats": false
+    },
+    {
+      "linkId": "MCTS.10",
+      "type": "choice",
+      "text": "Auf andere Weise grob behandelt",
+      "answerOption": [
+        {"valueString": "nie"},
+        {"valueString": "fast nie"},
+        {"valueString": "manchmal"},
+        {"valueString": "meistens"},
+        {"valueString": "immer"}
+      ],
+      "required": true,
+      "repeats": false
+    },
+    {
+      "linkId": "MCTS.11",
+      "type": "choice",
+      "text": "Jedes potenziell schädliche Verhalten der Betreuungsperson",
+      "answerOption": [
+        {"valueString": "nie"},
+        {"valueString": "fast nie"},
+        {"valueString": "manchmal"},
+        {"valueString": "meistens"},
+        {"valueString": "immer"}
+      ],
+      "required": true,
+      "repeats": false
+    }
+  ]
+}
