@@ -1,58 +1,12 @@
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "https://www.phenxtoolkit.org",
-  "code" : "63597-9"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "",
-  "severity" : "error",
-  "error" : "The code system \"https://www.phenxtoolkit.org\" is not known (encountered paired with code = \"63597-9\"); The code provided (https://www.phenxtoolkit.org#63597-9) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "https://www.phenxtoolkit.org",
   "code" : "PX070801190200"
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "",
   "severity" : "error",
   "error" : "The code system \"https://www.phenxtoolkit.org\" is not known (encountered paired with code = \"PX070801190200\"); The code provided (https://www.phenxtoolkit.org#PX070801190200) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)"
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : true, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "include" : [{
-      "system" : "https://www.phenxtoolkit.org",
-      "concept" : [{
-        "code" : "63597-9",
-        "display" : "During the past 30 days, on how many days did you drink one or more drinks of an alcoholic beverage"
-      },
-      {
-        "code" : "PX070801190200",
-        "display" : "PX070801_Diabetes_Mellitus_Year"
-      }]
-    }]
-  }
-}}####
-e: {
-  "error" : "Error from server: Unable to provide support for code system https://www.phenxtoolkit.org"
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : false, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "include" : [{
-      "system" : "https://www.phenxtoolkit.org",
-      "concept" : [{
-        "code" : "PX070801190200",
-        "display" : "PX070801_Diabetes_Mellitus_Year"
-      }]
-    }]
-  }
-}}####
-e: {
-  "error" : "Error from server: Unable to provide support for code system https://www.phenxtoolkit.org"
 }
 -------------------------------------------------------------------------------------
 {"hierarchical" : true, "valueSet" :{
@@ -98,6 +52,9 @@ e: {
     },
     {
       "valueSet" : ["http://hl7.eu/fhir/ig/gk/ValueSet/ValueSet-sleepDuration-gk"]
+    },
+    {
+      "valueSet" : ["http://hl7.eu/fhir/ig/gk/ValueSet/ValueSet-steps-gk"]
     }]
   }
 }}####

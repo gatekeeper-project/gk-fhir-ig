@@ -47,6 +47,11 @@
         "valueSet": [
           "http://hl7.eu/fhir/ig/gk/ValueSet/ValueSet-sleepDuration-gk"
         ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.eu/fhir/ig/gk/ValueSet/ValueSet-steps-gk"
+        ]
       }
     ]
   }

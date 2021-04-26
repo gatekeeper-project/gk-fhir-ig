@@ -11,26 +11,6 @@ v: {
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://unitsofmeasure.org",
-  "code" : "kg"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "kg",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://unitsofmeasure.org",
-  "code" : "{Beats}/min"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "{Beats}/min",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://unitsofmeasure.org",
   "code" : "mm[Hg]"
 }, "valueSet" :{
   "resourceType" : "ValueSet",
@@ -96,42 +76,10 @@ v: {
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://unitsofmeasure.org",
-  "code" : "a"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "a",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://unitsofmeasure.org",
-  "code" : "cm",
-  "display" : "cm"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "cm",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://unitsofmeasure.org",
-  "code" : "kg",
-  "display" : "kg"
+  "code" : "kg"
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "kg",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://unitsofmeasure.org",
-  "code" : "/d"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "/d",
   "severity" : null,
   "error" : ""
 }

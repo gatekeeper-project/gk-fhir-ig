@@ -9,6 +9,56 @@ v: {
   "error" : "Code \"I11\" not found; The code \"I11\" is not valid in the system http://hl7.org/fhir/sid/icd-10; The code provided (http://hl7.org/fhir/sid/icd-10#I11) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)"
 }
 -------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://hl7.org/fhir/sid/icd-10",
+  "code" : "E11"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Code \"E11\" not found; The code \"E11\" is not valid in the system http://hl7.org/fhir/sid/icd-10; The code provided (http://hl7.org/fhir/sid/icd-10#E11) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://hl7.org/fhir/sid/icd-10",
+  "code" : "J44"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Code \"J44\" not found; The code \"J44\" is not valid in the system http://hl7.org/fhir/sid/icd-10; The code provided (http://hl7.org/fhir/sid/icd-10#J44) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://hl7.org/fhir/sid/icd-10",
+  "code" : "I64"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Code \"I64\" not found; The code \"I64\" is not valid in the system http://hl7.org/fhir/sid/icd-10; The code provided (http://hl7.org/fhir/sid/icd-10#I64) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://hl7.org/fhir/sid/icd-10",
+  "code" : "G20"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Code \"G20\" not found; The code \"G20\" is not valid in the system http://hl7.org/fhir/sid/icd-10; The code provided (http://hl7.org/fhir/sid/icd-10#G20) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://hl7.org/fhir/sid/icd-10",
+  "code" : "E78.0"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Code \"E78.0\" not found; The code \"E78.0\" is not valid in the system http://hl7.org/fhir/sid/icd-10; The code provided (http://hl7.org/fhir/sid/icd-10#E78.0) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
 {"hierarchical" : true, "valueSet" :{
   "resourceType" : "ValueSet",
   "compose" : {
@@ -22,8 +72,8 @@ e: {
   "resourceType" : "ValueSet",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:9549c495-9e58-4270-84c8-c354d45f8bbf",
-    "timestamp" : "2020-11-15T13:11:48.377Z",
+    "identifier" : "urn:uuid:8ff4603f-fa0b-4127-ab3c-ce270df7d4e5",
+    "timestamp" : "2021-04-21T14:57:02.109Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -721,8 +771,8 @@ e: {
   "resourceType" : "ValueSet",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:2cd5a463-d263-4d95-b636-7a870171cd3c",
-    "timestamp" : "2020-11-15T13:11:49.393Z",
+    "identifier" : "urn:uuid:e7d1117e-4426-48a1-9d40-a495ff0b840e",
+    "timestamp" : "2021-04-22T10:33:17.715Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -730,55 +780,5 @@ e: {
   }
 },
   "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://hl7.org/fhir/sid/icd-10",
-  "code" : "E11"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "",
-  "severity" : "error",
-  "error" : "Code \"E11\" not found; The code \"E11\" is not valid in the system http://hl7.org/fhir/sid/icd-10; The code provided (http://hl7.org/fhir/sid/icd-10#E11) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://hl7.org/fhir/sid/icd-10",
-  "code" : "J44"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "",
-  "severity" : "error",
-  "error" : "Code \"J44\" not found; The code \"J44\" is not valid in the system http://hl7.org/fhir/sid/icd-10; The code provided (http://hl7.org/fhir/sid/icd-10#J44) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://hl7.org/fhir/sid/icd-10",
-  "code" : "I64"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "",
-  "severity" : "error",
-  "error" : "Code \"I64\" not found; The code \"I64\" is not valid in the system http://hl7.org/fhir/sid/icd-10; The code provided (http://hl7.org/fhir/sid/icd-10#I64) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://hl7.org/fhir/sid/icd-10",
-  "code" : "G20"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "",
-  "severity" : "error",
-  "error" : "Code \"G20\" not found; The code \"G20\" is not valid in the system http://hl7.org/fhir/sid/icd-10; The code provided (http://hl7.org/fhir/sid/icd-10#G20) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://hl7.org/fhir/sid/icd-10",
-  "code" : "E78.0"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "",
-  "severity" : "error",
-  "error" : "Code \"E78.0\" not found; The code \"E78.0\" is not valid in the system http://hl7.org/fhir/sid/icd-10; The code provided (http://hl7.org/fhir/sid/icd-10#E78.0) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)"
 }
 -------------------------------------------------------------------------------------

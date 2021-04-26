@@ -13,6 +13,7 @@ Description: "Types of Observations captured for the Gatekeeper Project"
 * include codes from valueset VsLabTestPercentageGK
 * include codes from valueset VsSocialObservationGK
 * include codes from valueset VsSleepDurationGK
+* include codes from valueset VsStepsGK
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ValueSet: VsConditionGK
@@ -151,6 +152,19 @@ Description: "Social History Observation (Gatekeeper)"
 * $loinc#73985-4 "Exercise activity"
 * $loinc#2166-2 "Tobacco smoking status"
 
+
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ValueSet: VsStepsGK
+Id: ValueSet-steps-gk
+Title: "Number of steps (Gatekeeper)"
+Description: "LOINC codes used by the Gatekeeper Project for indicating number of steps measures"
+//-------------------------------------------------------------------------------------------
+* ^copyright = "This material contains content from LOINC (http://loinc.org). LOINC is copyright © 1995-2020, Regenstrief Institute, Inc. and the Logical Observation Identifiers Names and Codes (LOINC) Committee and is available at no cost under the license at http://loinc.org/license. LOINC® is a registered United States trademark of Regenstrief Institute, Inc"
+* $loinc#41952-3  // Number of steps in 1 week Measured
+* $loinc#41950-7 // Number of steps in 24 hour Measured
+* $loinc#41951-5 // Number of steps in 24 hour mean Measured
+* $loinc#55423-8 // Number of steps in unspecified time Pedometer
 
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++

@@ -272,7 +272,9 @@ Description: "This profile defines how to represent social observations (living 
 * subject 1..1 MS
 * code	from VsSocialObservationGK (extensible)
 
-//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+>>> COMMENTED TO BE RECOVERED IF SPECILAZED LAB RESULTS ARE REALLY NEEDED 
+
 Profile:  FastingPlasmaGlucoseGK
 Parent:   $Observation-results-uv-ips
 Id:       Observation-fpg-gk
@@ -284,7 +286,20 @@ Description: "This profile defines how to represent Fasting plasma glucose obser
 * value[x] only Quantity
 * value[x] 1..1 MS
 * hasMember 0..0
+=== */
 
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Profile:  StepsNumberGK
+Parent:   $Observation-results-uv-ips
+Id:       Observation-stepsNumber-gk
+Title:    "Steps Number(Gatekeeper)"
+Description: "This profile defines how to represent Number of Steps measures Observation in FHIR using a standard LOINC code and UCUM units of measure."
+//-------------------------------------------------------------------------------------------
+// * subject only $ipsPatient
+* code from VsStepsGK
+* value[x] only Quantity
+* value[x] 1..1 MS
+* hasMember 0..0
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 Profile:  SleepDurationGK

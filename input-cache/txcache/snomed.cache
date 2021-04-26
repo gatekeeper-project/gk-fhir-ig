@@ -1,10 +1,380 @@
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://snomed.info/sct",
+  "code" : "197321007"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Steatosis of liver",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "3834100"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Unable to find code 3834100 in http://snomed.info/sct (version http://snomed.info/sct/900000000000207008/version/20210131); The code \"3834100\" is not valid in the system http://snomed.info/sct; The code provided (http://snomed.info/sct#3834100) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "84114007"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Heart failure",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "13645005"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Chronic obstructive lung disease",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "709044004"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Chronic kidney disease",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "414545008"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Ischemic heart disease (disorder)",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "33747003"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Glucose measurement, blood",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "166712009"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Blood urea abnormal",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "365845005"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Hemoglobin A1C - diabetic control finding",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "442166002"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "a.m. serum specimen",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "45896001"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Aspartate aminotransferase measurement",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "166646003"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Alanine aminotransferase (ALT) (serum glutamic-pyruvic transaminase) (SGPT) level abnormal",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "121868005"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Total cholesterol measurement",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "102811001"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Creatinine renal clearance",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "102739008"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "LDL cholesterol",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "102737005"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "HDL cholesterol",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "365755003"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Urea level - finding",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "274769005"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Albuminuria",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "14740000"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Triglycerides measurement",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "32789000"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Ferritin",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "102680009"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Troponin",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "1023491000000104"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Unable to find code 1023491000000104 in http://snomed.info/sct (version http://snomed.info/sct/900000000000207008/version/20210131); The code \"1023491000000104\" is not valid in the system http://snomed.info/sct; The code provided (http://snomed.info/sct#1023491000000104) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "80274001"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Glomerular filtration rate",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "767002"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "White blood cell count",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "365632008"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Platelet count",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "441689006"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Measurement of total hemoglobin concentration",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "34608000"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Alanine aminotransferase measurement",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "77176002"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Smoker",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "88878007"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Protein",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "2331003"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Carbohydrate",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "256674009"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Fat",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "39972003"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Sodium",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "74801000"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Sugar",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "84698008"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Cholesterol",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "64075005"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Unable to find code 64075005 in http://snomed.info/sct (version http://snomed.info/sct/900000000000207008/version/20210131); The code \"64075005\" is not valid in the system http://snomed.info/sct; The code provided (http://snomed.info/sct#64075005) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "258158006"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Sleep",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
   "code" : "27113001"
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Body weight",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "713137006"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Assessment of stress level",
   "severity" : null,
   "error" : ""
 }
@@ -41,10 +411,50 @@ v: {
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://snomed.info/sct",
+  "code" : "366319001"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Body fat finding",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "256668009"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Muscle material",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "32457005"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Body fluid",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
   "code" : "415945006"
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Oral temperature",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "363810004"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Body composition measure",
   "severity" : null,
   "error" : ""
 }
@@ -69,74 +479,81 @@ v: {
   "error" : "Found content (\"-\") after end of expression at character 5 (from http://tx.fhir.org/r4)"
 }
 -------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "366319001"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Body fat finding",
-  "severity" : null,
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "197321007",
+        "display" : "Steatosis of liver (disorder)"
+      },
+      {
+        "code" : "3834100",
+        "display" : "Hypertensive disorder, systemic arterial (disorder)"
+      },
+      {
+        "code" : "84114007",
+        "display" : "Heart failure (disorder)"
+      },
+      {
+        "code" : "13645005",
+        "display" : "Chronic obstructive lung disease (disorder)"
+      },
+      {
+        "code" : "709044004",
+        "display" : "Chronic kidney disease (disorder)"
+      },
+      {
+        "code" : "414545008",
+        "display" : "Ischemic heart disease (disorder)"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:2ff0dfbd-d83d-4932-9113-dec6303d4707",
+    "timestamp" : "2021-04-26T15:01:17.368Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "version",
+      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20210131"
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "197321007",
+      "display" : "Steatosis of liver (disorder)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "84114007",
+      "display" : "Heart failure (disorder)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "13645005",
+      "display" : "Chronic obstructive lung disease (disorder)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "709044004",
+      "display" : "Chronic kidney disease (disorder)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "414545008",
+      "display" : "Ischemic heart disease (disorder)"
+    }]
+  }
+},
   "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "363810004"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Body composition measure",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "33747003"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Glucose measurement, blood",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "77176002"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Smoker",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "88878007"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Protein",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "258158006"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Sleep",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "64075005"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "",
-  "severity" : "error",
-  "error" : "Unable to find code 64075005 in http://snomed.info/sct (version http://snomed.info/sct/900000000000207008/version/20200731); The code \"64075005\" is not valid in the system http://snomed.info/sct; The code provided (http://snomed.info/sct#64075005) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)"
 }
 -------------------------------------------------------------------------------------
 {"hierarchical" : true, "valueSet" :{
@@ -203,15 +620,15 @@ e: {
   "resourceType" : "ValueSet",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:084a9a80-4696-4c0d-902f-696769c57b50",
-    "timestamp" : "2020-11-15T13:11:52.034Z",
+    "identifier" : "urn:uuid:ca8efed8-42ce-451e-8b6e-327635481305",
+    "timestamp" : "2021-04-26T15:01:22.539Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
     },
     {
       "name" : "version",
-      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20200731"
+      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20210131"
     }],
     "contains" : [{
       "system" : "http://snomed.info/sct",
@@ -362,15 +779,15 @@ e: {
   "resourceType" : "ValueSet",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:6e576cad-59d0-4c66-a825-7a16dc5a27b3",
-    "timestamp" : "2020-11-15T13:11:54.112Z",
+    "identifier" : "urn:uuid:892c5069-7ef9-41ad-a9b2-118ac1fcbaca",
+    "timestamp" : "2021-04-26T15:01:24.289Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
     },
     {
       "name" : "version",
-      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20200731"
+      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20210131"
     }],
     "contains" : [{
       "system" : "http://snomed.info/sct",
@@ -478,15 +895,15 @@ e: {
   "resourceType" : "ValueSet",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:08a577ba-cf41-4cda-a48b-cf12ecee69c6",
-    "timestamp" : "2020-11-15T13:11:56.768Z",
+    "identifier" : "urn:uuid:5576df31-7d78-4f1b-aefb-5f076313d166",
+    "timestamp" : "2021-04-26T15:01:28.274Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
     },
     {
       "name" : "version",
-      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20200731"
+      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20210131"
     }],
     "contains" : [{
       "system" : "http://snomed.info/sct",
@@ -529,15 +946,15 @@ e: {
   "resourceType" : "ValueSet",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:9f5a7596-f7e0-4609-83d7-08ddcfd3c3b0",
-    "timestamp" : "2020-11-15T13:11:57.721Z",
+    "identifier" : "urn:uuid:6620044f-0862-42ba-930e-01e8e4f40bf1",
+    "timestamp" : "2021-04-26T15:01:29.102Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
     },
     {
       "name" : "version",
-      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20200731"
+      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20210131"
     }],
     "contains" : [{
       "system" : "http://snomed.info/sct",
@@ -590,8 +1007,8 @@ e: {
   "resourceType" : "ValueSet",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:767464bd-81e8-4b38-86f0-3e144fa11241",
-    "timestamp" : "2020-11-15T13:11:58.877Z",
+    "identifier" : "urn:uuid:9dad19d6-08cc-403c-8e13-06e7161663ce",
+    "timestamp" : "2021-04-26T15:01:33.352Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -602,7 +1019,7 @@ e: {
     },
     {
       "name" : "version",
-      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20200731"
+      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20210131"
     }],
     "contains" : [{
       "system" : "http://snomed.info/sct",
@@ -735,15 +1152,15 @@ e: {
   "resourceType" : "ValueSet",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:ea23cfd1-2a61-434d-baf2-22f393083236",
-    "timestamp" : "2020-11-15T13:12:00.768Z",
+    "identifier" : "urn:uuid:2ae15ac6-63c3-4c8f-92e9-6e097f50d2b5",
+    "timestamp" : "2021-04-26T15:01:34.383Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
     },
     {
       "name" : "version",
-      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20200731"
+      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20210131"
     }],
     "contains" : [{
       "system" : "http://snomed.info/sct",
@@ -941,15 +1358,15 @@ e: {
   "resourceType" : "ValueSet",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:8feff49d-4234-49c4-b1ec-57a154ab3370",
-    "timestamp" : "2020-11-15T13:12:03.206Z",
+    "identifier" : "urn:uuid:7dd12454-bf11-48a8-aa9e-f83343ccb119",
+    "timestamp" : "2021-04-26T15:01:38.368Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
     },
     {
       "name" : "version",
-      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20200731"
+      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20210131"
     }],
     "contains" : [{
       "system" : "http://snomed.info/sct",
@@ -992,15 +1409,15 @@ e: {
   "resourceType" : "ValueSet",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:ef315676-ce04-4181-83e2-a8ae650a1ddf",
-    "timestamp" : "2020-11-15T13:12:04.346Z",
+    "identifier" : "urn:uuid:fd02d6e4-bdc1-430b-b5b9-d1f680223bfc",
+    "timestamp" : "2021-04-26T15:01:41.883Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
     },
     {
       "name" : "version",
-      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20200731"
+      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20210131"
     }],
     "contains" : [{
       "system" : "http://snomed.info/sct",
@@ -1075,15 +1492,15 @@ e: {
   "resourceType" : "ValueSet",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:088aed45-9536-417b-852a-cc70c05b5092",
-    "timestamp" : "2020-11-15T13:12:06.190Z",
+    "identifier" : "urn:uuid:83ad82a2-9f23-4626-945a-c870cd255752",
+    "timestamp" : "2021-04-26T15:01:44.821Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
     },
     {
       "name" : "version",
-      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20200731"
+      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20210131"
     }],
     "contains" : [{
       "system" : "http://snomed.info/sct",
@@ -1129,423 +1546,6 @@ e: {
       "system" : "http://snomed.info/sct",
       "code" : "363810004",
       "display" : "Body composition measure"
-    }]
-  }
-},
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "166712009"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Blood urea abnormal",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "365845005"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Hemoglobin A1C - diabetic control finding",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "442166002"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "a.m. serum specimen",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "45896001"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Aspartate aminotransferase measurement",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "166646003"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Alanine aminotransferase (ALT) (serum glutamic-pyruvic transaminase) (SGPT) level abnormal",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "121868005"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Total cholesterol measurement",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "102811001"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Creatinine renal clearance",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "102739008"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "LDL cholesterol",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "102737005"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "HDL cholesterol",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "365755003"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Urea level - finding",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "274769005"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Albuminuria",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "14740000"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Triglycerides measurement",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "32789000"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Ferritin",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "102680009"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Troponin",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "1023491000000104"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "",
-  "severity" : "error",
-  "error" : "Unable to find code 1023491000000104 in http://snomed.info/sct (version http://snomed.info/sct/900000000000207008/version/20200731); The code \"1023491000000104\" is not valid in the system http://snomed.info/sct; The code provided (http://snomed.info/sct#1023491000000104) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "80274001"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Glomerular filtration rate",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "767002"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "White blood cell count",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "365632008"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Platelet count",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "441689006"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Measurement of total hemoglobin concentration",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "34608000"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Alanine aminotransferase measurement",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "2331003"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Carbohydrate",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "256674009"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Fat",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "39972003"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Sodium",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "74801000"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Sugar",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "84698008"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Cholesterol",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "713137006"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Assessment of stress level",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "256668009"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Muscle material",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "32457005"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Body fluid",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "197321007"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Steatosis of liver",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "3834100"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "",
-  "severity" : "error",
-  "error" : "Unable to find code 3834100 in http://snomed.info/sct (version http://snomed.info/sct/900000000000207008/version/20210131); The code \"3834100\" is not valid in the system http://snomed.info/sct; The code provided (http://snomed.info/sct#3834100) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "84114007"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Heart failure",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "13645005"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Chronic obstructive lung disease",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "709044004"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Chronic kidney disease",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "414545008"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Ischemic heart disease (disorder)",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : true, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "include" : [{
-      "system" : "http://snomed.info/sct",
-      "concept" : [{
-        "code" : "197321007",
-        "display" : "Steatosis of liver (disorder)"
-      },
-      {
-        "code" : "3834100",
-        "display" : "Hypertensive disorder, systemic arterial (disorder)"
-      },
-      {
-        "code" : "84114007",
-        "display" : "Heart failure (disorder)"
-      },
-      {
-        "code" : "13645005",
-        "display" : "Chronic obstructive lung disease (disorder)"
-      },
-      {
-        "code" : "709044004",
-        "display" : "Chronic kidney disease (disorder)"
-      },
-      {
-        "code" : "414545008",
-        "display" : "Ischemic heart disease (disorder)"
-      }]
-    }]
-  }
-}}####
-e: {
-  "valueSet" : {
-  "resourceType" : "ValueSet",
-  "status" : "active",
-  "expansion" : {
-    "identifier" : "urn:uuid:d66f5bf3-6e9e-4816-8317-e94f0743f28a",
-    "timestamp" : "2021-03-25T15:07:35.400Z",
-    "parameter" : [{
-      "name" : "limitedExpansion",
-      "valueBoolean" : true
-    },
-    {
-      "name" : "version",
-      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20210131"
-    }],
-    "contains" : [{
-      "system" : "http://snomed.info/sct",
-      "code" : "197321007",
-      "display" : "Steatosis of liver (disorder)"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "84114007",
-      "display" : "Heart failure (disorder)"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "13645005",
-      "display" : "Chronic obstructive lung disease (disorder)"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "709044004",
-      "display" : "Chronic kidney disease (disorder)"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "414545008",
-      "display" : "Ischemic heart disease (disorder)"
     }]
   }
 },
