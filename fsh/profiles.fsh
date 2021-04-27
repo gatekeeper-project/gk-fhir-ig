@@ -50,7 +50,7 @@ Title:    "Laboratory results (Gatekeeper)"
 Description: "This profile defines how to represent laboratory results performed by an authorized loboratory in FHIR using a standard LOINC code and UCUM units of measure. It is based on the Laboratory IPS profile"
 
 //-------------------------------------------------------------------------------------------
-* code from VsLabTestGK
+* code from VsLabTestGK (extensible)
 
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++

@@ -75,10 +75,11 @@ Description: "Observation Code used by the Basque Country pilot - Lab Results (G
 * SCT#32789000	// Ferritin	Ferritin [ng/mL]
 * SCT#102680009	// Troponin	Troponin [ng/mL]
 // Urine
-* SCT#1023491000000104	// Urine albumin:creatinine ratio	Albumin-creatinine ratio in urine (mg/g)
+// * SCT#1023491000000104	// Urine albumin:creatinine ratio	Albumin-creatinine ratio in urine (mg/g)
 * SCT#80274001	// GFR	Glomerular filtration rate  (mL/min/m2)
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
+/* ==
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ValueSet: VsVitalSignsESPV
 Id: ValueSet-vitalsigns-espv-gk
@@ -93,3 +94,4 @@ Description: "Vital Signs Codes used by the Basque Country pilot (Gatekeeper Pro
 * SCT#415945006	// Temperature	Temperature, unit [Celsius] Is this the concept to be used ? (Oral temperature)
 * LOINC#8480-6	// Systolic blood pressure	Systolic blood pressure, unit mm[Hg]
 * LOINC#8462-4	// Diastolic blood pressure	Diastolic blood pressure, unit mm[Hg]
+=== */

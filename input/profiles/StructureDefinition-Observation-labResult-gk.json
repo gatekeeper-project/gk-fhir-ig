@@ -51,7 +51,7 @@
         "id": "Observation.code",
         "path": "Observation.code",
         "binding": {
-          "strength": "required",
+          "strength": "extensible",
           "valueSet": "http://hl7.eu/fhir/ig/gk/ValueSet/ValueSet-labTest-eu-gk"
         }
       }

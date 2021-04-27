@@ -14,9 +14,6 @@
         "system": "http://snomed.info/sct",
         "concept": [
           {
-            "code": "64075005"
-          },
-          {
             "code": "27113001"
           },
           {

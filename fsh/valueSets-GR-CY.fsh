@@ -29,7 +29,6 @@ Description: "Observation Code used by the Greek and Cypriot pilots (Gatekeeper 
 This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement"
 
 * $sct#33747003	// bloodGlucose	Blood Glucose (mg/dL)
-* $sct#64075005	// Pulse	Pulse (ang bpm)
 * $sct#258158006	// Sleep	Sleep, unit minutes
 * $sct#27113001	// Weight	Weight, unit [Kg]
 * $sct#713137006	// Stress	Stress, unit {%]
@@ -122,7 +121,7 @@ Title: "Vital Signs - Greece Cyprus (Gatekeeper)"
 Description: "Vital Signs Codes used by the Greek and Cypriot pilots (Gatekeeper Project)"
 //-------------------------------------------------------------------------------------------
 * ^copyright = "This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement"
-* $sct#64075005	// Pulse	Pulse (ang bpm)
+// * $sct#64075005	// Pulse	Pulse (ang bpm)
 * $sct#27113001	// Weight	Weight, unit [Kg]
 * $sct#50373000	// Height	Height, unit [cm]
 * $sct#248365001	// Waist	Waist Circumference, unit [cm]

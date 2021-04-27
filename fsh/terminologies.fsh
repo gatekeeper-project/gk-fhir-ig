@@ -23,7 +23,7 @@ Description: "Conditions captured for the Gatekeeper Project"
 //-------------------------------------------------------------------------------------------
 
 * $sct#197321007 "Steatosis of liver (disorder)"
-* $sct#3834100 "Hypertensive disorder, systemic arterial (disorder)"
+* $sct#38341003 "Hypertensive disorder, systemic arterial (disorder)"
 * $sct#84114007 "Heart failure (disorder)"
 * $sct#13645005 "Chronic obstructive lung disease (disorder)"
 * $sct#709044004 "Chronic kidney disease (disorder)"
@@ -150,8 +150,9 @@ Description: "Social History Observation (Gatekeeper)"
 * $loinc#63597-9 "During the past 30 days, on how many days did you drink one or more drinks of an alcoholic beverage"
 * CsGatekeeper#people-living
 * $loinc#73985-4 "Exercise activity"
-* $loinc#2166-2 "Tobacco smoking status"
-
+* $loinc#72166-2 "Tobacco smoking status"
+* $loinc#96103-7 "Tobacco amount per day"
+* $loinc#63629-0 "On the number of days you reported you smoked cigarettes during the past 30 days, how many cigarettes did you smoke per day, on average [PhenX]"
 
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++

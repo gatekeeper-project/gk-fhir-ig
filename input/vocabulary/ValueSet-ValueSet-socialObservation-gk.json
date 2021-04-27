@@ -21,8 +21,16 @@
             "display": "Exercise activity"
           },
           {
-            "code": "2166-2",
+            "code": "72166-2",
             "display": "Tobacco smoking status"
+          },
+          {
+            "code": "96103-7",
+            "display": "Tobacco amount per day"
+          },
+          {
+            "code": "63629-0",
+            "display": "On the number of days you reported you smoked cigarettes during the past 30 days, how many cigarettes did you smoke per day, on average [PhenX]"
           }
         ]
       },
