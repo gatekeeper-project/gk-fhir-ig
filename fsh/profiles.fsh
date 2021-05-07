@@ -26,6 +26,94 @@ Description: "This profile defines how to represent patient conditions in FHIR f
 
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Profile:  ObservationExercisePanel
+Parent:   Observation 
+Id:       Observation-exercisePanel
+Title:    "Observation Exercise tracking panel (Gatekeeper)"
+Description: "This profile defines how to represent Exercise tracking panel observations in FHIR for the scope of the Gatekeeper project"
+//-------------------------------------------------------------------------------------------
+
+* status 1..1	MS // code	registered | preliminary | final | amended +
+* code	1..1 MS
+* code	= $loinc#55409-7	// Exercise tracking panel
+* subject	0..1 MS
+* device 0.. MS
+* device only Reference(Device)
+// * subject only Reference (PatientGK) //	Who and/or what the observation is about
+* effective[x]	MS
+
+* component 1.. MS
+* component ^slicing.discriminator[0].type = #pattern
+* component ^slicing.discriminator[0].path = "code"
+* component ^slicing.ordered = false
+* component ^slicing.rules = #open
+* component ^short = "Components composing the Exercise tracking panel"
+* component ^definition = "The root of the components that make up the the Exercise tracking panel observation."
+* component contains   activityType 0..1 
+	and aerobicCategory 0..1
+	and caloriesBurned 0..1
+	and exerciseDuration 0..1
+	and exerciseDistance 0..1
+	and heartRateMax 0..1
+
+* component[activityType] ^short = "Exercise activity"
+* component[aerobicCategory] ^short = "Exercise aerobic category"			
+* component[caloriesBurned] ^short = "Calories burned Machine estimate"
+* component[exerciseDuration] ^short = "Exercise duration"
+* component[exerciseDistance] ^short = "Exercise distance unspecified time"
+* component[heartRateMax] ^short = "Heart rate Encounter maximum"
+
+* component[activityType].code  = $loinc#73985-4	 // Exercise activity
+* component[aerobicCategory].code =  $loinc#73986-2	// Exercise aerobic category
+* component[caloriesBurned].code = $loinc#55421-2	// Calories burned Machine estimate			kcal
+* component[exerciseDuration].code = $loinc#55411-3	// Exercise duration			min
+* component[exerciseDistance].code = $loinc#55412-1	// Exercise distance unspecified time			[mi_us];km
+* component[heartRateMax].code = $loinc#55422-0	// Heart rate Encounter maximum			{beats}/min
+	
+* component[activityType].code MS
+* component[aerobicCategory].code MS
+* component[caloriesBurned].code MS 
+* component[exerciseDuration].code MS
+* component[exerciseDistance].code MS
+* component[heartRateMax].code MS
+	
+* component[activityType].valueCodeableConcept 1.. MS
+* component[activityType].valueCodeableConcept from http://loinc.org/vs/LL734-5 (example)
+* component[aerobicCategory].valueCodeableConcept 1.. MS 
+* component[aerobicCategory].valueCodeableConcept from http://loinc.org/vs/LL2555-2 (example)
+* component[caloriesBurned].valueQuantity 1.. MS 
+* component[caloriesBurned].valueQuantity.value 1.. MS
+* component[caloriesBurned].valueQuantity.unit 0.. MS
+* component[caloriesBurned].valueQuantity.system = "http://unitsofmeasure.org"
+* component[caloriesBurned].valueQuantity.code = #kcal
+* component[exerciseDuration].valueQuantity 1.. MS 
+* component[exerciseDuration].valueQuantity.value 1.. MS
+* component[exerciseDuration].valueQuantity.unit 0.. MS
+* component[exerciseDuration].valueQuantity.system = "http://unitsofmeasure.org"
+* component[exerciseDuration].valueQuantity.code = #min
+
+* component[exerciseDistance].valueQuantity 1.. MS 
+* component[exerciseDistance].valueQuantity.value 1.. MS
+* component[exerciseDistance].valueQuantity.unit 0.. MS
+* component[exerciseDistance].valueQuantity.system = "http://unitsofmeasure.org"
+* component[exerciseDistance].valueQuantity.code = #km
+
+* component[heartRateMax].valueQuantity 1.. MS 
+* component[heartRateMax].valueQuantity.value 1.. MS
+* component[heartRateMax].valueQuantity.unit 0.. MS
+* component[heartRateMax].valueQuantity.system = "http://unitsofmeasure.org"
+* component[heartRateMax].valueQuantity.code = #{beats}/min
+	
+/* ===	
+ Indent73985-4	Exercise activity			
+ Indent73986-2	Exercise aerobic category			
+ Indent55421-2	Calories burned Machine estimate			kcal
+ Indent55411-3	Exercise duration			min
+ Indent55412-1	Exercise distance unspecified time			[mi_us];km
+ Indent55422-0	Heart rate Encounter maximum			{beats}/min
+=== */
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 Profile:  ObservationGK
 Parent:   Observation 
 Id:       Observation-gk
@@ -39,6 +127,7 @@ Description: "This profile defines how to represent observations in FHIR for the
 * subject	0..1 MS
 // * subject only PatientGK //	Who and/or what the observation is about
 * effective[x]	MS
+
 
 
 
