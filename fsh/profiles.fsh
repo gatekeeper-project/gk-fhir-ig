@@ -16,6 +16,54 @@ Alias: $Condition-uv-ips = http://hl7.org/fhir/uv/ips/StructureDefinition/Condit
 //====== Profiles =====================================
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Profile:  TaskMkGK
+Parent:   Task
+Id:       task-mk-gk
+Title:    "Task - Milton Keynes (Gatekeeper)"
+Description: "This profile defines how to represent a task in FHIR for supporting the Milton Keynes pilot in the scope of the Gatekeeper project"
+//-------------------------------------------------------------------------------------------
+* identifier MS
+* basedOn only Reference(ServiceRequestMkGK)
+* status MS
+* intent MS
+* for only Reference(PatientGK) // check if this is enough
+* executionPeriod MS
+* owner MS
+* output MS
+
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Profile:  ServiceRequestMkGK
+Parent:   ServiceRequest
+Id:       serviceRequest-mk-gk
+Title:    "ServiceRequest - Milton Keynes (Gatekeeper)"
+Description: "This profile defines how to represent a service request in FHIR for supporting the Milton Keynes pilot in the scope of the Gatekeeper project"
+//-------------------------------------------------------------------------------------------
+* identifier MS
+// * instantiatesCanonical only canonical(ActivityDefinition) //clarify how to restrict canonical to ActivityDefinition
+* instantiatesCanonical MS
+* status MS
+* subject MS
+* requester MS
+* performer MS
+* locationCode	0.. // Σ	0..*	CodeableConcept	Requested location
+* locationReference	0.. // Σ	0..*	Reference(Location)	Requested location
+* reasonCode	0.. // Σ	0..*	CodeableConcept	Explanation/Justification for procedure or service Procedure Reason Codes (Example)
+* reasonReference 0.. //
+* supportingInfo 0.. MS
+* supportingInfo ^slicing.discriminator[0].type = #type
+* supportingInfo ^slicing.discriminator[0].path = "$this.resolve()"
+* supportingInfo ^slicing.ordered = false
+* supportingInfo ^slicing.rules = #open
+* supportingInfo ^short = "Components composing the supporting information"
+* supportingInfo ^definition = "The root of the components that make up the supporting information slice."
+* supportingInfo contains   risk 0..* 
+* supportingInfo[risk] ^short = "Probability of increasing severity over time if the intervention is not implemented."
+* supportingInfo[risk] ^definition = "Probability of increasing severity over time if the intervention is not implemented. The risk function is used to update the cumulative level of risk for the target of the intervention and it is inherited by the target of the intervention." 
+* supportingInfo[risk] only Reference(RiskAssessment)
+
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 Profile:  ConditionGK
 Parent:   $Condition-uv-ips
 Id:       Condition-gk
