@@ -19,13 +19,11 @@ Description: "Example of questionnaire defined for the COVID-19 Survey by the GA
 * item[0].type = #group
 * item[0].required = true
 
-
 * item[0].item[0].prefix = "1.1"
 * item[0].item[0].text = "What year were you born:" 
 * item[0].item[0].linkId = "demography.birthDate"
 * item[0].item[0].type = #date
 * item[0].item[0].required = true
-
 
 * item[0].item[1].prefix = "1.2"
 * item[0].item[1].text = "Please specify your gender:" 
@@ -34,9 +32,53 @@ Description: "Example of questionnaire defined for the COVID-19 Survey by the GA
 * item[0].item[1].answerValueSet = 	"http://hl7.org/fhir/ValueSet/administrative-gender"
 * item[0].item[1].required = true
 
+* item[0].item[2].prefix = "1.3"
+* item[0].item[2].text = "What is your country of residence?" 
+* item[0].item[2].linkId = "demography.country"
+* item[0].item[2].type = #choice
+* item[0].item[2].answerOption[0].valueString = 	"Cyprus"
+* item[0].item[2].answerOption[1].valueString = 	"Germany"
+* item[0].item[2].answerOption[2].valueString = 	"Greece"
+* item[0].item[2].answerOption[3].valueString = 	"Italy"
+* item[0].item[2].answerOption[4].valueString = 	"Poland"
+* item[0].item[2].answerOption[5].valueString = 	"Spain"
+* item[0].item[2].answerOption[6].valueString = 	"United Kingdom"
+* item[0].item[2].answerOption[7].valueString = 	"Hong Kong"
+* item[0].item[2].answerOption[8].valueString = 	"Taiwan"
+* item[0].item[2].answerOption[9].valueString = 	"Singapore"
+* item[0].item[2].answerOption[9].valueString = 	"Other:"
+* item[0].item[2].required = true
+
+* item[0].item[3].prefix = "1.4"
+* item[0].item[3].text = "What is the highest level of education you completed?" 
+* item[0].item[3].linkId = "demography.education"
+* item[0].item[3].type = #choice
+* item[0].item[3].answerOption[0].valueString = 	"No education"
+* item[0].item[3].answerOption[1].valueString = 	"Primary school"
+* item[0].item[3].answerOption[2].valueString = 	"Secondary school"
+* item[0].item[3].answerOption[3].valueString = 	"High school"
+* item[0].item[3].answerOption[4].valueString = 	"University degree"
+* item[0].item[3].answerOption[5].valueString = 	"Master degree"
+* item[0].item[3].answerOption[6].valueString = 	"PhD degree"
+* item[0].item[3].required = true
+
+* item[0].item[4].prefix = "1.5"
+* item[0].item[4].text = "What is your employment status now?" 
+* item[0].item[4].linkId = "demography.employment"
+* item[0].item[4].type = #choice
+* item[0].item[4].answerOption[0].valueString = 	"Employed"
+* item[0].item[4].answerOption[1].valueString = 	"Self-employed"
+* item[0].item[4].answerOption[2].valueString = 	"Unemployed"
+* item[0].item[4].answerOption[3].valueString = 	"Unable to work"
+* item[0].item[4].answerOption[4].valueString = 	"Homemaker"
+* item[0].item[4].answerOption[5].valueString = 	"Student"
+* item[0].item[4].answerOption[6].valueString = 	"Retired"
+* item[0].item[4].required = true
+
 // add the other questions
 
-// SECTION 1
+
+// SECTION 2
 * item[1].prefix = "2"
 * item[1].text = "OVERALL HEALTH STATUS" 
 * item[1].linkId = "overallHealthStatus"
@@ -82,5 +124,44 @@ Description: "Example of questionnaire defined for the COVID-19 Survey by the GA
 * item[1].item[1].item[0].answerOption[8].valueString = 	"Immune disorder"
 * item[1].item[1].item[0].answerOption[9].valueString = 	"Other (name):"
 * item[1].item[1].item[0].required = true
+
+
+// SECTION 3
+* item[2].prefix = "3"
+* item[2].text = "COVID-19 HEALTH / EXPOSURE STATUS" 
+* item[2].linkId = "covid19HealthExposureStatus"
+* item[2].type = #group
+* item[2].required = true
+
+* item[2].item[0].prefix = "3.1"
+* item[2].item[0].text = " … have you been suspected of having COVID-19 infection?" 
+* item[2].item[0].linkId = "covid19HealthExposureStatus.infection"
+* item[2].item[0].type = #choice
+* item[2].item[0].answerOption[0].valueString = 	"Yes, I had some symptoms and tested positive" 
+* item[2].item[0].answerOption[1].valueString = 	"Yes, I had some symptoms but tested negative" 
+* item[2].item[0].answerOption[2].valueString = 	"No, I had no symptoms but tested positive" 
+* item[2].item[0].answerOption[3].valueString = 	"No, I never had symptoms neither tested positive" 
+* item[2].item[0].required = true
+
+* item[2].item[1].prefix = "3.2"
+* item[2].item[1].text = " … have you had any of the following symptoms? (check all that apply)" 
+* item[2].item[1].linkId = "covid19HealthExposureStatus.symptoms"
+* item[2].item[1].type = #open-choice
+* item[1].item[1].repeats = true
+* item[2].item[1].answerOption[0].valueString = 	"Cough" 
+* item[2].item[1].answerOption[1].valueString = 	"Fever" 
+* item[2].item[1].answerOption[2].valueString = 	"Fatigue" 
+* item[2].item[1].answerOption[3].valueString = 	"Headache" 
+* item[2].item[1].answerOption[4].valueString = 	"Shortness of breath" 
+* item[2].item[1].answerOption[5].valueString = 	"Sore throat" 
+* item[2].item[1].answerOption[6].valueString = 	"Diarrhoea" 
+* item[2].item[1].answerOption[7].valueString = 	"Nausea/vomiting" 
+* item[2].item[1].answerOption[8].valueString = 	"Loss of taste or smell" 
+* item[2].item[1].answerOption[9].valueString = 	"Runny nose" 
+* item[2].item[1].answerOption[10].valueString = 	"Abdominal pain" 
+* item[2].item[1].answerOption[11].valueString = 	"Other symptoms:" 
+* item[2].item[1].answerOption[12].valueString = 	"None of the above" 
+* item[2].item[1].required = true
+
 
 // OTHER questions and groups to be added ....
