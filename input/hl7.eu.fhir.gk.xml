@@ -95,6 +95,7 @@
 			<description value="ResearchStudy: example from Saxony"/>
 			<!-- <exampleCanonical value="http://hl7.eu/fhir/ig/gk/StructureDefinition/Patient-eu-gk"/> -->
 		</resource>
+		
 		<resource>
 			<reference>
 				<reference value="Patient/pat-1"/>
@@ -103,6 +104,8 @@
 			<description value="Patient: patient example"/>
 			<exampleCanonical value="http://hl7.eu/fhir/ig/gk/StructureDefinition/Patient-eu-gk"/>
 		</resource>
+		
+		
 		<resource>
 			<reference>
 				<reference value="Observation/bloodPressure"/>

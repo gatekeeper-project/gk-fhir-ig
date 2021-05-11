@@ -1,0 +1,301 @@
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "string",
+      "concept" : [{
+        "code" : "You have no problems in walking about"
+      },
+      {
+        "code" : "You have some problems in walking about"
+      },
+      {
+        "code" : "You are confined to bed"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system string"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "string",
+      "concept" : [{
+        "code" : "You have no problems in walking about"
+      },
+      {
+        "code" : "You have some problems in walking about"
+      },
+      {
+        "code" : "You are confined to bed"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system string"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "string",
+      "concept" : [{
+        "code" : "You are unable to wash or dress yourself"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system string"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "string",
+      "concept" : [{
+        "code" : "You are unable to do your usual activities"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system string"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "string",
+      "concept" : [{
+        "code" : "You have extreme pain or discomfort"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system string"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "string",
+      "concept" : [{
+        "code" : "You are unable to wash or dress yourself"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system string"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "string",
+      "concept" : [{
+        "code" : "You are unable to do your usual activities"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system string"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "string",
+      "concept" : [{
+        "code" : "You have extreme pain or discomfort"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system string"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "string",
+      "concept" : [{
+        "code" : "You have no problems with self-care"
+      },
+      {
+        "code" : "You have some problems washing or dressing yourself"
+      },
+      {
+        "code" : "You are unable to wash or dress yourself"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system string"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "string",
+      "concept" : [{
+        "code" : "You have no problems doing your usual activities"
+      },
+      {
+        "code" : "You have some problems doing your usual activities"
+      },
+      {
+        "code" : "You are unable to do your usual activities"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system string"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "string",
+      "concept" : [{
+        "code" : "You have no pain or discomfort"
+      },
+      {
+        "code" : "You have moderate pain or discomfort"
+      },
+      {
+        "code" : "You have extreme pain or discomfort"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system string"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "string",
+      "concept" : [{
+        "code" : "You are not anxious or depressed"
+      },
+      {
+        "code" : "You are moderately anxious or depressed"
+      },
+      {
+        "code" : "You are extremely anxious or depressed"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system string"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "string",
+      "concept" : [{
+        "code" : "You have no problems with self-care"
+      },
+      {
+        "code" : "You have some problems washing or dressing yourself"
+      },
+      {
+        "code" : "You are unable to wash or dress yourself"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system string"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "string",
+      "concept" : [{
+        "code" : "You have no problems doing your usual activities"
+      },
+      {
+        "code" : "You have some problems doing your usual activities"
+      },
+      {
+        "code" : "You are unable to do your usual activities"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system string"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "string",
+      "concept" : [{
+        "code" : "You have no pain or discomfort"
+      },
+      {
+        "code" : "You have moderate pain or discomfort"
+      },
+      {
+        "code" : "You have extreme pain or discomfort"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system string"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "string",
+      "concept" : [{
+        "code" : "You are not anxious or depressed"
+      },
+      {
+        "code" : "You are moderately anxious or depressed"
+      },
+      {
+        "code" : "You are extremely anxious or depressed"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system string"
+}
+-------------------------------------------------------------------------------------

@@ -1,6 +1,96 @@
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://snomed.info/sct",
+  "code" : "27113001"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Body weight",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "50373000"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Body height",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "248365001"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Circumference measure",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "60621009"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Body mass index",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "415945006"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Oral temperature",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "8480-6"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Found content (\"-\") after end of expression at character 5 (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "8462-4"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Found content (\"-\") after end of expression at character 5 (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "366319001"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Body fat finding",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "363810004"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Body composition measure",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
   "code" : "197321007"
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
@@ -341,60 +431,10 @@ v: {
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://snomed.info/sct",
-  "code" : "27113001"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Body weight",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
   "code" : "713137006"
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Assessment of stress level",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "50373000"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Body height",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "248365001"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Circumference measure",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "60621009"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Body mass index",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "366319001"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Body fat finding",
   "severity" : null,
   "error" : ""
 }
@@ -417,56 +457,6 @@ v: {
   "display" : "Body fluid",
   "severity" : null,
   "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "415945006"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Oral temperature",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "363810004"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Body composition measure",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "64075005"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "",
-  "severity" : "error",
-  "error" : "Unable to find code 64075005 in http://snomed.info/sct (version http://snomed.info/sct/900000000000207008/version/20210131); The code \"64075005\" is not valid in the system http://snomed.info/sct; The code provided (http://snomed.info/sct#64075005) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "8480-6"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "",
-  "severity" : "error",
-  "error" : "Found content (\"-\") after end of expression at character 5 (from http://tx.fhir.org/r4)"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "8462-4"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "",
-  "severity" : "error",
-  "error" : "Found content (\"-\") after end of expression at character 5 (from http://tx.fhir.org/r4)"
 }
 -------------------------------------------------------------------------------------
 {"hierarchical" : true, "valueSet" :{
@@ -506,8 +496,8 @@ e: {
   "resourceType" : "ValueSet",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:3617d907-5ba8-43b1-b1b2-f6caee6ff31d",
-    "timestamp" : "2021-05-07T08:24:56.444Z",
+    "identifier" : "urn:uuid:96906988-f5ed-4f18-a2e4-565ff33f595e",
+    "timestamp" : "2021-05-10T18:35:51.679Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -612,8 +602,8 @@ e: {
   "resourceType" : "ValueSet",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:0c207b8f-4baa-42dc-a697-0c97ce3752d2",
-    "timestamp" : "2021-05-07T08:24:59.647Z",
+    "identifier" : "urn:uuid:78915e9c-7b40-411a-9d4d-f360ffd0f3d4",
+    "timestamp" : "2021-05-10T18:35:53.867Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -771,8 +761,8 @@ e: {
   "resourceType" : "ValueSet",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:0019b94f-d3ee-4fdd-8c8a-f4049f87f07f",
-    "timestamp" : "2021-05-07T08:25:02.287Z",
+    "identifier" : "urn:uuid:786a888c-b227-43d0-aa0a-00b60eb44a48",
+    "timestamp" : "2021-05-10T18:35:54.804Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -887,8 +877,8 @@ e: {
   "resourceType" : "ValueSet",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:7dbd3e5a-317c-4e15-9c4f-135dbb065e09",
-    "timestamp" : "2021-05-07T08:25:05.100Z",
+    "identifier" : "urn:uuid:f76add14-35c8-44c2-bccc-a2407173d024",
+    "timestamp" : "2021-05-10T18:35:56.851Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -938,8 +928,8 @@ e: {
   "resourceType" : "ValueSet",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:01255d8a-25b3-4324-bdb2-5a41a6ebffc0",
-    "timestamp" : "2021-05-07T08:25:06.944Z",
+    "identifier" : "urn:uuid:b10e7e67-112f-4612-9d8e-9abfe4e9b99f",
+    "timestamp" : "2021-05-10T18:35:57.336Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -999,8 +989,8 @@ e: {
   "resourceType" : "ValueSet",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:305bb70c-8f78-4c99-b69b-b4c7cd47b391",
-    "timestamp" : "2021-05-07T08:25:16.756Z",
+    "identifier" : "urn:uuid:ffb6794f-563c-4c1e-8a3c-1b09fb4caeaa",
+    "timestamp" : "2021-05-10T18:35:59.336Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -1141,8 +1131,8 @@ e: {
   "resourceType" : "ValueSet",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:beca52d0-fc96-4c33-aa9c-7a802427df1d",
-    "timestamp" : "2021-05-07T08:25:17.615Z",
+    "identifier" : "urn:uuid:6911280d-eab8-4a43-a202-8f55e652c857",
+    "timestamp" : "2021-05-10T18:35:59.742Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -1347,8 +1337,8 @@ e: {
   "resourceType" : "ValueSet",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:73811bed-9b88-4a63-8ae5-6109c6484e80",
-    "timestamp" : "2021-05-07T08:25:23.069Z",
+    "identifier" : "urn:uuid:4184abc2-f3dd-4299-b445-384a962290f5",
+    "timestamp" : "2021-05-10T18:36:01.836Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -1361,77 +1351,6 @@ e: {
       "system" : "http://snomed.info/sct",
       "code" : "258158006",
       "display" : "Sleep"
-    }]
-  }
-},
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : true, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "include" : [{
-      "system" : "http://snomed.info/sct",
-      "concept" : [{
-        "code" : "64075005"
-      },
-      {
-        "code" : "27113001"
-      },
-      {
-        "code" : "50373000"
-      },
-      {
-        "code" : "248365001"
-      },
-      {
-        "code" : "60621009"
-      },
-      {
-        "code" : "415945006"
-      }]
-    }]
-  }
-}}####
-e: {
-  "valueSet" : {
-  "resourceType" : "ValueSet",
-  "status" : "active",
-  "expansion" : {
-    "identifier" : "urn:uuid:d7436858-a49b-462c-815a-60f0066f5e21",
-    "timestamp" : "2021-05-07T08:25:24.303Z",
-    "parameter" : [{
-      "name" : "limitedExpansion",
-      "valueBoolean" : true
-    },
-    {
-      "name" : "version",
-      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20210131"
-    }],
-    "contains" : [{
-      "system" : "http://snomed.info/sct",
-      "code" : "27113001",
-      "display" : "Body weight"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "50373000",
-      "display" : "Body height"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "248365001",
-      "display" : "Circumference measure"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "60621009",
-      "display" : "Body mass index"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "415945006",
-      "display" : "Oral temperature"
     }]
   }
 },
@@ -1478,8 +1397,8 @@ e: {
   "resourceType" : "ValueSet",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:84c5c554-d35e-49ba-85a9-8021a6a6654f",
-    "timestamp" : "2021-05-07T08:25:25.694Z",
+    "identifier" : "urn:uuid:ced17cf9-6d73-4316-ac17-e74b56498261",
+    "timestamp" : "2021-05-10T18:36:03.757Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true

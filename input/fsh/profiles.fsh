@@ -26,7 +26,8 @@ Description: "This profile defines how to represent a task in FHIR for supportin
 * basedOn only Reference(ServiceRequestMkGK)
 * status MS
 * intent MS
-* for only Reference(PatientGK) // check if this is enough
+* for only Reference(Patient) // check if this is enough
+// * for only Reference(PatientGK) // check if this is enough
 * executionPeriod MS
 * owner MS
 * output MS
