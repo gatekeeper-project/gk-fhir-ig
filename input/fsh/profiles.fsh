@@ -16,6 +16,23 @@ Alias: $Condition-uv-ips = http://hl7.org/fhir/uv/ips/StructureDefinition/Condit
 //====== Profiles =====================================
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Profile:  CareTeamGK
+Parent:   CareTeam
+Id:       careTeam-gk
+Title:    "CareTeam Gatekeeper)"
+Description: "This profile defines how to represent a Care Team in FHIR for supporting the scope of the Gatekeeper project"
+//-------------------------------------------------------------------------------------------
+* status MS
+* subject 1.. MS
+* subject only Reference(PatientGK)
+* participant 1.. MS
+* participant.role MS
+* participant.member 1.. MS
+* reasonCode MS
+* managingOrganization	MS
+
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 Profile:  TaskMkGK
 Parent:   Task
 Id:       task-mk-gk
@@ -26,8 +43,8 @@ Description: "This profile defines how to represent a task in FHIR for supportin
 * basedOn only Reference(ServiceRequestMkGK)
 * status MS
 * intent MS
-* for only Reference(Patient) // check if this is enough
-// * for only Reference(PatientGK) // check if this is enough
+// * for only Reference(Patient) // check if this is enough
+* for only Reference(PatientGK) // check if this is enough
 * executionPeriod MS
 * owner MS
 * output MS
