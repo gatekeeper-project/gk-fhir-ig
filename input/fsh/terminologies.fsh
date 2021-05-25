@@ -137,8 +137,22 @@ Id: gatekeeper
 Title: "Gatekeeper internal Code System"
 Description: "Gatekeeper internal Code System"
 //-------------------------------------------------------------------------------------------
-* #people-living	"People living" "People living" 
+* #people-living	"People living" "People living"
+* #mys-activity-level "Activity Level [counts]" "Activity Level as measured by the My Sphera device"
+* #liv-environment "Living Environment Observations" "Observations about the environment where the subject lives."
 
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ValueSet: VsRoomObservationGK
+Id: ValueSet-roomObservation-gk
+Title: "Room related observation (Gatekeeper)"
+Description: "Room related observation (Gatekeeper)"
+//-------------------------------------------------------------------------------------------
+
+// * $loinc#20053-5	"Atmospheric pressure mm[Hg]"
+* $loinc#76268-2    "Pressure.ambient Room"
+* $loinc#60832-3	"Room temperature Cel;[degF]"
+* $loinc#65643-9	"Relative humidity (%)"
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ValueSet: VsSocialObservationGK

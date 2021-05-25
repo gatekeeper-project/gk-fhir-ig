@@ -1,17 +1,4 @@
 //============== ALIAS ===============
-Alias: $bodytemp = http://hl7.org/fhir/StructureDefinition/bodytemp
-Alias: $oxygensat = http://hl7.org/fhir/StructureDefinition/oxygensat
-Alias: $bp = http://hl7.org/fhir/StructureDefinition/bp
-Alias: hr_profile = http://hl7.org/fhir/StructureDefinition/heartrate
-Alias: vs_profile = http://hl7.org/fhir/StructureDefinition/vitalsigns
-Alias: $Observation-results-uv-ips = http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-results-uv-ips
-Alias: ips_lab_result = http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-results-laboratory-uv-ips
-Alias: ips_path_result = http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-results-pathology-uv-ips
-Alias: ips_rad_result = http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-results-radiology-uv-ips
-Alias: $ipsPatient = http://hl7.org/fhir/uv/ips/StructureDefinition/Patient-uv-ips
-Alias: $ipsPractitioner = http://hl7.org/fhir/uv/ips/StructureDefinition/Practitioner-uv-ips
-Alias: $Condition-uv-ips = http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips
-//=========================
 
 //====== Profiles =====================================
 
@@ -94,7 +81,7 @@ Description: "This profile defines how to represent patient conditions in FHIR f
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 Profile:  ObservationExercisePanel
 Parent:   Observation 
-Id:       Observation-exercisePanel
+Id:       Observation-exercisePanel-gk
 Title:    "Observation Exercise tracking panel (Gatekeeper)"
 Description: "This profile defines how to represent Exercise tracking panel observations in FHIR for the scope of the Gatekeeper project"
 //-------------------------------------------------------------------------------------------
@@ -199,7 +186,7 @@ Description: "This profile defines how to represent observations in FHIR for the
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 Profile:  LabResultGK
-Parent:   ips_lab_result
+Parent:   $Observation-results-laboratory-uv-ips
 Id:       Observation-labResult-gk
 Title:    "Laboratory results (Gatekeeper)"
 Description: "This profile defines how to represent laboratory results performed by an authorized loboratory in FHIR using a standard LOINC code and UCUM units of measure. It is based on the Laboratory IPS profile"
@@ -312,7 +299,7 @@ Description: "This profile defines how to represent CarePlans in FHIR in Gatekee
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 Profile:  PractitionerGK
-Parent:   $ipsPractitioner
+Parent:   $Practitioner-uv-ips
 Id:       Practitioner-gk
 Title:    "Practitioner (Gatekeeper)"
 Description: "This profile defines how to represent Practitioners in FHIR in Gatekeeper."
@@ -321,7 +308,7 @@ Description: "This profile defines how to represent Practitioners in FHIR in Gat
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 Profile:  VitalSignGK
-Parent:   vs_profile
+Parent:   $vitalsigns
 Id:       Observation-vitalsigns-gk
 Title:    "Vital Signs (Gatekeeper)"
 Description: "This profile defines how to represent Vital Signs observations in FHIR using a standard LOINC code and UCUM units of measure."
@@ -361,7 +348,7 @@ Description: "This profile defines how to represent Blood Pressure Profile obser
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 Profile:  HeartRateGK
-Parent:   hr_profile
+Parent:   $heartrate
 Id:       Observation-hr-gk
 Title:    "Heart Rate (Gatekeeper)"
 Description: "This profile defines how to represent Heart Rate Profile observations in FHIR using a standard LOINC code and UCUM units of measure."
@@ -370,7 +357,7 @@ Description: "This profile defines how to represent Heart Rate Profile observati
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 Profile:  RadResultGK
-Parent:   ips_rad_result
+Parent:   $Observation-results-radiology-uv-ips
 Id:       Observation-radResult-gk
 Title:    "Radiology results (Gatekeeper)"
 Description: "This profile defines how to represent radiology results in FHIR. It is based on the Radiology IPS profile"
@@ -379,7 +366,7 @@ Description: "This profile defines how to represent radiology results in FHIR. I
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 Profile:  PathResultGK
-Parent:   ips_path_result
+Parent:   $Observation-results-pathology-uv-ips
 Id:       Observation-pathResult-gk
 Title:    "Pathology results (Gatekeeper)"
 Description: "This profile defines how to represent pathology results in FHIR. It is based on the Pathology IPS profile"
@@ -395,7 +382,7 @@ Title:    "Laboratory self test results (Gatekeeper)"
 Description: "This profile defines how to represent self test results in FHIR for the scope of Gatekeeper. using a standard LOINC code and UCUM units of measure."
 
 //-------------------------------------------------------------------------------------------
-// * subject only $ipsPatient
+// * subject only $Patient-uv-ips
 * code from VsLabSelfTestGK (extensible)
 * value[x] only Quantity
 * value[x] 1..1 MS
@@ -411,7 +398,7 @@ Title:    "Blood Glucose (Gatekeeper)"
 Description: "This profile defines how to represent Blood Glucose Profile observations in FHIR using a standard LOINC code and UCUM units of measure."
 
 //-------------------------------------------------------------------------------------------
-// * subject only $ipsPatient
+// * subject only $Patient-uv-ips
 * value[x] only Quantity
 * value[x] 1..1 MS
 * hasMember 0..0
@@ -436,7 +423,7 @@ Id:       Observation-fpg-gk
 Title:    "Fasting plasma glucose (Gatekeeper)"
 Description: "This profile defines how to represent Fasting plasma glucose observations in FHIR using a standard LOINC code and UCUM units of measure."
 //-------------------------------------------------------------------------------------------
-// * subject only $ipsPatient
+// * subject only $Patient-uv-ips
 * code from VsFastingPlasmaGlucoseGK
 * value[x] only Quantity
 * value[x] 1..1 MS
@@ -450,7 +437,7 @@ Id:       Observation-stepsNumber-gk
 Title:    "Steps Number(Gatekeeper)"
 Description: "This profile defines how to represent Number of Steps measures Observation in FHIR using a standard LOINC code and UCUM units of measure."
 //-------------------------------------------------------------------------------------------
-// * subject only $ipsPatient
+// * subject only $Patient-uv-ips
 * code from VsStepsGK
 * value[x] only Quantity
 * value[x] 1..1 MS
@@ -463,7 +450,7 @@ Id:       Observation-sleepDuration-gk
 Title:    "Sleep Duration (Gatekeeper)"
 Description: "This profile defines how to represent Sleep Duration Observation in FHIR using a standard LOINC code and UCUM units of measure."
 //-------------------------------------------------------------------------------------------
-// * subject only $ipsPatient
+// * subject only $Patient-uv-ips
 * code from VsSleepDurationGK
 * value[x] only Quantity
 * value[x] 1..1 MS
