@@ -201,7 +201,7 @@ Description: "Example of questionnaire defined for the COVID-19 Survey by the GA
 * item[=].item[=].item[=].answerOption[5].valueString = 	"Chronic kidney disease"
 * item[=].item[=].item[=].answerOption[6].valueString = 	"Arthritis"
 * item[=].item[=].item[=].answerOption[7].valueString = 	"Immune disorder"
-* item[=].item[=].item[=].answerOption[8].valueString = 	"Immune disorder"
+* item[=].item[=].item[=].answerOption[8].valueString = 	"Emotional or mental health problems such as Depression or Anxiety"
 * item[=].item[=].item[=].answerOption[9].valueString = 	"Other (name):"
 * item[=].item[=].item[=].required = true
 
@@ -257,13 +257,12 @@ Description: "Example of questionnaire defined for the COVID-19 Survey by the GA
 * item[=].item[=].text = " During the COVID-19 pandemic have you or anyone in your household been diagnosed with COVID-19?" 
 * item[=].item[=].linkId = "covid19HealthExposureStatus.household"
 * item[=].item[=].type = #choice
-* item[=].item[=].answerOption[0].valueString = 	"Yes" 
-* item[=].item[=].answerOption[1].valueString = 	"No" 
+* item[=].item[=].answerValueSet = 	"https://fhir.loinc.org/ValueSet/?url=http://loinc.org/vs/LL361-7" 
 * item[=].item[=].required = true
 
 * item[=].item[+].prefix = "3.5"
 * item[=].item[=].text = " During the COVID-19 pandemic have any of the following happened to you or anyone in your household because of COVID-19? (check all that apply)" 
-* item[=].item[=].linkId = "covid19HealthExposureStatus.household"
+* item[=].item[=].linkId = "covid19HealthExposureStatus.householdEvents"
 * item[=].item[=].type = #open-choice
 * item[=].item[=].repeats = true
 * item[=].item[=].answerOption[0].valueString = 	"Fallen ill physically" 
@@ -603,8 +602,6 @@ Description: "Example of questionnaire defined for the COVID-19 Survey by the GA
 * item[=].item[=].text = "During the last 2 weeks, on average, how much time did you spend sitting or lying down daily? (Include time spent at work, at home, and during leisure time. This may include time spent sitting at a desk, visiting friends/socialising, reading, or sitting/lying down to watch television, use the computer/mobile/tablet/Internet. Don’t count the time you spent in bed sleeping.)" 
 * item[=].item[=].linkId = "physicalActivity.sedentaryTime"
 * item[=].item[=].type = #integer
-// what was the intent of this ?
-// * item[=].item[=].value.unit = "hours"
 * item[=].item[=].required = true
 
 * item[=].item[+].prefix = "6.4"
@@ -706,21 +703,21 @@ Description: "Example of questionnaire defined for the COVID-19 Survey by the GA
 * item[=].item[=].text = "Before the COVID-19 pandemic, have you had any virtual (telephone, online) consultations with your healthcare provider?" 
 * item[=].item[=].linkId = "virtualConsultations.beforeCovid19Virtual"
 * item[=].item[=].type = #choice
-* item[=].item[=].answerValueSet = 	"http://fhir.logicahealth.org/covid19/ValueSet/yes-no-vs"
+* item[=].item[=].answerValueSet = 	"https://fhir.loinc.org/ValueSet/?url=http://loinc.org/vs/LL361-7"
 * item[=].item[=].required = true
 
 * item[=].item[+].prefix = "8.2"
 * item[=].item[=].text = "During the COVID-19 pandemic, have you had any face-to-face consultations with your healthcare provider?" 
 * item[=].item[=].linkId = "virtualConsultations.duringCovid19F2F"
 * item[=].item[=].type = #choice
-* item[=].item[=].answerValueSet = 	"http://fhir.logicahealth.org/covid19/ValueSet/yes-no-vs"
+* item[=].item[=].answerValueSet = 	"https://fhir.loinc.org/ValueSet/?url=http://loinc.org/vs/LL361-7"
 * item[=].item[=].required = true
 
 * item[=].item[+].prefix = "8.3"
 * item[=].item[=].text = "During the COVID-19 pandemic, have you had any virtual (telephone, online) consultations with your healthcare provider?" 
 * item[=].item[=].linkId = "virtualConsultations.duringCovid19Virtual"
 * item[=].item[=].type = #choice
-* item[=].item[=].answerValueSet = 	"http://fhir.logicahealth.org/covid19/ValueSet/yes-no-vs"
+* item[=].item[=].answerValueSet = 	"https://fhir.loinc.org/ValueSet/?url=http://loinc.org/vs/LL361-7"
 * item[=].item[=].required = true
 
 * item[=].item[+].prefix = "8.4"
@@ -987,35 +984,28 @@ Description: "Example of questionnaire defined for the COVID-19 Survey by the GA
 * item[=].item[=].text = "Have you been administered a COVID-19 vaccination (at least 1st dose)?" 
 * item[=].item[=].linkId = "covid19Vaccination.status"
 * item[=].item[=].type = #choice
-* item[=].item[=].answerValueSet = 	"http://fhir.logicahealth.org/covid19/ValueSet/yes-no-vs"
+* item[=].item[=].answerValueSet = 	"https://fhir.loinc.org/ValueSet/?url=http://loinc.org/vs/LL361-7"
 * item[=].item[=].required = true
 
 * item[=].item[+].prefix = "11.3"
 * item[=].item[=].text = "Are you willing to take COVID-19 vaccination?" 
 * item[=].item[=].linkId = "covid19Vaccination.will"
 * item[=].item[=].type = #choice
-* item[=].item[=].answerOption[0].valueString = "Yes"
-* item[=].item[=].answerOption[1].valueString = "No"
-* item[=].item[=].answerOption[2].valueString = "I am not sure"
+* item[=].item[=].answerValueSet = 	"https://fhir.loinc.org/ValueSet/?url=http://loinc.org/vs/LL865-7"
 * item[=].item[=].required = false
 
 * item[=].item[+].prefix = "11.4"
 * item[=].item[=].text = "Have you experienced any adverse effects of COVID-19 vaccination?" 
 * item[=].item[=].linkId = "covid19Vaccination.adverseEffects"
 * item[=].item[=].type = #choice
-* item[=].item[=].answerOption[0].valueString = "Yes"
-* item[=].item[=].answerOption[1].valueString = "No"
-* item[=].item[=].answerOption[2].valueString = "I do not know"
+* item[=].item[=].answerValueSet = 	"https://fhir.loinc.org/ValueSet/?url=http://loinc.org/vs/LL865-7"
 * item[=].item[=].required = false
 
 * item[=].item[+].prefix = "11.5"
 * item[=].item[=].text = "Would you agree to take COVID-19 vaccination every year?" 
 * item[=].item[=].linkId = "covid19Vaccination.everyYear"
 * item[=].item[=].type = #choice
-* item[=].item[=].answerOption[0].valueString = "Yes"
-* item[=].item[=].answerOption[1].valueString = "No"
-* item[=].item[=].answerOption[2].valueString = "I do not know"
+* item[=].item[=].answerValueSet = 	"https://fhir.loinc.org/ValueSet/?url=http://loinc.org/vs/LL865-7"
 * item[=].item[=].required = true
 
 
-// OTHER questions and groups to be added ....
