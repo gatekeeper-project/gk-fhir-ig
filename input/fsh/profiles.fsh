@@ -79,6 +79,24 @@ Description: "This profile defines how to represent patient conditions in FHIR f
 
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Profile:  ObservationFloorClimbed
+Parent:   Observation 
+Id:       Observation-floorClimbed-gk
+Title:    "Observation Floor Climbed (Gatekeeper)"
+Description: "This profile defines how to represent the number of Floor Climbed in FHIR for the scope of the Gatekeeper project"
+//-------------------------------------------------------------------------------------------
+
+* status 1..1	MS // code	registered | preliminary | final | amended +
+* code	1..1 MS
+* code	= CsGatekeeper#floor-climbed // "Floors climbed"
+* subject	0..1 MS
+* device 0.. MS
+* device only Reference(Device)
+* effective[x]	MS
+* valueQuantity 1.. MS
+
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 Profile:  ObservationExercisePanel
 Parent:   Observation 
 Id:       Observation-exercisePanel-gk
@@ -392,13 +410,25 @@ Description: "This profile defines how to represent self test results in FHIR fo
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 Profile:  BloodGlucoseGK
-Parent:   $Observation-results-uv-ips
+Parent:	  ObservationGK // use Observation until the constraiunt on timing will no be removed
 Id:       Observation-bloodGlucose-gk
-Title:    "Blood Glucose (Gatekeeper)"
+Title:    "Blood Glucose Moles/volume (Gatekeeper)"
 Description: "This profile defines how to represent Blood Glucose Profile observations in FHIR using a standard LOINC code and UCUM units of measure."
 
 //-------------------------------------------------------------------------------------------
 // * subject only $Patient-uv-ips
+* category MS
+* code MS
+* code = $loinc#15074-8 // "Glucose [Moles/volume] in Blood"
+* subject 1.. MS
+* effective[x] 1.. MS
+* effective[x].extension ..1 MS
+* effective[x].extension only $data-absent-reason
+* effective[x].extension ^short = "effective[x] absence reason"
+* effective[x].extension ^definition = "Provides a reason why the effectiveTime is missing."
+* performer only Reference(PractitionerUvIps or PractitionerRoleUvIps or OrganizationUvIps or CareTeam or PatientUvIps or RelatedPerson)
+* performer MS
+* value[x] MS
 * value[x] only Quantity
 * value[x] 1..1 MS
 * hasMember 0..0

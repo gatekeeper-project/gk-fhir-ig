@@ -95,17 +95,47 @@
 			<description value="ResearchStudy: example from Saxony"/>
 			<!-- <exampleCanonical value="http://hl7.eu/fhir/ig/gk/StructureDefinition/Patient-eu-gk"/> -->
 		</resource>
-		
+		<resource>
+			<reference>
+				<reference value="Patient/gk-pat-smg-001"/>
+			</reference>
+			<name value="Patient: only identifier"/>
+			<description value="Patient: only identifier"/>
+				<exampleCanonical value="http://hl7.org/fhir/StructureDefinition/Patient"/>
+			
+		</resource>
 		<resource>
 			<reference>
 				<reference value="Patient/pat-1"/>
 			</reference>
 			<name value="Patient: patient example"/>
 			<description value="Patient: patient example"/>
-			<exampleCanonical value="http://hl7.eu/fhir/ig/gk/StructureDefinition/Patient-eu-gk"/>
+		<exampleCanonical value="http://hl7.eu/fhir/ig/gk/StructureDefinition/Patient-eu-gk"/>
 		</resource>
-		
-		
+		<resource>
+			<reference>
+				<reference value="Observation/floorsClimbed"/>
+			</reference>
+			<name value="Observation: Floors Climbed"/>
+			<description value="Observation: Floors Climbed"/>
+			<exampleCanonical value="http://hl7.eu/fhir/ig/gk/StructureDefinition/Observation-floorClimbed-gk"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="Observation/glucoseBlood"/>
+			</reference>
+			<name value="Observation: Glucose in Blood"/>
+			<description value="Observation: Glucose in Blood"/>
+			<exampleCanonical value="http://hl7.eu/fhir/ig/gk/StructureDefinition/Observation-bloodGlucose-gk"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="Observation/glucoseBloodTimeEvent"/>
+			</reference>
+			<name value="Observation: Glucose in Blood (Time Event)"/>
+			<description value="Observation: Glucose in Blood (Time Event)"/>
+			<exampleCanonical value="http://hl7.eu/fhir/ig/gk/StructureDefinition/Observation-bloodGlucose-gk"/>
+		</resource>
 		<resource>
 			<reference>
 				<reference value="Observation/bloodPressure"/>

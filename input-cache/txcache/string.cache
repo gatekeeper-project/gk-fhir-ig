@@ -299,3 +299,297 @@ e: {
   "error" : "Error from server: Unable to provide support for code system string"
 }
 -------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "string",
+      "concept" : [{
+        "code" : "Not at all"
+      },
+      {
+        "code" : "Little"
+      },
+      {
+        "code" : "Moderate"
+      },
+      {
+        "code" : "Quite a bit"
+      },
+      {
+        "code" : "Strongly"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system string"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "string",
+      "concept" : [{
+        "code" : "Never"
+      },
+      {
+        "code" : "Rarely"
+      },
+      {
+        "code" : "Sometimes"
+      },
+      {
+        "code" : "Always"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system string"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "string",
+      "concept" : [{
+        "code" : "Not at all"
+      },
+      {
+        "code" : "Several days"
+      },
+      {
+        "code" : "More than half the day"
+      },
+      {
+        "code" : "Nearly every day"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system string"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "string",
+      "concept" : [{
+        "code" : "Never"
+      },
+      {
+        "code" : "Rarely"
+      },
+      {
+        "code" : "Sometimes"
+      },
+      {
+        "code" : "Usually"
+      },
+      {
+        "code" : "Always"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system string"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "string",
+      "concept" : [{
+        "code" : "Worse"
+      },
+      {
+        "code" : "The same"
+      },
+      {
+        "code" : "Better"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system string"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "string",
+      "concept" : [{
+        "code" : "Not at all"
+      },
+      {
+        "code" : "Not very much"
+      },
+      {
+        "code" : "Some"
+      },
+      {
+        "code" : "Very much"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system string"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "string",
+      "concept" : [{
+        "code" : "Not at all"
+      },
+      {
+        "code" : "Little"
+      },
+      {
+        "code" : "Moderate"
+      },
+      {
+        "code" : "Quite a bit"
+      },
+      {
+        "code" : "Strongly"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system string"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "string",
+      "concept" : [{
+        "code" : "Never"
+      },
+      {
+        "code" : "Rarely"
+      },
+      {
+        "code" : "Sometimes"
+      },
+      {
+        "code" : "Always"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system string"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "string",
+      "concept" : [{
+        "code" : "Not at all"
+      },
+      {
+        "code" : "Several days"
+      },
+      {
+        "code" : "More than half the day"
+      },
+      {
+        "code" : "Nearly every day"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system string"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "string",
+      "concept" : [{
+        "code" : "Never"
+      },
+      {
+        "code" : "Rarely"
+      },
+      {
+        "code" : "Sometimes"
+      },
+      {
+        "code" : "Usually"
+      },
+      {
+        "code" : "Always"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system string"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "string",
+      "concept" : [{
+        "code" : "Worse"
+      },
+      {
+        "code" : "The same"
+      },
+      {
+        "code" : "Better"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system string"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "string",
+      "concept" : [{
+        "code" : "Not at all"
+      },
+      {
+        "code" : "Not very much"
+      },
+      {
+        "code" : "Some"
+      },
+      {
+        "code" : "Very much"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system string"
+}
+-------------------------------------------------------------------------------------
