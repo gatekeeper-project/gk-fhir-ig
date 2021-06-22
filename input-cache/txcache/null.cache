@@ -1,0 +1,40 @@
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "valueSet" : ["http://hl7.eu/fhir/ig/gk/ValueSet/ValueSet-diagnosis-EsAr-gk"]
+    },
+    {
+      "valueSet" : ["http://hl7.eu/fhir/ig/gk/ValueSet/ValueSet-lifestylefactor-EsAr-gk"]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to find value set \"http://hl7.eu/fhir/ig/gk/ValueSet/ValueSet-diagnosis-EsAr-gk\""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "valueSet" : ["http://hl7.eu/fhir/ig/gk/ValueSet/ValueSet-diagnosis-espv-gk"]
+    },
+    {
+      "valueSet" : ["http://hl7.eu/fhir/ig/gk/ValueSet/ValueSet-lifestylefactor-espv-gk"]
+    },
+    {
+      "valueSet" : ["http://hl7.eu/fhir/ig/gk/ValueSet/ValueSet-otherobservations-espv-gk"]
+    },
+    {
+      "valueSet" : ["http://hl7.eu/fhir/ig/gk/ValueSet/ValueSet-otherobservations-espv-gk"]
+    },
+    {
+      "valueSet" : ["http://hl7.eu/fhir/ig/gk/ValueSet/ValueSet-labresults-espv-gk"]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to find value set \"http://hl7.eu/fhir/ig/gk/ValueSet/ValueSet-diagnosis-espv-gk\""
+}
+-------------------------------------------------------------------------------------

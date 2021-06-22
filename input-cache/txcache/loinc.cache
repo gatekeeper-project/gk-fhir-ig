@@ -411,6 +411,36 @@ v: {
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://loinc.org",
+  "code" : "76268-2"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Pressure.ambient Room",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "60832-3"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Room temperature",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "65643-9"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Relative humidity",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
   "code" : "93831-6"
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
@@ -535,6 +565,16 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Blood pressure panel with all children optional",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "15074-8"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Glucose [Moles/volume] in Blood",
   "severity" : null,
   "error" : ""
 }
@@ -765,7 +805,7 @@ v: {
 v: {
   "display" : "Smoker, current status unknown",
   "severity" : "warning",
-  "error" : "The display \"Ja\" is not a valid display for the code {http://loinc.org}LA18979-7 - should be one of [\"Smoker, current status unknown\"] (from http://tx.fhir.org/r4)"
+  "error" : "The display \"Ja\" is not a valid display for the code {http://loinc.org}LA18979-7 - should be one of [Smoker, current status unknown] (from http://tx.fhir.org/r4)"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -776,7 +816,7 @@ v: {
 v: {
   "display" : "Monthly or less",
   "severity" : "warning",
-  "error" : "The display \"1mal im Monat oder seltener\" is not a valid display for the code {http://loinc.org}LA18926-8 - should be one of [\"Monthly or less\"] (from http://tx.fhir.org/r4)"
+  "error" : "The display \"1mal im Monat oder seltener\" is not a valid display for the code {http://loinc.org}LA18926-8 - should be one of [Monthly or less] (from http://tx.fhir.org/r4)"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -787,7 +827,7 @@ v: {
 v: {
   "display" : "1 or 2",
   "severity" : "warning",
-  "error" : "The display \"1-2\" is not a valid display for the code {http://loinc.org}LA15694-5 - should be one of [\"1 or 2\"] (from http://tx.fhir.org/r4)"
+  "error" : "The display \"1-2\" is not a valid display for the code {http://loinc.org}LA15694-5 - should be one of [1 or 2] (from http://tx.fhir.org/r4)"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -798,7 +838,7 @@ v: {
 v: {
   "display" : "Less than monthly",
   "severity" : "warning",
-  "error" : "The display \"Seltener als 1mal im Monat\" is not a valid display for the code {http://loinc.org}LA18933-4 - should be one of [\"Less than monthly\"] (from http://tx.fhir.org/r4)"
+  "error" : "The display \"Seltener als 1mal im Monat\" is not a valid display for the code {http://loinc.org}LA18933-4 - should be one of [Less than monthly] (from http://tx.fhir.org/r4)"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -809,7 +849,7 @@ v: {
 v: {
   "display" : "Several days",
   "severity" : "warning",
-  "error" : "The display \"An einzelnen Tagen\" is not a valid display for the code {http://loinc.org}LA6569-3 - should be one of [\"Several days\"] (from http://tx.fhir.org/r4)"
+  "error" : "The display \"An einzelnen Tagen\" is not a valid display for the code {http://loinc.org}LA6569-3 - should be one of [Several days] (from http://tx.fhir.org/r4)"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -820,7 +860,7 @@ v: {
 v: {
   "display" : "More than half the days",
   "severity" : "warning",
-  "error" : "The display \"An mehr als der Hälfte der Tage\" is not a valid display for the code {http://loinc.org}LA6570-1 - should be one of [\"More than half the days\"] (from http://tx.fhir.org/r4)"
+  "error" : "The display \"An mehr als der Hälfte der Tage\" is not a valid display for the code {http://loinc.org}LA6570-1 - should be one of [More than half the days] (from http://tx.fhir.org/r4)"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -831,7 +871,7 @@ v: {
 v: {
   "display" : "Nearly every day",
   "severity" : "warning",
-  "error" : "The display \"Beinahe jeden Tag\" is not a valid display for the code {http://loinc.org}LA6571-9 - should be one of [\"Nearly every day\"] (from http://tx.fhir.org/r4)"
+  "error" : "The display \"Beinahe jeden Tag\" is not a valid display for the code {http://loinc.org}LA6571-9 - should be one of [Nearly every day] (from http://tx.fhir.org/r4)"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -842,1002 +882,7 @@ v: {
 v: {
   "display" : "Very difficult",
   "severity" : "warning",
-  "error" : "The display \"Relativ stark erschwert\" is not a valid display for the code {http://loinc.org}LA6575-0 - should be one of [\"Very difficult\"] (from http://tx.fhir.org/r4)"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
-  "code" : "85354-9",
-  "display" : "Blood pressure panel with all children optional"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Blood pressure panel with all children optional",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
-  "code" : "8480-6",
-  "display" : "Systolic blood pressure"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Systolic blood pressure",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
-  "code" : "8462-4",
-  "display" : "Diastolic blood pressure"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Diastolic blood pressure",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
-  "code" : "29463-7",
-  "display" : "Body weight"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Body weight",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
-  "code" : "8867-4",
-  "display" : "Heart rate"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Heart rate",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : true, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "include" : [{
-      "system" : "http://loinc.org",
-      "concept" : [{
-        "code" : "1557-8"
-      },
-      {
-        "code" : "1556-0"
-      },
-      {
-        "code" : "41604-0"
-      }]
-    }]
-  }
-}}####
-e: {
-  "valueSet" : {
-  "resourceType" : "ValueSet",
-  "text" : {
-    "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 3 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on Loinc v2.69</p><p>All codes from system <code>http://loinc.org</code></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-1557-8\"> </a><a href=\"http://details.loinc.org/LOINC/1557-8.html\">1557-8</a></td><td>Fasting glucose [Mass/volume] in Venous blood</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-1556-0\"> </a><a href=\"http://details.loinc.org/LOINC/1556-0.html\">1556-0</a></td><td>Fasting glucose [Mass/volume] in Capillary blood</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-41604-0\"> </a><a href=\"http://details.loinc.org/LOINC/41604-0.html\">41604-0</a></td><td>Fasting glucose [Mass/volume] in Capillary blood by Glucometer</td></tr></table></div>"
-  },
-  "status" : "active",
-  "expansion" : {
-    "identifier" : "urn:uuid:f72121b6-822c-49c9-9447-bf3306e49d94",
-    "timestamp" : "2021-05-10T18:35:53.289Z",
-    "parameter" : [{
-      "name" : "limitedExpansion",
-      "valueBoolean" : true
-    },
-    {
-      "name" : "version",
-      "valueString" : "http://loinc.org|2.69"
-    }],
-    "contains" : [{
-      "system" : "http://loinc.org",
-      "code" : "1557-8",
-      "display" : "Fasting glucose [Mass/volume] in Venous blood"
-    },
-    {
-      "system" : "http://loinc.org",
-      "code" : "1556-0",
-      "display" : "Fasting glucose [Mass/volume] in Capillary blood"
-    },
-    {
-      "system" : "http://loinc.org",
-      "code" : "41604-0",
-      "display" : "Fasting glucose [Mass/volume] in Capillary blood by Glucometer"
-    }]
-  }
-},
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : true, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "include" : [{
-      "system" : "http://loinc.org",
-      "concept" : [{
-        "code" : "1493-6"
-      },
-      {
-        "code" : "10450-5"
-      },
-      {
-        "code" : "1554-5"
-      },
-      {
-        "code" : "17865-7"
-      },
-      {
-        "code" : "1558-6"
-      },
-      {
-        "code" : "35184-1"
-      },
-      {
-        "code" : "1500-8"
-      },
-      {
-        "code" : "1523-0"
-      },
-      {
-        "code" : "1550-3"
-      }]
-    }]
-  }
-}}####
-e: {
-  "valueSet" : {
-  "resourceType" : "ValueSet",
-  "text" : {
-    "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 9 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on Loinc v2.69</p><p>All codes from system <code>http://loinc.org</code></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-1493-6\"> </a><a href=\"http://details.loinc.org/LOINC/1493-6.html\">1493-6</a></td><td>Glucose [Mass/volume] in Serum or Plasma --1.5 hours post 0.05-0.15 U insulin/kg IV 12 hours fasting</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-10450-5\"> </a><a href=\"http://details.loinc.org/LOINC/10450-5.html\">10450-5</a></td><td>Glucose [Mass/volume] in Serum or Plasma --10 hours fasting</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-1554-5\"> </a><a href=\"http://details.loinc.org/LOINC/1554-5.html\">1554-5</a></td><td>Glucose [Mass/volume] in Serum or Plasma --12 hours fasting</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-17865-7\"> </a><a href=\"http://details.loinc.org/LOINC/17865-7.html\">17865-7</a></td><td>Glucose [Mass/volume] in Serum or Plasma --8 hours fasting</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-1558-6\"> </a><a href=\"http://details.loinc.org/LOINC/1558-6.html\">1558-6</a></td><td>Fasting glucose [Mass/volume] in Serum or Plasma</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-35184-1\"> </a><a href=\"http://details.loinc.org/LOINC/35184-1.html\">35184-1</a></td><td>Fasting glucose [Mass or Moles/volume] in Serum or Plasma</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-1500-8\"> </a><a href=\"http://details.loinc.org/LOINC/1500-8.html\">1500-8</a></td><td>Glucose [Mass/volume] in Serum or Plasma --1 hour post 0.05-0.15 U insulin/kg IV post 12H CFst</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-1523-0\"> </a><a href=\"http://details.loinc.org/LOINC/1523-0.html\">1523-0</a></td><td>Glucose [Mass/volume] in Serum or Plasma --30 minutes post 0.05-0.15 U insulin/kg IV post 12H CFst</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-1550-3\"> </a><a href=\"http://details.loinc.org/LOINC/1550-3.html\">1550-3</a></td><td>Glucose [Mass/volume] in Serum or Plasma --pre 12 hour fast</td></tr></table></div>"
-  },
-  "status" : "active",
-  "expansion" : {
-    "identifier" : "urn:uuid:05046917-d8b6-44b6-9344-41005fb025a0",
-    "timestamp" : "2021-05-10T18:35:53.679Z",
-    "parameter" : [{
-      "name" : "limitedExpansion",
-      "valueBoolean" : true
-    },
-    {
-      "name" : "version",
-      "valueString" : "http://loinc.org|2.69"
-    }],
-    "contains" : [{
-      "system" : "http://loinc.org",
-      "code" : "1493-6",
-      "display" : "Glucose [Mass/volume] in Serum or Plasma --1.5 hours post 0.05-0.15 U insulin/kg IV 12 hours fasting"
-    },
-    {
-      "system" : "http://loinc.org",
-      "code" : "10450-5",
-      "display" : "Glucose [Mass/volume] in Serum or Plasma --10 hours fasting"
-    },
-    {
-      "system" : "http://loinc.org",
-      "code" : "1554-5",
-      "display" : "Glucose [Mass/volume] in Serum or Plasma --12 hours fasting"
-    },
-    {
-      "system" : "http://loinc.org",
-      "code" : "17865-7",
-      "display" : "Glucose [Mass/volume] in Serum or Plasma --8 hours fasting"
-    },
-    {
-      "system" : "http://loinc.org",
-      "code" : "1558-6",
-      "display" : "Fasting glucose [Mass/volume] in Serum or Plasma"
-    },
-    {
-      "system" : "http://loinc.org",
-      "code" : "35184-1",
-      "display" : "Fasting glucose [Mass or Moles/volume] in Serum or Plasma"
-    },
-    {
-      "system" : "http://loinc.org",
-      "code" : "1500-8",
-      "display" : "Glucose [Mass/volume] in Serum or Plasma --1 hour post 0.05-0.15 U insulin/kg IV post 12H CFst"
-    },
-    {
-      "system" : "http://loinc.org",
-      "code" : "1523-0",
-      "display" : "Glucose [Mass/volume] in Serum or Plasma --30 minutes post 0.05-0.15 U insulin/kg IV post 12H CFst"
-    },
-    {
-      "system" : "http://loinc.org",
-      "code" : "1550-3",
-      "display" : "Glucose [Mass/volume] in Serum or Plasma --pre 12 hour fast"
-    }]
-  }
-},
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : true, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "include" : [{
-      "system" : "http://loinc.org",
-      "concept" : [{
-        "code" : "20570-8"
-      },
-      {
-        "code" : "4548-4"
-      }]
-    }]
-  }
-}}####
-e: {
-  "valueSet" : {
-  "resourceType" : "ValueSet",
-  "text" : {
-    "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 2 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on Loinc v2.69</p><p>All codes from system <code>http://loinc.org</code></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-20570-8\"> </a><a href=\"http://details.loinc.org/LOINC/20570-8.html\">20570-8</a></td><td>Hematocrit [Volume Fraction] of Blood</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-4548-4\"> </a><a href=\"http://details.loinc.org/LOINC/4548-4.html\">4548-4</a></td><td>Hemoglobin A1c/Hemoglobin.total in Blood</td></tr></table></div>"
-  },
-  "status" : "active",
-  "expansion" : {
-    "identifier" : "urn:uuid:3434facf-edd1-456e-b76b-85199896ecb2",
-    "timestamp" : "2021-05-10T18:35:55.851Z",
-    "parameter" : [{
-      "name" : "limitedExpansion",
-      "valueBoolean" : true
-    },
-    {
-      "name" : "version",
-      "valueString" : "http://loinc.org|2.69"
-    }],
-    "contains" : [{
-      "system" : "http://loinc.org",
-      "code" : "20570-8",
-      "display" : "Hematocrit [Volume Fraction] of Blood"
-    },
-    {
-      "system" : "http://loinc.org",
-      "code" : "4548-4",
-      "display" : "Hemoglobin A1c/Hemoglobin.total in Blood"
-    }]
-  }
-},
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : true, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "include" : [{
-      "system" : "http://loinc.org",
-      "concept" : [{
-        "code" : "59261-8",
-        "display" : "Hemoglobin A1c/Hemoglobin.total in Blood by IFCC protocol"
-      },
-      {
-        "code" : "2093-3",
-        "display" : "Cholesterol [Mass/volume] in Serum or Plasma"
-      },
-      {
-        "code" : "2085-9",
-        "display" : "Cholesterol in HDL [Mass/volume] in Serum or Plasma"
-      },
-      {
-        "code" : "2089-1",
-        "display" : "Cholesterol in LDL [Mass/volume] in Serum or Plasma"
-      },
-      {
-        "code" : "2571-8",
-        "display" : "Triglyceride [Mass/volume] in Serum or Plasma"
-      },
-      {
-        "code" : "43396-1",
-        "display" : "Cholesterol non HDL [Mass/volume] in Serum or Plasma"
-      },
-      {
-        "code" : "2160-0",
-        "display" : "Creatinine [Mass/volume] in Serum or Plasma"
-      },
-      {
-        "code" : "14959-1",
-        "display" : "Microalbumin/Creatinine [Mass Ratio] in Urine"
-      },
-      {
-        "code" : "1742-6",
-        "display" : "Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma"
-      },
-      {
-        "code" : "1920-8",
-        "display" : "Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma"
-      },
-      {
-        "code" : "2324-2",
-        "display" : "Gamma glutamyl transferase [Enzymatic activity/volume] in Serum or Plasma"
-      },
-      {
-        "code" : "6768-6",
-        "display" : "Alkaline phosphatase [Enzymatic activity/volume] in Serum or Plasma"
-      },
-      {
-        "code" : "3084-1",
-        "display" : "Urate [Mass/volume] in Serum or Plasma"
-      },
-      {
-        "code" : "48642-3",
-        "display" : "Glomerular filtration rate/1.73 sq M.predicted among non-blacks [Volume Rate/Area] in Serum, Plasma or Blood by Creatinine-based formula (MDRD)"
-      },
-      {
-        "code" : "5802-4",
-        "display" : "Nitrite [Presence] in Urine by Test strip"
-      }]
-    }]
-  }
-}}####
-e: {
-  "valueSet" : {
-  "resourceType" : "ValueSet",
-  "status" : "active",
-  "expansion" : {
-    "identifier" : "urn:uuid:3ec321db-18d4-4256-bb1e-d75013896ec1",
-    "timestamp" : "2021-05-10T18:35:56.210Z",
-    "parameter" : [{
-      "name" : "limitedExpansion",
-      "valueBoolean" : true
-    },
-    {
-      "name" : "version",
-      "valueString" : "http://loinc.org|2.69"
-    }],
-    "contains" : [{
-      "system" : "http://loinc.org",
-      "code" : "59261-8",
-      "display" : "Hemoglobin A1c/Hemoglobin.total in Blood by IFCC protocol"
-    },
-    {
-      "system" : "http://loinc.org",
-      "code" : "2093-3",
-      "display" : "Cholesterol [Mass/volume] in Serum or Plasma"
-    },
-    {
-      "system" : "http://loinc.org",
-      "code" : "2085-9",
-      "display" : "Cholesterol in HDL [Mass/volume] in Serum or Plasma"
-    },
-    {
-      "system" : "http://loinc.org",
-      "code" : "2089-1",
-      "display" : "Cholesterol in LDL [Mass/volume] in Serum or Plasma"
-    },
-    {
-      "system" : "http://loinc.org",
-      "code" : "2571-8",
-      "display" : "Triglyceride [Mass/volume] in Serum or Plasma"
-    },
-    {
-      "system" : "http://loinc.org",
-      "code" : "43396-1",
-      "display" : "Cholesterol non HDL [Mass/volume] in Serum or Plasma"
-    },
-    {
-      "system" : "http://loinc.org",
-      "code" : "2160-0",
-      "display" : "Creatinine [Mass/volume] in Serum or Plasma"
-    },
-    {
-      "system" : "http://loinc.org",
-      "code" : "14959-1",
-      "display" : "Microalbumin/Creatinine [Mass Ratio] in Urine"
-    },
-    {
-      "system" : "http://loinc.org",
-      "code" : "1742-6",
-      "display" : "Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma"
-    },
-    {
-      "system" : "http://loinc.org",
-      "code" : "1920-8",
-      "display" : "Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma"
-    },
-    {
-      "system" : "http://loinc.org",
-      "code" : "2324-2",
-      "display" : "Gamma glutamyl transferase [Enzymatic activity/volume] in Serum or Plasma"
-    },
-    {
-      "system" : "http://loinc.org",
-      "code" : "6768-6",
-      "display" : "Alkaline phosphatase [Enzymatic activity/volume] in Serum or Plasma"
-    },
-    {
-      "system" : "http://loinc.org",
-      "code" : "3084-1",
-      "display" : "Urate [Mass/volume] in Serum or Plasma"
-    },
-    {
-      "system" : "http://loinc.org",
-      "code" : "48642-3",
-      "display" : "Glomerular filtration rate/1.73 sq M.predicted among non-blacks [Volume Rate/Area] in Serum, Plasma or Blood by Creatinine-based formula (MDRD)"
-    },
-    {
-      "system" : "http://loinc.org",
-      "code" : "5802-4",
-      "display" : "Nitrite [Presence] in Urine by Test strip"
-    }]
-  }
-},
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : true, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "include" : [{
-      "system" : "http://loinc.org",
-      "concept" : [{
-        "code" : "72166-2"
-      }]
-    }]
-  }
-}}####
-e: {
-  "valueSet" : {
-  "resourceType" : "ValueSet",
-  "text" : {
-    "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 1 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on Loinc v2.69</p><p>All codes from system <code>http://loinc.org</code></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-72166-2\"> </a><a href=\"http://details.loinc.org/LOINC/72166-2.html\">72166-2</a></td><td>Tobacco smoking status</td></tr></table></div>"
-  },
-  "status" : "active",
-  "expansion" : {
-    "identifier" : "urn:uuid:f7b1de88-2797-46da-96b1-50eafaea4e69",
-    "timestamp" : "2021-05-10T18:35:56.476Z",
-    "parameter" : [{
-      "name" : "limitedExpansion",
-      "valueBoolean" : true
-    },
-    {
-      "name" : "version",
-      "valueString" : "http://loinc.org|2.69"
-    }],
-    "contains" : [{
-      "system" : "http://loinc.org",
-      "code" : "72166-2",
-      "display" : "Tobacco smoking status"
-    }]
-  }
-},
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : true, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "include" : [{
-      "system" : "http://loinc.org",
-      "concept" : [{
-        "code" : "55423-8"
-      }]
-    }]
-  }
-}}####
-e: {
-  "valueSet" : {
-  "resourceType" : "ValueSet",
-  "status" : "active",
-  "expansion" : {
-    "identifier" : "urn:uuid:3f5cda79-0fa1-4477-8b40-2ac2c6871618",
-    "timestamp" : "2021-05-10T18:35:58.992Z",
-    "parameter" : [{
-      "name" : "limitedExpansion",
-      "valueBoolean" : true
-    },
-    {
-      "name" : "version",
-      "valueString" : "http://loinc.org|2.69"
-    }],
-    "contains" : [{
-      "system" : "http://loinc.org",
-      "code" : "55423-8",
-      "display" : "Number of steps in unspecified time Pedometer"
-    }]
-  }
-},
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : false, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "include" : [{
-      "system" : "http://loinc.org",
-      "concept" : [{
-        "code" : "8480-6"
-      },
-      {
-        "code" : "8462-4"
-      },
-      {
-        "code" : "55423-8"
-      }]
-    }]
-  }
-}}####
-e: {
-  "valueSet" : {
-  "resourceType" : "ValueSet",
-  "status" : "active",
-  "expansion" : {
-    "identifier" : "urn:uuid:7701c074-9e8e-42a4-ba68-ce786b176c80",
-    "timestamp" : "2021-05-10T18:36:01.367Z",
-    "parameter" : [{
-      "name" : "limitedExpansion",
-      "valueBoolean" : true
-    },
-    {
-      "name" : "excludeNested",
-      "valueBoolean" : true
-    },
-    {
-      "name" : "version",
-      "valueString" : "http://loinc.org|2.69"
-    }],
-    "contains" : [{
-      "system" : "http://loinc.org",
-      "code" : "8480-6",
-      "display" : "Systolic blood pressure"
-    },
-    {
-      "system" : "http://loinc.org",
-      "code" : "8462-4",
-      "display" : "Diastolic blood pressure"
-    },
-    {
-      "system" : "http://loinc.org",
-      "code" : "55423-8",
-      "display" : "Number of steps in unspecified time Pedometer"
-    }]
-  }
-},
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : true, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "include" : [{
-      "system" : "http://loinc.org",
-      "concept" : [{
-        "code" : "93831-6"
-      },
-      {
-        "code" : "93830-8"
-      },
-      {
-        "code" : "93829-0"
-      },
-      {
-        "code" : "93832-4"
-      }]
-    }]
-  }
-}}####
-e: {
-  "valueSet" : {
-  "resourceType" : "ValueSet",
-  "status" : "active",
-  "expansion" : {
-    "identifier" : "urn:uuid:d18277a3-8c19-4df9-b1ea-e4c2f7dc6820",
-    "timestamp" : "2021-05-10T18:36:02.257Z",
-    "parameter" : [{
-      "name" : "limitedExpansion",
-      "valueBoolean" : true
-    },
-    {
-      "name" : "version",
-      "valueString" : "http://loinc.org|2.69"
-    }],
-    "contains" : [{
-      "system" : "http://loinc.org",
-      "code" : "93831-6",
-      "display" : "Deep sleep duration"
-    },
-    {
-      "system" : "http://loinc.org",
-      "code" : "93830-8",
-      "display" : "Light sleep duration"
-    },
-    {
-      "system" : "http://loinc.org",
-      "code" : "93829-0",
-      "display" : "REM sleep duration"
-    },
-    {
-      "system" : "http://loinc.org",
-      "code" : "93832-4",
-      "display" : "Sleep duration"
-    }]
-  }
-},
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : true, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "include" : [{
-      "system" : "http://loinc.org",
-      "concept" : [{
-        "code" : "63597-9",
-        "display" : "During the past 30 days, on how many days did you drink one or more drinks of an alcoholic beverage"
-      },
-      {
-        "code" : "73985-4",
-        "display" : "Exercise activity"
-      },
-      {
-        "code" : "72166-2",
-        "display" : "Tobacco smoking status"
-      },
-      {
-        "code" : "96103-7",
-        "display" : "Tobacco amount per day"
-      },
-      {
-        "code" : "63629-0",
-        "display" : "On the number of days you reported you smoked cigarettes during the past 30 days, how many cigarettes did you smoke per day, on average [PhenX]"
-      }]
-    }]
-  }
-}}####
-e: {
-  "valueSet" : {
-  "resourceType" : "ValueSet",
-  "status" : "active",
-  "expansion" : {
-    "identifier" : "urn:uuid:9fcc418d-dcdf-4b72-bd11-dbc1fbbcee45",
-    "timestamp" : "2021-05-10T18:36:02.617Z",
-    "parameter" : [{
-      "name" : "limitedExpansion",
-      "valueBoolean" : true
-    },
-    {
-      "name" : "version",
-      "valueString" : "http://loinc.org|2.69"
-    }],
-    "contains" : [{
-      "system" : "http://loinc.org",
-      "code" : "63597-9",
-      "display" : "During the past 30 days, on how many days did you drink one or more drinks of an alcoholic beverage"
-    },
-    {
-      "system" : "http://loinc.org",
-      "code" : "73985-4",
-      "display" : "Exercise activity"
-    },
-    {
-      "system" : "http://loinc.org",
-      "code" : "72166-2",
-      "display" : "Tobacco smoking status"
-    },
-    {
-      "system" : "http://loinc.org",
-      "code" : "96103-7",
-      "display" : "Tobacco amount per day"
-    },
-    {
-      "system" : "http://loinc.org",
-      "code" : "63629-0",
-      "display" : "On the number of days you reported you smoked cigarettes during the past 30 days, how many cigarettes did you smoke per day, on average [PhenX]"
-    }]
-  }
-},
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : true, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "include" : [{
-      "system" : "http://loinc.org",
-      "concept" : [{
-        "code" : "41952-3"
-      },
-      {
-        "code" : "41950-7"
-      },
-      {
-        "code" : "41951-5"
-      },
-      {
-        "code" : "55423-8"
-      }]
-    }]
-  }
-}}####
-e: {
-  "valueSet" : {
-  "resourceType" : "ValueSet",
-  "status" : "active",
-  "expansion" : {
-    "identifier" : "urn:uuid:f2dc6338-a670-41db-b72b-d3da94da4848",
-    "timestamp" : "2021-05-10T18:36:02.992Z",
-    "parameter" : [{
-      "name" : "limitedExpansion",
-      "valueBoolean" : true
-    },
-    {
-      "name" : "version",
-      "valueString" : "http://loinc.org|2.69"
-    }],
-    "contains" : [{
-      "system" : "http://loinc.org",
-      "code" : "41952-3",
-      "display" : "Number of steps in 1 week Measured"
-    },
-    {
-      "system" : "http://loinc.org",
-      "code" : "41950-7",
-      "display" : "Number of steps in 24 hour Measured"
-    },
-    {
-      "system" : "http://loinc.org",
-      "code" : "41951-5",
-      "display" : "Number of steps in 24 hour mean Measured"
-    },
-    {
-      "system" : "http://loinc.org",
-      "code" : "55423-8",
-      "display" : "Number of steps in unspecified time Pedometer"
-    }]
-  }
-},
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : true, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "include" : [{
-      "system" : "http://loinc.org",
-      "concept" : [{
-        "code" : "85353-1"
-      },
-      {
-        "code" : "9279-1"
-      },
-      {
-        "code" : "8867-4"
-      },
-      {
-        "code" : "2708-6"
-      },
-      {
-        "code" : "8310-5"
-      },
-      {
-        "code" : "8302-2"
-      },
-      {
-        "code" : "9843-4"
-      },
-      {
-        "code" : "29463-7"
-      },
-      {
-        "code" : "39156-5"
-      },
-      {
-        "code" : "85354-9"
-      },
-      {
-        "code" : "8480-6"
-      },
-      {
-        "code" : "8462-4"
-      },
-      {
-        "code" : "8478-0"
-      }]
-    }]
-  }
-}}####
-e: {
-  "valueSet" : {
-  "resourceType" : "ValueSet",
-  "status" : "active",
-  "expansion" : {
-    "identifier" : "urn:uuid:def803f8-b0d9-4be5-ad62-37186b9fb3df",
-    "timestamp" : "2021-05-10T18:36:03.382Z",
-    "parameter" : [{
-      "name" : "limitedExpansion",
-      "valueBoolean" : true
-    },
-    {
-      "name" : "version",
-      "valueString" : "http://loinc.org|2.69"
-    }],
-    "contains" : [{
-      "system" : "http://loinc.org",
-      "code" : "85353-1",
-      "display" : "Vital signs, weight, height, head circumference, oxygen saturation and BMI panel"
-    },
-    {
-      "system" : "http://loinc.org",
-      "code" : "9279-1",
-      "display" : "Respiratory rate"
-    },
-    {
-      "system" : "http://loinc.org",
-      "code" : "8867-4",
-      "display" : "Heart rate"
-    },
-    {
-      "system" : "http://loinc.org",
-      "code" : "2708-6",
-      "display" : "Oxygen saturation in Arterial blood"
-    },
-    {
-      "system" : "http://loinc.org",
-      "code" : "8310-5",
-      "display" : "Body temperature"
-    },
-    {
-      "system" : "http://loinc.org",
-      "code" : "8302-2",
-      "display" : "Body height"
-    },
-    {
-      "system" : "http://loinc.org",
-      "code" : "9843-4",
-      "display" : "Head Occipital-frontal circumference"
-    },
-    {
-      "system" : "http://loinc.org",
-      "code" : "29463-7",
-      "display" : "Body weight"
-    },
-    {
-      "system" : "http://loinc.org",
-      "code" : "39156-5",
-      "display" : "Body mass index (BMI) [Ratio]"
-    },
-    {
-      "system" : "http://loinc.org",
-      "code" : "85354-9",
-      "display" : "Blood pressure panel with all children optional"
-    },
-    {
-      "system" : "http://loinc.org",
-      "code" : "8480-6",
-      "display" : "Systolic blood pressure"
-    },
-    {
-      "system" : "http://loinc.org",
-      "code" : "8462-4",
-      "display" : "Diastolic blood pressure"
-    },
-    {
-      "system" : "http://loinc.org",
-      "code" : "8478-0",
-      "display" : "Mean blood pressure"
-    }]
-  }
-},
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : false, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "include" : [{
-      "system" : "http://loinc.org",
-      "concept" : [{
-        "code" : "41982-0"
-      },
-      {
-        "code" : "8280-0"
-      },
-      {
-        "code" : "29463-7",
-        "display" : "Body weight"
-      },
-      {
-        "code" : "8867-4",
-        "display" : "Heart rate"
-      },
-      {
-        "code" : "85354-9",
-        "display" : "Blood pressure panel with all children optional"
-      },
-      {
-        "code" : "8480-6",
-        "display" : "Systolic blood pressure"
-      },
-      {
-        "code" : "8462-4",
-        "display" : "Diastolic blood pressure"
-      },
-      {
-        "code" : "8302-2",
-        "display" : "Body height"
-      }]
-    }]
-  }
-}}####
-e: {
-  "valueSet" : {
-  "resourceType" : "ValueSet",
-  "status" : "active",
-  "expansion" : {
-    "identifier" : "urn:uuid:d3b8e93a-3350-430b-a84a-485157378248",
-    "timestamp" : "2021-05-10T18:36:03.539Z",
-    "parameter" : [{
-      "name" : "limitedExpansion",
-      "valueBoolean" : true
-    },
-    {
-      "name" : "excludeNested",
-      "valueBoolean" : true
-    },
-    {
-      "name" : "version",
-      "valueString" : "http://loinc.org|2.69"
-    }],
-    "contains" : [{
-      "system" : "http://loinc.org",
-      "code" : "41982-0",
-      "display" : "Percentage of body fat Measured"
-    },
-    {
-      "system" : "http://loinc.org",
-      "code" : "8280-0",
-      "display" : "Waist Circumference at umbilicus by Tape measure"
-    },
-    {
-      "system" : "http://loinc.org",
-      "code" : "29463-7",
-      "display" : "Body weight"
-    },
-    {
-      "system" : "http://loinc.org",
-      "code" : "8867-4",
-      "display" : "Heart rate"
-    },
-    {
-      "system" : "http://loinc.org",
-      "code" : "85354-9",
-      "display" : "Blood pressure panel with all children optional"
-    },
-    {
-      "system" : "http://loinc.org",
-      "code" : "8480-6",
-      "display" : "Systolic blood pressure"
-    },
-    {
-      "system" : "http://loinc.org",
-      "code" : "8462-4",
-      "display" : "Diastolic blood pressure"
-    },
-    {
-      "system" : "http://loinc.org",
-      "code" : "8302-2",
-      "display" : "Body height"
-    }]
-  }
-},
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
-  "code" : "2708-6"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Oxygen saturation in Arterial blood",
-  "severity" : null,
-  "error" : ""
+  "error" : "The display \"Relativ stark erschwert\" is not a valid display for the code {http://loinc.org}LA6575-0 - should be one of [Very difficult] (from http://tx.fhir.org/r4)"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -2328,290 +1373,6 @@ v: {
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://loinc.org",
-  "code" : "8867-4"
-}, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "include" : [{
-      "system" : "http://loinc.org",
-      "concept" : [{
-        "code" : "85353-1"
-      },
-      {
-        "code" : "9279-1"
-      },
-      {
-        "code" : "8867-4"
-      },
-      {
-        "code" : "2708-6"
-      },
-      {
-        "code" : "8310-5"
-      },
-      {
-        "code" : "8302-2"
-      },
-      {
-        "code" : "9843-4"
-      },
-      {
-        "code" : "29463-7"
-      },
-      {
-        "code" : "39156-5"
-      },
-      {
-        "code" : "85354-9"
-      },
-      {
-        "code" : "8480-6"
-      },
-      {
-        "code" : "8462-4"
-      },
-      {
-        "code" : "8478-0"
-      }]
-    }]
-  }
-}, "lang":"null", "useServer":"true", "useClient":"false", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Heart rate",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
-  "code" : "8867-4",
-  "display" : "Heart rate"
-}, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "include" : [{
-      "system" : "http://loinc.org",
-      "concept" : [{
-        "code" : "85353-1"
-      },
-      {
-        "code" : "9279-1"
-      },
-      {
-        "code" : "8867-4"
-      },
-      {
-        "code" : "2708-6"
-      },
-      {
-        "code" : "8310-5"
-      },
-      {
-        "code" : "8302-2"
-      },
-      {
-        "code" : "9843-4"
-      },
-      {
-        "code" : "29463-7"
-      },
-      {
-        "code" : "39156-5"
-      },
-      {
-        "code" : "85354-9"
-      },
-      {
-        "code" : "8480-6"
-      },
-      {
-        "code" : "8462-4"
-      },
-      {
-        "code" : "8478-0"
-      }]
-    }]
-  }
-}, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK"}####
-v: {
-  "display" : "Heart rate",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
-  "code" : "8867-4"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Heart rate",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
-  "code" : "LA6270-8",
-  "display" : "Never"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Never",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
-  "code" : "LA10066-1",
-  "display" : "Rarely"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Rarely",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
-  "code" : "LA10082-8",
-  "display" : "Sometimes"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Sometimes",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
-  "code" : "LA9933-8",
-  "display" : "Always"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Always",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
-  "code" : "76268-2"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Pressure.ambient Room",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
-  "code" : "60832-3"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Room temperature",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
-  "code" : "65643-9"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Relative humidity",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : true, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "include" : [{
-      "system" : "http://loinc.org",
-      "concept" : [{
-        "code" : "76268-2",
-        "display" : "Pressure.ambient Room"
-      },
-      {
-        "code" : "60832-3",
-        "display" : "Room temperature Cel;[degF]"
-      },
-      {
-        "code" : "65643-9",
-        "display" : "Relative humidity (%)"
-      }]
-    }]
-  }
-}}####
-e: {
-  "valueSet" : {
-  "resourceType" : "ValueSet",
-  "status" : "active",
-  "expansion" : {
-    "identifier" : "urn:uuid:c451177e-6700-4ee1-8745-8f429aeda974",
-    "timestamp" : "2021-05-24T16:12:35.358Z",
-    "parameter" : [{
-      "name" : "limitedExpansion",
-      "valueBoolean" : true
-    },
-    {
-      "name" : "version",
-      "valueString" : "http://loinc.org|2.69"
-    }],
-    "contains" : [{
-      "system" : "http://loinc.org",
-      "code" : "76268-2",
-      "display" : "Pressure.ambient Room"
-    },
-    {
-      "system" : "http://loinc.org",
-      "code" : "60832-3",
-      "display" : "Room temperature Cel;[degF]"
-    },
-    {
-      "system" : "http://loinc.org",
-      "code" : "65643-9",
-      "display" : "Relative humidity (%)"
-    }]
-  }
-},
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
-  "code" : "82949-9",
-  "display" : "Climbing stairs [ALSFRS-R]"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Climbing stairs [ALSFRS-R]",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
-  "code" : "15074-8",
-  "display" : "Glucose [Moles/volume] in Blood"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Glucose [Moles/volume] in Blood",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
-  "code" : "15074-8"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Glucose [Moles/volume] in Blood",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
   "code" : "15074-8"
 }, "valueSet" :{
   "resourceType" : "ValueSet",
@@ -2750,6 +1511,1125 @@ v: {
 }, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK"}####
 v: {
   "display" : "Glucose [Moles/volume] in Blood",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "8867-4"
+}, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://loinc.org",
+      "concept" : [{
+        "code" : "85353-1"
+      },
+      {
+        "code" : "9279-1"
+      },
+      {
+        "code" : "8867-4"
+      },
+      {
+        "code" : "2708-6"
+      },
+      {
+        "code" : "8310-5"
+      },
+      {
+        "code" : "8302-2"
+      },
+      {
+        "code" : "9843-4"
+      },
+      {
+        "code" : "29463-7"
+      },
+      {
+        "code" : "39156-5"
+      },
+      {
+        "code" : "85354-9"
+      },
+      {
+        "code" : "8480-6"
+      },
+      {
+        "code" : "8462-4"
+      },
+      {
+        "code" : "8478-0"
+      }]
+    }]
+  }
+}, "lang":"null", "useServer":"true", "useClient":"false", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Heart rate",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "8867-4",
+  "display" : "Heart rate"
+}, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://loinc.org",
+      "concept" : [{
+        "code" : "85353-1"
+      },
+      {
+        "code" : "9279-1"
+      },
+      {
+        "code" : "8867-4"
+      },
+      {
+        "code" : "2708-6"
+      },
+      {
+        "code" : "8310-5"
+      },
+      {
+        "code" : "8302-2"
+      },
+      {
+        "code" : "9843-4"
+      },
+      {
+        "code" : "29463-7"
+      },
+      {
+        "code" : "39156-5"
+      },
+      {
+        "code" : "85354-9"
+      },
+      {
+        "code" : "8480-6"
+      },
+      {
+        "code" : "8462-4"
+      },
+      {
+        "code" : "8478-0"
+      }]
+    }]
+  }
+}, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK"}####
+v: {
+  "display" : "Heart rate",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "8867-4"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Heart rate",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://loinc.org",
+      "concept" : [{
+        "code" : "1557-8"
+      },
+      {
+        "code" : "1556-0"
+      },
+      {
+        "code" : "41604-0"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "language" : "en",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:4654eb71-b050-4c8b-8a19-0fdb4fa2e2a4",
+    "timestamp" : "2021-06-22T14:06:48.417Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "version",
+      "valueString" : "http://loinc.org|2.69"
+    }],
+    "contains" : [{
+      "system" : "http://loinc.org",
+      "code" : "1557-8",
+      "display" : "Fasting glucose [Mass/volume] in Venous blood"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "1556-0",
+      "display" : "Fasting glucose [Mass/volume] in Capillary blood"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "41604-0",
+      "display" : "Fasting glucose [Mass/volume] in Capillary blood by Glucometer"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://loinc.org",
+      "concept" : [{
+        "code" : "1493-6"
+      },
+      {
+        "code" : "10450-5"
+      },
+      {
+        "code" : "1554-5"
+      },
+      {
+        "code" : "17865-7"
+      },
+      {
+        "code" : "1558-6"
+      },
+      {
+        "code" : "35184-1"
+      },
+      {
+        "code" : "1500-8"
+      },
+      {
+        "code" : "1523-0"
+      },
+      {
+        "code" : "1550-3"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "language" : "en",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:5d209f53-5fb2-4942-a3cc-5937e501a5cc",
+    "timestamp" : "2021-06-22T14:06:48.839Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "version",
+      "valueString" : "http://loinc.org|2.69"
+    }],
+    "contains" : [{
+      "system" : "http://loinc.org",
+      "code" : "1493-6",
+      "display" : "Glucose [Mass/volume] in Serum or Plasma --1.5 hours post 0.05-0.15 U insulin/kg IV 12 hours fasting"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "10450-5",
+      "display" : "Glucose [Mass/volume] in Serum or Plasma --10 hours fasting"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "1554-5",
+      "display" : "Glucose [Mass/volume] in Serum or Plasma --12 hours fasting"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "17865-7",
+      "display" : "Glucose [Mass/volume] in Serum or Plasma --8 hours fasting"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "1558-6",
+      "display" : "Fasting glucose [Mass/volume] in Serum or Plasma"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "35184-1",
+      "display" : "Fasting glucose [Mass or Moles/volume] in Serum or Plasma"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "1500-8",
+      "display" : "Glucose [Mass/volume] in Serum or Plasma --1 hour post 0.05-0.15 U insulin/kg IV post 12H CFst"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "1523-0",
+      "display" : "Glucose [Mass/volume] in Serum or Plasma --30 minutes post 0.05-0.15 U insulin/kg IV post 12H CFst"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "1550-3",
+      "display" : "Glucose [Mass/volume] in Serum or Plasma --pre 12 hour fast"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://loinc.org",
+      "concept" : [{
+        "code" : "20570-8"
+      },
+      {
+        "code" : "4548-4"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "language" : "en",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"><p>This value set contains 2 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on Loinc v2.69</p><p>All codes from system <code>http://loinc.org</code></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b> - English (English, en)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-20570-8\"> </a><a href=\"http://details.loinc.org/LOINC/20570-8.html\">20570-8</a></td><td>Hematocrit [Volume Fraction] of Blood</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-4548-4\"> </a><a href=\"http://details.loinc.org/LOINC/4548-4.html\">4548-4</a></td><td>Hemoglobin A1c/Hemoglobin.total in Blood</td></tr></table></div>"
+  },
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:8cf4c965-7dfe-409c-9c6e-d45b2b74a47e",
+    "timestamp" : "2021-06-22T14:06:49.527Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "version",
+      "valueString" : "http://loinc.org|2.69"
+    }],
+    "contains" : [{
+      "system" : "http://loinc.org",
+      "code" : "20570-8",
+      "display" : "Hematocrit [Volume Fraction] of Blood"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "4548-4",
+      "display" : "Hemoglobin A1c/Hemoglobin.total in Blood"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://loinc.org",
+      "concept" : [{
+        "code" : "59261-8",
+        "display" : "Hemoglobin A1c/Hemoglobin.total in Blood by IFCC protocol"
+      },
+      {
+        "code" : "2093-3",
+        "display" : "Cholesterol [Mass/volume] in Serum or Plasma"
+      },
+      {
+        "code" : "2085-9",
+        "display" : "Cholesterol in HDL [Mass/volume] in Serum or Plasma"
+      },
+      {
+        "code" : "2089-1",
+        "display" : "Cholesterol in LDL [Mass/volume] in Serum or Plasma"
+      },
+      {
+        "code" : "2571-8",
+        "display" : "Triglyceride [Mass/volume] in Serum or Plasma"
+      },
+      {
+        "code" : "43396-1",
+        "display" : "Cholesterol non HDL [Mass/volume] in Serum or Plasma"
+      },
+      {
+        "code" : "2160-0",
+        "display" : "Creatinine [Mass/volume] in Serum or Plasma"
+      },
+      {
+        "code" : "14959-1",
+        "display" : "Microalbumin/Creatinine [Mass Ratio] in Urine"
+      },
+      {
+        "code" : "1742-6",
+        "display" : "Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma"
+      },
+      {
+        "code" : "1920-8",
+        "display" : "Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma"
+      },
+      {
+        "code" : "2324-2",
+        "display" : "Gamma glutamyl transferase [Enzymatic activity/volume] in Serum or Plasma"
+      },
+      {
+        "code" : "6768-6",
+        "display" : "Alkaline phosphatase [Enzymatic activity/volume] in Serum or Plasma"
+      },
+      {
+        "code" : "3084-1",
+        "display" : "Urate [Mass/volume] in Serum or Plasma"
+      },
+      {
+        "code" : "48642-3",
+        "display" : "Glomerular filtration rate/1.73 sq M.predicted among non-blacks [Volume Rate/Area] in Serum, Plasma or Blood by Creatinine-based formula (MDRD)"
+      },
+      {
+        "code" : "5802-4",
+        "display" : "Nitrite [Presence] in Urine by Test strip"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "language" : "en",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:01c70303-be05-4974-ab7f-775e6baa109a",
+    "timestamp" : "2021-06-22T14:06:49.902Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "version",
+      "valueString" : "http://loinc.org|2.69"
+    }],
+    "contains" : [{
+      "system" : "http://loinc.org",
+      "code" : "59261-8",
+      "display" : "Hemoglobin A1c/Hemoglobin.total in Blood by IFCC protocol"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "2093-3",
+      "display" : "Cholesterol [Mass/volume] in Serum or Plasma"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "2085-9",
+      "display" : "Cholesterol in HDL [Mass/volume] in Serum or Plasma"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "2089-1",
+      "display" : "Cholesterol in LDL [Mass/volume] in Serum or Plasma"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "2571-8",
+      "display" : "Triglyceride [Mass/volume] in Serum or Plasma"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "43396-1",
+      "display" : "Cholesterol non HDL [Mass/volume] in Serum or Plasma"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "2160-0",
+      "display" : "Creatinine [Mass/volume] in Serum or Plasma"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "14959-1",
+      "display" : "Microalbumin/Creatinine [Mass Ratio] in Urine"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "1742-6",
+      "display" : "Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "1920-8",
+      "display" : "Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "2324-2",
+      "display" : "Gamma glutamyl transferase [Enzymatic activity/volume] in Serum or Plasma"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "6768-6",
+      "display" : "Alkaline phosphatase [Enzymatic activity/volume] in Serum or Plasma"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "3084-1",
+      "display" : "Urate [Mass/volume] in Serum or Plasma"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "48642-3",
+      "display" : "Glomerular filtration rate/1.73 sq M.predicted among non-blacks [Volume Rate/Area] in Serum, Plasma or Blood by Creatinine-based formula (MDRD)"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "5802-4",
+      "display" : "Nitrite [Presence] in Urine by Test strip"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://loinc.org",
+      "concept" : [{
+        "code" : "72166-2"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "language" : "en",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:f222c348-44a0-4718-bd8b-e035d37852be",
+    "timestamp" : "2021-06-22T14:06:50.183Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "version",
+      "valueString" : "http://loinc.org|2.69"
+    }],
+    "contains" : [{
+      "system" : "http://loinc.org",
+      "code" : "72166-2",
+      "display" : "Tobacco smoking status"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://loinc.org",
+      "concept" : [{
+        "code" : "8480-6"
+      },
+      {
+        "code" : "8462-4"
+      },
+      {
+        "code" : "55423-8"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "language" : "en",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:9bee60a2-9d66-44d1-8421-787b3bb31e88",
+    "timestamp" : "2021-06-22T14:06:53.823Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "excludeNested",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "version",
+      "valueString" : "http://loinc.org|2.69"
+    }],
+    "contains" : [{
+      "system" : "http://loinc.org",
+      "code" : "8480-6",
+      "display" : "Systolic blood pressure"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "8462-4",
+      "display" : "Diastolic blood pressure"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "55423-8",
+      "display" : "Number of steps in unspecified time Pedometer"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://loinc.org",
+      "concept" : [{
+        "code" : "55423-8"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "language" : "en",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:730cca02-f4ca-4391-b947-f4673827ea7f",
+    "timestamp" : "2021-06-22T14:06:54.183Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "version",
+      "valueString" : "http://loinc.org|2.69"
+    }],
+    "contains" : [{
+      "system" : "http://loinc.org",
+      "code" : "55423-8",
+      "display" : "Number of steps in unspecified time Pedometer"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://loinc.org",
+      "concept" : [{
+        "code" : "76268-2",
+        "display" : "Pressure.ambient Room"
+      },
+      {
+        "code" : "60832-3",
+        "display" : "Room temperature Cel;[degF]"
+      },
+      {
+        "code" : "65643-9",
+        "display" : "Relative humidity (%)"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "language" : "en",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:0ff02928-8a1f-48c4-b86a-836e561b89da",
+    "timestamp" : "2021-06-22T14:06:55.276Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "version",
+      "valueString" : "http://loinc.org|2.69"
+    }],
+    "contains" : [{
+      "system" : "http://loinc.org",
+      "code" : "76268-2",
+      "display" : "Pressure.ambient Room"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "60832-3",
+      "display" : "Room temperature"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "65643-9",
+      "display" : "Relative humidity"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://loinc.org",
+      "concept" : [{
+        "code" : "93831-6"
+      },
+      {
+        "code" : "93830-8"
+      },
+      {
+        "code" : "93829-0"
+      },
+      {
+        "code" : "93832-4"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "language" : "en",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:46fcbbcc-d596-4220-9362-6cf99b713e2a",
+    "timestamp" : "2021-06-22T14:06:55.667Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "version",
+      "valueString" : "http://loinc.org|2.69"
+    }],
+    "contains" : [{
+      "system" : "http://loinc.org",
+      "code" : "93831-6",
+      "display" : "Deep sleep duration"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "93830-8",
+      "display" : "Light sleep duration"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "93829-0",
+      "display" : "REM sleep duration"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "93832-4",
+      "display" : "Sleep duration"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://loinc.org",
+      "concept" : [{
+        "code" : "63597-9",
+        "display" : "During the past 30 days, on how many days did you drink one or more drinks of an alcoholic beverage"
+      },
+      {
+        "code" : "73985-4",
+        "display" : "Exercise activity"
+      },
+      {
+        "code" : "72166-2",
+        "display" : "Tobacco smoking status"
+      },
+      {
+        "code" : "96103-7",
+        "display" : "Tobacco amount per day"
+      },
+      {
+        "code" : "63629-0",
+        "display" : "On the number of days you reported you smoked cigarettes during the past 30 days, how many cigarettes did you smoke per day, on average [PhenX]"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "language" : "en",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:3dcccb35-4d91-4880-9145-ce4774a659c0",
+    "timestamp" : "2021-06-22T14:06:56.042Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "version",
+      "valueString" : "http://loinc.org|2.69"
+    }],
+    "contains" : [{
+      "system" : "http://loinc.org",
+      "code" : "63597-9",
+      "display" : "During the past 30 days, on how many days did you drink one or more drinks of an alcoholic beverage [PhenX]"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "73985-4",
+      "display" : "Exercise activity"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "72166-2",
+      "display" : "Tobacco smoking status"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "96103-7",
+      "display" : "Tobacco amount per day"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "63629-0",
+      "display" : "On the number of days you reported you smoked cigarettes during the past 30 days, how many cigarettes did you smoke per day, on average [PhenX]"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://loinc.org",
+      "concept" : [{
+        "code" : "41952-3"
+      },
+      {
+        "code" : "41950-7"
+      },
+      {
+        "code" : "41951-5"
+      },
+      {
+        "code" : "55423-8"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "language" : "en",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:f64c1ab5-15f4-40f3-bd8f-0bc49fd52b90",
+    "timestamp" : "2021-06-22T14:06:56.417Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "version",
+      "valueString" : "http://loinc.org|2.69"
+    }],
+    "contains" : [{
+      "system" : "http://loinc.org",
+      "code" : "41952-3",
+      "display" : "Number of steps in 1 week Measured"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "41950-7",
+      "display" : "Number of steps in 24 hour Measured"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "41951-5",
+      "display" : "Number of steps in 24 hour mean Measured"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "55423-8",
+      "display" : "Number of steps in unspecified time Pedometer"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://loinc.org",
+      "concept" : [{
+        "code" : "85353-1"
+      },
+      {
+        "code" : "9279-1"
+      },
+      {
+        "code" : "8867-4"
+      },
+      {
+        "code" : "2708-6"
+      },
+      {
+        "code" : "8310-5"
+      },
+      {
+        "code" : "8302-2"
+      },
+      {
+        "code" : "9843-4"
+      },
+      {
+        "code" : "29463-7"
+      },
+      {
+        "code" : "39156-5"
+      },
+      {
+        "code" : "85354-9"
+      },
+      {
+        "code" : "8480-6"
+      },
+      {
+        "code" : "8462-4"
+      },
+      {
+        "code" : "8478-0"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "language" : "en",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:305ba80e-e39a-4038-930e-bf8b2818c495",
+    "timestamp" : "2021-06-22T14:06:56.776Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "version",
+      "valueString" : "http://loinc.org|2.69"
+    }],
+    "contains" : [{
+      "system" : "http://loinc.org",
+      "code" : "85353-1",
+      "display" : "Vital signs, weight, height, head circumference, oxygen saturation and BMI panel"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "9279-1",
+      "display" : "Respiratory rate"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "8867-4",
+      "display" : "Heart rate"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "2708-6",
+      "display" : "Oxygen saturation in Arterial blood"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "8310-5",
+      "display" : "Body temperature"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "8302-2",
+      "display" : "Body height"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "9843-4",
+      "display" : "Head Occipital-frontal circumference"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "29463-7",
+      "display" : "Body weight"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "39156-5",
+      "display" : "Body mass index (BMI) [Ratio]"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "85354-9",
+      "display" : "Blood pressure panel with all children optional"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "8480-6",
+      "display" : "Systolic blood pressure"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "8462-4",
+      "display" : "Diastolic blood pressure"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "8478-0",
+      "display" : "Mean blood pressure"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://loinc.org",
+      "concept" : [{
+        "code" : "41982-0"
+      },
+      {
+        "code" : "8280-0"
+      },
+      {
+        "code" : "29463-7",
+        "display" : "Body weight"
+      },
+      {
+        "code" : "8867-4",
+        "display" : "Heart rate"
+      },
+      {
+        "code" : "85354-9",
+        "display" : "Blood pressure panel with all children optional"
+      },
+      {
+        "code" : "8480-6",
+        "display" : "Systolic blood pressure"
+      },
+      {
+        "code" : "8462-4",
+        "display" : "Diastolic blood pressure"
+      },
+      {
+        "code" : "8302-2",
+        "display" : "Body height"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "language" : "en",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:6ca471e8-c831-4b70-b4c3-e158f96f4bed",
+    "timestamp" : "2021-06-22T14:06:56.995Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "excludeNested",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "version",
+      "valueString" : "http://loinc.org|2.69"
+    }],
+    "contains" : [{
+      "system" : "http://loinc.org",
+      "code" : "41982-0",
+      "display" : "Percentage of body fat Measured"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "8280-0",
+      "display" : "Waist Circumference at umbilicus by Tape measure"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "29463-7",
+      "display" : "Body weight"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "8867-4",
+      "display" : "Heart rate"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "85354-9",
+      "display" : "Blood pressure panel with all children optional"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "8480-6",
+      "display" : "Systolic blood pressure"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "8462-4",
+      "display" : "Diastolic blood pressure"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "8302-2",
+      "display" : "Body height"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "2708-6"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Oxygen saturation in Arterial blood",
   "severity" : null,
   "error" : ""
 }
