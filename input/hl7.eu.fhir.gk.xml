@@ -57,52 +57,11 @@
 		<!-- </resource> -->
 		<resource>
 			<reference>
-				<reference value="Patient/saxony-gatekeeper-example"/>
-			</reference>
-			<name value="Patient: example from Saxony"/>
-			<description value="Patient: example from Saxony"/>
-			<!-- <exampleCanonical value="http://hl7.eu/fhir/ig/gk/StructureDefinition/Patient-eu-gk"/> -->
-		</resource>
-		<resource>
-			<reference>
-				<reference value="Consent/saxony-gatekeeper-example"/>
-			</reference>
-			<name value="Consent: example from Saxony"/>
-			<description value="Consent: example from Saxony"/>
-			<!-- <exampleCanonical value="http://hl7.eu/fhir/ig/gk/StructureDefinition/Patient-eu-gk"/> -->
-		</resource>
-		<resource>
-			<reference>
-				<reference value="QuestionnaireResponse/saxony-gatekeeper-example"/>
-			</reference>
-			<name value="QuestionnaireResponse: example from Saxony"/>
-			<description value="QuestionnaireResponse: example from Saxony"/>
-			<!-- <exampleCanonical value="http://hl7.eu/fhir/ig/gk/StructureDefinition/Patient-eu-gk"/> -->
-		</resource>
-		<resource>
-			<reference>
-				<reference value="ResearchSubject/saxony-gatekeeper-example"/>
-			</reference>
-			<name value="ResearchSubject: example from Saxony"/>
-			<description value="ResearchSubject: example from Saxony"/>
-			<!-- <exampleCanonical value="http://hl7.eu/fhir/ig/gk/StructureDefinition/Patient-eu-gk"/> -->
-		</resource>
-		<resource>
-			<reference>
-				<reference value="ResearchStudy/gatekeeper-saxony-mild-example"/>
-			</reference>
-			<name value="ResearchStudy: example from Saxony"/>
-			<description value="ResearchStudy: example from Saxony"/>
-			<!-- <exampleCanonical value="http://hl7.eu/fhir/ig/gk/StructureDefinition/Patient-eu-gk"/> -->
-		</resource>
-		<resource>
-			<reference>
 				<reference value="Patient/gk-pat-smg-001"/>
 			</reference>
 			<name value="Patient: only identifier"/>
 			<description value="Patient: only identifier"/>
-				<exampleCanonical value="http://hl7.org/fhir/StructureDefinition/Patient"/>
-			
+			<exampleCanonical value="http://hl7.org/fhir/StructureDefinition/Patient"/>
 		</resource>
 		<resource>
 			<reference>
@@ -110,7 +69,7 @@
 			</reference>
 			<name value="Patient: patient example"/>
 			<description value="Patient: patient example"/>
-		<exampleCanonical value="http://hl7.eu/fhir/ig/gk/StructureDefinition/Patient-eu-gk"/>
+			<exampleCanonical value="http://hl7.eu/fhir/ig/gk/StructureDefinition/Patient-eu-gk"/>
 		</resource>
 		<resource>
 			<reference>
@@ -159,6 +118,47 @@
 			<name value="Observation: Heart Rate"/>
 			<description value="Observation: Heart Rate"/>
 			<exampleCanonical value="http://hl7.eu/fhir/ig/gk/StructureDefinition/Observation-hr-gk"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="ResearchSubject/saxony-gatekeeper-example"/>
+			</reference>
+			<name value="ResearchSubject: example from Saxony"/>
+			<description value="ResearchSubject: example from Saxony"/>
+			<exampleCanonical value="http://hl7.eu/fhir/ig/gk/StructureDefinition/researchSubject-gk"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="Patient/saxony-gatekeeper-example"/>
+			</reference>
+			<name value="Patient: example from Saxony"/>
+			<description value="Patient: example from Saxony"/>
+			<exampleCanonical value="http://hl7.org/fhir/StructureDefinition/Patient"/>
+			<!-- <exampleCanonical value="http://hl7.eu/fhir/ig/gk/StructureDefinition/Patient-eu-gk"/> -->
+		</resource>
+		<resource>
+			<reference>
+				<reference value="Consent/saxony-gatekeeper-example"/>
+			</reference>
+			<name value="Consent: example from Saxony"/>
+			<description value="Consent: example from Saxony"/>
+			<exampleCanonical value="http://hl7.org/fhir/StructureDefinition/Consent"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="QuestionnaireResponse/saxony-gatekeeper-example"/>
+			</reference>
+			<name value="QuestionnaireResponse: example from Saxony"/>
+			<description value="QuestionnaireResponse: example from Saxony"/>
+			<exampleCanonical value="http://hl7.org/fhir/StructureDefinition/QuestionnaireResponse"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="ResearchStudy/gatekeeper-saxony-mild-example"/>
+			</reference>
+			<name value="ResearchStudy: example from Saxony"/>
+			<description value="ResearchStudy: example from Saxony"/>
+			<exampleCanonical value="http://hl7.org/fhir/StructureDefinition/ResearchStudy"/>
 		</resource>
 		<!-- You don't need to define any groupings.  The IGPublisher will define them for you.  You only need to do so if your IG is 'special' and it's
       inappropriate to use the defaults.  Feel free to provide feedback about the defaults... -->

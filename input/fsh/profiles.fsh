@@ -2,6 +2,18 @@
 
 //====== Profiles =====================================
 
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Profile:  ResearchSubjectGK
+Parent:   ResearchSubject
+Id:       researchSubject-gk
+Title:    "ResearchSubject (Gatekeeper)"
+Description: "This profile defines how to represent in FHIR the subject enrollment in the pilots for supporting the scope of the Gatekeeper project"
+//-------------------------------------------------------------------------------------------
+* identifier MS
+* status MS
+* period MS 
+* study	MS // check is is enough a business identifier..
+* individual MS
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 Profile:  RiskAssessmentGK

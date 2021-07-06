@@ -5567,18 +5567,3 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
-{"hierarchical" : true, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "include" : [{
-      "system" : "http://hl7.org/fhir/sid/icd-10"
-    },
-    {
-      "system" : "http://hl7.org/fhir/sid/icpc-2"
-    }]
-  }
-}}####
-e: {
-  "error" : "Cannot invoke \"org.hl7.fhir.r5.model.ValueSet.hasUrl()\" because \"result\" is null"
-}
--------------------------------------------------------------------------------------

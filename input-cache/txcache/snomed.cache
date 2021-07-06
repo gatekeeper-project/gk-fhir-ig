@@ -506,14 +506,10 @@ e: {
   "valueSet" : {
   "resourceType" : "ValueSet",
   "language" : "en",
-  "text" : {
-    "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"><p>This value set contains 6 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on SNOMED CT International edition 31-gen 2021</p><p>All codes from system <a href=\"http://hl7.org/fhir/R4/codesystem-snomedct.html\"><code>http://snomed.info/sct</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-197321007\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=197321007\">197321007</a></td><td>Steatosis of liver</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-38341003\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=38341003\">38341003</a></td><td>High blood pressure</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-84114007\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=84114007\">84114007</a></td><td>Heart failure</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-13645005\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=13645005\">13645005</a></td><td>Chronic obstructive lung disease</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-709044004\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=709044004\">709044004</a></td><td>Chronic kidney disease</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-414545008\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=414545008\">414545008</a></td><td>Ischemic heart disease (disorder)</td><td/></tr></table></div>"
-  },
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:1cabdc6a-175a-40d5-9280-3992cdb9c3a0",
-    "timestamp" : "2021-06-22T12:48:36.419Z",
+    "identifier" : "urn:uuid:06d410fa-a399-4c3a-8731-9776bf3f0212",
+    "timestamp" : "2021-07-06T13:09:51.422Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -619,8 +615,8 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:9326417d-0667-42fc-9d44-82829b34cf77",
-    "timestamp" : "2021-06-22T14:06:49.105Z",
+    "identifier" : "urn:uuid:697237ac-5335-44dc-b182-b7c0334e3087",
+    "timestamp" : "2021-07-06T13:09:54.984Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -779,8 +775,8 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:f622fc84-3135-4a09-b07b-17e62f36b142",
-    "timestamp" : "2021-06-22T14:06:49.308Z",
+    "identifier" : "urn:uuid:ca3c8445-68c1-4b5a-8eee-f7b1f27ed9dc",
+    "timestamp" : "2021-07-06T13:09:55.250Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -896,8 +892,8 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:77d7c3b6-04a2-43e8-9892-41f82d93bb63",
-    "timestamp" : "2021-06-22T14:06:50.573Z",
+    "identifier" : "urn:uuid:81b01a29-30f6-44b0-a4bd-5ff6861027d3",
+    "timestamp" : "2021-07-06T13:09:56.781Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -948,8 +944,8 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:cb978e72-3ee4-414d-aa3b-1eeb57f79b1f",
-    "timestamp" : "2021-06-22T14:06:51.011Z",
+    "identifier" : "urn:uuid:260cf885-10a9-4088-bc44-0e1408b102eb",
+    "timestamp" : "2021-07-06T13:09:57.422Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -987,6 +983,47 @@ e: {
       "system" : "http://snomed.info/sct",
       "code" : "84698008",
       "display" : "Cholesterol"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "258158006"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "language" : "en",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:85d419be-9593-49da-9b28-3d8bca725b65",
+    "timestamp" : "2021-07-06T13:09:59.203Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "excludeNested",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "version",
+      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20210131"
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "258158006",
+      "display" : "Sleep"
     }]
   }
 },
@@ -1112,8 +1149,8 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:69ec3dc6-0ce8-40d1-a4d5-01051a32672d",
-    "timestamp" : "2021-06-22T14:06:53.620Z",
+    "identifier" : "urn:uuid:e2490398-f127-470f-a106-862f3b032358",
+    "timestamp" : "2021-07-06T13:09:59.594Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -1302,47 +1339,6 @@ e: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
-{"hierarchical" : false, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "include" : [{
-      "system" : "http://snomed.info/sct",
-      "concept" : [{
-        "code" : "258158006"
-      }]
-    }]
-  }
-}}####
-e: {
-  "valueSet" : {
-  "resourceType" : "ValueSet",
-  "language" : "en",
-  "status" : "active",
-  "expansion" : {
-    "identifier" : "urn:uuid:1c089876-51d2-44be-8452-8162e9ef5b28",
-    "timestamp" : "2021-06-22T14:06:54.526Z",
-    "parameter" : [{
-      "name" : "limitedExpansion",
-      "valueBoolean" : true
-    },
-    {
-      "name" : "excludeNested",
-      "valueBoolean" : true
-    },
-    {
-      "name" : "version",
-      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20210131"
-    }],
-    "contains" : [{
-      "system" : "http://snomed.info/sct",
-      "code" : "258158006",
-      "display" : "Sleep"
-    }]
-  }
-},
-  "error" : ""
-}
--------------------------------------------------------------------------------------
 {"hierarchical" : true, "valueSet" :{
   "resourceType" : "ValueSet",
   "compose" : {
@@ -1360,8 +1356,8 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:8f1ef8ad-22ed-4a1f-9324-fb09eb4e3a1f",
-    "timestamp" : "2021-06-22T14:06:54.870Z",
+    "identifier" : "urn:uuid:01a0fa0b-e99a-4a81-9fb5-2e331b87962d",
+    "timestamp" : "2021-07-06T13:10:00.281Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -1421,8 +1417,8 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:6dd6bcf7-e0a8-4764-8977-1a6d34f5900a",
-    "timestamp" : "2021-06-22T14:06:57.245Z",
+    "identifier" : "urn:uuid:96d2f40f-19b7-44e6-8489-89c0617c27f1",
+    "timestamp" : "2021-07-06T13:10:02.906Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
