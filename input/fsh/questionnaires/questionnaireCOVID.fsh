@@ -1005,8 +1005,8 @@ Description: "Example of questionnaire defined for the COVID-19 Survey by the GA
 * item[=].item[=].item[=].required = true
 
 * item[=].item[=].item[+].prefix = "10.4"
-* item[=].item[=].item[=].text = "During the COVID-19 pandemic, did you have any problems with receiving prescriptions for your medications?"
-* item[=].item[=].item[=].linkId = "accessMedCares.prescriptionDuringCovid19.2"
+* item[=].item[=].item[=].text = "During the COVID-19 pandemic, did you ran out of any of your prescribed drugs?"
+* item[=].item[=].item[=].linkId = "accessMedCares.prescriptionRunoutDuringCovid19"
 * item[=].item[=].item[=].type = #choice
 * item[=].item[=].item[=].repeats = false
 * item[=].item[=].item[=].answerOption[0].valueString = "No"
