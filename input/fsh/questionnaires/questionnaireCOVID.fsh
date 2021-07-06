@@ -115,7 +115,8 @@ Description: "Example of questionnaire defined for the COVID-19 Survey by the GA
 * item[=].item[+].prefix = "1.3"
 * item[=].item[=].text = "What is your country of residence?" 
 * item[=].item[=].linkId = "demography.country"
-* item[=].item[=].type = #choice
+* item[=].item[=].type = #open-choice
+* item[=].item[=].repeats = false
 * item[=].item[=].answerOption[0].valueString = 	"Cyprus"
 * item[=].item[=].answerOption[1].valueString = 	"Germany"
 * item[=].item[=].answerOption[2].valueString = 	"Greece"
@@ -133,6 +134,7 @@ Description: "Example of questionnaire defined for the COVID-19 Survey by the GA
 * item[=].item[=].text = "What is the highest level of education you completed?" 
 * item[=].item[=].linkId = "demography.education"
 * item[=].item[=].type = #choice
+* item[=].item[=].repeats = false
 * item[=].item[=].answerOption[0].valueString = 	"No education"
 * item[=].item[=].answerOption[1].valueString = 	"Primary school"
 * item[=].item[=].answerOption[2].valueString = 	"Secondary school"
@@ -146,6 +148,7 @@ Description: "Example of questionnaire defined for the COVID-19 Survey by the GA
 * item[=].item[=].text = "What is your employment status now?" 
 * item[=].item[=].linkId = "demography.employment"
 * item[=].item[=].type = #choice
+* item[=].item[=].repeats = false
 * item[=].item[=].answerOption[0].valueString = 	"Employed"
 * item[=].item[=].answerOption[1].valueString = 	"Self-employed"
 * item[=].item[=].answerOption[2].valueString = 	"Unemployed"
@@ -174,6 +177,7 @@ Description: "Example of questionnaire defined for the COVID-19 Survey by the GA
 * item[=].item[=].item[=].text = "How would you rate your overall physical health in the last 2 weeks?" 
 * item[=].item[=].item[=].linkId = "healthStatus.rate"
 * item[=].item[=].item[=].type = #choice
+* item[=].item[=].item[=].repeats = false
 * item[=].item[=].item[=].answerOption[0].valueCoding = $loinc#LA9206-9 "Excellent"
 * item[=].item[=].item[=].answerOption[1].valueCoding = $loinc#LA13913-1 "Very Good"
 * item[=].item[=].item[=].answerOption[2].valueCoding = $loinc#LA8967-7 "Good"
@@ -217,6 +221,7 @@ Description: "Example of questionnaire defined for the COVID-19 Survey by the GA
 * item[=].item[=].text = " During the COVID-19 pandemic have you been suspected of having COVID-19 infection?" 
 * item[=].item[=].linkId = "covid19HealthExposureStatus.infection"
 * item[=].item[=].type = #choice
+* item[=].item[=].repeats = false
 * item[=].item[=].answerOption[0].valueString = 	"Yes, I had some symptoms and tested positive" 
 * item[=].item[=].answerOption[1].valueString = 	"Yes, I had some symptoms but tested negative" 
 * item[=].item[=].answerOption[2].valueString = 	"Yes, I had some symptoms but never took a test" 
@@ -248,6 +253,7 @@ Description: "Example of questionnaire defined for the COVID-19 Survey by the GA
 * item[=].item[=].text = " During the COVID-19 pandemic have you been exposed to someone likely to have COVID-19? (check all that apply)" 
 * item[=].item[=].linkId = "covid19HealthExposureStatus.other"
 * item[=].item[=].type = #choice
+* item[=].item[=].repeats = false
 * item[=].item[=].answerOption[0].valueString = 	"Yes, someone with positive test" 
 * item[=].item[=].answerOption[1].valueString = 	"Yes, someone with the symptoms likely to be associated with an infection" 
 * item[=].item[=].answerOption[2].valueString = 	"No" 
@@ -257,13 +263,14 @@ Description: "Example of questionnaire defined for the COVID-19 Survey by the GA
 * item[=].item[=].text = " During the COVID-19 pandemic have you or anyone in your household been diagnosed with COVID-19?" 
 * item[=].item[=].linkId = "covid19HealthExposureStatus.household"
 * item[=].item[=].type = #choice
+* item[=].item[=].repeats = false
 * item[=].item[=].answerValueSet = 	"https://fhir.loinc.org/ValueSet/?url=http://loinc.org/vs/LL361-7" 
 * item[=].item[=].required = true
 
 * item[=].item[+].prefix = "3.5"
 * item[=].item[=].text = " During the COVID-19 pandemic have any of the following happened to you or anyone in your household because of COVID-19? (check all that apply)" 
 * item[=].item[=].linkId = "covid19HealthExposureStatus.householdEvents"
-* item[=].item[=].type = #open-choice
+* item[=].item[=].type = #choice
 * item[=].item[=].repeats = true
 * item[=].item[=].answerOption[0].valueString = 	"Fallen ill physically" 
 * item[=].item[=].answerOption[1].valueString = 	"Hospitalized" 
@@ -291,6 +298,7 @@ Description: "Example of questionnaire defined for the COVID-19 Survey by the GA
 * item[=].item[=].item[=].text = " How burdened have you felt by the COVID-19 pandemic in the last 2 weeks?" 
 * item[=].item[=].item[=].linkId = "covid19PsychologicalImpact.generalQuestions.last2Weeks"
 * item[=].item[=].item[=].type = #choice
+* item[=].item[=].item[=].repeats = false
 * item[=].item[=].item[=].answerValueSet = 	"#Inline-Instance-for-covid19-4-1" 
 * item[=].item[=].item[=].required = true
 
@@ -298,6 +306,7 @@ Description: "Example of questionnaire defined for the COVID-19 Survey by the GA
 * item[=].item[=].item[=].text = " How burdened have you felt by the COVID-19 pandemic at its highest peak?" 
 * item[=].item[=].item[=].linkId = "covid19PsychologicalImpact.generalQuestions.highestPeak"
 * item[=].item[=].item[=].type = #choice
+* item[=].item[=].item[=].repeats = false
 * item[=].item[=].item[=].answerValueSet = 	"#Inline-Instance-for-covid19-4-1" 
 * item[=].item[=].item[=].required = true
 
@@ -312,6 +321,7 @@ Description: "Example of questionnaire defined for the COVID-19 Survey by the GA
 * item[=].item[=].item[=].item[=].text = "I felt sufficiently informed about COVID-19." 
 * item[=].item[=].item[=].item[=].linkId = "covid19PsychologicalImpact.generalQuestions.feelings2Weeks.informed"
 * item[=].item[=].item[=].item[=].type = #choice
+* item[=].item[=].item[=].item[=].repeats = false
 * item[=].item[=].item[=].item[=].answerValueSet = 	"#Inline-Instance-for-covid19-4-3" 
 * item[=].item[=].item[=].item[=].required = true
 
@@ -319,6 +329,7 @@ Description: "Example of questionnaire defined for the COVID-19 Survey by the GA
 * item[=].item[=].item[=].item[=].text = "I felt protected by the actions of national and local governments." 
 * item[=].item[=].item[=].item[=].linkId = "covid19PsychologicalImpact.generalQuestions.feelings2Weeks.protected"
 * item[=].item[=].item[=].item[=].type = #choice
+* item[=].item[=].item[=].item[=].repeats = false
 * item[=].item[=].item[=].item[=].answerValueSet = 	"#Inline-Instance-for-covid19-4-3" 
 * item[=].item[=].item[=].item[=].required = true
 
@@ -326,6 +337,7 @@ Description: "Example of questionnaire defined for the COVID-19 Survey by the GA
 * item[=].item[=].item[=].item[=].text = "I was afraid of getting infected." 
 * item[=].item[=].item[=].item[=].linkId = "covid19PsychologicalImpact.generalQuestions.feelings2Weeks.afraid"
 * item[=].item[=].item[=].item[=].type = #choice
+* item[=].item[=].item[=].item[=].repeats = false
 * item[=].item[=].item[=].item[=].answerValueSet = 	"#Inline-Instance-for-covid19-4-3" 
 * item[=].item[=].item[=].item[=].required = true
 
@@ -333,6 +345,7 @@ Description: "Example of questionnaire defined for the COVID-19 Survey by the GA
 * item[=].item[=].item[=].item[=].text = "I was afraid to infect relatives or the family." 
 * item[=].item[=].item[=].item[=].linkId = "covid19PsychologicalImpact.generalQuestions.feelings2Weeks.afraidForFamily"
 * item[=].item[=].item[=].item[=].type = #choice
+* item[=].item[=].item[=].item[=].repeats = false
 * item[=].item[=].item[=].item[=].answerValueSet = 	"#Inline-Instance-for-covid19-4-3" 
 * item[=].item[=].item[=].item[=].required = true
 
@@ -340,6 +353,7 @@ Description: "Example of questionnaire defined for the COVID-19 Survey by the GA
 * item[=].item[=].item[=].item[=].text = "I felt isolated." 
 * item[=].item[=].item[=].item[=].linkId = "covid19PsychologicalImpact.generalQuestions.feelings2Weeks.isolated"
 * item[=].item[=].item[=].item[=].type = #choice
+* item[=].item[=].item[=].item[=].repeats = false
 * item[=].item[=].item[=].item[=].answerValueSet = 	"#Inline-Instance-for-covid19-4-3" 
 * item[=].item[=].item[=].item[=].required = true
 
@@ -347,6 +361,7 @@ Description: "Example of questionnaire defined for the COVID-19 Survey by the GA
 * item[=].item[=].item[=].item[=].text = "I felt avoided by others." 
 * item[=].item[=].item[=].item[=].linkId = "covid19PsychologicalImpact.generalQuestions.feelings2Weeks.avoided"
 * item[=].item[=].item[=].item[=].type = #choice
+* item[=].item[=].item[=].item[=].repeats = false
 * item[=].item[=].item[=].item[=].answerValueSet = 	"#Inline-Instance-for-covid19-4-3" 
 * item[=].item[=].item[=].item[=].required = true
 
@@ -354,6 +369,7 @@ Description: "Example of questionnaire defined for the COVID-19 Survey by the GA
 * item[=].item[=].item[=].item[=].text = "I felt physically or mentally exhausted." 
 * item[=].item[=].item[=].item[=].linkId = "covid19PsychologicalImpact.generalQuestions.feelings2Weeks.exhausted"
 * item[=].item[=].item[=].item[=].type = #choice
+* item[=].item[=].item[=].item[=].repeats = false
 * item[=].item[=].item[=].item[=].answerValueSet = 	"#Inline-Instance-for-covid19-4-3" 
 * item[=].item[=].item[=].item[=].required = true
 
@@ -367,6 +383,7 @@ Description: "Example of questionnaire defined for the COVID-19 Survey by the GA
 * item[=].item[=].item[=].item[=].text = "I felt sufficiently informed about COVID-19." 
 * item[=].item[=].item[=].item[=].linkId = "covid19PsychologicalImpact.generalQuestions.feelingsPeak.informed"
 * item[=].item[=].item[=].item[=].type = #choice
+* item[=].item[=].item[=].item[=].repeats = false
 * item[=].item[=].item[=].item[=].answerValueSet = 	"#Inline-Instance-for-covid19-4-3" 
 * item[=].item[=].item[=].item[=].required = true
 
@@ -374,6 +391,7 @@ Description: "Example of questionnaire defined for the COVID-19 Survey by the GA
 * item[=].item[=].item[=].item[=].text = "I felt protected by the actions of national and local governments." 
 * item[=].item[=].item[=].item[=].linkId = "covid19PsychologicalImpact.generalQuestions.feelingsPeak.protected"
 * item[=].item[=].item[=].item[=].type = #choice
+* item[=].item[=].item[=].item[=].repeats = false
 * item[=].item[=].item[=].item[=].answerValueSet = 	"#Inline-Instance-for-covid19-4-3" 
 * item[=].item[=].item[=].item[=].required = true
 
@@ -381,6 +399,7 @@ Description: "Example of questionnaire defined for the COVID-19 Survey by the GA
 * item[=].item[=].item[=].item[=].text = "I was afraid of getting infected." 
 * item[=].item[=].item[=].item[=].linkId = "covid19PsychologicalImpact.generalQuestions.feelingsPeak.afraid"
 * item[=].item[=].item[=].item[=].type = #choice
+* item[=].item[=].item[=].item[=].repeats = false
 * item[=].item[=].item[=].item[=].answerValueSet = 	"#Inline-Instance-for-covid19-4-3" 
 * item[=].item[=].item[=].item[=].required = true
 
@@ -388,6 +407,7 @@ Description: "Example of questionnaire defined for the COVID-19 Survey by the GA
 * item[=].item[=].item[=].item[=].text = "I was afraid to infect relatives or the family." 
 * item[=].item[=].item[=].item[=].linkId = "covid19PsychologicalImpact.generalQuestions.feelingsPeak.afraidForFamily"
 * item[=].item[=].item[=].item[=].type = #choice
+* item[=].item[=].item[=].item[=].repeats = false
 * item[=].item[=].item[=].item[=].answerValueSet = 	"#Inline-Instance-for-covid19-4-3" 
 * item[=].item[=].item[=].item[=].required = true
 
@@ -395,6 +415,7 @@ Description: "Example of questionnaire defined for the COVID-19 Survey by the GA
 * item[=].item[=].item[=].item[=].text = "I felt isolated." 
 * item[=].item[=].item[=].item[=].linkId = "covid19PsychologicalImpact.generalQuestions.feelingsPeak.isolated"
 * item[=].item[=].item[=].item[=].type = #choice
+* item[=].item[=].item[=].item[=].repeats = false
 * item[=].item[=].item[=].item[=].answerValueSet = 	"#Inline-Instance-for-covid19-4-3" 
 * item[=].item[=].item[=].item[=].required = true
 
@@ -402,6 +423,7 @@ Description: "Example of questionnaire defined for the COVID-19 Survey by the GA
 * item[=].item[=].item[=].item[=].text = "I felt avoided by others." 
 * item[=].item[=].item[=].item[=].linkId = "covid19PsychologicalImpact.generalQuestions.feelingsPeak.avoided"
 * item[=].item[=].item[=].item[=].type = #choice
+* item[=].item[=].item[=].item[=].repeats = false
 * item[=].item[=].item[=].item[=].answerValueSet = 	"#Inline-Instance-for-covid19-4-3" 
 * item[=].item[=].item[=].item[=].required = true
 
@@ -409,6 +431,7 @@ Description: "Example of questionnaire defined for the COVID-19 Survey by the GA
 * item[=].item[=].item[=].item[=].text = "I felt physically or mentally exhausted." 
 * item[=].item[=].item[=].item[=].linkId = "covid19PsychologicalImpact.generalQuestions.feelingsPeak.exhausted"
 * item[=].item[=].item[=].item[=].type = #choice
+* item[=].item[=].item[=].item[=].repeats = false
 * item[=].item[=].item[=].item[=].answerValueSet = 	"#Inline-Instance-for-covid19-4-3" 
 * item[=].item[=].item[=].item[=].required = true
 
@@ -427,6 +450,7 @@ Description: "Example of questionnaire defined for the COVID-19 Survey by the GA
 * item[=].item[=].item[=].item[=].text = "Little interest or pleasure in doing things " 
 * item[=].item[=].item[=].item[=].linkId = "covid19PsychologicalImpact.PHQ4.problems2Weeks.littleIntrest"
 * item[=].item[=].item[=].item[=].type = #choice
+* item[=].item[=].item[=].item[=].repeats = false
 * item[=].item[=].item[=].item[=].answerValueSet = 	"#Inline-Instance-for-covid19-4-5" 
 * item[=].item[=].item[=].item[=].required = true
 
@@ -434,6 +458,7 @@ Description: "Example of questionnaire defined for the COVID-19 Survey by the GA
 * item[=].item[=].item[=].item[=].text = "Feeling down, depressed, or hopeless " 
 * item[=].item[=].item[=].item[=].linkId = "covid19PsychologicalImpact.PHQ4.problems2Weeks.depressed"
 * item[=].item[=].item[=].item[=].type = #choice
+* item[=].item[=].item[=].item[=].repeats = false
 * item[=].item[=].item[=].item[=].answerValueSet = 	"#Inline-Instance-for-covid19-4-5" 
 * item[=].item[=].item[=].item[=].required = true
 
@@ -441,6 +466,7 @@ Description: "Example of questionnaire defined for the COVID-19 Survey by the GA
 * item[=].item[=].item[=].item[=].text = "Feeling nervous, anxious or on edge " 
 * item[=].item[=].item[=].item[=].linkId = "covid19PsychologicalImpact.PHQ4.problems2Weeks.anxious"
 * item[=].item[=].item[=].item[=].type = #choice
+* item[=].item[=].item[=].item[=].repeats = false
 * item[=].item[=].item[=].item[=].answerValueSet = 	"#Inline-Instance-for-covid19-4-5" 
 * item[=].item[=].item[=].item[=].required = true
 
@@ -448,6 +474,7 @@ Description: "Example of questionnaire defined for the COVID-19 Survey by the GA
 * item[=].item[=].item[=].item[=].text = "Not being able to stop or control worrying " 
 * item[=].item[=].item[=].item[=].linkId = "covid19PsychologicalImpact.PHQ4.problems2Weeks.worrying"
 * item[=].item[=].item[=].item[=].type = #choice
+* item[=].item[=].item[=].item[=].repeats = false
 * item[=].item[=].item[=].item[=].answerValueSet = 	"#Inline-Instance-for-covid19-4-5" 
 * item[=].item[=].item[=].item[=].required = true
 
@@ -460,6 +487,7 @@ Description: "Example of questionnaire defined for the COVID-19 Survey by the GA
 * item[=].item[=].item[=].item[=].text = "Little interest or pleasure in doing things " 
 * item[=].item[=].item[=].item[=].linkId = "covid19PsychologicalImpact.PHQ4.problemsPeak.littleIntrest"
 * item[=].item[=].item[=].item[=].type = #choice
+* item[=].item[=].item[=].item[=].repeats = false
 * item[=].item[=].item[=].item[=].answerValueSet = 	"#Inline-Instance-for-covid19-4-5" 
 * item[=].item[=].item[=].item[=].required = true
 
@@ -467,6 +495,7 @@ Description: "Example of questionnaire defined for the COVID-19 Survey by the GA
 * item[=].item[=].item[=].item[=].text = "Feeling down, depressed, or hopeless " 
 * item[=].item[=].item[=].item[=].linkId = "covid19PsychologicalImpact.PHQ4.problemsPeak.depressed"
 * item[=].item[=].item[=].item[=].type = #choice
+* item[=].item[=].item[=].item[=].repeats = false
 * item[=].item[=].item[=].item[=].answerValueSet = 	"#Inline-Instance-for-covid19-4-5" 
 * item[=].item[=].item[=].item[=].required = true
 
@@ -474,6 +503,7 @@ Description: "Example of questionnaire defined for the COVID-19 Survey by the GA
 * item[=].item[=].item[=].item[=].text = "Feeling nervous, anxious or on edge " 
 * item[=].item[=].item[=].item[=].linkId = "covid19PsychologicalImpact.PHQ4.problemsPeak.anxious"
 * item[=].item[=].item[=].item[=].type = #choice
+* item[=].item[=].item[=].item[=].repeats = false
 * item[=].item[=].item[=].item[=].answerValueSet = 	"#Inline-Instance-for-covid19-4-5"
 * item[=].item[=].item[=].item[=].required = true
 
@@ -481,13 +511,15 @@ Description: "Example of questionnaire defined for the COVID-19 Survey by the GA
 * item[=].item[=].item[=].item[=].text = "Not being able to stop or control worrying " 
 * item[=].item[=].item[=].item[=].linkId = "covid19PsychologicalImpact.PHQ4.problemsPeak.worrying"
 * item[=].item[=].item[=].item[=].type = #choice
+* item[=].item[=].item[=].item[=].repeats = false
 * item[=].item[=].item[=].item[=].answerValueSet = 	"#Inline-Instance-for-covid19-4-5" 
 * item[=].item[=].item[=].item[=].required = true
 
 * item[=].item[=].item[+].prefix = "4.7"
 * item[=].item[=].item[=].text = "Have you taken advantage of psychosocial support services since the beginning of the COVID-19 pandemic to reduce the burden? (e.g. online information, personal/video counselling, team counselling etc.)?" 
 * item[=].item[=].item[=].linkId = "covid19PsychologicalImpact.PHQ4.psychosocialSupport"
-* item[=].item[=].item[=].type = #choice
+* item[=].item[=].item[=].type = #open-choice
+* item[=].item[=].item[=].repeats = false
 * item[=].item[=].item[=].answerOption[0].valueString = "No"
 * item[=].item[=].item[=].answerOption[1].valueString = "None available"
 * item[=].item[=].item[=].answerOption[2].valueString = "Yes, and this is: "
@@ -496,7 +528,8 @@ Description: "Example of questionnaire defined for the COVID-19 Survey by the GA
 * item[=].item[=].item[+].prefix = "4.8"
 * item[=].item[=].item[=].text = "Since the beginning of the COVID-19 pandemic, have there been any extraordinary stresses (e.g. death or serious illness of a close person, your own serious illness, divorce/separation, etc.) that were not related to the pandemic?" 
 * item[=].item[=].item[=].linkId = "covid19PsychologicalImpact.PHQ4.extraordinaryStress"
-* item[=].item[=].item[=].type = #choice
+* item[=].item[=].item[=].type = #open-choice
+* item[=].item[=].item[=].repeats = false
 * item[=].item[=].item[=].answerOption[0].valueString = "No"
 * item[=].item[=].item[=].answerOption[1].valueString = "Yes, and this is:"
 * item[=].item[=].item[=].required = true
@@ -514,6 +547,7 @@ Description: "Example of questionnaire defined for the COVID-19 Survey by the GA
 * item[=].item[=].text = " Did you smoke before the COVID-19 pandemic? (including cigarettes, cigarillos, cigars, electronic cigarette)" 
 * item[=].item[=].linkId = "lifestyleHabits.smokingBeforeCovid19"
 * item[=].item[=].type = #choice
+* item[=].item[=].repeats = false
 * item[=].item[=].answerOption[0].valueString = 	"No, I have never smoked" 
 * item[=].item[=].answerOption[1].valueString = 	"No, I quitted smoking" 
 * item[=].item[=].answerOption[2].valueString = 	"Yes, <7 cigarettes per week" 
@@ -525,6 +559,7 @@ Description: "Example of questionnaire defined for the COVID-19 Survey by the GA
 * item[=].item[=].text = " Do you currently smoke? (including cigarettes, cigarillos, cigars, electronic cigarette)" 
 * item[=].item[=].linkId = "lifestyleHabits.smokingNow"
 * item[=].item[=].type = #choice
+* item[=].item[=].repeats = false
 * item[=].item[=].answerOption[0].valueString = 	"No, I have never smoked" 
 * item[=].item[=].answerOption[1].valueString = 	"No, I quitted smoking" 
 * item[=].item[=].answerOption[2].valueString = 	"Yes, <7 cigarettes per week" 
@@ -536,6 +571,7 @@ Description: "Example of questionnaire defined for the COVID-19 Survey by the GA
 * item[=].item[=].text = " Did you drink alcoholic beverages before the COVID-19 pandemic?" 
 * item[=].item[=].linkId = "lifestyleHabits.alcohoolBeforeCovid19"
 * item[=].item[=].type = #choice
+* item[=].item[=].repeats = false
 * item[=].item[=].answerOption[0].valueString = 	"No, I have never drank (on a daily basis)" 
 * item[=].item[=].answerOption[1].valueString = 	"No, I quitted drinking (on a daily basis)" 
 * item[=].item[=].answerOption[2].valueString = 	"Yes, occasionally" 
@@ -546,6 +582,7 @@ Description: "Example of questionnaire defined for the COVID-19 Survey by the GA
 * item[=].item[=].text = " Do you currently drink alcoholic beverages?" 
 * item[=].item[=].linkId = "lifestyleHabits.alcohoolNow"
 * item[=].item[=].type = #choice
+* item[=].item[=].repeats = false
 * item[=].item[=].answerOption[0].valueString = 	"No, I have never drank (on a daily basis)" 
 * item[=].item[=].answerOption[1].valueString = 	"No, I quitted drinking (on a daily basis)" 
 * item[=].item[=].answerOption[2].valueString = 	"Yes, occasionally" 
@@ -556,6 +593,7 @@ Description: "Example of questionnaire defined for the COVID-19 Survey by the GA
 * item[=].item[=].text = " Did you use recreational drugs before the COVID-19 pandemic?" 
 * item[=].item[=].linkId = "lifestyleHabits.drugsBeforeCovid19"
 * item[=].item[=].type = #choice
+* item[=].item[=].repeats = false
 * item[=].item[=].answerOption[0].valueString = 	"No, I have never used recreational drugs" 
 * item[=].item[=].answerOption[1].valueString = 	"No, I quitted using recreational drugs" 
 * item[=].item[=].answerOption[2].valueString = 	"Yes, occasionally" 
@@ -566,6 +604,7 @@ Description: "Example of questionnaire defined for the COVID-19 Survey by the GA
 * item[=].item[=].text = " Do you currently use recreational drugs?" 
 * item[=].item[=].linkId = "lifestyleHabits.drugsNow"
 * item[=].item[=].type = #choice
+* item[=].item[=].repeats = false
 * item[=].item[=].answerOption[0].valueString = 	"No, I have never used recreational drugs" 
 * item[=].item[=].answerOption[1].valueString = 	"No, I quitted using recreational drugs" 
 * item[=].item[=].answerOption[2].valueString = 	"Yes, occasionally" 
@@ -583,6 +622,7 @@ Description: "Example of questionnaire defined for the COVID-19 Survey by the GA
 * item[=].item[=].text = " During the last 2 weeks, how many times have you done 20 minutes of vigorous physical activity that made you sweat or puff and pant? (for example, jogging, heavy lifting, digging, aerobics, or fast bicycling)" 
 * item[=].item[=].linkId = "physicalActivity.vigorous"
 * item[=].item[=].type = #choice
+* item[=].item[=].repeats = false
 * item[=].item[=].answerOption[0].valueString = 	"3 or more times/week" 
 * item[=].item[=].answerOption[1].valueString = 	"1–2 times/week" 
 * item[=].item[=].answerOption[2].valueString = 	"None" 
@@ -592,6 +632,7 @@ Description: "Example of questionnaire defined for the COVID-19 Survey by the GA
 * item[=].item[=].text = " During the last 2 weeks, how many times have you done 30 minutes of moderate physical activity or walking that increased your heart rate or made you breath harder than normal? (for example, mowing the lawn, carrying light loads, bicycling at a regular pace, or playing doubles tennis)" 
 * item[=].item[=].linkId = "physicalActivity.moderate"
 * item[=].item[=].type = #choice
+* item[=].item[=].repeats = false
 * item[=].item[=].answerOption[0].valueString = 	"5 or more times/week" 
 * item[=].item[=].answerOption[1].valueString = 	"3–4 times/week" 
 * item[=].item[=].answerOption[2].valueString = 	"1–2 times/week" 
@@ -608,6 +649,7 @@ Description: "Example of questionnaire defined for the COVID-19 Survey by the GA
 * item[=].item[=].text = "How would you consider the amount of physical activity you have done in the last 2 weeks in comparison to what you usually did before COVID-19 pandemic?" 
 * item[=].item[=].linkId = "physicalActivity.overallLast2Weeks"
 * item[=].item[=].type = #choice
+* item[=].item[=].repeats = false
 * item[=].item[=].answerOption[0].valueString = 	"Now I do less physical activity" 
 * item[=].item[=].answerOption[1].valueString = 	"Now I do more or less the same amount of physical activity" 
 * item[=].item[=].answerOption[2].valueString = 	"Now I do more physical activity" 
@@ -624,6 +666,7 @@ Description: "Example of questionnaire defined for the COVID-19 Survey by the GA
 * item[=].item[=].text = " During the last 2 weeks, were you satisfied with your sleep?" 
 * item[=].item[=].linkId = "sleepHealth.satisfaction"
 * item[=].item[=].type = #choice
+* item[=].item[=].repeats = false
 * item[=].item[=].answerValueSet = 	"#Inline-Instance-for-covid19-7-1" 
 * item[=].item[=].required = true
 
@@ -631,6 +674,7 @@ Description: "Example of questionnaire defined for the COVID-19 Survey by the GA
 * item[=].item[=].text = " During the last 2 weeks, did you stay awake all day without dozing?" 
 * item[=].item[=].linkId = "sleepHealth.awakeAllDay"
 * item[=].item[=].type = #choice
+* item[=].item[=].repeats = false
 * item[=].item[=].answerValueSet = 	"#Inline-Instance-for-covid19-7-1" 
 * item[=].item[=].required = true
 
@@ -638,6 +682,7 @@ Description: "Example of questionnaire defined for the COVID-19 Survey by the GA
 * item[=].item[=].text = "During the last 2 weeks, were you asleep (or trying to sleep) between 2:00 a.m. and 4:00 a.m.?" 
 * item[=].item[=].linkId = "sleepHealth.asleepDuringNightHours"
 * item[=].item[=].type = #choice
+* item[=].item[=].repeats = false
 * item[=].item[=].answerValueSet = 	"#Inline-Instance-for-covid19-7-1" 
 * item[=].item[=].required = true
 
@@ -645,6 +690,7 @@ Description: "Example of questionnaire defined for the COVID-19 Survey by the GA
 * item[=].item[=].text = "During the last 2 weeks, did you spend less than 30 minutes awake at night? (This includes the time it takes to fall asleep plus awakenings during sleep.)" 
 * item[=].item[=].linkId = "sleepHealth.timeAwake"
 * item[=].item[=].type = #choice
+* item[=].item[=].repeats = false
 * item[=].item[=].answerValueSet = 	"#Inline-Instance-for-covid19-7-1" 
 * item[=].item[=].required = true
 
@@ -652,6 +698,7 @@ Description: "Example of questionnaire defined for the COVID-19 Survey by the GA
 * item[=].item[=].text = "During the last 2 weeks, did you sleep between 6 and 8 hours per day?" 
 * item[=].item[=].linkId = "sleepHealth.sleepDuration"
 * item[=].item[=].type = #choice
+* item[=].item[=].repeats = false
 * item[=].item[=].answerValueSet = 	"#Inline-Instance-for-covid19-7-1" 
 * item[=].item[=].required = true
 
@@ -659,6 +706,7 @@ Description: "Example of questionnaire defined for the COVID-19 Survey by the GA
 * item[=].item[=].text = "During the last 2 weeks, did you go to bed and get out of bed at about the same time (within one hour) every day?" 
 * item[=].item[=].linkId = "sleepHealth.regularity"
 * item[=].item[=].type = #choice
+* item[=].item[=].repeats = false
 * item[=].item[=].answerValueSet = 	"#Inline-Instance-for-covid19-7-1" 
 * item[=].item[=].required = true
 
@@ -666,6 +714,7 @@ Description: "Example of questionnaire defined for the COVID-19 Survey by the GA
 * item[=].item[=].text = "How would you consider the quality of your sleep in the last 2 weeks in comparison to what you experienced before COVID-19 pandemic?" 
 * item[=].item[=].linkId = "sleepHealth.overallQualityVsBeforeCovid19"
 * item[=].item[=].type = #choice
+* item[=].item[=].repeats = false
 * item[=].item[=].answerValueSet = 	"#Inline-Instance-for-covid19-7-7" 
 * item[=].item[=].required = true
 
@@ -673,6 +722,7 @@ Description: "Example of questionnaire defined for the COVID-19 Survey by the GA
 * item[=].item[=].text = "How would you consider the quality of your sleep in the last 2 weeks in comparison to what you experienced during the highest peak of COVID-19 pandemic?" 
 * item[=].item[=].linkId = "sleepHealth.overallQualityVsPeakCovid19"
 * item[=].item[=].type = #choice
+* item[=].item[=].repeats = false
 * item[=].item[=].answerValueSet = 	"#Inline-Instance-for-covid19-7-7" 
 * item[=].item[=].required = true
 
@@ -680,6 +730,7 @@ Description: "Example of questionnaire defined for the COVID-19 Survey by the GA
 * item[=].item[=].text = "Do you take medication to sleep?" 
 * item[=].item[=].linkId = "sleepHealth.medication"
 * item[=].item[=].type = #choice
+* item[=].item[=].repeats = false
 * item[=].item[=].answerOption[0].valueString = 	"Yes, both before and during the pandemic."
 * item[=].item[=].answerOption[1].valueString = 	"Yes, I started it during the pandemic."
 * item[=].item[=].answerOption[2].valueString = 	"No, but I have used it before the pandemic."
@@ -703,6 +754,7 @@ Description: "Example of questionnaire defined for the COVID-19 Survey by the GA
 * item[=].item[=].text = "Before the COVID-19 pandemic, have you had any virtual (telephone, online) consultations with your healthcare provider?" 
 * item[=].item[=].linkId = "virtualConsultations.beforeCovid19Virtual"
 * item[=].item[=].type = #choice
+* item[=].item[=].repeats = false
 * item[=].item[=].answerValueSet = 	"https://fhir.loinc.org/ValueSet/?url=http://loinc.org/vs/LL361-7"
 * item[=].item[=].required = true
 
@@ -710,6 +762,7 @@ Description: "Example of questionnaire defined for the COVID-19 Survey by the GA
 * item[=].item[=].text = "During the COVID-19 pandemic, have you had any face-to-face consultations with your healthcare provider?" 
 * item[=].item[=].linkId = "virtualConsultations.duringCovid19F2F"
 * item[=].item[=].type = #choice
+* item[=].item[=].repeats = false
 * item[=].item[=].answerValueSet = 	"https://fhir.loinc.org/ValueSet/?url=http://loinc.org/vs/LL361-7"
 * item[=].item[=].required = true
 
@@ -717,6 +770,7 @@ Description: "Example of questionnaire defined for the COVID-19 Survey by the GA
 * item[=].item[=].text = "During the COVID-19 pandemic, have you had any virtual (telephone, online) consultations with your healthcare provider?" 
 * item[=].item[=].linkId = "virtualConsultations.duringCovid19Virtual"
 * item[=].item[=].type = #choice
+* item[=].item[=].repeats = false
 * item[=].item[=].answerValueSet = 	"https://fhir.loinc.org/ValueSet/?url=http://loinc.org/vs/LL361-7"
 * item[=].item[=].required = true
 
@@ -724,6 +778,7 @@ Description: "Example of questionnaire defined for the COVID-19 Survey by the GA
 * item[=].item[=].text = "How useful was the virtual consultation?" 
 * item[=].item[=].linkId = "virtualConsultations.duringCovid19VirtualUsefulness"
 * item[=].item[=].type = #choice
+* item[=].item[=].repeats = false
 * item[=].item[=].answerOption[0].valueString = "Very useful"
 * item[=].item[=].answerOption[1].valueString = "Useful"
 * item[=].item[=].answerOption[2].valueString = "Average"
@@ -735,6 +790,7 @@ Description: "Example of questionnaire defined for the COVID-19 Survey by the GA
 * item[=].item[=].text = "Would you be willing to attend virtual consultations in the future?" 
 * item[=].item[=].linkId = "virtualConsultations.futureWill"
 * item[=].item[=].type = #choice
+* item[=].item[=].repeats = false
 * item[=].item[=].answerOption[0].valueString = "No, I would not want any virtual consultations"
 * item[=].item[=].answerOption[1].valueString = "Yes, but only as part of a mix of face-to-face and virtual consultations"
 * item[=].item[=].answerOption[2].valueString = "Yes, as many of my consultations as possible"
@@ -756,7 +812,8 @@ Description: "Example of questionnaire defined for the COVID-19 Survey by the GA
 * item[=].item[+].prefix = "9.1"
 * item[=].item[=].text = "Before the COVID-19 pandemic, which of the following digital health technologies have you used to manage your health? (check all that apply; do not worry if any of these technologies are unfamiliar to you)" 
 * item[=].item[=].linkId = "digitalHealthcare.healthTechnologiesUsedBeforeCovid19"
-* item[=].item[=].type = #open-choice
+* item[=].item[=].type = #choice
+* item[=].item[=].repeats = true
 * item[=].item[=].answerOption[0].valueString = "Virtual consultation"
 * item[=].item[=].answerOption[1].valueString = "Remote monitoring"
 * item[=].item[=].answerOption[2].valueString = "Smartphone/tablet apps (e.g., tracking personal activity or psychological well-being)"
@@ -773,7 +830,8 @@ Description: "Example of questionnaire defined for the COVID-19 Survey by the GA
 * item[=].item[+].prefix = "9.2"
 * item[=].item[=].text = "During the COVID-19 pandemic, which of the following digital health technologies have you used to manage your health? (check all that apply; do not worry if any of these technologies are unfamiliar to you)" 
 * item[=].item[=].linkId = "digitalHealthcare.healthTechnologiesUsedDuringCovid19"
-* item[=].item[=].type = #open-choice
+* item[=].item[=].type = #choice
+* item[=].item[=].repeats = true
 * item[=].item[=].answerOption[0].valueString = "Virtual consultation"
 * item[=].item[=].answerOption[1].valueString = "Remote monitoring"
 * item[=].item[=].answerOption[2].valueString = "Smartphone/tablet apps (e.g., tracking personal activity or psychological well-being)"
@@ -790,7 +848,8 @@ Description: "Example of questionnaire defined for the COVID-19 Survey by the GA
 * item[=].item[+].prefix = "9.3"
 * item[=].item[=].text = "Which of the following would you do virtually if given the choice? (check all that apply)" 
 * item[=].item[=].linkId = "digitalHealthcare.usageIntent"
-* item[=].item[=].type = #open-choice
+* item[=].item[=].type = #choice
+* item[=].item[=].repeats = true
 * item[=].item[=].answerOption[0].valueString = "Health and wellness advisories"
 * item[=].item[=].answerOption[1].valueString = "Remote monitoring of ongoing health issues through at-home devices"
 * item[=].item[=].answerOption[2].valueString = "Routine appointments"
@@ -804,7 +863,8 @@ Description: "Example of questionnaire defined for the COVID-19 Survey by the GA
 * item[=].item[+].prefix = "9.4"
 * item[=].item[=].text = "What might keep you from using digital health technologies (e.g., chatbots, apps or digital devices) for your health questions and care? (check all that apply)" 
 * item[=].item[=].linkId = "digitalHealthcare.usageImpediments"
-* item[=].item[=].type = #open-choice
+* item[=].item[=].type = #choice
+* item[=].item[=].repeats = true
 * item[=].item[=].answerOption[0].valueString = "Concerns about my privacy or data security"
 * item[=].item[=].answerOption[1].valueString = "Don’t trust the effectiveness of the service"
 * item[=].item[=].answerOption[2].valueString = "Prefer my current providers"
@@ -818,7 +878,8 @@ Description: "Example of questionnaire defined for the COVID-19 Survey by the GA
 * item[=].item[+].prefix = "9.5"
 * item[=].item[=].text = "Overall, how confident are you that your digital healthcare data is being used responsibly and in your best interest?" 
 * item[=].item[=].linkId = "digitalHealthcare.responsibleDataUsageConfidence"
-* item[=].item[=].type = #open-choice
+* item[=].item[=].type = #choice
+* item[=].item[=].repeats = false
 * item[=].item[=].answerOption[0].valueString = "Not at all confident"
 * item[=].item[=].answerOption[1].valueString = "Not very confident"
 * item[=].item[=].answerOption[2].valueString = "Somewhat confident"
@@ -834,6 +895,7 @@ Description: "Example of questionnaire defined for the COVID-19 Survey by the GA
 * item[=].item[=].item[=].text = "Hospitals I visit" 
 * item[=].item[=].item[=].linkId = "digitalHealthcare.trust.hospitals"
 * item[=].item[=].item[=].type = #choice
+* item[=].item[=].item[=].repeats = false
 * item[=].item[=].item[=].answerValueSet = 	"#Inline-Instance-for-covid19-9-6" 
 * item[=].item[=].item[=].required = true
 
@@ -841,6 +903,7 @@ Description: "Example of questionnaire defined for the COVID-19 Survey by the GA
 * item[=].item[=].item[=].text = "My doctor(s) or other healthcare providers" 
 * item[=].item[=].item[=].linkId = "digitalHealthcare.trust.doctors"
 * item[=].item[=].item[=].type = #choice
+* item[=].item[=].item[=].repeats = false
 * item[=].item[=].item[=].answerValueSet = 	"#Inline-Instance-for-covid19-9-6" 
 * item[=].item[=].item[=].required = true
 
@@ -848,6 +911,7 @@ Description: "Example of questionnaire defined for the COVID-19 Survey by the GA
 * item[=].item[=].item[=].text = "My pharmacy" 
 * item[=].item[=].item[=].linkId = "digitalHealthcare.trust.pharmacy"
 * item[=].item[=].item[=].type = #choice
+* item[=].item[=].item[=].repeats = false
 * item[=].item[=].item[=].answerValueSet = 	"#Inline-Instance-for-covid19-9-6" 
 * item[=].item[=].item[=].required = true
 
@@ -855,6 +919,7 @@ Description: "Example of questionnaire defined for the COVID-19 Survey by the GA
 * item[=].item[=].item[=].text = "Labs that process my medical tests" 
 * item[=].item[=].item[=].linkId = "digitalHealthcare.trust.labs"
 * item[=].item[=].item[=].type = #choice
+* item[=].item[=].item[=].repeats = false
 * item[=].item[=].item[=].answerValueSet = 	"#Inline-Instance-for-covid19-9-6" 
 * item[=].item[=].item[=].required = true
 
@@ -862,6 +927,7 @@ Description: "Example of questionnaire defined for the COVID-19 Survey by the GA
 * item[=].item[=].item[=].text = "My health insurance company" 
 * item[=].item[=].item[=].linkId = "digitalHealthcare.trust.insuranceCompany"
 * item[=].item[=].item[=].type = #choice
+* item[=].item[=].item[=].repeats = false
 * item[=].item[=].item[=].answerValueSet = 	"#Inline-Instance-for-covid19-9-6" 
 * item[=].item[=].item[=].required = true
 
@@ -869,6 +935,7 @@ Description: "Example of questionnaire defined for the COVID-19 Survey by the GA
 * item[=].item[=].item[=].text = "Technological companies" 
 * item[=].item[=].item[=].linkId = "digitalHealthcare.trust.techCompany"
 * item[=].item[=].item[=].type = #choice
+* item[=].item[=].item[=].repeats = false
 * item[=].item[=].item[=].answerValueSet = 	"#Inline-Instance-for-covid19-9-6" 
 * item[=].item[=].item[=].required = true
 
@@ -876,6 +943,7 @@ Description: "Example of questionnaire defined for the COVID-19 Survey by the GA
 * item[=].item[=].item[=].text = "Government" 
 * item[=].item[=].item[=].linkId = "digitalHealthcare.trust.government"
 * item[=].item[=].item[=].type = #choice
+* item[=].item[=].item[=].repeats = false
 * item[=].item[=].item[=].answerValueSet = 	"#Inline-Instance-for-covid19-9-6" 
 * item[=].item[=].item[=].required = true
 
@@ -895,6 +963,7 @@ Description: "Example of questionnaire defined for the COVID-19 Survey by the GA
 * item[=].item[=].item[=].text = "During the COVID-19 pandemic, how easy has it been for you to make an appointment with your doctor compared with the period before the COVID-19 pandemic?" 
 * item[=].item[=].item[=].linkId = "accessMedCares.bookAppointmentDuringCovid19"
 * item[=].item[=].item[=].type = #choice
+* item[=].item[=].item[=].repeats = false
 * item[=].item[=].item[=].answerOption[0].valueString = "Much harder"
 * item[=].item[=].item[=].answerOption[1].valueString = "Somewhat harder"
 * item[=].item[=].item[=].answerOption[2].valueString = "No change"
@@ -907,6 +976,7 @@ Description: "Example of questionnaire defined for the COVID-19 Survey by the GA
 * item[=].item[=].item[=].text = "During the COVID-19 pandemic, how long did you have to wait for an appointment with your doctor compared with the period before the COVID-19 pandemic?" 
 * item[=].item[=].item[=].linkId = "accessMedCares.waitAppointmentDuringCovid19"
 * item[=].item[=].item[=].type = #choice
+* item[=].item[=].item[=].repeats = false
 * item[=].item[=].item[=].answerOption[0].valueString = "Much longer"
 * item[=].item[=].item[=].answerOption[1].valueString = "Somewhat longer"
 * item[=].item[=].item[=].answerOption[2].valueString = "Stayed the same"
@@ -919,6 +989,7 @@ Description: "Example of questionnaire defined for the COVID-19 Survey by the GA
 * item[=].item[=].item[=].text = "During the COVID-19 pandemic, did you have any problems with receiving prescriptions for your medications?" 
 * item[=].item[=].item[=].linkId = "accessMedCares.prescriptionDuringCovid19"
 * item[=].item[=].item[=].type = #choice
+* item[=].item[=].item[=].repeats = false
 * item[=].item[=].item[=].answerOption[0].valueString = "Each time"
 * item[=].item[=].item[=].answerOption[1].valueString = "Very often"
 * item[=].item[=].item[=].answerOption[2].valueString = "Sometimes"
@@ -931,6 +1002,7 @@ Description: "Example of questionnaire defined for the COVID-19 Survey by the GA
 * item[=].item[=].item[=].text = "During the COVID-19 pandemic, did you have any problems with receiving prescriptions for your medications?" 
 * item[=].item[=].item[=].linkId = "accessMedCares.prescriptionDuringCovid19"
 * item[=].item[=].item[=].type = #choice
+* item[=].item[=].item[=].repeats = false
 * item[=].item[=].item[=].answerOption[0].valueString = "No"
 * item[=].item[=].item[=].answerOption[1].valueString = "Yes, once"
 * item[=].item[=].item[=].answerOption[2].valueString = "Yes, twice or more"
@@ -946,6 +1018,7 @@ Description: "Example of questionnaire defined for the COVID-19 Survey by the GA
 * item[=].item[=].item[=].text = "During the COVID-19 pandemic, what was the level of support you received from your friends and family members in relation to your health condition(s) compared with the period before the COVID-19 pandemic?" 
 * item[=].item[=].item[=].linkId = "motivationAndSupport.family"
 * item[=].item[=].item[=].type = #choice
+* item[=].item[=].item[=].repeats = false
 * item[=].item[=].item[=].answerOption[0].valueString = "Much worse"
 * item[=].item[=].item[=].answerOption[1].valueString = "Somewhat worse"
 * item[=].item[=].item[=].answerOption[2].valueString = "Stayed the same"
@@ -958,6 +1031,7 @@ Description: "Example of questionnaire defined for the COVID-19 Survey by the GA
 * item[=].item[=].item[=].text = "During the COVID-19 pandemic, what was the level of support you received from healthcare professionals in relation to your health condition(s) compared with the period before the COVID-19 pandemic?" 
 * item[=].item[=].item[=].linkId = "motivationAndSupport.healthcareProfessionals"
 * item[=].item[=].item[=].type = #choice
+* item[=].item[=].item[=].repeats = false
 * item[=].item[=].item[=].answerOption[0].valueString = "Much worse"
 * item[=].item[=].item[=].answerOption[1].valueString = "Somewhat worse"
 * item[=].item[=].item[=].answerOption[2].valueString = "Stayed the same"
@@ -984,6 +1058,7 @@ Description: "Example of questionnaire defined for the COVID-19 Survey by the GA
 * item[=].item[=].text = "Have you been administered a COVID-19 vaccination (at least 1st dose)?" 
 * item[=].item[=].linkId = "covid19Vaccination.status"
 * item[=].item[=].type = #choice
+* item[=].item[=].repeats = false
 * item[=].item[=].answerValueSet = 	"https://fhir.loinc.org/ValueSet/?url=http://loinc.org/vs/LL361-7"
 * item[=].item[=].required = true
 
@@ -991,12 +1066,14 @@ Description: "Example of questionnaire defined for the COVID-19 Survey by the GA
 * item[=].item[=].text = "Are you willing to take COVID-19 vaccination?" 
 * item[=].item[=].linkId = "covid19Vaccination.will"
 * item[=].item[=].type = #choice
+* item[=].item[=].repeats = false
 * item[=].item[=].answerValueSet = 	"https://fhir.loinc.org/ValueSet/?url=http://loinc.org/vs/LL865-7"
 * item[=].item[=].required = false
 
 * item[=].item[+].prefix = "11.4"
 * item[=].item[=].text = "Have you experienced any adverse effects of COVID-19 vaccination?" 
 * item[=].item[=].linkId = "covid19Vaccination.adverseEffects"
+* item[=].item[=].repeats = false
 * item[=].item[=].type = #choice
 * item[=].item[=].answerValueSet = 	"https://fhir.loinc.org/ValueSet/?url=http://loinc.org/vs/LL865-7"
 * item[=].item[=].required = false
@@ -1005,6 +1082,7 @@ Description: "Example of questionnaire defined for the COVID-19 Survey by the GA
 * item[=].item[=].text = "Would you agree to take COVID-19 vaccination every year?" 
 * item[=].item[=].linkId = "covid19Vaccination.everyYear"
 * item[=].item[=].type = #choice
+* item[=].item[=].repeats = false
 * item[=].item[=].answerValueSet = 	"https://fhir.loinc.org/ValueSet/?url=http://loinc.org/vs/LL865-7"
 * item[=].item[=].required = true
 
