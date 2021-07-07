@@ -13,6 +13,7 @@ Usage: #inline
 * compose.include.concept[+].code = #"Quite a bit"
 * compose.include.concept[+].code = #"Strongly"
 
+/* --------------
 Instance: inlineValueSet-covid19-4-3
 InstanceOf: ValueSet
 Usage: #inline
@@ -24,6 +25,47 @@ Usage: #inline
 * compose.include.concept[+].code = #"Rarely"
 * compose.include.concept[+].code = #"Sometimes"
 * compose.include.concept[+].code = #"Always"
+
+Instance: inlineValueSet-covid19-7-1
+InstanceOf: ValueSet
+Usage: #inline
+// * url = "Inline-covid19-7-1"
+* name = "InlineValueSetCovid19x7x1"
+* status = #draft
+* compose.include.system = $string
+* compose.include.concept[0].code = #"Never"
+* compose.include.concept[+].code = #"Rarely"
+* compose.include.concept[+].code = #"Sometimes"
+* compose.include.concept[+].code = #"Usually"
+* compose.include.concept[+].code = #"Always"
+
+
+---------------- */
+
+Instance: inlineValueSet-covid19-4-3
+InstanceOf: ValueSet
+Usage: #inline
+* name = "InlineValueSetCovid19x4x3"
+* status = #draft
+* compose.include.system = $loinc
+* compose.include.concept[0].code = #LA6270-8 "Never"
+* compose.include.concept[+].code = #LA10066-1 "Rarely"
+* compose.include.concept[+].code = #LA10082-8 "Sometimes"
+* compose.include.concept[+].code = #LA9933-8 "Always"
+
+Instance: inlineValueSet-covid19-7-1
+InstanceOf: ValueSet
+Usage: #inline
+// * url = "Inline-covid19-7-1"
+* name = "InlineValueSetCovid19x7x1"
+* status = #draft
+* compose.include.system = $loinc
+* compose.include.concept[0].code = #LA6270-8 "Never"
+* compose.include.concept[+].code = #LA10066-1 "Rarely"
+* compose.include.concept[+].code = #LA10082-8 "Sometimes"
+* compose.include.concept[+].code = #LA14747-2 "Usually"
+* compose.include.concept[+].code = #LA9933-8 "Always"
+
 
 Instance: inlineValueSet-covid19-4-5
 InstanceOf: ValueSet
@@ -38,18 +80,7 @@ Usage: #inline
 * compose.include.concept[+].code = #"Nearly every day"
 
 
-Instance: inlineValueSet-covid19-7-1
-InstanceOf: ValueSet
-Usage: #inline
-// * url = "Inline-covid19-7-1"
-* name = "InlineValueSetCovid19x7x1"
-* status = #draft
-* compose.include.system = $string
-* compose.include.concept[0].code = #"Never"
-* compose.include.concept[+].code = #"Rarely"
-* compose.include.concept[+].code = #"Sometimes"
-* compose.include.concept[+].code = #"Usually"
-* compose.include.concept[+].code = #"Always"
+
 
 Instance: inlineValueSet-covid19-7-7
 InstanceOf: ValueSet
