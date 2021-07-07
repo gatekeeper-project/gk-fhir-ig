@@ -259,7 +259,7 @@ Description: "Example of questionnaire defined for the COVID-19 Survey by the GA
 * item[=].item[=].text = "During the COVID-19 pandemic have you been exposed to someone likely to have COVID-19? (check all that apply)"
 * item[=].item[=].linkId = "covid19HealthExposureStatus.other"
 * item[=].item[=].type = #choice
-* item[=].item[=].repeats = false
+* item[=].item[=].repeats = true
 * item[=].item[=].answerOption[0].valueString = 	"Yes, someone with positive test"
 * item[=].item[=].answerOption[1].valueString = 	"Yes, someone with the symptoms likely to be associated with an infection"
 * item[=].item[=].answerOption[2].valueString = 	"No"
@@ -818,7 +818,7 @@ Description: "Example of questionnaire defined for the COVID-19 Survey by the GA
 * item[=].item[+].prefix = "9.1"
 * item[=].item[=].text = "Before the COVID-19 pandemic, which of the following digital health technologies have you used to manage your health? (check all that apply; do not worry if any of these technologies are unfamiliar to you)"
 * item[=].item[=].linkId = "digitalHealthcare.healthTechnologiesUsedBeforeCovid19"
-* item[=].item[=].type = #choice
+* item[=].item[=].type = #open-choice
 * item[=].item[=].repeats = true
 * item[=].item[=].answerOption[0].valueString = "Virtual consultation"
 * item[=].item[=].answerOption[1].valueString = "Remote monitoring"
@@ -829,14 +829,14 @@ Description: "Example of questionnaire defined for the COVID-19 Survey by the GA
 * item[=].item[=].answerOption[6].valueString = "Social media"
 * item[=].item[=].answerOption[7].valueString = "Electronic health records"
 * item[=].item[=].answerOption[8].valueString = "Online support communities"
-* item[=].item[=].answerOption[9].valueString = "Other"
+* item[=].item[=].answerOption[9].valueString = "Other:"
 * item[=].item[=].answerOption[10].valueString = "None"
 * item[=].item[=].required = true
 
 * item[=].item[+].prefix = "9.2"
 * item[=].item[=].text = "During the COVID-19 pandemic, which of the following digital health technologies have you used to manage your health? (check all that apply; do not worry if any of these technologies are unfamiliar to you)"
 * item[=].item[=].linkId = "digitalHealthcare.healthTechnologiesUsedDuringCovid19"
-* item[=].item[=].type = #choice
+* item[=].item[=].type = #open-choice
 * item[=].item[=].repeats = true
 * item[=].item[=].answerOption[0].valueString = "Virtual consultation"
 * item[=].item[=].answerOption[1].valueString = "Remote monitoring"
@@ -847,7 +847,7 @@ Description: "Example of questionnaire defined for the COVID-19 Survey by the GA
 * item[=].item[=].answerOption[6].valueString = "Social media"
 * item[=].item[=].answerOption[7].valueString = "Electronic health records"
 * item[=].item[=].answerOption[8].valueString = "Online support communities"
-* item[=].item[=].answerOption[9].valueString = "Other"
+* item[=].item[=].answerOption[9].valueString = "Other:"
 * item[=].item[=].answerOption[10].valueString = "None"
 * item[=].item[=].required = true
 
