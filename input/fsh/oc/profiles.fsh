@@ -24,11 +24,8 @@ Description: "Ab.Acus SpeakApp temporary Code System. Proper codes will be ident
 * #phonation 	"Duration of the phonation" "Duration of the phonation"
 * #silence  	"Duration of the silence"   "Duration of the silence"
 
-<<<<<<< HEAD
 * #wordCluster "Word Cluster Panel" "Word Cluster Panel"
 
-=======
->>>>>>> 96000538aee5164362bdfac6378a75f295c5140a
 * #mean_intraword_time "Mean intraword time" "Mean intraword time"
 * #shifts_number "Shifts Number" "Shifts Number"
 * #cluster_numbers "Cluster Number" "Cluster Number"
