@@ -70,18 +70,24 @@ Description: "This profile defines how to represent Verbal Fluency panel (SpeakA
 * hasMember ^slicing.rules = #closed
 * hasMember ^short = "Members composing the Verbal Fluency Panel"
 * hasMember ^definition = "The root of the members that make up the the Verbal Fluency Panel observation."
+// check if all slices 1..1
 * hasMember contains   wordCountPanel 0..1
-//	and someMeasure 0..1
+	and wordCluster 0..1
 	and phonationSilence 0..1
-//	and audioMeasures 0..1
+	and audioQuality 0..1
 
 * hasMember[wordCountPanel] ^short = "Word Count results"
-* hasMember[phonationSilence] ^short = "Exercise aerobic category"			
+* hasMember[wordCluster] ^short = "Word Cluster measurements"
+* hasMember[phonationSilence] ^short = "Phonation vs Silence measurement"
+* hasMember[audioQuality] ^short = "Audio Quality measurement"				
 
-* hasMember[wordCountPanel] only Reference(ObservationWordResults)	 // Word Count results
-* hasMember[phonationSilence] only Reference(ObservationPhonationSilence)	// Phonation Silence measures
+* hasMember[wordCountPanel] only Reference(ObservationWordResults)	 
+* hasMember[wordCluster] only Reference(ObservationWordCluster)	 
+* hasMember[phonationSilence] only Reference(ObservationPhonationSilence)	
+* hasMember[audioQuality] only Reference(ObservationAudioQuality)	
 
-* component 0..
+
+* component 0..0
 
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
