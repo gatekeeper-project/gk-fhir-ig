@@ -9,6 +9,7 @@ Alias: $sct = http://snomed.info/sct
 Alias: $phenxtoolkit = https://www.phenxtoolkit.org
 Alias: $observation-category = http://terminology.hl7.org/CodeSystem/observation-category
 Alias: $location-physical-type = http://terminology.hl7.org/CodeSystem/location-physical-type
+Alias: $consentscope = http://terminology.hl7.org/CodeSystem/consentscope
 
 
 // =========== Extensions =======

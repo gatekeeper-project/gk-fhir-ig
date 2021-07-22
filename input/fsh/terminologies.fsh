@@ -43,12 +43,8 @@ Description: "Vital Signs captured for the Gatekeeper Project"
 * $loinc#41982-0 // Percentage of body fat Measured
 * $loinc#8280-0 // Waist Circumference at umbilicus by Tape measure; other measures available
 
-* $loinc#29463-7 "Body weight"
-* $loinc#8867-4 "Heart rate"* $loinc#85354-9 "Blood pressure panel with all children optional"
-* $loinc#8480-6 "Systolic blood pressure"
-* $loinc#8462-4 "Diastolic blood pressure"
-* $loinc#8302-2 "Body height"
-
+* $loinc#59574-4 // Body mass index (BMI) [Percentile]	
+* $loinc#56087-0 // Child Waist Circumference Protocol
 
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++

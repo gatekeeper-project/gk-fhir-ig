@@ -32,30 +32,6 @@ e: {
     "include" : [{
       "system" : "string",
       "concept" : [{
-        "code" : "Never"
-      },
-      {
-        "code" : "Rarely"
-      },
-      {
-        "code" : "Sometimes"
-      },
-      {
-        "code" : "Always"
-      }]
-    }]
-  }
-}}####
-e: {
-  "error" : "Error from server: Unable to provide support for code system string"
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : false, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "include" : [{
-      "system" : "string",
-      "concept" : [{
         "code" : "Not at all"
       },
       {
@@ -66,33 +42,6 @@ e: {
       },
       {
         "code" : "Nearly every day"
-      }]
-    }]
-  }
-}}####
-e: {
-  "error" : "Error from server: Unable to provide support for code system string"
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : false, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "include" : [{
-      "system" : "string",
-      "concept" : [{
-        "code" : "Never"
-      },
-      {
-        "code" : "Rarely"
-      },
-      {
-        "code" : "Sometimes"
-      },
-      {
-        "code" : "Usually"
-      },
-      {
-        "code" : "Always"
       }]
     }]
   }
@@ -179,30 +128,6 @@ e: {
     "include" : [{
       "system" : "string",
       "concept" : [{
-        "code" : "Never"
-      },
-      {
-        "code" : "Rarely"
-      },
-      {
-        "code" : "Sometimes"
-      },
-      {
-        "code" : "Always"
-      }]
-    }]
-  }
-}}####
-e: {
-  "error" : "Error from server: Unable to provide support for code system string"
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : true, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "include" : [{
-      "system" : "string",
-      "concept" : [{
         "code" : "Not at all"
       },
       {
@@ -213,33 +138,6 @@ e: {
       },
       {
         "code" : "Nearly every day"
-      }]
-    }]
-  }
-}}####
-e: {
-  "error" : "Error from server: Unable to provide support for code system string"
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : true, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "include" : [{
-      "system" : "string",
-      "concept" : [{
-        "code" : "Never"
-      },
-      {
-        "code" : "Rarely"
-      },
-      {
-        "code" : "Sometimes"
-      },
-      {
-        "code" : "Usually"
-      },
-      {
-        "code" : "Always"
       }]
     }]
   }
@@ -501,75 +399,5 @@ e: {
 }}####
 e: {
   "error" : "Error from server: Unable to provide support for code system string"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "string",
-  "code" : "Not at all"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "",
-  "severity" : "error",
-  "error" : "Error from server: Error:org.hl7.fhir.r5.model.CodeableConcept@6f3a5369\r\n"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "string",
-  "code" : "Worse"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "",
-  "severity" : "error",
-  "error" : "Error from server: Error:org.hl7.fhir.r5.model.CodeableConcept@2ecf5f9f\r\n"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "string",
-  "code" : "You have no problems in walking about"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "",
-  "severity" : "error",
-  "error" : "Error from server: Error:org.hl7.fhir.r5.model.CodeableConcept@1813d69a\r\n"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "string",
-  "code" : "You have no problems with self-care"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "",
-  "severity" : "error",
-  "error" : "Error from server: Error:org.hl7.fhir.r5.model.CodeableConcept@711d5540\r\n"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "string",
-  "code" : "You have no problems doing your usual activities"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "",
-  "severity" : "error",
-  "error" : "Error from server: Error:org.hl7.fhir.r5.model.CodeableConcept@2845f2c9\r\n"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "string",
-  "code" : "You have no pain or discomfort"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "",
-  "severity" : "error",
-  "error" : "Error from server: Error:org.hl7.fhir.r5.model.CodeableConcept@5a60ea39\r\n"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "string",
-  "code" : "You are not anxious or depressed"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "",
-  "severity" : "error",
-  "error" : "Error from server: Error:org.hl7.fhir.r5.model.CodeableConcept@200289e9\r\n"
 }
 -------------------------------------------------------------------------------------

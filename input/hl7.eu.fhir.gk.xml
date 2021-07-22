@@ -77,7 +77,7 @@
 			</reference>
 			<name value="Observation: Floors Climbed"/>
 			<description value="Observation: Floors Climbed"/>
-			<exampleCanonical value="http://hl7.eu/fhir/ig/gk/StructureDefinition/Observation-floorClimbed-gk"/>
+			<exampleCanonical value="http://hl7.eu/fhir/ig/gk/StructureDefinition/observation-floorClimbed-gk"/>
 		</resource>
 		<resource>
 			<reference>
@@ -85,7 +85,7 @@
 			</reference>
 			<name value="Observation: Glucose in Blood"/>
 			<description value="Observation: Glucose in Blood"/>
-			<exampleCanonical value="http://hl7.eu/fhir/ig/gk/StructureDefinition/Observation-bloodGlucose-gk"/>
+			<exampleCanonical value="http://hl7.eu/fhir/ig/gk/StructureDefinition/observation-bloodGlucose-gk"/>
 		</resource>
 		<resource>
 			<reference>
@@ -93,7 +93,7 @@
 			</reference>
 			<name value="Observation: Glucose in Blood (Time Event)"/>
 			<description value="Observation: Glucose in Blood (Time Event)"/>
-			<exampleCanonical value="http://hl7.eu/fhir/ig/gk/StructureDefinition/Observation-bloodGlucose-gk"/>
+			<exampleCanonical value="http://hl7.eu/fhir/ig/gk/StructureDefinition/observation-bloodGlucose-gk"/>
 		</resource>
 		<resource>
 			<reference>
@@ -101,7 +101,7 @@
 			</reference>
 			<name value="Observation: Blood Pressure"/>
 			<description value="Observation: Blood Pressure"/>
-			<exampleCanonical value="http://hl7.eu/fhir/ig/gk/StructureDefinition/Observation-bp-gk"/>
+			<exampleCanonical value="http://hl7.eu/fhir/ig/gk/StructureDefinition/observation-bp-gk"/>
 		</resource>
 		<resource>
 			<reference>
@@ -109,7 +109,7 @@
 			</reference>
 			<name value="Observation: Body Weight"/>
 			<description value="Observation: Body Weight"/>
-			<exampleCanonical value="http://hl7.eu/fhir/ig/gk/StructureDefinition/Observation-vitalsigns-gk"/>
+			<exampleCanonical value="http://hl7.eu/fhir/ig/gk/StructureDefinition/observation-vitalsigns-gk"/>
 		</resource>
 		<resource>
 			<reference>
@@ -117,7 +117,7 @@
 			</reference>
 			<name value="Observation: Heart Rate"/>
 			<description value="Observation: Heart Rate"/>
-			<exampleCanonical value="http://hl7.eu/fhir/ig/gk/StructureDefinition/Observation-hr-gk"/>
+			<exampleCanonical value="http://hl7.eu/fhir/ig/gk/StructureDefinition/observation-hr-gk"/>
 		</resource>
 		<resource>
 			<reference>
@@ -142,7 +142,7 @@
 			</reference>
 			<name value="Consent: example from Saxony"/>
 			<description value="Consent: example from Saxony"/>
-			<exampleCanonical value="http://hl7.org/fhir/StructureDefinition/Consent"/>
+			<exampleCanonical value="http://hl7.eu/fhir/ig/gk/StructureDefinition/consent-saxony-gk"/>
 		</resource>
 		<resource>
 			<reference>
@@ -150,7 +150,7 @@
 			</reference>
 			<name value="QuestionnaireResponse: example from Saxony"/>
 			<description value="QuestionnaireResponse: example from Saxony"/>
-			<exampleCanonical value="http://hl7.org/fhir/StructureDefinition/QuestionnaireResponse"/>
+			<exampleCanonical value="http://hl7.eu/fhir/ig/gk/StructureDefinition/questionnaireResponse-gk"/>
 		</resource>
 		<resource>
 			<reference>
