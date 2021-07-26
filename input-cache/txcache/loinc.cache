@@ -551,30 +551,20 @@ v: {
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://loinc.org",
-  "code" : "59574-4"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Body mass index (BMI) [Percentile]",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
-  "code" : "56087-0"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Child Waist Circumference Protocol",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
   "code" : "57016-8"
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Privacy policy acknowledgment Document",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "51848-0"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Evaluation note",
   "severity" : null,
   "error" : ""
 }
@@ -1333,12 +1323,6 @@ v: {
       },
       {
         "code" : "8280-0"
-      },
-      {
-        "code" : "59574-4"
-      },
-      {
-        "code" : "56087-0"
       }]
     }]
   }
@@ -1652,8 +1636,8 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:265856a6-6ffb-4bfb-b212-694508e702f5",
-    "timestamp" : "2021-07-22T07:51:03.609Z",
+    "identifier" : "urn:uuid:c8c90c68-0678-4ff4-b085-c3a9f9e58807",
+    "timestamp" : "2021-07-26T12:59:14.878Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -1720,8 +1704,8 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:4248a058-b756-4e9a-b998-6567fa1ded11",
-    "timestamp" : "2021-07-22T07:51:04.828Z",
+    "identifier" : "urn:uuid:d1f334b6-965e-4cc7-9374-6fd6832bd363",
+    "timestamp" : "2021-07-26T12:59:16.191Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -1790,8 +1774,8 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:da9007c2-a172-4fc4-81f4-095d61f4c6de",
-    "timestamp" : "2021-07-22T07:51:07.813Z",
+    "identifier" : "urn:uuid:cd5cf275-aac6-4821-a3e3-d33614d43fc7",
+    "timestamp" : "2021-07-26T12:59:19.957Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -1854,8 +1838,8 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:8150fd3e-a17e-4ec2-ad67-6ac67aff5001",
-    "timestamp" : "2021-07-22T07:51:09.156Z",
+    "identifier" : "urn:uuid:c939c59f-f6da-42e3-b7cf-fa40fcd4b167",
+    "timestamp" : "2021-07-26T12:59:21.316Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -1917,8 +1901,8 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:c325ab38-f640-40fd-9905-1b7b1c76293f",
-    "timestamp" : "2021-07-22T07:51:46.734Z",
+    "identifier" : "urn:uuid:84cadc23-8bed-411f-910e-81d0e0bba232",
+    "timestamp" : "2021-07-26T13:00:26.644Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -1988,8 +1972,8 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:b5ae250a-891f-4c62-a6f5-0d5b63429e01",
-    "timestamp" : "2021-07-22T07:51:47.094Z",
+    "identifier" : "urn:uuid:b724d644-51a9-43e7-a221-444c7fc75334",
+    "timestamp" : "2021-07-26T13:00:27.035Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -2068,12 +2052,12 @@ e: {
   "language" : "en",
   "text" : {
     "status" : "generated",
-    "div" : "<div xml:lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\"><p>This value set contains 2 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on Loinc v2.69</p><p>All codes from system <code>http://loinc.org</code></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b> - English (English, en)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-20570-8\"> </a><a href=\"http://details.loinc.org/LOINC/20570-8.html\">20570-8</a></td><td>Hematocrit [Volume Fraction] of Blood</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-4548-4\"> </a><a href=\"http://details.loinc.org/LOINC/4548-4.html\">4548-4</a></td><td>Hemoglobin A1c/Hemoglobin.total in Blood</td></tr></table></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"><p>This value set contains 2 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on Loinc v2.69</p><p>All codes from system <code>http://loinc.org</code></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b> - English (English, en)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-20570-8\"> </a><a href=\"http://details.loinc.org/LOINC/20570-8.html\">20570-8</a></td><td>Hematocrit [Volume Fraction] of Blood</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-4548-4\"> </a><a href=\"http://details.loinc.org/LOINC/4548-4.html\">4548-4</a></td><td>Hemoglobin A1c/Hemoglobin.total in Blood</td></tr></table></div>"
   },
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:7781f1fc-e9bd-4d1f-9b7b-1e4af91c6845",
-    "timestamp" : "2021-07-22T07:51:47.750Z",
+    "identifier" : "urn:uuid:f8869486-9e95-47df-b51c-ec9921a68882",
+    "timestamp" : "2021-07-26T13:00:27.769Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -2171,8 +2155,8 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:b280ece2-52a3-451b-8e92-4ddeb7cf540d",
-    "timestamp" : "2021-07-22T07:51:48.125Z",
+    "identifier" : "urn:uuid:b92d83a8-2131-462a-a1c4-e623b6e33ad3",
+    "timestamp" : "2021-07-26T13:00:28.347Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -2278,8 +2262,8 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:8f5dd144-a2bd-4e85-8eed-7f6bc017aaaf",
-    "timestamp" : "2021-07-22T07:51:48.344Z",
+    "identifier" : "urn:uuid:b6380224-5dad-4a15-9727-1eef88b5cfe1",
+    "timestamp" : "2021-07-26T13:00:28.597Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -2315,8 +2299,8 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:1cad696b-11a5-442f-9806-315d5e08f040",
-    "timestamp" : "2021-07-22T07:51:51.313Z",
+    "identifier" : "urn:uuid:0031f2b6-9a87-44ae-b96e-528947c1346f",
+    "timestamp" : "2021-07-26T13:00:30.816Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -2358,8 +2342,8 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:6a6a06c7-cafb-4e50-81c0-7fcba2557f5a",
-    "timestamp" : "2021-07-22T07:51:52.203Z",
+    "identifier" : "urn:uuid:d4022bf2-7cb5-4902-ae7c-2a0d75f93554",
+    "timestamp" : "2021-07-26T13:00:31.660Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -2418,8 +2402,8 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:f100a201-be77-4114-8e60-c5a0ee0c98cc",
-    "timestamp" : "2021-07-22T07:51:52.953Z",
+    "identifier" : "urn:uuid:0a6a6d6d-7416-4d4b-87cf-c235308d8949",
+    "timestamp" : "2021-07-26T13:00:32.597Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -2474,8 +2458,8 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:0b431653-5dee-4f81-9553-4af21dd0e19b",
-    "timestamp" : "2021-07-22T07:51:53.313Z",
+    "identifier" : "urn:uuid:8393fe8f-01df-48de-ae3c-4e29625cc02b",
+    "timestamp" : "2021-07-26T13:00:32.972Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -2543,8 +2527,8 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:3daa3abf-8cec-4680-8486-0dce4a434636",
-    "timestamp" : "2021-07-22T07:51:53.703Z",
+    "identifier" : "urn:uuid:d23d3b25-af01-40b4-8aa1-161ba055ec6a",
+    "timestamp" : "2021-07-26T13:00:33.379Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -2609,8 +2593,8 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:63dae944-565a-46fe-a16f-00d056860e60",
-    "timestamp" : "2021-07-22T07:51:54.063Z",
+    "identifier" : "urn:uuid:248ffba3-3366-43e7-bed2-bdc8a4b0ca04",
+    "timestamp" : "2021-07-26T13:00:33.753Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -2697,8 +2681,8 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:95aca9a0-0ad3-466a-b259-925b318435a0",
-    "timestamp" : "2021-07-22T07:51:54.438Z",
+    "identifier" : "urn:uuid:d7355b34-6df3-4d26-817c-6cf902b417b3",
+    "timestamp" : "2021-07-26T13:00:34.144Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -2787,12 +2771,6 @@ e: {
       },
       {
         "code" : "8280-0"
-      },
-      {
-        "code" : "59574-4"
-      },
-      {
-        "code" : "56087-0"
       }]
     }]
   }
@@ -2803,8 +2781,8 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:4c994783-b906-410e-a122-59990cb31780",
-    "timestamp" : "2021-07-22T07:51:54.578Z",
+    "identifier" : "urn:uuid:3f131786-7afa-4265-bb2b-25b2d9c73124",
+    "timestamp" : "2021-07-26T13:00:34.285Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -2826,16 +2804,6 @@ e: {
       "system" : "http://loinc.org",
       "code" : "8280-0",
       "display" : "Waist Circumference at umbilicus by Tape measure"
-    },
-    {
-      "system" : "http://loinc.org",
-      "code" : "59574-4",
-      "display" : "Body mass index (BMI) [Percentile]"
-    },
-    {
-      "system" : "http://loinc.org",
-      "code" : "56087-0",
-      "display" : "Child Waist Circumference Protocol"
     }]
   }
 },
@@ -2868,16 +2836,6 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Oxygen saturation in Arterial blood",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
-  "code" : "51848-0"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Evaluation note",
   "severity" : null,
   "error" : ""
 }

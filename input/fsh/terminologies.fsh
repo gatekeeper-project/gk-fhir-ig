@@ -43,8 +43,8 @@ Description: "Vital Signs captured for the Gatekeeper Project"
 * $loinc#41982-0 // Percentage of body fat Measured
 * $loinc#8280-0 // Waist Circumference at umbilicus by Tape measure; other measures available
 
-* $loinc#59574-4 // Body mass index (BMI) [Percentile]	
-* $loinc#56087-0 // Child Waist Circumference Protocol
+// * $loinc#59574-4 // Body mass index (BMI) [Percentile]	
+// * $loinc#56087-0 // Child Waist Circumference Protocol
 
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -134,9 +134,21 @@ Title: "Gatekeeper internal Code System"
 Description: "Gatekeeper internal Code System"
 //-------------------------------------------------------------------------------------------
 * #people-living	"People living" "People living"
+* #liv-environment 	"Living Environment Observations" "Observations about the environment where the subject lives."
+* #floor-climbed 	"Floors climbed" "Floors climbed. A floor is 3 meters."
+
 * #mys-activity-level "Activity Level [counts]" "Activity Level as measured by the My Sphera device"
-* #liv-environment "Living Environment Observations" "Observations about the environment where the subject lives."
-* #floor-climbed "Floors climbed" "Floors climbed. A floor is 3 meters."
+
+* #s4c-hoursDysk		"Total hours of dyskinesia at current day"				"Total hours of dyskinesia at current day"
+* #s4c-hoursOnOffInt	"Total hours of On, Off and intermediate Hours, Panel"	
+							"Panel gorup measures about total hours of On, Off and intermediate situations"
+* #s4c-hoursINT			"Total hours of intermediate at current day"            "Total hours of intermediate at current day"
+* #s4c-hoursOFF			"Total OFF hours at current day"                        "Total OFF hours at current day"
+* #s4c-hoursON			"Total ON hours at current day"                         "Total ON hours at current day"
+// * #s4c-hoursMonitored	"Total monitored hours at current day"                  "Total monitored hours at current day"
+* #s4c-nEvent			"Number of events (medication intakes) at current day"  "Number of events (medication intakes) at current day"
+* #s4c-nFOG				"Number of FoG  episodes at current day"                "Number of FoG  episodes at current day"
+* #s4c-nFalls			"Number of falls at current day"                        "Number of falls at current day"
 
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
