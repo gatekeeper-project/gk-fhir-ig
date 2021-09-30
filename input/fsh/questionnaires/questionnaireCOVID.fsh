@@ -1,5 +1,3 @@
-Alias: $string = string
-
 Instance: inlineValueSet-covid19-4-1
 InstanceOf: ValueSet
 Usage: #inline

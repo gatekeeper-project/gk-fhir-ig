@@ -1,7 +1,7 @@
 Instance: CalculateRisk
 InstanceOf: OperationDefinition
 Usage: #definition
-* url = "http://hl7.eu/fhir/ig/gk/OperationDefinition/calculateRisk"
+* url = "http://hl7.eu/fhir/ig/gk/OperationDefinition/CalculateRisk"
 * name = "CalculateRisk"
 * title = "Risk Calculation"
 * status = #draft

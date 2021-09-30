@@ -11,6 +11,8 @@ Alias: $observation-category = http://terminology.hl7.org/CodeSystem/observation
 Alias: $location-physical-type = http://terminology.hl7.org/CodeSystem/location-physical-type
 Alias: $consentscope = http://terminology.hl7.org/CodeSystem/consentscope
 
+Alias: $string = string 
+
 
 // =========== Extensions =======
 Alias: $event-location = http://hl7.org/fhir/StructureDefinition/event-location

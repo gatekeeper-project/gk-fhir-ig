@@ -4,25 +4,28 @@ Id: Patient-eu-gk
 Title: "Patient (GateKeeper)"
 Description: "This profile represents the constraints applied to the Patient resource by the GateKeeper (GK) FHIR Implementation Guide and describes the minimum expectations for the Patient resource when used in the GK composition or in one of the referred resources."
 * ^status = #draft
-* ^date = "2018-03-20T16:43:56.519+01:00"
 * . MS
 * identifier MS
+//-------------
+// => optional for Greece
 * name 1..* MS
+//-------------
 * name ^requirements = "Need to be able to track the patient by multiple names. Examples are your official name and a partner name.\r\nThe Alphabetic representation of the name SHALL be always provided"
 * name ^constraint[0].key = "GK-pat-1"
 * name ^constraint[0].severity = #error
+// check if this is in line with Greece
 * name ^constraint[0].human = "Patient.name.given  or Patient.name.family or both SHALL be present"
 * name ^constraint[0].expression = "family.exists() or given.exists()"
 * name ^constraint[0].xpath = "f:given or f:family"
 * name.text MS
 * name.text ^definition = "Text representation of the full name. Due to the cultural variance around the world a consuming system may not know how to present the name correctly; moreover not all the parts of the name go in given or family. Creators are therefore strongly encouraged to provide through this element a presented version of the name. Future versions of this guide may require this element"
-* name.text ^min = 0
-* name.family 1..1 MS
-* name.given 1.. MS
+* name.text 0.. MS
+* name.family 0..1 MS
+* name.given 0.. MS
 * telecom MS
-* gender 1.. MS
+* gender 0.. MS
 * birthDate MS
-* birthDate ^min = 0
+* deceasedBoolean MS
 * address MS
 * address ^constraint[0].key = "pat-cnt-2or3-char"
 * address ^constraint[0].severity = #warning

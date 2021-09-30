@@ -1,5 +1,5 @@
 
-Alias: $string = string 
+
 
 Instance: Inline-Instance-for-eq5d3l-1-1
 InstanceOf: ValueSet

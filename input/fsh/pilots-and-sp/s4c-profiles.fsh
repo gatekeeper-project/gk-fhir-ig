@@ -32,7 +32,11 @@ Description: "This profile defines how to represent Total hours of dyskinesia in
 * issued 1..1 MS
 // * device 0.. MS
 // * device only Reference(Device)
-// * effective[x]	MS
+* effective[x] 1..1 MS
+* effective[x] only Timing
+* effectiveTiming.repeat.duration 1..1 MS
+* effectiveTiming.repeat.durationUnit 1..1 MS
+* effectiveTiming.repeat.durationUnit = #h
 * value[x] 1..1 MS
 * value[x] only Quantity
 * valueQuantity.code 1..1 MS 
@@ -48,7 +52,7 @@ Profile:  ObservationNumEventS4c
 Parent:   Observation 
 Id:       Observation-nEvent-s4c-gk
 Title:    "Observation number of events - SENSE4CARE (Gatekeeper)"
-Description: "This profile defines how to represent the number of eventts measurement (e.g. Med Intakes; Number of falls) in FHIR as captured by the SENSE4CARE device for the scope of the Gatekeeper project"
+Description: "This profile defines how to represent the number of events measurement (e.g. Med Intakes; Number of falls) in FHIR as captured by the SENSE4CARE device for the scope of the Gatekeeper project"
 //-------------------------------------------------------------------------------------------
 
 * category = $observation-category#activity

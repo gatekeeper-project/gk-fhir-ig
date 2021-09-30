@@ -42,6 +42,22 @@ Description: "This profile defines how consent is represented in FHIR for suppor
 * performer	1.. MS
 * sourceAttachment MS
 
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Profile:  ConsentGrGK
+Parent:   Consent
+Id:       consent-gr-gk
+Title:    "Consent (Greece - Gatekeeper)"
+Description: "This profile defines how consent is represented in FHIR for supporting the scope of the Gatekeeper project in the Greek Pilot"
+// 
+//-------------------------------------------------------------------------------------------
+* identifier MS
+// * identifer ^example.label = "generic"
+// * identifer ^example.valueIdentifier = urn:ietf:rfc:3986#http://consentId.myOrg.org/12345
+* status 1.. MS
+* scope 1.. MS
+* patient MS
+* source[x] MS
+
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 Profile:  ResearchSubjectGK
@@ -109,6 +125,23 @@ Description: "This profile defines how to represent a task in FHIR for supportin
 * owner MS
 * output MS
 
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Profile:  ServiceRequestGrGK
+Parent:   ServiceRequest
+Id:       serviceRequest-gr-gk
+Title:    "ServiceRequest - Greece (Gatekeeper)"
+Description: "This profile defines how to represent a service request in FHIR for supporting the Greek pilot in the scope of the Gatekeeper project"
+//-------------------------------------------------------------------------------------------
+* identifier MS
+* status 1.. MS
+* intent  1.. MS
+* category 0.. MS
+* subject 1.. MS
+* subject only Reference(PatientGK)
+* occurrenceDateTime MS
+* authoredOn MS
+* requester MS
+
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 Profile:  ServiceRequestMkGK
@@ -120,7 +153,8 @@ Description: "This profile defines how to represent a service request in FHIR fo
 * identifier MS
 // * instantiatesCanonical only canonical(ActivityDefinition) //clarify how to restrict canonical to ActivityDefinition
 * instantiatesCanonical MS
-* status MS
+* status 1.. MS
+* intent  1.. MS
 * subject MS
 * requester MS
 * performer MS
@@ -328,6 +362,28 @@ Description: "This profile defines how to represent QuestionnaireResponse respon
 
 
 
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Profile:  FamilyMemberHistoryGK
+Parent:   FamilyMemberHistory 
+Id:       familyMemberHistory-gk
+Title:    "FamilyMemberHistory  (Gatekeeper)"
+Description: "This profile defines how to represent FamilyMemberHistory  (Prescribed Medicines) in FHIR in Gatekeeper."
+//  Greece Pilot
+//-------------------------------------------------------------------------------------------
+
+* identifier MS
+* status 1.. MS
+* patient 1.. MS
+* patient only Reference(PatientGK)
+* date	MS 
+* name	MS
+* relationship	1.. MS
+* ageString	MS
+* deceasedBoolean	MS
+* reasonCode	MS
+* note	MS
+* condition MS
+* condition.code MS
 
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -336,14 +392,17 @@ Parent:   MedicationRequest
 Id:       medicationRequest-gk
 Title:    "MedicationRequest (Gatekeeper)"
 Description: "This profile defines how to represent MedicationRequest (Prescribed Medicines) in FHIR in Gatekeeper."
-// from Aragon Pilot
+// Aragon Pilot + Greece
 //-------------------------------------------------------------------------------------------
 
-* status MS // 0 – Inactive 1- Active
+* identifier MS
+* status 1.. MS // 0 – Inactive 1- Active
+* intent 1.. MS
 * medicationCodeableConcept MS // ATC coding 
-* subject MS
+* subject 1.. MS
 * subject only Reference(PatientGK) // The unique identifier of the patient.	N.A
 * authoredOn MS // Date of record	dd/mm/yyyy
+* dosageInstruction MS
 * dosageInstruction.timing.repeat.boundsPeriod.start  MS // start date of treatment	NA
 * dosageInstruction.timing.repeat.boundsPeriod.end MS // 00/00/0000 if end_date is not defined	NA
 * dosageInstruction.timing.code.text 0..1 // sequence Moments of day for medicine intake	String indicating moments of day in which medicine should be taken 
@@ -353,23 +412,43 @@ Description: "This profile defines how to represent MedicationRequest (Prescribe
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-Profile:  AppointmentGK
+Profile:  AppointmentGrGK
 Parent:   Appointment
-Id:       appointment-gk
-Title:    "Appointment (Gatekeeper)"
-Description: "This profile defines how to represent Appointments in FHIR in Gatekeeper."
+Id:       appointment-gr-gk
+Title:    "Appointment (Greece - Gatekeeper)"
+Description: "This profile defines how to represent Appointments in FHIR in Gatekeeper for the Greek Pilot."
 // from GR - CY Pilot
 //-------------------------------------------------------------------------------------------
 * identifier MS // ID	YES	Numeric	20	The unique identifier of the Appointment	N.A
 // Meta [version, last updated]	YES	Numeric and Date/Time	25	Defines the type of the appointment	N.A.
-* status MS // YES	Code 	10	Status of the appointment	Options: proposed | pending | booked |
-* appointmentType	MS // 	YES	CodeableConcept	10	Type of the appointment 	Options: physical, virtual/video, chat
+* status 1.. MS // YES	Code 	10	Status of the appointment	Options: proposed | pending | booked |
+// * appointmentType	MS // 	YES	CodeableConcept	10	Type of the appointment 	Options: physical, virtual/video, chat
 * start	MS // YES	Date / Time	10	When appointment is to take place	Instant
 * end MS // YES	Date / Time	10	When appointment is to conclude	Instant
-* slot MS // YES	Reference(Slot) https://www.hl7.org/fhir/slot.html	10	The slots that this appointment is filling	Slot 
+// * slot MS // YES	Reference(Slot) https://www.hl7.org/fhir/slot.html	10	The slots that this appointment is filling	Slot 
+* minutesDuration MS
+* comment MS
 * created MS // YES	dateTime	20	The date that this appointment was initially created	dateTime
 * participant.actor MS //
 * participant.status MS //  [actor/status] 	YES	Reference to patient id / Code		Participants involved in appointment and their role	Patient IDs and HCPs IDs
+
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Profile:  NutritionOrderGK
+Parent:   NutritionOrder
+Id:       nutritionOrder-gk
+Title:    "NutritionOrder  (Gatekeeper)"
+Description: "This profile defines how to represent Nutrition Orders  in FHIR in Gatekeeper."
+// from GR - CY Pilot
+//-------------------------------------------------------------------------------------------
+* identifier MS
+* status 1.. MS // [ active | on-hold | revoked | completed]
+* patient 1.. MS
+* patient only Reference(PatientGK)
+* dateTime 1.. MS
+* orderer MS
+* orderer only Reference(PractitionerGK or PractitionerRole)
+* oralDiet MS
 
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -381,24 +460,36 @@ Description: "This profile defines how to represent CarePlans in FHIR in Gatekee
 // from GR - CY Pilot
 //-------------------------------------------------------------------------------------------
 * identifier MS
-* status MS // [ active | on-hold | revoked | completed]
-* category	MS // 	http://snomed.info/sct which codes ?
+* status 1.. MS // [ active | on-hold | revoked | completed]
+* intent 1.. MS // (proposal | plan | order | option)
+* title MS 
+// * category	MS // 	http://snomed.info/sct which codes ?
 * subject only Reference(PatientGK) // YES	Reference to patient id	50	Who the care plan is for	Patient IDs
 * subject MS // YES	Reference to patient id	50	Who the care plan is for	Patient IDs
 * period MS //	YES	Date/Time	20	Time period plan covers	N.A.
 * author MS // YES	Reference to Practitioner ID	20	Who is the designated responsible party	Practitioner IDs
 * careTeam MS // 	YES	Reference to CareTeam	50	Who's involved in plan?	N/A
-* goal.display MS 
+// * goal.display MS 
 * activity MS //	YES	Reference to activity types [Activity List: Medication / Nutrition / Education / Laboratory Exams / Exercise / Questionnaires / Observation] 	10	Action to occur as part of plan	Activity List - LOINC
 
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 Profile:  PractitionerGK
-Parent:   $Practitioner-uv-ips
+Parent:   Practitioner
 Id:       practitioner-gk
 Title:    "Practitioner (Gatekeeper)"
 Description: "This profile defines how to represent Practitioners in FHIR in Gatekeeper."
 //-------------------------------------------------------------------------------------------
+* identifier MS
+* active MS
+* name MS
+* name.text MS
+* telecom MS
+* address MS
+* gender MS
+* birthDate MS
+
+
 
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++

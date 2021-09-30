@@ -147,14 +147,3 @@ Description: "Nutrition Codes used by the Greek and Cypriot pilots (Gatekeeper P
 * $sct#84698008	// NutritionCholesterol	Cholesterol, unit[g]
 
 
-//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-ValueSet: VsSleepDurationGK
-Id: ValueSet-sleepDuration-gk
-Title: "Sleep Duration (Gatekeeper)"
-Description: "Sleep Duration used by the Gatekeeper Project"
-//-------------------------------------------------------------------------------------------
-* ^copyright = "This material contains content from LOINC (http://loinc.org). LOINC is copyright © 1995-2020, Regenstrief Institute, Inc. and the Logical Observation Identifiers Names and Codes (LOINC) Committee and is available at no cost under the license at http://loinc.org/license. LOINC® is a registered United States trademark of Regenstrief Institute, Inc"
-* $loinc#93831-6 // Deep sleep duration [min]
-* $loinc#93830-8	// Light sleep duration
-* $loinc#93829-0	// REM sleep duration 
-* $loinc#93832-4 // Sleep duration
