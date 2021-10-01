@@ -1,29 +1,5 @@
 Alias: $string = string
 
-Instance: inlineValueSet-covid19-4-1
-InstanceOf: ValueSet
-Usage: #inline
-// * url = "#inlineCovid19-4-1"
-* name = "InlineValueSetCovid19x4x1"
-* status = #draft
-* compose.include.system = $string
-* compose.include.concept[0].code = #"Not at all"
-* compose.include.concept[+].code = #"Little"
-* compose.include.concept[+].code = #"Moderate"
-* compose.include.concept[+].code = #"Quite a bit"
-* compose.include.concept[+].code = #"Strongly"
-
-Instance: inlineValueSet-covid19-7-7
-InstanceOf: ValueSet
-Usage: #inline
-// * url = "Inline-covid19-7-7"
-* status = #draft
-* name = "InlineValueSetCovid19x7x7"
-* compose.include.system = $string
-* compose.include.concept[0].code = #"Worse"
-* compose.include.concept[+].code = #"The same"
-* compose.include.concept[+].code = #"Better"
-
 Instance: covid-quest-2
 InstanceOf: http://hl7.org/fhir/StructureDefinition/Questionnaire
 Title: "Short Questionnaire COVID-19 GateKeeper"
