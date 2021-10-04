@@ -85,6 +85,21 @@
       ],
       "required": true,
       "repeats": false
+    },
+    {
+      "linkId": "EQ-5D.VAS",
+      "type": "integer",
+      "text": "Wir wollen herausfinden, wie gut oder schlecht Ihre Gesundheit HEUTE ist.\nAuf der nächsten Bildschirmseite sehen Sie eine Skala, die mit Zahlen von 0 bis 100 versehen ist.\n100 ist die beste Gesundheit, die Sie sich vorstellen können.\n0 (Null) ist die schlechteste Gesundheit, die Sie sich vorstellen können.\nBitte tippen Sie den Punkt auf der Skala an, der Ihre Gesundheit HEUTE am besten beschreibt.",
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/minValue",
+          "valueInteger": 0
+        },
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/maxValue",
+          "valueInteger": 100
+        }
+      ]
     }
   ]
 }
