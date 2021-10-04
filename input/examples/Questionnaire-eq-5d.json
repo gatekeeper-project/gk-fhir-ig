@@ -12,7 +12,7 @@
   "subjectType": ["Patient"],
   "item": [
     {
-      "linkId": "EQ-5D.1",
+      "linkId": "EQ-5D.MB",
       "type": "choice",
       "text": "Beweglichkeit / Mobilität...",
       "answerOption": [
@@ -26,7 +26,7 @@
       "repeats": false
     },
     {
-      "linkId": "EQ-5D.2",
+      "linkId": "EQ-5D.SC",
       "type": "choice",
       "text": "Für sich selbst sorgen...",
       "answerOption": [
@@ -40,7 +40,7 @@
       "repeats": false
     },
     {
-      "linkId": "EQ-5D.3",
+      "linkId": "EQ-5D.UA",
       "type": "choice",
       "text": "Alltägliche Tätigkeiten (z.B. Arbeit, Studium, Hausarbeit, Familien- / Freizeitaktivitäten)...",
       "answerOption": [
@@ -54,7 +54,7 @@
       "repeats": false
     },
     {
-      "linkId": "EQ-5D.4",
+      "linkId": "EQ-5D.PD",
       "type": "choice",
       "text": "Schmerzen / Körperliche Beschwerden ...",
       "answerOption": [
@@ -68,7 +68,7 @@
       "repeats": false
     },
     {
-      "linkId": "EQ-5D.5",
+      "linkId": "EQ-5D.AD",
       "type": "choice",
       "text": "Angst / Niedergeschlagenheit",
       "answerOption": [
