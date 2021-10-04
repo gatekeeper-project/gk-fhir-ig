@@ -12,6 +12,11 @@
   "subjectType": ["Patient"],
   "item": [
     {
+      "linkId": "EQ-5D.Instruction",
+      "type": "display",
+      "text": "In diesem Abschnitt sind wir vor allem an Ihrem aktuellen Gesundheitszustand interessiert. Bitte tippen Sie auf den folgenden Bildschirmseiten die Aussage an, die Ihre Gesundheit HEUTE am besten beschreibt."
+    },
+    {
       "linkId": "EQ-5D.MB",
       "type": "choice",
       "text": "Beweglichkeit / Mobilität...",
