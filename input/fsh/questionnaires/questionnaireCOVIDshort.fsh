@@ -10,11 +10,11 @@ Description: "Example of questionnaire defined for the COVID-19 Short Survey by 
 * contained[+] = inlineValueSet-covid19-7-7
 
 * name = "GKCovidSurvey2021"
-* title = "GATEKEEPER COVID-19 Survey"
+* title = "GATEKEEPER COVID-19 Short Survey"
 * status = #draft
 * date = "2021-05-12"
 * publisher = "GATEKEEPER Project"
-* description = "GATEKEEPER COVID-19 Full Survey"
+* description = "GATEKEEPER COVID-19 Short Survey"
 * purpose = "Collect information about the Health status, Medical history, COVID-19 Health / Exposure Status"
 
 
