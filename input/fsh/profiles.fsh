@@ -2,6 +2,53 @@
 
 //====== Profiles =====================================
 
+
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Profile:  ObservationLivingEnvironment
+Parent:   Observation 
+Id:       Observation-livingEnvironment-gk
+Title:    "Observation Living Environment (Gatekeeper)"
+Description: "This profile defines how to represent Living Environment Observations (e.g., let's see at 5 :-)Humidity, Temperature, Pressure,...) in FHIR for the scope of the Gatekeeper project"
+//-------------------------------------------------------------------------------------------
+
+/*====
+// 20053-5	Atmospheric pressure			mm[Hg]
+76268-2 Pressure.ambient Room
+60832-3	Room temperature			Cel;[degF]
+65643-9	Relative humidity (%)			%
++ others
+===*/
+
+* extension contains $event-location named event-location 1..1 MS
+* extension[event-location].valueReference only Reference(Location or LocationRoomGk)
+* category = CsGatekeeper#liv-environment "Living Environment Observations"
+* category 1..1 MS
+* status 1..1	MS // code	registered | preliminary | final | amended +
+* code	1..1 MS
+* code from VsLivingEnvironmentObservationGK (extensible)
+* subject	0..1 MS
+* subject only Reference (PatientGK or Location or LocationRoomGk) //	Who and/or what the observation is about
+* focus only Reference (Location or LocationRoomGk) 
+* device 0.. MS
+* device only Reference(Device)
+* effective[x]	MS
+// * value[x] 1.. MS
+* valueQuantity 1.. MS // actual measure
+* specimen 0..0
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Profile:  LocationRoomGk
+Parent:   Location 
+Id:       Location-room-gk
+Title:    "Location - MySphera (Gatekeeper)"
+Description: "This profile defines how to represent in FHIR the room where activity measures are taken;  as captured by the My Sphera devices for the scope of the Gatekeeper project"
+//-------------------------------------------------------------------------------------------
+* identifier 1.. MS
+* physicalType = $location-physical-type#ro
+
+
+
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 Profile:  DocumentReferenceGK
 Parent:   DocumentReference

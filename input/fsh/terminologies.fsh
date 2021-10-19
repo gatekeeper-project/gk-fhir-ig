@@ -161,18 +161,42 @@ Description: "Gatekeeper internal Code System"
 * #s4c-nFOG				"Number of FoG  episodes at current day"                "Number of FoG  episodes at current day"
 * #s4c-nFalls			"Number of falls at current day"                        "Number of falls at current day"
 
+// Env Measurements
+* #pm10-conc "PM 10 particle mass concentration" "Particulate Matter 10 (Particulate matter which passes through a sizeselective inlet with a 50% efficiency cut-off at 10 μm aerodynamic diameter) particle mass concentration"
+* #pm2.5-conc "PM 2.5 particle mass concentration" "Particulate Matter 2.5 (Particulate matter which passes through a sizeselective inlet with a 50% efficiency cut-off at 2.5 μm aerodynamic diameter) particle mass concentration"
+* #pm4-conc "PM 4 particle mass concentration" "Particulate Matter 4 (Particulate matter which passes through a sizeselective inlet with a 50% efficiency cut-off at 4 μm aerodynamic diameter) particle mass concentration"
+* #pm1-conc "PM 1 particle mass concentration" "Particulate Matter 1 (Particulate matter which passes through a sizeselective inlet with a 50% efficiency cut-off at 1 μm aerodynamic diameter) particle mass concentration"
+
+* #co-conc "Carbon Monoxide concentration (ppm)" "Carbon Monoxide concentration (ppm)"
+* #co2-conc "Carbon Dioxide concentration (ppm)" "Carbon Dioxide concentration (ppm)"
+* #voc-conc "Volatile Organic Compounds concentration (ppm)" "Volatile Organic Compounds concentration (ppm)"
+
+* #iaqi" "Indoor Air Quality Index" "Indoor Air Quality Index" // how it is measured ?
+* #eiaqi" "Environment Indoor Air Quality Index" "Environment Indoor Air Quality Index" // what is the difference with the previous one ?
+* #tci" "Thermal Comfort Index" "Thermal Comfort Index" // how it is measured ?
+* #covid19_risk "Covid 19 Risk Index" "Enviromental Covid 19 Risk Index" // What is this ?
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-ValueSet: VsRoomObservationGK
-Id: ValueSet-roomObservation-gk
-Title: "Room related observation (Gatekeeper)"
-Description: "Room related observation (Gatekeeper)"
+ValueSet: VsLivingEnvironmentObservationGK
+Id: ValueSet-livingEnvironmentObservation-gk
+Title: "Living Environment observation (Gatekeeper)"
+Description: "Living Environment observation (Gatekeeper)"
 //-------------------------------------------------------------------------------------------
 
-// * $loinc#20053-5	"Atmospheric pressure mm[Hg]"
+* $loinc#20053-5	"Atmospheric pressure mm[Hg]"
 * $loinc#76268-2    "Pressure.ambient Room"
 * $loinc#60832-3	"Room temperature Cel;[degF]"
 * $loinc#65643-9	"Relative humidity (%)"
+
+* CsGatekeeper#pm10-conc "PM 10 particle mass concentration" 
+* CsGatekeeper#pm2.5-conc "PM 2.5 particle mass concentration"
+* CsGatekeeper#pm4-conc "PM 4 particle mass concentration" 
+* CsGatekeeper#pm1-conc "PM 1 particle mass concentration" 
+ 
+* CsGatekeeper#co-conc "Carbon Monoxide concentration (ppm)" 
+* CsGatekeeper#co2-conc "Carbon Dioxide concentration (ppm)" 
+* CsGatekeeper#voc-conc "Volatile Organic Compounds concentration (ppm)"
+
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ValueSet: VsSocialObservationGK
