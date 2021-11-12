@@ -14,13 +14,11 @@
       }]
     }]
   }
-}, "lang":"null", "useServer":"true", "useClient":"false", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "lang":"null", "useServer":"true", "useClient":"false", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "Europe",
   "code" : "150",
-  "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
-  "severity" : null,
-  "error" : ""
+  "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -45,25 +43,21 @@ v: {
       }]
     }]
   }
-}, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK"}####
+}, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK", "versionFlexible":"true"}####
 v: {
   "display" : "Europe",
   "code" : "150",
-  "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
-  "severity" : null,
-  "error" : ""
+  "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
   "code" : "150"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "Europe",
   "code" : "150",
-  "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
-  "severity" : null,
-  "error" : ""
+  "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -81,13 +75,11 @@ v: {
       }]
     }]
   }
-}, "lang":"de-DE", "useServer":"true", "useClient":"false", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "lang":"de-DE", "useServer":"true", "useClient":"false", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "Europe",
   "code" : "150",
-  "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
-  "severity" : null,
-  "error" : ""
+  "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -112,25 +104,21 @@ v: {
       }]
     }]
   }
-}, "lang":"de-DE", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK"}####
+}, "lang":"de-DE", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK", "versionFlexible":"true"}####
 v: {
   "display" : "Europe",
   "code" : "150",
-  "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
-  "severity" : null,
-  "error" : ""
+  "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
   "code" : "150"
-}, "valueSet" :null, "lang":"de-DE", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"de-DE", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "Europe",
   "code" : "150",
-  "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
-  "severity" : null,
-  "error" : ""
+  "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -148,13 +136,11 @@ v: {
       }]
     }]
   }
-}, "lang":"en-GB", "useServer":"true", "useClient":"false", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "lang":"en-GB", "useServer":"true", "useClient":"false", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "Europe",
   "code" : "150",
-  "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
-  "severity" : null,
-  "error" : ""
+  "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -179,24 +165,20 @@ v: {
       }]
     }]
   }
-}, "lang":"en-GB", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK"}####
+}, "lang":"en-GB", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK", "versionFlexible":"true"}####
 v: {
   "display" : "Europe",
   "code" : "150",
-  "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
-  "severity" : null,
-  "error" : ""
+  "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
   "code" : "150"
-}, "valueSet" :null, "lang":"en-GB", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"en-GB", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "Europe",
   "code" : "150",
-  "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
-  "severity" : null,
-  "error" : ""
+  "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm"
 }
 -------------------------------------------------------------------------------------

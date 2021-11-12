@@ -2768,13 +2768,11 @@
       }]
     }]
   }
-}, "lang":"de-DE", "useServer":"true", "useClient":"true", "guessSystem":"true", "valueSetMode":"ALL_CHECKS"}####
+}, "lang":"de-DE", "useServer":"true", "useClient":"true", "guessSystem":"true", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "Deutsch (Deutschland)",
   "code" : "de-DE",
-  "system" : "urn:ietf:bcp:47",
-  "severity" : null,
-  "error" : ""
+  "system" : "urn:ietf:bcp:47"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -5546,13 +5544,11 @@ v: {
       }]
     }]
   }
-}, "lang":"en-GB", "useServer":"true", "useClient":"true", "guessSystem":"true", "valueSetMode":"ALL_CHECKS"}####
+}, "lang":"en-GB", "useServer":"true", "useClient":"true", "guessSystem":"true", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "English (Great Britain)",
   "code" : "en-GB",
-  "system" : "urn:ietf:bcp:47",
-  "severity" : null,
-  "error" : ""
+  "system" : "urn:ietf:bcp:47"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -5564,12 +5560,10 @@ v: {
       "system" : "urn:ietf:bcp:13"
     }]
   }
-}, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"true", "valueSetMode":"ALL_CHECKS"}####
+}, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"true", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "application/pdf",
   "code" : "application/pdf",
-  "system" : "urn:ietf:bcp:13",
-  "severity" : null,
-  "error" : ""
+  "system" : "urn:ietf:bcp:13"
 }
 -------------------------------------------------------------------------------------
