@@ -1,9 +1,12 @@
 -------------------------------------------------------------------------------------
-{"hierarchical" : false, "valueSet" :{
+{"hierarchical" : true, "valueSet" :{
   "resourceType" : "ValueSet",
   "compose" : {
     "include" : [{
-      "system" : "http://hl7.org/fhir/sid/icpc-2"
+      "valueSet" : ["http://hl7.eu/fhir/ig/gk/ValueSet/ValueSet-diagnosis-EsAr-gk"]
+    },
+    {
+      "valueSet" : ["http://hl7.eu/fhir/ig/gk/ValueSet/ValueSet-lifestylefactor-EsAr-gk"]
     }]
   }
 }}####

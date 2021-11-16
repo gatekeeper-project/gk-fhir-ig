@@ -171,9 +171,9 @@ Description: "Gatekeeper internal Code System"
 * #co2-conc "Carbon Dioxide concentration (ppm)" "Carbon Dioxide concentration (ppm)"
 * #voc-conc "Volatile Organic Compounds concentration (ppm)" "Volatile Organic Compounds concentration (ppm)"
 
-* #iaqi" "Indoor Air Quality Index" "Indoor Air Quality Index" // how it is measured ?
-* #eiaqi" "Environment Indoor Air Quality Index" "Environment Indoor Air Quality Index" // what is the difference with the previous one ?
-* #tci" "Thermal Comfort Index" "Thermal Comfort Index" // how it is measured ?
+* #iaqi "Indoor Air Quality Index" "Indoor Air Quality Index" // how it is measured ?
+* #eiaqi "Environment Indoor Air Quality Index" "Environment Indoor Air Quality Index" // what is the difference with the previous one ?
+* #tci "Thermal Comfort Index" "Thermal Comfort Index" // how it is measured ?
 * #covid19_risk "Covid 19 Risk Index" "Enviromental Covid 19 Risk Index" // What is this ?
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
