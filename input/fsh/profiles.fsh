@@ -80,8 +80,8 @@ Title:    "Consent (Saxony - Gatekeeper)"
 Description: "This profile defines how consent is represented in FHIR for supporting the scope of the Gatekeeper project in the Saxony Pilot"
 //-------------------------------------------------------------------------------------------
 * identifier MS
-// * identifer ^example.label = "generic"
-// * identifer ^example.valueIdentifier = urn:ietf:rfc:3986#http://consentId.myOrg.org/12345
+// * identifier ^example.label = "generic"
+* identifier ^example[0].valueIdentifier.value = "http://consentId.myOrg.org/12345"
 * status 1.. MS
 * scope = $consentscope#research
 * category = $loinc#57016-8
@@ -99,7 +99,7 @@ Description: "This profile defines how consent is represented in FHIR for suppor
 //-------------------------------------------------------------------------------------------
 * identifier MS
 // * identifer ^example.label = "generic"
-// * identifer ^example.valueIdentifier = urn:ietf:rfc:3986#http://consentId.myOrg.org/12345
+* identifier ^example[0].valueIdentifier.value = "http://consentId.myOrg.org/12345"
 * status 1.. MS
 * scope 1.. MS
 * patient MS

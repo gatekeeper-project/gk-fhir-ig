@@ -1,11 +1,8 @@
-
-
-
-Instance: Inline-Instance-for-eq5d3l-1-1
+Instance: Inline-vs-eq5d3l-1
 InstanceOf: ValueSet
 Usage: #inline
-* url = "Inline-eq5d3l-1-1"
-// * name = "LOINC Codes for Cholesterol in Serum/Plasma"
+// * url = "http://hl7.eu/fhir/ig/gk/Questionnaire/eq5d3l#inline-vs-eq5d3l-1"
+* name = "InlineValueSeteq5d3l#1"
 * status = #draft
 * compose.include.system = $string
 * compose.include.concept[0].code = #"You have no problems in walking about"
@@ -13,40 +10,41 @@ Usage: #inline
 * compose.include.concept[+].code = #"You are confined to bed"
 
 
-Instance: Inline-Instance-for-eq5d3l-1-2
+Instance: Inline-vs-eq5d3l-2
 InstanceOf: ValueSet
 Usage: #inline
-* url = "Inline-eq5d3l-1-2"
+// * url = "http://hl7.eu/fhir/ig/gk/Questionnaire/eq5d3l#inline-vs-eq5d3l-2"
+* name = "InlineValueSeteq5d3l#2"
 * status = #draft
 * compose.include.system = $string
 * compose.include.concept[0].code = #"You have no problems with self-care"
 * compose.include.concept[+].code = #"You have some problems washing or dressing yourself"
 * compose.include.concept[+].code = #"You are unable to wash or dress yourself"
 
-Instance: Inline-Instance-for-eq5d3l-1-3
+Instance: Inline-vs-eq5d3l-3
 InstanceOf: ValueSet
 Usage: #inline
-* url = "Inline-eq5d3l-1-3"
+// * url = "http://hl7.eu/fhir/ig/gk/Questionnaire/eq5d3l#inline-vs-eq5d3l-3"
 * status = #draft
 * compose.include.system = $string
 * compose.include.concept[0].code = #"You have no problems doing your usual activities"
 * compose.include.concept[+].code = #"You have some problems doing your usual activities"
 * compose.include.concept[+].code = #"You are unable to do your usual activities"
 
-Instance: Inline-Instance-for-eq5d3l-1-4
+Instance: Inline-vs-eq5d3l-4
 InstanceOf: ValueSet
 Usage: #inline
-* url = "Inline-eq5d3l-1-4"
+// * url = "http://hl7.eu/fhir/ig/gk/Questionnaire/eq5d3l#inline-vs-eq5d3l-4"
 * status = #draft
 * compose.include.system = $string
 * compose.include.concept[0].code = #"You have no pain or discomfort"
 * compose.include.concept[+].code = #"You have moderate pain or discomfort"
 * compose.include.concept[+].code = #"You have extreme pain or discomfort"
 
-Instance: Inline-Instance-for-eq5d3l-1-5
+Instance: Inline-vs-eq5d3l-5
 InstanceOf: ValueSet
 Usage: #inline
-* url = "Inline-eq5d3l-1-5"
+// * url = "http://hl7.eu/fhir/ig/gk/Questionnaire/eq5d3l#inline-vs-eq5d3l-5"
 * status = #draft
 * compose.include.system = $string
 * compose.include.concept[0].code = #"You are not anxious or depressed"
@@ -58,11 +56,11 @@ InstanceOf: Questionnaire
 Usage: #example
 * version = "0.0.1"
 * language = #en-GB
-* contained[0] = Inline-Instance-for-eq5d3l-1-1
-* contained[+] = Inline-Instance-for-eq5d3l-1-2
-* contained[+] = Inline-Instance-for-eq5d3l-1-3
-* contained[+] = Inline-Instance-for-eq5d3l-1-4
-* contained[+] = Inline-Instance-for-eq5d3l-1-5
+* contained[0] = Inline-vs-eq5d3l-1
+* contained[+] = Inline-vs-eq5d3l-2
+* contained[+] = Inline-vs-eq5d3l-3
+* contained[+] = Inline-vs-eq5d3l-4
+* contained[+] = Inline-vs-eq5d3l-5
 * name = "EQ5D3L"
 * title = "EQ-5D-3L"
 * status = #draft
@@ -107,13 +105,13 @@ Do not choose more than one answer in each group of questions.
 * item[=].item[=].type = #choice
 * item[=].item[=].text = "First, I would like to ask you about MOBILITY. Would you say that:"
 
-* item[=].item[=].answerValueSet = "#Inline-Instance-for-eq5d3l-1-1"
+* item[=].item[=].answerValueSet = Canonical(Inline-vs-eq5d3l-1)
 
-/* --
+/* -
 * item[=].answerOption[0].valueString = "You have no problems in walking about"
 * item[=].answerOption[+].valueString = "You have some problems in walking about"
 * item[=].answerOption[+].valueString = "You are confined to bed"
---*/
+-*/
 
 * item[=].item[=].required = true
 * item[=].item[=].repeats = false
@@ -122,12 +120,12 @@ Do not choose more than one answer in each group of questions.
 * item[=].item[=].prefix = "SELF-CARE"
 * item[=].item[=].type = #choice
 * item[=].item[=].text = "Next, I would like to ask you about SELF-CARE. Would you say that:"
-* item[=].item[=].answerValueSet = "#Inline-Instance-for-eq5d3l-1-2"
-/*--
+* item[=].item[=].answerValueSet = Canonical(Inline-vs-eq5d3l-2)
+/*-
 * item[=].answerOption[0].valueString = "You have no problems with self-care"
 * item[=].answerOption[+].valueString = "You have some problems washing or dressing yourself"
 * item[=].answerOption[+].valueString = "You are unable to wash or dress yourself"
---*/
+-*/
 
 * item[=].item[=].required = true
 * item[=].item[=].repeats = false
@@ -136,12 +134,12 @@ Do not choose more than one answer in each group of questions.
 * item[=].item[=].prefix = "USUAL ACTIVITIES"
 * item[=].item[=].type = #choice
 * item[=].item[=].text = "Next, I would like to ask you about USUAL ACTIVITIES, for example work, study, housework, family or leisure activities. Would you say that"
-* item[=].item[=].answerValueSet = "#Inline-Instance-for-eq5d3l-1-3"
-/* --
+* item[=].item[=].answerValueSet = Canonical(Inline-vs-eq5d3l-3)
+/* -
 * item[=].answerOption[0].valueString = "You have no problems doing your usual activities"
 * item[=].answerOption[+].valueString = "You have some problems doing your usual activities"
 * item[=].answerOption[+].valueString = "You are unable to do your usual activities"
--- */
+- */
 * item[=].item[=].required = true
 * item[=].item[=].repeats = false
 
@@ -149,12 +147,12 @@ Do not choose more than one answer in each group of questions.
 * item[=].item[=].prefix = "PAIN OR DISCOMFORT"
 * item[=].item[=].type = #choice
 * item[=].item[=].text = "Next, I would like to ask you about PAIN OR DISCOMFORT. Would you say that:"
-* item[=].item[=].answerValueSet = "#Inline-Instance-for-eq5d3l-1-4"
-/*--
+* item[=].item[=].answerValueSet = Canonical(Inline-vs-eq5d3l-4)
+/*-
 * item[=].answerOption[0].valueString = "You have no pain or discomfort"
 * item[=].answerOption[+].valueString = "You have moderate pain or discomfort"
 * item[=].answerOption[+].valueString = "You have extreme pain or discomfort"
----*/
+-*/
 * item[=].item[=].required = true
 * item[=].item[=].repeats = false
 
@@ -163,7 +161,7 @@ Do not choose more than one answer in each group of questions.
 * item[=].item[=].prefix = "ANXIETY OR DEPRESSION"
 * item[=].item[=].type = #choice
 * item[=].item[=].text = "Finally, I would like to ask you about ANXIETY OR DEPRESSION. Would you say that:"
-* item[=].item[=].answerValueSet = "#Inline-Instance-for-eq5d3l-1-5"
+* item[=].item[=].answerValueSet = Canonical(Inline-vs-eq5d3l-5)
 /*===
 * item[=].answerOption[0].valueString = "You are not anxious or depressed"
 * item[=].answerOption[+].valueString = "You are moderately anxious or depressed"

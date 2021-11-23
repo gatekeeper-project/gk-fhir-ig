@@ -77,15 +77,15 @@ e: {
       "url" : "http://hl7.org/fhir/StructureDefinition/valueset-toocostly",
       "valueBoolean" : true
     }],
-    "identifier" : "urn:uuid:af397171-1ad9-4ed4-8e4e-256c78e50242",
-    "timestamp" : "2021-11-16T18:41:17.457Z",
+    "identifier" : "urn:uuid:face6158-c44a-45b8-b939-1215daeb41d1",
+    "timestamp" : "2021-11-22T11:12:38.073Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
     },
     {
       "name" : "version",
-      "valueString" : "http://hl7.org/fhir/sid/icd-10|2019-covid-expanded"
+      "valueUri" : "http://hl7.org/fhir/sid/icd-10|2019-covid-expanded"
     }],
     "contains" : [{
       "extension" : [{
@@ -9124,15 +9124,15 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:36404360-d460-4385-b43d-1a2915c26aaa",
-    "timestamp" : "2021-11-16T18:41:19.503Z",
+    "identifier" : "urn:uuid:5c027249-f221-4852-b7b3-611efa76d5d0",
+    "timestamp" : "2021-11-22T11:12:40.026Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
     },
     {
       "name" : "version",
-      "valueString" : "http://hl7.org/fhir/sid/icd-10|2019-covid-expanded"
+      "valueUri" : "http://hl7.org/fhir/sid/icd-10|2019-covid-expanded"
     }],
     "contains" : [{
       "extension" : [{

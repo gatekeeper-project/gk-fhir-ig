@@ -1,4 +1,26 @@
-Alias: $string = string
+Instance: inlineValueSet-covid19-sh-1
+InstanceOf: ValueSet
+Usage: #inline
+// * url = "http://hl7.eu/fhir/ig/gk/Questionnaire/covid-quest-2#inlineCovid19-1"
+* name = "InlineValueSetCovid19x4x1"
+* status = #draft
+* compose.include.system = $string
+* compose.include.concept[0].code = #"Not at all"
+* compose.include.concept[+].code = #"Little"
+* compose.include.concept[+].code = #"Moderate"
+* compose.include.concept[+].code = #"Quite a bit"
+* compose.include.concept[+].code = #"Strongly"
+
+Instance: inlineValueSet-covid19-sh-2
+InstanceOf: ValueSet
+Usage: #inline
+// * url = "http://hl7.eu/fhir/ig/gk/Questionnaire/covid-quest-2#inlineCovid19-2"
+* status = #draft
+* name = "InlineValueSetCovid19x7x7"
+* compose.include.system = $string
+* compose.include.concept[0].code = #"Worse"
+* compose.include.concept[+].code = #"The same"
+* compose.include.concept[+].code = #"Better"
 
 Instance: covid-quest-2
 InstanceOf: http://hl7.org/fhir/StructureDefinition/Questionnaire
@@ -6,8 +28,8 @@ Title: "Short Questionnaire COVID-19 GateKeeper"
 Description: "Example of questionnaire defined for the COVID-19 Short Survey by the GATEKEEPER project"
 
 * version = "0.0.1"
-* contained[0] = inlineValueSet-covid19-4-1
-* contained[+] = inlineValueSet-covid19-7-7
+* contained[0] = inlineValueSet-covid19-sh-1
+* contained[+] = inlineValueSet-covid19-sh-2
 
 * name = "GKCovidSurvey2021"
 * title = "GATEKEEPER COVID-19 Survey"
@@ -140,7 +162,7 @@ Description: "Example of questionnaire defined for the COVID-19 Short Survey by 
 * item[=].item[=].item[=].linkId = "covid19PsychologicalImpact.generalQuestions.last2Weeks"
 * item[=].item[=].item[=].type = #choice
 * item[=].item[=].item[=].repeats = false
-* item[=].item[=].item[=].answerValueSet = 	"#inlineValueSet-covid19-4-1"
+* item[=].item[=].item[=].answerValueSet =  Canonical(inlineValueSet-covid19-sh-1)
 * item[=].item[=].item[=].required = true
 
 * item[=].item[=].item[+].prefix = "4.2"
@@ -148,7 +170,7 @@ Description: "Example of questionnaire defined for the COVID-19 Short Survey by 
 * item[=].item[=].item[=].linkId = "covid19PsychologicalImpact.generalQuestions.highestPeak"
 * item[=].item[=].item[=].type = #choice
 * item[=].item[=].item[=].repeats = false
-* item[=].item[=].item[=].answerValueSet = 	"#inlineValueSet-covid19-4-1"
+* item[=].item[=].item[=].answerValueSet =  Canonical(inlineValueSet-covid19-sh-1)
 * item[=].item[=].item[=].required = true
 
 * item[=].item[+].prefix = "B)"
@@ -197,7 +219,7 @@ Description: "Example of questionnaire defined for the COVID-19 Short Survey by 
 * item[=].item[=].linkId = "sleepHealth.overallQualityVsBeforeCovid19"
 * item[=].item[=].type = #choice
 * item[=].item[=].repeats = false
-* item[=].item[=].answerValueSet = 	"#inlineValueSet-covid19-7-7"
+* item[=].item[=].answerValueSet =  Canonical(inlineValueSet-covid19-sh-2)
 * item[=].item[=].required = true
 
 // SECTION 10

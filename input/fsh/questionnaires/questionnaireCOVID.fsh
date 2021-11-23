@@ -1,7 +1,7 @@
 Instance: inlineValueSet-covid19-4-1
 InstanceOf: ValueSet
 Usage: #inline
-// * url = "#inlineCovid19-4-1"
+// * url = "http://hl7.eu/fhir/ig/gk/Questionnaire/covid-quest-1#inlineCovid19-4-1"
 * name = "InlineValueSetCovid19x4x1"
 * status = #draft
 * compose.include.system = $string
@@ -15,7 +15,7 @@ Usage: #inline
 Instance: inlineValueSet-covid19-4-3
 InstanceOf: ValueSet
 Usage: #inline
-// * url = "Inline-covid19-4-3"
+// * url = "http://hl7.eu/fhir/ig/gk/Questionnaire/covid-quest-1#inlineCovid19-4-3"
 * name = "InlineValueSetCovid19x4x3"
 * status = #draft
 * compose.include.system = $string
@@ -27,7 +27,7 @@ Usage: #inline
 Instance: inlineValueSet-covid19-7-1
 InstanceOf: ValueSet
 Usage: #inline
-// * url = "Inline-covid19-7-1"
+// * url = "http://hl7.eu/fhir/ig/gk/Questionnaire/covid-quest-1#inlineCovid19-7-1"
 * name = "InlineValueSetCovid19x7x1"
 * status = #draft
 * compose.include.system = $string
@@ -43,6 +43,7 @@ Usage: #inline
 Instance: inlineValueSet-covid19-4-3
 InstanceOf: ValueSet
 Usage: #inline
+// * url = "http://hl7.eu/fhir/ig/gk/Questionnaire/covid-quest-1#inlineCovid19-4-3"
 * name = "InlineValueSetCovid19x4x3"
 * status = #draft
 * compose.include.system = $loinc
@@ -54,7 +55,7 @@ Usage: #inline
 Instance: inlineValueSet-covid19-7-1
 InstanceOf: ValueSet
 Usage: #inline
-// * url = "Inline-covid19-7-1"
+// * url = "http://hl7.eu/fhir/ig/gk/Questionnaire/covid-quest-1#inlineCovid19-7-1"
 * name = "InlineValueSetCovid19x7x1"
 * status = #draft
 * compose.include.system = $loinc
@@ -68,7 +69,7 @@ Usage: #inline
 Instance: inlineValueSet-covid19-4-5
 InstanceOf: ValueSet
 Usage: #inline
-// * url = "Inline-covid19-4-5"
+// * url = "http://hl7.eu/fhir/ig/gk/Questionnaire/covid-quest-1#inlineCovid19-4-5"
 * name = "InlineValueSetCovid19x4x5"
 * status = #draft
 * compose.include.system = $string
@@ -83,7 +84,7 @@ Usage: #inline
 Instance: inlineValueSet-covid19-7-7
 InstanceOf: ValueSet
 Usage: #inline
-// * url = "Inline-covid19-7-7"
+// * url = "http://hl7.eu/fhir/ig/gk/Questionnaire/covid-quest-1#inlineCovid19-7-7"
 * status = #draft
 * name = "InlineValueSetCovid19x7x7"
 * compose.include.system = $string
@@ -94,7 +95,7 @@ Usage: #inline
 Instance: inlineValueSet-covid19-9-6
 InstanceOf: ValueSet
 Usage: #inline
-// * url = "Inline-covid19-9-6"
+// * url = "http://hl7.eu/fhir/ig/gk/Questionnaire/covid-quest-1#inlineCovid19-9-6"
 * status = #draft
 * name = "InlineValueSetCovid19x9x6"
 * compose.include.system = $string
@@ -334,7 +335,7 @@ Description: "Example of questionnaire defined for the COVID-19 Survey by the GA
 * item[=].item[=].item[=].linkId = "covid19PsychologicalImpact.generalQuestions.last2Weeks"
 * item[=].item[=].item[=].type = #choice
 * item[=].item[=].item[=].repeats = false
-* item[=].item[=].item[=].answerValueSet = 	"#inlineValueSet-covid19-4-1"
+* item[=].item[=].item[=].answerValueSet =  Canonical(inlineValueSet-covid19-4-1)
 * item[=].item[=].item[=].required = true
 
 * item[=].item[=].item[+].prefix = "4.2"
@@ -342,7 +343,7 @@ Description: "Example of questionnaire defined for the COVID-19 Survey by the GA
 * item[=].item[=].item[=].linkId = "covid19PsychologicalImpact.generalQuestions.highestPeak"
 * item[=].item[=].item[=].type = #choice
 * item[=].item[=].item[=].repeats = false
-* item[=].item[=].item[=].answerValueSet = 	"#inlineValueSet-covid19-4-1"
+* item[=].item[=].item[=].answerValueSet =  Canonical(inlineValueSet-covid19-4-1)
 * item[=].item[=].item[=].required = true
 
 
@@ -357,7 +358,7 @@ Description: "Example of questionnaire defined for the COVID-19 Survey by the GA
 * item[=].item[=].item[=].item[=].linkId = "covid19PsychologicalImpact.generalQuestions.feelings2Weeks.informed"
 * item[=].item[=].item[=].item[=].type = #choice
 * item[=].item[=].item[=].item[=].repeats = false
-* item[=].item[=].item[=].item[=].answerValueSet = 	"#inlineValueSet-covid19-4-3"
+* item[=].item[=].item[=].item[=].answerValueSet =  Canonical(inlineValueSet-covid19-4-3)
 * item[=].item[=].item[=].item[=].required = true
 
 * item[=].item[=].item[=].item[+].prefix = "4.3.2"
@@ -365,7 +366,7 @@ Description: "Example of questionnaire defined for the COVID-19 Survey by the GA
 * item[=].item[=].item[=].item[=].linkId = "covid19PsychologicalImpact.generalQuestions.feelings2Weeks.protected"
 * item[=].item[=].item[=].item[=].type = #choice
 * item[=].item[=].item[=].item[=].repeats = false
-* item[=].item[=].item[=].item[=].answerValueSet = 	"#inlineValueSet-covid19-4-3"
+* item[=].item[=].item[=].item[=].answerValueSet =  Canonical(inlineValueSet-covid19-4-3)
 * item[=].item[=].item[=].item[=].required = true
 
 * item[=].item[=].item[=].item[+].prefix = "4.3.3"
@@ -373,7 +374,7 @@ Description: "Example of questionnaire defined for the COVID-19 Survey by the GA
 * item[=].item[=].item[=].item[=].linkId = "covid19PsychologicalImpact.generalQuestions.feelings2Weeks.afraid"
 * item[=].item[=].item[=].item[=].type = #choice
 * item[=].item[=].item[=].item[=].repeats = false
-* item[=].item[=].item[=].item[=].answerValueSet = 	"#inlineValueSet-covid19-4-3"
+* item[=].item[=].item[=].item[=].answerValueSet =  Canonical(inlineValueSet-covid19-4-3)
 * item[=].item[=].item[=].item[=].required = true
 
 * item[=].item[=].item[=].item[+].prefix = "4.3.4"
@@ -381,7 +382,7 @@ Description: "Example of questionnaire defined for the COVID-19 Survey by the GA
 * item[=].item[=].item[=].item[=].linkId = "covid19PsychologicalImpact.generalQuestions.feelings2Weeks.afraidForFamily"
 * item[=].item[=].item[=].item[=].type = #choice
 * item[=].item[=].item[=].item[=].repeats = false
-* item[=].item[=].item[=].item[=].answerValueSet = 	"#inlineValueSet-covid19-4-3"
+* item[=].item[=].item[=].item[=].answerValueSet =  Canonical(inlineValueSet-covid19-4-3)
 * item[=].item[=].item[=].item[=].required = true
 
 * item[=].item[=].item[=].item[+].prefix = "4.3.5"
@@ -389,7 +390,7 @@ Description: "Example of questionnaire defined for the COVID-19 Survey by the GA
 * item[=].item[=].item[=].item[=].linkId = "covid19PsychologicalImpact.generalQuestions.feelings2Weeks.isolated"
 * item[=].item[=].item[=].item[=].type = #choice
 * item[=].item[=].item[=].item[=].repeats = false
-* item[=].item[=].item[=].item[=].answerValueSet = 	"#inlineValueSet-covid19-4-3"
+* item[=].item[=].item[=].item[=].answerValueSet =  Canonical(inlineValueSet-covid19-4-3)
 * item[=].item[=].item[=].item[=].required = true
 
 * item[=].item[=].item[=].item[+].prefix = "4.3.6"
@@ -397,7 +398,7 @@ Description: "Example of questionnaire defined for the COVID-19 Survey by the GA
 * item[=].item[=].item[=].item[=].linkId = "covid19PsychologicalImpact.generalQuestions.feelings2Weeks.avoided"
 * item[=].item[=].item[=].item[=].type = #choice
 * item[=].item[=].item[=].item[=].repeats = false
-* item[=].item[=].item[=].item[=].answerValueSet = 	"#inlineValueSet-covid19-4-3"
+* item[=].item[=].item[=].item[=].answerValueSet =  Canonical(inlineValueSet-covid19-4-3)
 * item[=].item[=].item[=].item[=].required = true
 
 * item[=].item[=].item[=].item[+].prefix = "4.3.7"
@@ -405,7 +406,7 @@ Description: "Example of questionnaire defined for the COVID-19 Survey by the GA
 * item[=].item[=].item[=].item[=].linkId = "covid19PsychologicalImpact.generalQuestions.feelings2Weeks.exhausted"
 * item[=].item[=].item[=].item[=].type = #choice
 * item[=].item[=].item[=].item[=].repeats = false
-* item[=].item[=].item[=].item[=].answerValueSet = 	"#inlineValueSet-covid19-4-3"
+* item[=].item[=].item[=].item[=].answerValueSet =  Canonical(inlineValueSet-covid19-4-3)
 * item[=].item[=].item[=].item[=].required = true
 
 * item[=].item[=].item[+].prefix = "4.4"
@@ -419,7 +420,7 @@ Description: "Example of questionnaire defined for the COVID-19 Survey by the GA
 * item[=].item[=].item[=].item[=].linkId = "covid19PsychologicalImpact.generalQuestions.feelingsPeak.informed"
 * item[=].item[=].item[=].item[=].type = #choice
 * item[=].item[=].item[=].item[=].repeats = false
-* item[=].item[=].item[=].item[=].answerValueSet = 	"#inlineValueSet-covid19-4-3"
+* item[=].item[=].item[=].item[=].answerValueSet =  Canonical(inlineValueSet-covid19-4-3)
 * item[=].item[=].item[=].item[=].required = true
 
 * item[=].item[=].item[=].item[+].prefix = "4.4.2"
@@ -427,7 +428,7 @@ Description: "Example of questionnaire defined for the COVID-19 Survey by the GA
 * item[=].item[=].item[=].item[=].linkId = "covid19PsychologicalImpact.generalQuestions.feelingsPeak.protected"
 * item[=].item[=].item[=].item[=].type = #choice
 * item[=].item[=].item[=].item[=].repeats = false
-* item[=].item[=].item[=].item[=].answerValueSet = 	"#inlineValueSet-covid19-4-3"
+* item[=].item[=].item[=].item[=].answerValueSet =  Canonical(inlineValueSet-covid19-4-3)
 * item[=].item[=].item[=].item[=].required = true
 
 * item[=].item[=].item[=].item[+].prefix = "4.4.3"
@@ -435,7 +436,7 @@ Description: "Example of questionnaire defined for the COVID-19 Survey by the GA
 * item[=].item[=].item[=].item[=].linkId = "covid19PsychologicalImpact.generalQuestions.feelingsPeak.afraid"
 * item[=].item[=].item[=].item[=].type = #choice
 * item[=].item[=].item[=].item[=].repeats = false
-* item[=].item[=].item[=].item[=].answerValueSet = 	"#inlineValueSet-covid19-4-3"
+* item[=].item[=].item[=].item[=].answerValueSet =  Canonical(inlineValueSet-covid19-4-3)
 * item[=].item[=].item[=].item[=].required = true
 
 * item[=].item[=].item[=].item[+].prefix = "4.4.4"
@@ -443,7 +444,7 @@ Description: "Example of questionnaire defined for the COVID-19 Survey by the GA
 * item[=].item[=].item[=].item[=].linkId = "covid19PsychologicalImpact.generalQuestions.feelingsPeak.afraidForFamily"
 * item[=].item[=].item[=].item[=].type = #choice
 * item[=].item[=].item[=].item[=].repeats = false
-* item[=].item[=].item[=].item[=].answerValueSet = 	"#inlineValueSet-covid19-4-3"
+* item[=].item[=].item[=].item[=].answerValueSet =  Canonical(inlineValueSet-covid19-4-3)
 * item[=].item[=].item[=].item[=].required = true
 
 * item[=].item[=].item[=].item[+].prefix = "4.4.5"
@@ -451,7 +452,7 @@ Description: "Example of questionnaire defined for the COVID-19 Survey by the GA
 * item[=].item[=].item[=].item[=].linkId = "covid19PsychologicalImpact.generalQuestions.feelingsPeak.isolated"
 * item[=].item[=].item[=].item[=].type = #choice
 * item[=].item[=].item[=].item[=].repeats = false
-* item[=].item[=].item[=].item[=].answerValueSet = 	"#inlineValueSet-covid19-4-3"
+* item[=].item[=].item[=].item[=].answerValueSet =  Canonical(inlineValueSet-covid19-4-3)
 * item[=].item[=].item[=].item[=].required = true
 
 * item[=].item[=].item[=].item[+].prefix = "4.4.6"
@@ -459,7 +460,7 @@ Description: "Example of questionnaire defined for the COVID-19 Survey by the GA
 * item[=].item[=].item[=].item[=].linkId = "covid19PsychologicalImpact.generalQuestions.feelingsPeak.avoided"
 * item[=].item[=].item[=].item[=].type = #choice
 * item[=].item[=].item[=].item[=].repeats = false
-* item[=].item[=].item[=].item[=].answerValueSet = 	"#inlineValueSet-covid19-4-3"
+* item[=].item[=].item[=].item[=].answerValueSet =  Canonical(inlineValueSet-covid19-4-3)
 * item[=].item[=].item[=].item[=].required = true
 
 * item[=].item[=].item[=].item[+].prefix = "4.4.7"
@@ -467,7 +468,7 @@ Description: "Example of questionnaire defined for the COVID-19 Survey by the GA
 * item[=].item[=].item[=].item[=].linkId = "covid19PsychologicalImpact.generalQuestions.feelingsPeak.exhausted"
 * item[=].item[=].item[=].item[=].type = #choice
 * item[=].item[=].item[=].item[=].repeats = false
-* item[=].item[=].item[=].item[=].answerValueSet = 	"#inlineValueSet-covid19-4-3"
+* item[=].item[=].item[=].item[=].answerValueSet =  Canonical(inlineValueSet-covid19-4-3)
 * item[=].item[=].item[=].item[=].required = true
 
 * item[=].item[+].prefix = "B)"
@@ -486,7 +487,7 @@ Description: "Example of questionnaire defined for the COVID-19 Survey by the GA
 * item[=].item[=].item[=].item[=].linkId = "covid19PsychologicalImpact.PHQ4.problems2Weeks.littleIntrest"
 * item[=].item[=].item[=].item[=].type = #choice
 * item[=].item[=].item[=].item[=].repeats = false
-* item[=].item[=].item[=].item[=].answerValueSet = 	"#inlineValueSet-covid19-4-5"
+* item[=].item[=].item[=].item[=].answerValueSet =  Canonical(inlineValueSet-covid19-4-5)
 * item[=].item[=].item[=].item[=].required = true
 
 * item[=].item[=].item[=].item[+].prefix = "4.5.2"
@@ -494,7 +495,7 @@ Description: "Example of questionnaire defined for the COVID-19 Survey by the GA
 * item[=].item[=].item[=].item[=].linkId = "covid19PsychologicalImpact.PHQ4.problems2Weeks.depressed"
 * item[=].item[=].item[=].item[=].type = #choice
 * item[=].item[=].item[=].item[=].repeats = false
-* item[=].item[=].item[=].item[=].answerValueSet = 	"#inlineValueSet-covid19-4-5"
+* item[=].item[=].item[=].item[=].answerValueSet =  Canonical(inlineValueSet-covid19-4-5)
 * item[=].item[=].item[=].item[=].required = true
 
 * item[=].item[=].item[=].item[+].prefix = "4.5.3"
@@ -502,7 +503,7 @@ Description: "Example of questionnaire defined for the COVID-19 Survey by the GA
 * item[=].item[=].item[=].item[=].linkId = "covid19PsychologicalImpact.PHQ4.problems2Weeks.anxious"
 * item[=].item[=].item[=].item[=].type = #choice
 * item[=].item[=].item[=].item[=].repeats = false
-* item[=].item[=].item[=].item[=].answerValueSet = 	"#inlineValueSet-covid19-4-5"
+* item[=].item[=].item[=].item[=].answerValueSet =  Canonical(inlineValueSet-covid19-4-5)
 * item[=].item[=].item[=].item[=].required = true
 
 * item[=].item[=].item[=].item[+].prefix = "4.5.4"
@@ -510,7 +511,7 @@ Description: "Example of questionnaire defined for the COVID-19 Survey by the GA
 * item[=].item[=].item[=].item[=].linkId = "covid19PsychologicalImpact.PHQ4.problems2Weeks.worrying"
 * item[=].item[=].item[=].item[=].type = #choice
 * item[=].item[=].item[=].item[=].repeats = false
-* item[=].item[=].item[=].item[=].answerValueSet = 	"#inlineValueSet-covid19-4-5"
+* item[=].item[=].item[=].item[=].answerValueSet =  Canonical(inlineValueSet-covid19-4-5)
 * item[=].item[=].item[=].item[=].required = true
 
 * item[=].item[=].item[+].prefix = "4.6"
@@ -523,7 +524,7 @@ Description: "Example of questionnaire defined for the COVID-19 Survey by the GA
 * item[=].item[=].item[=].item[=].linkId = "covid19PsychologicalImpact.PHQ4.problemsPeak.littleIntrest"
 * item[=].item[=].item[=].item[=].type = #choice
 * item[=].item[=].item[=].item[=].repeats = false
-* item[=].item[=].item[=].item[=].answerValueSet = 	"#inlineValueSet-covid19-4-5"
+* item[=].item[=].item[=].item[=].answerValueSet =  Canonical(inlineValueSet-covid19-4-5)
 * item[=].item[=].item[=].item[=].required = true
 
 * item[=].item[=].item[=].item[+].prefix = "4.6.2"
@@ -531,7 +532,7 @@ Description: "Example of questionnaire defined for the COVID-19 Survey by the GA
 * item[=].item[=].item[=].item[=].linkId = "covid19PsychologicalImpact.PHQ4.problemsPeak.depressed"
 * item[=].item[=].item[=].item[=].type = #choice
 * item[=].item[=].item[=].item[=].repeats = false
-* item[=].item[=].item[=].item[=].answerValueSet = 	"#inlineValueSet-covid19-4-5"
+* item[=].item[=].item[=].item[=].answerValueSet =  Canonical(inlineValueSet-covid19-4-5)
 * item[=].item[=].item[=].item[=].required = true
 
 * item[=].item[=].item[=].item[+].prefix = "4.6.3"
@@ -539,7 +540,7 @@ Description: "Example of questionnaire defined for the COVID-19 Survey by the GA
 * item[=].item[=].item[=].item[=].linkId = "covid19PsychologicalImpact.PHQ4.problemsPeak.anxious"
 * item[=].item[=].item[=].item[=].type = #choice
 * item[=].item[=].item[=].item[=].repeats = false
-* item[=].item[=].item[=].item[=].answerValueSet = 	"#inlineValueSet-covid19-4-5"
+* item[=].item[=].item[=].item[=].answerValueSet =  Canonical(inlineValueSet-covid19-4-5)
 * item[=].item[=].item[=].item[=].required = true
 
 * item[=].item[=].item[=].item[+].prefix = "4.6.4"
@@ -547,7 +548,7 @@ Description: "Example of questionnaire defined for the COVID-19 Survey by the GA
 * item[=].item[=].item[=].item[=].linkId = "covid19PsychologicalImpact.PHQ4.problemsPeak.worrying"
 * item[=].item[=].item[=].item[=].type = #choice
 * item[=].item[=].item[=].item[=].repeats = false
-* item[=].item[=].item[=].item[=].answerValueSet = 	"#inlineValueSet-covid19-4-5"
+* item[=].item[=].item[=].item[=].answerValueSet =  Canonical(inlineValueSet-covid19-4-5)
 * item[=].item[=].item[=].item[=].required = true
 
 * item[=].item[=].item[+].prefix = "4.7"
@@ -702,7 +703,7 @@ Description: "Example of questionnaire defined for the COVID-19 Survey by the GA
 * item[=].item[=].linkId = "sleepHealth.satisfaction"
 * item[=].item[=].type = #choice
 * item[=].item[=].repeats = false
-* item[=].item[=].answerValueSet = 	"#inlineValueSet-covid19-7-1"
+* item[=].item[=].answerValueSet =  Canonical(inlineValueSet-covid19-7-1)
 * item[=].item[=].required = true
 
 * item[=].item[+].prefix = "7.2"
@@ -710,7 +711,7 @@ Description: "Example of questionnaire defined for the COVID-19 Survey by the GA
 * item[=].item[=].linkId = "sleepHealth.awakeAllDay"
 * item[=].item[=].type = #choice
 * item[=].item[=].repeats = false
-* item[=].item[=].answerValueSet = 	"#inlineValueSet-covid19-7-1"
+* item[=].item[=].answerValueSet =  Canonical(inlineValueSet-covid19-7-1)
 * item[=].item[=].required = true
 
 * item[=].item[+].prefix = "7.3"
@@ -718,7 +719,7 @@ Description: "Example of questionnaire defined for the COVID-19 Survey by the GA
 * item[=].item[=].linkId = "sleepHealth.asleepDuringNightHours"
 * item[=].item[=].type = #choice
 * item[=].item[=].repeats = false
-* item[=].item[=].answerValueSet = 	"#inlineValueSet-covid19-7-1"
+* item[=].item[=].answerValueSet =  Canonical(inlineValueSet-covid19-7-1)
 * item[=].item[=].required = true
 
 * item[=].item[+].prefix = "7.4"
@@ -726,7 +727,7 @@ Description: "Example of questionnaire defined for the COVID-19 Survey by the GA
 * item[=].item[=].linkId = "sleepHealth.timeAwake"
 * item[=].item[=].type = #choice
 * item[=].item[=].repeats = false
-* item[=].item[=].answerValueSet = 	"#inlineValueSet-covid19-7-1"
+* item[=].item[=].answerValueSet =  Canonical(inlineValueSet-covid19-7-1)
 * item[=].item[=].required = true
 
 * item[=].item[+].prefix = "7.5"
@@ -734,7 +735,7 @@ Description: "Example of questionnaire defined for the COVID-19 Survey by the GA
 * item[=].item[=].linkId = "sleepHealth.sleepDuration"
 * item[=].item[=].type = #choice
 * item[=].item[=].repeats = false
-* item[=].item[=].answerValueSet = 	"#inlineValueSet-covid19-7-1"
+* item[=].item[=].answerValueSet =  Canonical(inlineValueSet-covid19-7-1)
 * item[=].item[=].required = true
 
 * item[=].item[+].prefix = "7.6"
@@ -742,7 +743,7 @@ Description: "Example of questionnaire defined for the COVID-19 Survey by the GA
 * item[=].item[=].linkId = "sleepHealth.regularity"
 * item[=].item[=].type = #choice
 * item[=].item[=].repeats = false
-* item[=].item[=].answerValueSet = 	"#inlineValueSet-covid19-7-1"
+* item[=].item[=].answerValueSet =  Canonical(inlineValueSet-covid19-7-1)
 * item[=].item[=].required = true
 
 * item[=].item[+].prefix = "7.7"
@@ -750,7 +751,7 @@ Description: "Example of questionnaire defined for the COVID-19 Survey by the GA
 * item[=].item[=].linkId = "sleepHealth.overallQualityVsBeforeCovid19"
 * item[=].item[=].type = #choice
 * item[=].item[=].repeats = false
-* item[=].item[=].answerValueSet = 	"#inlineValueSet-covid19-7-7"
+* item[=].item[=].answerValueSet =  Canonical(inlineValueSet-covid19-7-7)
 * item[=].item[=].required = true
 
 * item[=].item[+].prefix = "7.8"
@@ -758,7 +759,7 @@ Description: "Example of questionnaire defined for the COVID-19 Survey by the GA
 * item[=].item[=].linkId = "sleepHealth.overallQualityVsPeakCovid19"
 * item[=].item[=].type = #choice
 * item[=].item[=].repeats = false
-* item[=].item[=].answerValueSet = 	"#inlineValueSet-covid19-7-7"
+* item[=].item[=].answerValueSet =  Canonical(inlineValueSet-covid19-7-7)
 * item[=].item[=].required = true
 
 * item[=].item[+].prefix = "7.9"
@@ -931,7 +932,7 @@ Description: "Example of questionnaire defined for the COVID-19 Survey by the GA
 * item[=].item[=].item[=].linkId = "digitalHealthcare.trust.hospitals"
 * item[=].item[=].item[=].type = #choice
 * item[=].item[=].item[=].repeats = false
-* item[=].item[=].item[=].answerValueSet = 	"#inlineValueSet-covid19-9-6"
+* item[=].item[=].item[=].answerValueSet =  Canonical(inlineValueSet-covid19-9-6)
 * item[=].item[=].item[=].required = true
 
 * item[=].item[=].item[+].prefix = "9.6.2"
@@ -939,7 +940,7 @@ Description: "Example of questionnaire defined for the COVID-19 Survey by the GA
 * item[=].item[=].item[=].linkId = "digitalHealthcare.trust.doctors"
 * item[=].item[=].item[=].type = #choice
 * item[=].item[=].item[=].repeats = false
-* item[=].item[=].item[=].answerValueSet = 	"#inlineValueSet-covid19-9-6"
+* item[=].item[=].item[=].answerValueSet =  Canonical(inlineValueSet-covid19-9-6)
 * item[=].item[=].item[=].required = true
 
 * item[=].item[=].item[+].prefix = "9.6.3"
@@ -947,7 +948,7 @@ Description: "Example of questionnaire defined for the COVID-19 Survey by the GA
 * item[=].item[=].item[=].linkId = "digitalHealthcare.trust.pharmacy"
 * item[=].item[=].item[=].type = #choice
 * item[=].item[=].item[=].repeats = false
-* item[=].item[=].item[=].answerValueSet = 	"#inlineValueSet-covid19-9-6"
+* item[=].item[=].item[=].answerValueSet =  Canonical(inlineValueSet-covid19-9-6)
 * item[=].item[=].item[=].required = true
 
 * item[=].item[=].item[+].prefix = "9.6.4"
@@ -955,7 +956,7 @@ Description: "Example of questionnaire defined for the COVID-19 Survey by the GA
 * item[=].item[=].item[=].linkId = "digitalHealthcare.trust.labs"
 * item[=].item[=].item[=].type = #choice
 * item[=].item[=].item[=].repeats = false
-* item[=].item[=].item[=].answerValueSet = 	"#inlineValueSet-covid19-9-6"
+* item[=].item[=].item[=].answerValueSet =  Canonical(inlineValueSet-covid19-9-6)
 * item[=].item[=].item[=].required = true
 
 * item[=].item[=].item[+].prefix = "9.6.5"
@@ -963,7 +964,7 @@ Description: "Example of questionnaire defined for the COVID-19 Survey by the GA
 * item[=].item[=].item[=].linkId = "digitalHealthcare.trust.insuranceCompany"
 * item[=].item[=].item[=].type = #choice
 * item[=].item[=].item[=].repeats = false
-* item[=].item[=].item[=].answerValueSet = 	"#inlineValueSet-covid19-9-6"
+* item[=].item[=].item[=].answerValueSet =  Canonical(inlineValueSet-covid19-9-6)
 * item[=].item[=].item[=].required = true
 
 * item[=].item[=].item[+].prefix = "9.6.6"
@@ -971,7 +972,7 @@ Description: "Example of questionnaire defined for the COVID-19 Survey by the GA
 * item[=].item[=].item[=].linkId = "digitalHealthcare.trust.techCompany"
 * item[=].item[=].item[=].type = #choice
 * item[=].item[=].item[=].repeats = false
-* item[=].item[=].item[=].answerValueSet = 	"#inlineValueSet-covid19-9-6"
+* item[=].item[=].item[=].answerValueSet =  Canonical(inlineValueSet-covid19-9-6)
 * item[=].item[=].item[=].required = true
 
 * item[=].item[=].item[+].prefix = "9.6.7"
@@ -979,7 +980,7 @@ Description: "Example of questionnaire defined for the COVID-19 Survey by the GA
 * item[=].item[=].item[=].linkId = "digitalHealthcare.trust.government"
 * item[=].item[=].item[=].type = #choice
 * item[=].item[=].item[=].repeats = false
-* item[=].item[=].item[=].answerValueSet = 	"#inlineValueSet-covid19-9-6"
+* item[=].item[=].item[=].answerValueSet =  Canonical(inlineValueSet-covid19-9-6)
 * item[=].item[=].item[=].required = true
 
 // SECTION 10
