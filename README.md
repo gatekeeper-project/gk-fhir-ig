@@ -1,5 +1,5 @@
 # gk-fhir-ig
-Gatekeeper FHIR Implementation Guide
+GATEKEEPER FHIR Implementation Guide
 
 ## Test FHIR IG using Dockerfile
 
