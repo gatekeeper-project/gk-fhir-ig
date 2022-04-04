@@ -25,6 +25,7 @@ Description: "Types of Observations captured for the Gatekeeper Project"
 * include codes from valueset VsSocialObservationGK
 * include codes from valueset VsSleepDurationGK
 * include codes from valueset VsStepsGK
+* CsGatekeeper#bia-impedance "BIA impedance [Ohm]" 
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ValueSet: VsConditionGK
@@ -53,6 +54,12 @@ Description: "Vital Signs captured for the Gatekeeper Project"
 * include codes from valueset http://hl7.org/fhir/ValueSet/observation-vitalsignresult
 * $loinc#41982-0 // Percentage of body fat Measured
 * $loinc#8280-0 // Waist Circumference at umbilicus by Tape measure; other measures available
+
+* $loinc#77233-5 "Percentage of body fat by Bioelectrical impedance analysis"
+* $loinc#73965-6 "Body muscle mass/Body weight Measured"
+* $loinc#73708-0 "Body fat [Mass] Calculated"
+* $loinc#41982-0 "Percentage of body fat Measured"
+
 
 // * $loinc#59574-4 // Body mass index (BMI) [Percentile]	
 // * $loinc#56087-0 // Child Waist Circumference Protocol
@@ -175,6 +182,17 @@ Description: "Gatekeeper internal Code System"
 * #eiaqi "Environment Indoor Air Quality Index" "Environment Indoor Air Quality Index" // what is the difference with the previous one ?
 * #tci "Thermal Comfort Index" "Thermal Comfort Index" // how it is measured ?
 * #covid19_risk "Covid 19 Risk Index" "Enviromental Covid 19 Risk Index" // What is this ?
+
+// Basque Country
+* #mgt "Morisky Green Test" "Morisky Green Test"
+* #num-hosp-adm "Number of Hospital Admission" "Number of Hospital Admission"
+* #num-er-vis "Number of ER visit" "Number of emergency room visits"
+* #mauq-score "MAUQ score" "mHealth App Usability Questionnaire (MAUQ) score"
+
+// Medisante
+* #bia-impedance "BIA impedance [Ohm]" "Measure of the impedance in Ohm. Bioelectrical impedance analysis (BIA) method"
+
+
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ValueSet: VsLivingEnvironmentObservationGK

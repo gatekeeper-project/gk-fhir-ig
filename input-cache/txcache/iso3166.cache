@@ -1,16 +1,6 @@
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "urn:iso:std:iso:3166",
-  "code" : "DE"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
-v: {
-  "display" : "Germany",
-  "code" : "DE",
-  "system" : "urn:iso:std:iso:3166"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "urn:iso:std:iso:3166",
   "code" : "DE",
   "display" : "Deutschland"
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
