@@ -185,9 +185,32 @@ Description: "Gatekeeper internal Code System"
 
 // Basque Country
 * #mgt "Morisky Green Test" "Morisky Green Test"
-* #num-hosp-adm "Number of Hospital Admission" "Number of Hospital Admission"
-* #num-er-vis "Number of ER visit" "Number of emergency room visits"
+// * #num-hosp-adm "Number of Hospital Admission" "Number of Hospital Admission"
+// * #num-er-vis "Number of ER visit" "Number of emergency room visits"
 * #mauq-score "MAUQ score" "mHealth App Usability Questionnaire (MAUQ) score"
+* #srv-int-medicine "internal medicine" "Service: internal medicine"
+* #srv-int-med-ls "internal medicine long stay" "Service: internal medicine long stay"
+* #srv-max-surgery "maxillofacial surgery" "Service: maxillofacial surgery"
+* #srv-trauma "traumatology" "Service: traumatology"
+* #enc-amb-hos "ambulatory hospital" "Encounter class: ambulatory hospital"
+* #enc-amb-cons "external consultations" "Encounter class: external consultations"
+* #enc-prcp "primary care" "Encounter class: primary care"
+
+
+* #barthel-indipendent	"indipendent"			"barthel index interpretation: indipendent"
+* #barthel-mild 		"mild dependency"       "barthel index interpretation: mild dependency"
+* #barthel-moderate 	"moderate dependency"   "barthel index interpretation: moderate dependency"
+* #barthel-severe 		"severe dependency"     "barthel index interpretation: severe dependency"
+* #barthel-total 		"total dependency"      "barthel index interpretation: total dependency"
+
+* #mgt-compliant 	 "compliant"	 "Moriskygreen range interpretation: compliant"
+* #mgt-not-compliant "not compliant" "Moriskygreen range interpretation: not compliant"
+* #mgt-doubtful 	 "doubtful"      "Moriskygreen range interpretation: doubtful"
+					   
+
+
+
+
 
 // Medisante
 * #bia-impedance "BIA impedance [Ohm]" "Measure of the impedance in Ohm. Bioelectrical impedance analysis (BIA) method"
