@@ -188,10 +188,16 @@ Description: "Gatekeeper internal Code System"
 // * #num-hosp-adm "Number of Hospital Admission" "Number of Hospital Admission"
 // * #num-er-vis "Number of ER visit" "Number of emergency room visits"
 * #mauq-score "MAUQ score" "mHealth App Usability Questionnaire (MAUQ) score"
+
 * #srv-int-medicine "internal medicine" "Service: internal medicine"
 * #srv-int-med-ls "internal medicine long stay" "Service: internal medicine long stay"
 * #srv-max-surgery "maxillofacial surgery" "Service: maxillofacial surgery"
 * #srv-trauma "traumatology" "Service: traumatology"
+* #srv-trauma "traumatology" "Service: traumatology"
+* #srv-mh-ss “psychiatry short stay” “Service: psychiatry short stay”
+* #srv-mh-ms “psychiatry medium stay” “Service: psychiatry medium stay”
+
+
 * #enc-amb-hos "ambulatory hospital" "Encounter class: ambulatory hospital"
 * #enc-amb-cons "external consultations" "Encounter class: external consultations"
 * #enc-prcp "primary care" "Encounter class: primary care"
