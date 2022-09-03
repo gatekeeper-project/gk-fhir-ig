@@ -16,3 +16,12 @@ publisher.jar
 /questionnaires-examples
 /__test
 /___attic
+_clean-json.bat
+_genonce-noTx.bat
+_genonce-onto.bat
+BAK.ini
+noteCallNov2021.txt
+pandoc/convertWord.bat
+pandoc/imgs_changes2beApplied.txt
+TO-DO.txt
+.gitignore

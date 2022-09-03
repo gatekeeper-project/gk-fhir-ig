@@ -52,7 +52,6 @@ Description: "Vital Signs captured for the Gatekeeper Project"
 //-------------------------------------------------------------------------------------------
 * ^copyright = "This material contains content from LOINC (http://loinc.org). LOINC is copyright © 1995-2020, Regenstrief Institute, Inc. and the Logical Observation Identifiers Names and Codes (LOINC) Committee and is available at no cost under the license at http://loinc.org/license. LOINC® is a registered United States trademark of Regenstrief Institute, Inc"
 * include codes from valueset http://hl7.org/fhir/ValueSet/observation-vitalsignresult
-* $loinc#41982-0 // Percentage of body fat Measured
 * $loinc#8280-0 // Waist Circumference at umbilicus by Tape measure; other measures available
 
 * $loinc#77233-5 "Percentage of body fat by Bioelectrical impedance analysis"
@@ -193,9 +192,8 @@ Description: "Gatekeeper internal Code System"
 * #srv-int-med-ls "internal medicine long stay" "Service: internal medicine long stay"
 * #srv-max-surgery "maxillofacial surgery" "Service: maxillofacial surgery"
 * #srv-trauma "traumatology" "Service: traumatology"
-* #srv-trauma "traumatology" "Service: traumatology"
-* #srv-mh-ss “psychiatry short stay” “Service: psychiatry short stay”
-* #srv-mh-ms “psychiatry medium stay” “Service: psychiatry medium stay”
+* #srv-mh-ss "psychiatry short stay" "Service: psychiatry short stay"
+* #srv-mh-ms "psychiatry medium stay" "Service: psychiatry medium stay"
 
 
 * #enc-amb-hos "ambulatory hospital" "Encounter class: ambulatory hospital"

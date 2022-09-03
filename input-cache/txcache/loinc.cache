@@ -4300,3 +4300,162 @@ e: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "29463-7",
+  "display" : "Body weight"
+}, "url": "http://hl7.eu/fhir/ig/gk/ValueSet/ValueSet-vitalsigns-eu-gk", "version": "0.0.1", "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK", "versionFlexible":"true"}####
+v: {
+  "display" : "Body weight",
+  "code" : "29463-7",
+  "system" : "http://loinc.org"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://loinc.org",
+      "concept" : [{
+        "code" : "8280-0"
+      },
+      {
+        "code" : "77233-5",
+        "display" : "Percentage of body fat by Bioelectrical impedance analysis"
+      },
+      {
+        "code" : "73965-6",
+        "display" : "Body muscle mass/Body weight Measured"
+      },
+      {
+        "code" : "73708-0",
+        "display" : "Body fat [Mass] Calculated"
+      },
+      {
+        "code" : "41982-0",
+        "display" : "Percentage of body fat Measured"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "language" : "en",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:e48c4d09-332e-4078-a91c-8a95fa8e1cf8",
+    "timestamp" : "2022-09-03T09:12:47.095Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "excludeNested",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "version",
+      "valueUri" : "http://loinc.org|2.73"
+    }],
+    "contains" : [{
+      "system" : "http://loinc.org",
+      "code" : "8280-0",
+      "display" : "Waist Circumference at umbilicus by Tape measure"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "77233-5",
+      "display" : "Percentage of body fat by Bioelectrical impedance analysis"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "73965-6",
+      "display" : "Body muscle mass/Body weight Measured"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "73708-0",
+      "display" : "Body fat [Mass] Calculated"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "41982-0",
+      "display" : "Percentage of body fat Measured"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "15074-8"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "display" : "Glucose [Moles/volume] in Blood",
+  "code" : "15074-8",
+  "system" : "http://loinc.org"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "55409-7"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "display" : "Exercise tracking panel",
+  "code" : "55409-7",
+  "system" : "http://loinc.org"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "73986-2"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "display" : "Exercise aerobic category",
+  "code" : "73986-2",
+  "system" : "http://loinc.org"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "55421-2"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "display" : "Calories burned Machine estimate",
+  "code" : "55421-2",
+  "system" : "http://loinc.org"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "55411-3"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "display" : "Exercise duration",
+  "code" : "55411-3",
+  "system" : "http://loinc.org"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "55412-1"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "display" : "Exercise distance unspecified time",
+  "code" : "55412-1",
+  "system" : "http://loinc.org"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "55422-0"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "display" : "Heart rate Encounter maximum",
+  "code" : "55422-0",
+  "system" : "http://loinc.org"
+}
+-------------------------------------------------------------------------------------
