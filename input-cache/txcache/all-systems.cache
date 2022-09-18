@@ -5662,3 +5662,23 @@ e: {
   "error" : "Error from server: Unable to provide support for code system https://www.phenxtoolkit.org"
 }
 -------------------------------------------------------------------------------------
+{"code" : {
+  "code" : "es-ES"
+}, "url": "http://hl7.org/fhir/ValueSet/languages", "version": "4.0.1", "lang":"es-ES", "useServer":"true", "useClient":"true", "guessSystem":"true", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "display" : "Spanish (Spain)",
+  "code" : "es-ES",
+  "system" : "urn:ietf:bcp:47"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+  "code" : "150",
+  "display" : "Europe"
+}, "url": "http://hl7.org/fhir/ValueSet/jurisdiction", "version": "4.0.1", "lang":"es-ES", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK", "versionFlexible":"true"}####
+v: {
+  "display" : "Europe",
+  "code" : "150",
+  "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm"
+}
+-------------------------------------------------------------------------------------
