@@ -1,0 +1,17 @@
+{
+ "name": "GatekeeperImplementationGuide",
+ "version" : "0.1.0",  
+ "canonical" : "http://hl7.eu/fhir/ig/gk",
+ "url" : "http://hl7.eu/fhir/ig/gk",
+ "title" : "GATEKEEPER FHIR Implementation Guide",
+ "description": "GATEKEEPER is a European Multi Centric Large-Scale Pilot on Smart Living Environments. The main objective is enabling the creation of a platform aimed at ensuring healthier independent lives for the ageing populations.",
+ "dependencies": {
+    "hl7.fhir.uv.ips": "current"
+ },
+ "keywords": [  
+   "GATEKEEPER"
+ ],
+ "language": "en",
+ "author": "GATEKEEPER",
+ "license": "CC-BY-SA-4.0"
+}

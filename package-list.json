@@ -1,8 +1,8 @@
 {
- "package-id" : "hl7.fhir.eu.f4h",
- "title" : "FAIR4Health HL7 FHIR Implemention Guide", 
- "canonical" : "http://hl7.eu/fhir/f4h", 
- "introduction" : "The introduction that should appear in the FHIR IG registry",
+ "package-id" : "hl7.eu.fhir.gk",
+ "title" : "GATEKEEPER HL7 FHIR Implementation Guide", 
+ "canonical" : "http://hl7.eu/fhir/ig/gk", 
+ "introduction" : "GATEKEEPER is a European Multi Centric Large-Scale Pilot on Smart Living Environments. The main objective is enabling the creation of a platform aimed at ensuring healthier independent lives for the ageing populations.",
  "list" : [{
   "version" : "current",
   "desc" : "Continuous Integration Build (latest in version control)",

@@ -10,27 +10,58 @@
 # │  supported properties, see:                                                                    │
 # │  http://build.fhir.org/ig/HL7/fhir-shorthand/branches/beta/sushi.html#ig-development           │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
-id: gatekeeper
+id: hl7.eu.fhir.gk
 canonical: http://hl7.eu/fhir/ig/gk
 version: 0.1.0
 name: GatekeeperImplementationGuide
-title: Gatekeeper Implementation Guide
+title: GATEKEEPER Implementation Guide
 status: active
-publisher: Gatekeeper project
+publisher: GATEKEEPER project
 contact:
-  - name: Gatekeeper project
+  - name: GATEKEEPER project
     telecom:
       - system: url
         value: http://gatekeeper-project.eu
-description: An example of how FSH can be used to create an IG about fish
+
+description: GATEKEEPER is a European Multi Centric Large-Scale Pilot on Smart Living Environments. The main objective is enabling the creation of a platform aimed at ensuring healthier independent lives for the ageing populations.
+jurisdiction: http://unstats.un.org/unsd/methods/m49/m49.htm#150 "Europe"
 license: CC0-1.0
 fhirVersion: 4.0.1
 dependencies:
   hl7.fhir.uv.ips: current
 parameters:
   show-inherited-invariants: false
+  special-url: 
+    - http://tele-neps.de/fhir
+    - http://tele-neps.de/fhir/Questionnaire/eingangsfragebogen
+
 copyrightYear: 2020+
 releaseLabel: CI Build
 
 
-FSHOnly: true
+
+FSHOnly: false
+
+pages:
+  index.md:
+    title: GATEKEEPER FHIR IG - Home Page   
+  profiles.md:
+    title: Profiles
+  terminologies.md:
+    title: Terminology
+  downloads.html:
+    title: Useful Downloads
+  changes.html:
+    title: IG Change History
+
+		
+menu:
+  IG Home: index.html
+  Table of Contents: toc.html
+  Specifications:
+    Profiles: profiles.html
+    Terminology: terminology.html
+  Artifact Index: artifacts.html			
+  Support:
+    FHIR Spec: new-tab http://hl7.org/fhir/R4/index.html
+    Downloads: downloads.html
