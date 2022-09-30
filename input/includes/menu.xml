@@ -6,7 +6,7 @@
 	<li>
 		<a href="toc.html">Table of Contents</a>
 	</li>
-	<li class="dropdown">
+<!-- 	<li class="dropdown">
 		<a data-toggle="dropdown"
  			href="#"
  			class="dropdown-toggle">Models<b class="caret">
@@ -17,7 +17,7 @@
 				<a href="models.html">Logical Models</a>
 			</li>
 		</ul>
-	</li>
+	</li> -->
 	<li class="dropdown">
 		<a data-toggle="dropdown"
  			href="#"
