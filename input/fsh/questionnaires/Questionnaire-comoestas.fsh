@@ -27,6 +27,7 @@ Usage: #example
 * item[=].text = "Cómo te sientes en general?"
 * item[=].prefix = "statement"
 * item[=].answerValueSet = "#Inline-Instance-Status"
+* item[=].type = #choice
 * item[=].repeats = false
 * item[+].linkId = "2.1"
 * item[=].text = "Hoy he tenido problemas para descansar por la noche"
@@ -43,6 +44,7 @@ Usage: #example
 * item[=].text = "¿Cómo te sientes en general?"
 * item[=].prefix = "Preguntas"
 * item[=].answerValueSet = "#Inline-Instance-Status"
+* item[=].type = #choice
 * item[=].repeats = false
 * item[+].linkId = "3.1"
 * item[=].text = "Hoy siento dolor o molestia"
@@ -58,6 +60,7 @@ Usage: #example
 * item[+].linkId = "3.3"
 * item[=].text = "Cómo te sientes de activo físicamente?"
 * item[=].prefix = "Preguntas"
+* item[=].type = #choice
 * item[=].answerValueSet = "#Inline-Instance-Status"
 * item[=].repeats = false
 
