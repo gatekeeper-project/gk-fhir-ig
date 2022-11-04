@@ -18329,3 +18329,109 @@ e: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "concept" : [{
+        "code" : "I11"
+      },
+      {
+        "code" : "E11"
+      },
+      {
+        "code" : "J44"
+      },
+      {
+        "code" : "I64"
+      },
+      {
+        "code" : "G20"
+      },
+      {
+        "code" : "E78.0"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "language" : "en",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:d55a1c00-20ce-45b5-9edd-f0e996813e7b",
+    "timestamp" : "2022-11-04T15:33:49.108Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "excludeNested",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "version",
+      "valueUri" : "http://hl7.org/fhir/sid/icd-10|2019-covid-expanded"
+    }],
+    "contains" : [{
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "Hypertensive heart disease"
+      }],
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "I11",
+      "display" : "Hypertensive heart disease"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "Type 2 diabetes mellitus"
+      }],
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "E11",
+      "display" : "Type 2 diabetes mellitus"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "Other chronic obstructive pulmonary disease"
+      }],
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "J44",
+      "display" : "Other chronic obstructive pulmonary disease"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "Stroke, not specified as haemorrhage or infarction"
+      }],
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "I64",
+      "display" : "Stroke, not specified as haemorrhage or infarction"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "Parkinson disease"
+      }],
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "G20",
+      "display" : "Parkinson disease"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "Pure hypercholesterolaemia"
+      }],
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "E78.0",
+      "display" : "Pure hypercholesterolaemia"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------

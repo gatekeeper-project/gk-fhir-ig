@@ -79,3 +79,20 @@ e: {
   "error" : "Error from server: Unable to provide support for code system https://www.phenxtoolkit.org"
 }
 -------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "https://www.phenxtoolkit.org",
+      "concept" : [{
+        "code" : "PX070801190200",
+        "display" : "PX070801_Diabetes_Mellitus_Year"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system https://www.phenxtoolkit.org"
+}
+-------------------------------------------------------------------------------------

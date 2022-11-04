@@ -4555,3 +4555,751 @@ v: {
   "error" : "The display \"Beinahe jeden Tag\" is not a valid display for the code {http://loinc.org}LA6571-9 - should be one of ['Nearly every day'] (from http://tx.fhir.org/r4)"
 }
 -------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://loinc.org",
+      "concept" : [{
+        "code" : "1557-8"
+      },
+      {
+        "code" : "1556-0"
+      },
+      {
+        "code" : "41604-0"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "language" : "en",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:82147df3-7f7c-4ad5-98dd-2a0712d1bb27",
+    "timestamp" : "2022-11-04T15:33:49.545Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "excludeNested",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "version",
+      "valueUri" : "http://loinc.org|2.73"
+    }],
+    "contains" : [{
+      "system" : "http://loinc.org",
+      "code" : "1557-8",
+      "display" : "Fasting glucose [Mass/volume] in Venous blood"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "1556-0",
+      "display" : "Fasting glucose [Mass/volume] in Capillary blood"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "41604-0",
+      "display" : "Fasting glucose [Mass/volume] in Capillary blood by Glucometer"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://loinc.org",
+      "concept" : [{
+        "code" : "1493-6"
+      },
+      {
+        "code" : "10450-5"
+      },
+      {
+        "code" : "1554-5"
+      },
+      {
+        "code" : "17865-7"
+      },
+      {
+        "code" : "1558-6"
+      },
+      {
+        "code" : "35184-1"
+      },
+      {
+        "code" : "1500-8"
+      },
+      {
+        "code" : "1523-0"
+      },
+      {
+        "code" : "1550-3"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "language" : "en",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:d42ad3c2-5292-4f85-8ab0-eb6812b0e4b9",
+    "timestamp" : "2022-11-04T15:33:50.014Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "excludeNested",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "version",
+      "valueUri" : "http://loinc.org|2.73"
+    }],
+    "contains" : [{
+      "system" : "http://loinc.org",
+      "code" : "1493-6",
+      "display" : "Glucose [Mass/volume] in Serum or Plasma --1.5 hours post 0.05-0.15 U insulin/kg IV 12 hours fasting"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "10450-5",
+      "display" : "Glucose [Mass/volume] in Serum or Plasma --10 hours fasting"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "1554-5",
+      "display" : "Glucose [Mass/volume] in Serum or Plasma --12 hours fasting"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "17865-7",
+      "display" : "Glucose [Mass/volume] in Serum or Plasma --8 hours fasting"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "1558-6",
+      "display" : "Fasting glucose [Mass/volume] in Serum or Plasma"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "35184-1",
+      "display" : "Fasting glucose [Mass or Moles/volume] in Serum or Plasma"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "1500-8",
+      "display" : "Glucose [Mass/volume] in Serum or Plasma --1 hour post 0.05-0.15 U insulin/kg IV post 12H CFst"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "1523-0",
+      "display" : "Glucose [Mass/volume] in Serum or Plasma --30 minutes post 0.05-0.15 U insulin/kg IV post 12H CFst"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "1550-3",
+      "display" : "Glucose [Mass/volume] in Serum or Plasma --pre 12 hour fast"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://loinc.org",
+      "concept" : [{
+        "code" : "59261-8",
+        "display" : "Hemoglobin A1c/Hemoglobin.total in Blood by IFCC protocol"
+      },
+      {
+        "code" : "2093-3",
+        "display" : "Cholesterol [Mass/volume] in Serum or Plasma"
+      },
+      {
+        "code" : "2085-9",
+        "display" : "Cholesterol in HDL [Mass/volume] in Serum or Plasma"
+      },
+      {
+        "code" : "2089-1",
+        "display" : "Cholesterol in LDL [Mass/volume] in Serum or Plasma"
+      },
+      {
+        "code" : "2571-8",
+        "display" : "Triglyceride [Mass/volume] in Serum or Plasma"
+      },
+      {
+        "code" : "43396-1",
+        "display" : "Cholesterol non HDL [Mass/volume] in Serum or Plasma"
+      },
+      {
+        "code" : "2160-0",
+        "display" : "Creatinine [Mass/volume] in Serum or Plasma"
+      },
+      {
+        "code" : "14959-1",
+        "display" : "Microalbumin/Creatinine [Mass Ratio] in Urine"
+      },
+      {
+        "code" : "1742-6",
+        "display" : "Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma"
+      },
+      {
+        "code" : "1920-8",
+        "display" : "Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma"
+      },
+      {
+        "code" : "2324-2",
+        "display" : "Gamma glutamyl transferase [Enzymatic activity/volume] in Serum or Plasma"
+      },
+      {
+        "code" : "6768-6",
+        "display" : "Alkaline phosphatase [Enzymatic activity/volume] in Serum or Plasma"
+      },
+      {
+        "code" : "3084-1",
+        "display" : "Urate [Mass/volume] in Serum or Plasma"
+      },
+      {
+        "code" : "48642-3",
+        "display" : "Glomerular filtration rate/1.73 sq M.predicted among non-blacks [Volume Rate/Area] in Serum, Plasma or Blood by Creatinine-based formula (MDRD)"
+      },
+      {
+        "code" : "5802-4",
+        "display" : "Nitrite [Presence] in Urine by Test strip"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "language" : "en",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:fffeb781-3926-4177-b046-6ce071e80914",
+    "timestamp" : "2022-11-04T15:33:52.123Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "excludeNested",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "version",
+      "valueUri" : "http://loinc.org|2.73"
+    }],
+    "contains" : [{
+      "system" : "http://loinc.org",
+      "code" : "59261-8",
+      "display" : "Hemoglobin A1c/Hemoglobin.total in Blood by IFCC protocol"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "2093-3",
+      "display" : "Cholesterol [Mass/volume] in Serum or Plasma"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "2085-9",
+      "display" : "Cholesterol in HDL [Mass/volume] in Serum or Plasma"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "2089-1",
+      "display" : "Cholesterol in LDL [Mass/volume] in Serum or Plasma"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "2571-8",
+      "display" : "Triglyceride [Mass/volume] in Serum or Plasma"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "43396-1",
+      "display" : "Cholesterol non HDL [Mass/volume] in Serum or Plasma"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "2160-0",
+      "display" : "Creatinine [Mass/volume] in Serum or Plasma"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "14959-1",
+      "display" : "Microalbumin/Creatinine [Mass Ratio] in Urine"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "1742-6",
+      "display" : "Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "1920-8",
+      "display" : "Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "2324-2",
+      "display" : "Gamma glutamyl transferase [Enzymatic activity/volume] in Serum or Plasma"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "6768-6",
+      "display" : "Alkaline phosphatase [Enzymatic activity/volume] in Serum or Plasma"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "3084-1",
+      "display" : "Urate [Mass/volume] in Serum or Plasma"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "48642-3",
+      "display" : "Glomerular filtration rate/1.73 sq M.predicted among non-blacks [Volume Rate/Area] in Serum, Plasma or Blood by Creatinine-based formula (MDRD)"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "5802-4",
+      "display" : "Nitrite [Presence] in Urine by Test strip"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://loinc.org",
+      "concept" : [{
+        "code" : "20570-8"
+      },
+      {
+        "code" : "4548-4"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "language" : "en",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:53f7eedb-11f8-4d17-8e31-e0e981bb3fc8",
+    "timestamp" : "2022-11-04T15:33:52.842Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "excludeNested",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "version",
+      "valueUri" : "http://loinc.org|2.73"
+    }],
+    "contains" : [{
+      "system" : "http://loinc.org",
+      "code" : "20570-8",
+      "display" : "Hematocrit [Volume Fraction] of Blood"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "4548-4",
+      "display" : "Hemoglobin A1c/Hemoglobin.total in Blood"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://loinc.org",
+      "concept" : [{
+        "code" : "72166-2"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "language" : "en",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:098d13d6-3462-4d34-8aba-928b973a4333",
+    "timestamp" : "2022-11-04T15:33:53.483Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "excludeNested",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "version",
+      "valueUri" : "http://loinc.org|2.73"
+    }],
+    "contains" : [{
+      "system" : "http://loinc.org",
+      "code" : "72166-2",
+      "display" : "Tobacco smoking status"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://loinc.org",
+      "concept" : [{
+        "code" : "20053-5",
+        "display" : "Atmospheric pressure mm[Hg]"
+      },
+      {
+        "code" : "76268-2",
+        "display" : "Pressure.ambient Room"
+      },
+      {
+        "code" : "60832-3",
+        "display" : "Room temperature Cel;[degF]"
+      },
+      {
+        "code" : "65643-9",
+        "display" : "Relative humidity (%)"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "language" : "en",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:1c280d89-aa3c-4828-8181-efc019875751",
+    "timestamp" : "2022-11-04T15:33:54.483Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "excludeNested",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "version",
+      "valueUri" : "http://loinc.org|2.73"
+    }],
+    "contains" : [{
+      "system" : "http://loinc.org",
+      "code" : "20053-5",
+      "display" : "Atmospheric pressure mm[Hg]"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "76268-2",
+      "display" : "Pressure.ambient Room"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "60832-3",
+      "display" : "Room temperature Cel;[degF]"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "65643-9",
+      "display" : "Relative humidity (%)"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://loinc.org",
+      "concept" : [{
+        "code" : "55423-8"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "language" : "en",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:2cf9a4ef-8733-4d17-9e4b-0aaf54be13db",
+    "timestamp" : "2022-11-04T15:33:59.842Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "excludeNested",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "version",
+      "valueUri" : "http://loinc.org|2.73"
+    }],
+    "contains" : [{
+      "system" : "http://loinc.org",
+      "code" : "55423-8",
+      "display" : "Number of steps in unspecified time Pedometer"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://loinc.org",
+      "concept" : [{
+        "code" : "93831-6"
+      },
+      {
+        "code" : "93830-8"
+      },
+      {
+        "code" : "93829-0"
+      },
+      {
+        "code" : "93832-4"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "language" : "en",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:9d4bfaaf-47a8-4fa5-9ce3-6922d16bb1d2",
+    "timestamp" : "2022-11-04T15:34:00.483Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "excludeNested",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "version",
+      "valueUri" : "http://loinc.org|2.73"
+    }],
+    "contains" : [{
+      "system" : "http://loinc.org",
+      "code" : "93831-6",
+      "display" : "Deep sleep duration"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "93830-8",
+      "display" : "Light sleep duration"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "93829-0",
+      "display" : "REM sleep duration"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "93832-4",
+      "display" : "Sleep duration"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://loinc.org",
+      "concept" : [{
+        "code" : "63597-9",
+        "display" : "During the past 30 days, on how many days did you drink one or more drinks of an alcoholic beverage"
+      },
+      {
+        "code" : "73985-4",
+        "display" : "Exercise activity"
+      },
+      {
+        "code" : "72166-2",
+        "display" : "Tobacco smoking status"
+      },
+      {
+        "code" : "96103-7",
+        "display" : "Tobacco amount per day"
+      },
+      {
+        "code" : "63629-0",
+        "display" : "On the number of days you reported you smoked cigarettes during the past 30 days, how many cigarettes did you smoke per day, on average [PhenX]"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "language" : "en",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:7d780cec-936b-4541-853e-15869b48aa9b",
+    "timestamp" : "2022-11-04T15:34:00.873Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "excludeNested",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "version",
+      "valueUri" : "http://loinc.org|2.73"
+    }],
+    "contains" : [{
+      "system" : "http://loinc.org",
+      "code" : "63597-9",
+      "display" : "During the past 30 days, on how many days did you drink one or more drinks of an alcoholic beverage"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "73985-4",
+      "display" : "Exercise activity"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "72166-2",
+      "display" : "Tobacco smoking status"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "96103-7",
+      "display" : "Tobacco amount per day"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "63629-0",
+      "display" : "On the number of days you reported you smoked cigarettes during the past 30 days, how many cigarettes did you smoke per day, on average [PhenX]"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://loinc.org",
+      "concept" : [{
+        "code" : "41952-3"
+      },
+      {
+        "code" : "41950-7"
+      },
+      {
+        "code" : "41951-5"
+      },
+      {
+        "code" : "55423-8"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "language" : "en",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:ecf12d9f-213e-47a6-887c-57fbff2d391e",
+    "timestamp" : "2022-11-04T15:34:01.842Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "excludeNested",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "version",
+      "valueUri" : "http://loinc.org|2.73"
+    }],
+    "contains" : [{
+      "system" : "http://loinc.org",
+      "code" : "41952-3",
+      "display" : "Number of steps in 1 week Measured"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "41950-7",
+      "display" : "Number of steps in 24 hour Measured"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "41951-5",
+      "display" : "Number of steps in 24 hour mean Measured"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "55423-8",
+      "display" : "Number of steps in unspecified time Pedometer"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------

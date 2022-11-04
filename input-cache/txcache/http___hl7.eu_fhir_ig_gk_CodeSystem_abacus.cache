@@ -1,0 +1,83 @@
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://hl7.eu/fhir/ig/gk/CodeSystem/abacus",
+      "concept" : [{
+        "code" : "fluency"
+      },
+      {
+        "code" : "picture-naming"
+      },
+      {
+        "code" : "repetition-sentences"
+      },
+      {
+        "code" : "prose-recall"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "language" : "en",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:1a38d99a-76dd-40fd-a33b-15eb899af803",
+    "timestamp" : "2022-11-04T15:33:48.155Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "excludeNested",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "version",
+      "valueUri" : "http://hl7.eu/fhir/ig/gk/CodeSystem/abacus|0.1.0"
+    }],
+    "contains" : [{
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "Verbal Fluency Test"
+      }],
+      "system" : "http://hl7.eu/fhir/ig/gk/CodeSystem/abacus",
+      "code" : "fluency",
+      "display" : "Verbal Fluency Test"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "Picture naming Test"
+      }],
+      "system" : "http://hl7.eu/fhir/ig/gk/CodeSystem/abacus",
+      "code" : "picture-naming",
+      "display" : "Picture naming Test"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "Repetition of complex sentences Test"
+      }],
+      "system" : "http://hl7.eu/fhir/ig/gk/CodeSystem/abacus",
+      "code" : "repetition-sentences",
+      "display" : "Repetition of complex sentences Test"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "Prose recall Test"
+      }],
+      "system" : "http://hl7.eu/fhir/ig/gk/CodeSystem/abacus",
+      "code" : "prose-recall",
+      "display" : "Prose recall Test"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------

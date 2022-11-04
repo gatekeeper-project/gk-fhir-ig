@@ -2473,3 +2473,967 @@ e: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "197321007",
+        "display" : "Steatosis of liver (disorder)"
+      },
+      {
+        "code" : "38341003",
+        "display" : "Hypertensive disorder, systemic arterial (disorder)"
+      },
+      {
+        "code" : "84114007",
+        "display" : "Heart failure (disorder)"
+      },
+      {
+        "code" : "13645005",
+        "display" : "Chronic obstructive lung disease (disorder)"
+      },
+      {
+        "code" : "709044004",
+        "display" : "Chronic kidney disease (disorder)"
+      },
+      {
+        "code" : "414545008",
+        "display" : "Ischemic heart disease (disorder)"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "language" : "en",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:3ed7748a-9932-44a9-bfc2-f79511084cb5",
+    "timestamp" : "2022-11-04T15:33:48.717Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "excludeNested",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "version",
+      "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20220731"
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "197321007",
+      "display" : "Steatosis of liver (disorder)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "38341003",
+      "display" : "Hypertensive disorder, systemic arterial (disorder)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "84114007",
+      "display" : "Heart failure (disorder)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "13645005",
+      "display" : "Chronic obstructive lung disease (disorder)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "709044004",
+      "display" : "Chronic kidney disease (disorder)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "414545008",
+      "display" : "Ischemic heart disease (disorder)"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "33747003"
+      },
+      {
+        "code" : "166712009"
+      },
+      {
+        "code" : "365845005"
+      },
+      {
+        "code" : "442166002"
+      },
+      {
+        "code" : "45896001"
+      },
+      {
+        "code" : "166646003"
+      },
+      {
+        "code" : "121868005"
+      },
+      {
+        "code" : "102811001"
+      },
+      {
+        "code" : "102739008"
+      },
+      {
+        "code" : "102737005"
+      },
+      {
+        "code" : "365755003"
+      },
+      {
+        "code" : "274769005"
+      },
+      {
+        "code" : "14740000"
+      },
+      {
+        "code" : "32789000"
+      },
+      {
+        "code" : "102680009"
+      },
+      {
+        "code" : "80274001"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "language" : "en",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:1c5cfdfb-b037-401b-a62b-3f60d65de3bf",
+    "timestamp" : "2022-11-04T15:33:50.686Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "excludeNested",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "version",
+      "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20220731"
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "33747003",
+      "display" : "Glucose measurement, blood"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "166712009",
+      "display" : "Blood urea abnormal"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "365845005",
+      "display" : "Hemoglobin A1C - diabetic control finding"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "442166002",
+      "display" : "a.m. serum specimen"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "45896001",
+      "display" : "Aspartate aminotransferase measurement"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "166646003",
+      "display" : "Alanine aminotransferase (ALT) (serum glutamic-pyruvic transaminase) (SGPT) level abnormal"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "121868005",
+      "display" : "Total cholesterol measurement"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "102811001",
+      "display" : "Creatinine renal clearance"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "102739008",
+      "display" : "LDL cholesterol"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "102737005",
+      "display" : "HDL cholesterol"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "365755003",
+      "display" : "Urea level - finding"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "274769005",
+      "display" : "Albuminuria"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "14740000",
+      "display" : "Triglycerides measurement"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "32789000",
+      "display" : "Ferritin"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "102680009",
+      "display" : "Troponin"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "80274001",
+      "display" : "Glomerular filtration rate"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "33747003"
+      },
+      {
+        "code" : "166712009"
+      },
+      {
+        "code" : "365845005"
+      },
+      {
+        "code" : "442166002"
+      },
+      {
+        "code" : "767002"
+      },
+      {
+        "code" : "365632008"
+      },
+      {
+        "code" : "45896001"
+      },
+      {
+        "code" : "166646003"
+      },
+      {
+        "code" : "121868005"
+      },
+      {
+        "code" : "102811001"
+      },
+      {
+        "code" : "365755003"
+      },
+      {
+        "code" : "274769005"
+      },
+      {
+        "code" : "14740000"
+      },
+      {
+        "code" : "102739008"
+      },
+      {
+        "code" : "102737005"
+      },
+      {
+        "code" : "441689006"
+      },
+      {
+        "code" : "34608000"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "language" : "en",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:2992702b-6e95-485f-a92e-2e98767514d9",
+    "timestamp" : "2022-11-04T15:33:51.405Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "excludeNested",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "version",
+      "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20220731"
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "33747003",
+      "display" : "Glucose measurement, blood"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "166712009",
+      "display" : "Blood urea abnormal"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "365845005",
+      "display" : "Hemoglobin A1C - diabetic control finding"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "442166002",
+      "display" : "a.m. serum specimen"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "767002",
+      "display" : "White blood cell count"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "365632008",
+      "display" : "Platelet count"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "45896001",
+      "display" : "Aspartate aminotransferase measurement"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "166646003",
+      "display" : "Alanine aminotransferase (ALT) (serum glutamic-pyruvic transaminase) (SGPT) level abnormal"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "121868005",
+      "display" : "Total cholesterol measurement"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "102811001",
+      "display" : "Creatinine renal clearance"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "365755003",
+      "display" : "Urea level - finding"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "274769005",
+      "display" : "Albuminuria"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "14740000",
+      "display" : "Triglycerides measurement"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "102739008",
+      "display" : "LDL cholesterol"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "102737005",
+      "display" : "HDL cholesterol"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "441689006",
+      "display" : "Measurement of total hemoglobin concentration"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "34608000",
+      "display" : "Alanine aminotransferase measurement"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "77176002"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "language" : "en",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:57748995-d69b-4ba7-bbfa-efa54fca4fec",
+    "timestamp" : "2022-11-04T15:33:53.873Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "excludeNested",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "version",
+      "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20220731"
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "77176002",
+      "display" : "Smoker"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "88878007"
+      },
+      {
+        "code" : "2331003"
+      },
+      {
+        "code" : "256674009"
+      },
+      {
+        "code" : "39972003"
+      },
+      {
+        "code" : "74801000"
+      },
+      {
+        "code" : "84698008"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "language" : "en",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:8c1518ae-b56f-4cf4-9562-b4e81a299aec",
+    "timestamp" : "2022-11-04T15:33:55.592Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "excludeNested",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "version",
+      "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20220731"
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "88878007",
+      "display" : "Protein"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "2331003",
+      "display" : "Carbohydrate"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "256674009",
+      "display" : "Fat"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "39972003",
+      "display" : "Sodium"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "74801000",
+      "display" : "Sugar"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "84698008",
+      "display" : "Cholesterol"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "33747003"
+      },
+      {
+        "code" : "258158006"
+      },
+      {
+        "code" : "27113001"
+      },
+      {
+        "code" : "713137006"
+      },
+      {
+        "code" : "50373000"
+      },
+      {
+        "code" : "248365001"
+      },
+      {
+        "code" : "60621009"
+      },
+      {
+        "code" : "366319001"
+      },
+      {
+        "code" : "256668009"
+      },
+      {
+        "code" : "32457005"
+      },
+      {
+        "code" : "77176002"
+      },
+      {
+        "code" : "166712009"
+      },
+      {
+        "code" : "365845005"
+      },
+      {
+        "code" : "442166002"
+      },
+      {
+        "code" : "767002"
+      },
+      {
+        "code" : "365632008"
+      },
+      {
+        "code" : "45896001"
+      },
+      {
+        "code" : "166646003"
+      },
+      {
+        "code" : "121868005"
+      },
+      {
+        "code" : "102811001"
+      },
+      {
+        "code" : "88878007"
+      },
+      {
+        "code" : "2331003"
+      },
+      {
+        "code" : "256674009"
+      },
+      {
+        "code" : "39972003"
+      },
+      {
+        "code" : "74801000"
+      },
+      {
+        "code" : "84698008"
+      },
+      {
+        "code" : "415945006"
+      },
+      {
+        "code" : "363810004"
+      },
+      {
+        "code" : "365755003"
+      },
+      {
+        "code" : "274769005"
+      },
+      {
+        "code" : "14740000"
+      },
+      {
+        "code" : "102739008"
+      },
+      {
+        "code" : "102737005"
+      },
+      {
+        "code" : "441689006"
+      },
+      {
+        "code" : "34608000"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "language" : "en",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:12fdcfe4-8223-4981-b41a-6c5edf07d7b0",
+    "timestamp" : "2022-11-04T15:33:58.842Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "excludeNested",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "version",
+      "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20220731"
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "33747003",
+      "display" : "Glucose measurement, blood"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "258158006",
+      "display" : "Sleep"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "27113001",
+      "display" : "Body weight"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "713137006",
+      "display" : "Assessment of stress level"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "50373000",
+      "display" : "Body height measure"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "248365001",
+      "display" : "Circumference measure"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "60621009",
+      "display" : "Body mass index"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "366319001",
+      "display" : "Body fat finding"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "256668009",
+      "display" : "Muscle material"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "32457005",
+      "display" : "Body fluid"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "77176002",
+      "display" : "Smoker"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "166712009",
+      "display" : "Blood urea abnormal"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "365845005",
+      "display" : "Hemoglobin A1C - diabetic control finding"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "442166002",
+      "display" : "a.m. serum specimen"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "767002",
+      "display" : "White blood cell count"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "365632008",
+      "display" : "Platelet count"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "45896001",
+      "display" : "Aspartate aminotransferase measurement"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "166646003",
+      "display" : "Alanine aminotransferase (ALT) (serum glutamic-pyruvic transaminase) (SGPT) level abnormal"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "121868005",
+      "display" : "Total cholesterol measurement"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "102811001",
+      "display" : "Creatinine renal clearance"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "88878007",
+      "display" : "Protein"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "2331003",
+      "display" : "Carbohydrate"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "256674009",
+      "display" : "Fat"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "39972003",
+      "display" : "Sodium"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "74801000",
+      "display" : "Sugar"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "84698008",
+      "display" : "Cholesterol"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "415945006",
+      "display" : "Oral temperature"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "363810004",
+      "display" : "Body composition measure"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "365755003",
+      "display" : "Urea level - finding"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "274769005",
+      "display" : "Albuminuria"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "14740000",
+      "display" : "Triglycerides measurement"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "102739008",
+      "display" : "LDL cholesterol"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "102737005",
+      "display" : "HDL cholesterol"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "441689006",
+      "display" : "Measurement of total hemoglobin concentration"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "34608000",
+      "display" : "Alanine aminotransferase measurement"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "27113001"
+      },
+      {
+        "code" : "50373000"
+      },
+      {
+        "code" : "248365001"
+      },
+      {
+        "code" : "60621009"
+      },
+      {
+        "code" : "366319001"
+      },
+      {
+        "code" : "256668009"
+      },
+      {
+        "code" : "32457005"
+      },
+      {
+        "code" : "415945006"
+      },
+      {
+        "code" : "363810004"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "language" : "en",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:46169d35-cceb-4cd8-a80c-d7f873c429a6",
+    "timestamp" : "2022-11-04T15:34:02.623Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "excludeNested",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "version",
+      "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20220731"
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "27113001",
+      "display" : "Body weight"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "50373000",
+      "display" : "Body height measure"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "248365001",
+      "display" : "Circumference measure"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "60621009",
+      "display" : "Body mass index"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "366319001",
+      "display" : "Body fat finding"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "256668009",
+      "display" : "Muscle material"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "32457005",
+      "display" : "Body fluid"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "415945006",
+      "display" : "Oral temperature"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "363810004",
+      "display" : "Body composition measure"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
