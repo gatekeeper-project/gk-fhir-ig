@@ -1,5 +1,5 @@
 # gk-fhir-ig
-GATEKEEPER FHIR Implementation Guide
+GATEKEEPER FHIR Implementation Guide.
 
 ## Test FHIR IG using Dockerfile
 Build the image using `docker build -t gk-fhir-ig ./`. After the image has been built,
