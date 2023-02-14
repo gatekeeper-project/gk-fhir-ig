@@ -17,6 +17,7 @@ Alias: $string = string
 // =========== Extensions =======
 Alias: $event-location = http://hl7.org/fhir/StructureDefinition/event-location
 Alias: $data-absent-reason = http://hl7.org/fhir/StructureDefinition/data-absent-reason
+Alias: $operationdefinition-profile = http://hl7.org/fhir/StructureDefinition/operationdefinition-profile
 
 
 // =========== Profiles =======
