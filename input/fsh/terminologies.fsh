@@ -219,6 +219,18 @@ Description: "Gatekeeper internal Code System"
 // Medisante
 * #bia-impedance "BIA impedance [Ohm]" "Measure of the impedance in Ohm. Bioelectrical impedance analysis (BIA) method"
 
+//Puglia Pilot
+* #HCP	"HCP"	"Healthcare Professional"
+* #RUC_manager	"RUC_manager"	"RUC Manager"
+* #Pilot_manager	"Pilot_manager"	"Pilot Manager"
+* #ruc1	"RUC 1"	"Reference Use Case 1"
+* #ruc2	"RUC 2"	"Reference Use Case 2"
+* #ruc3	"RUC 3"	"Reference Use Case 3"
+* #ruc4	"RUC 4"	"Reference Use Case 4"
+* #ruc5	"RUC 5"	"Reference Use Case 5"
+* #ruc6	"RUC 6"	"Reference Use Case 6"
+* #ruc7	"RUC 7"	"Reference Use Case 7"
+* #ruc8	"RUC 8"	"Reference Use Case 8"
 
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
