@@ -23,11 +23,11 @@
 e: {
   "valueSet" : {
   "resourceType" : "ValueSet",
-  "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:194c024f-476d-436d-ad08-85a42fee84af",
-    "timestamp" : "2023-02-13T16:04:32.314Z",
+    "identifier" : "urn:uuid:b4420238-4471-4bef-9a72-846d3ebeca32",
+    "timestamp" : "2023-06-23T06:46:51.959Z",
+    "total" : 4,
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -41,37 +41,21 @@ e: {
       "valueUri" : "http://hl7.eu/fhir/ig/gk/CodeSystem/abacus|0.1.0"
     }],
     "contains" : [{
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
-        "valueString" : "Verbal Fluency Test"
-      }],
       "system" : "http://hl7.eu/fhir/ig/gk/CodeSystem/abacus",
       "code" : "fluency",
       "display" : "Verbal Fluency Test"
     },
     {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
-        "valueString" : "Picture naming Test"
-      }],
       "system" : "http://hl7.eu/fhir/ig/gk/CodeSystem/abacus",
       "code" : "picture-naming",
       "display" : "Picture naming Test"
     },
     {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
-        "valueString" : "Repetition of complex sentences Test"
-      }],
       "system" : "http://hl7.eu/fhir/ig/gk/CodeSystem/abacus",
       "code" : "repetition-sentences",
       "display" : "Repetition of complex sentences Test"
     },
     {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
-        "valueString" : "Prose recall Test"
-      }],
       "system" : "http://hl7.eu/fhir/ig/gk/CodeSystem/abacus",
       "code" : "prose-recall",
       "display" : "Prose recall Test"

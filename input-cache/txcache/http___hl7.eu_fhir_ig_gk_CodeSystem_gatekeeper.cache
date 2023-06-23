@@ -39,11 +39,11 @@
 e: {
   "valueSet" : {
   "resourceType" : "ValueSet",
-  "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:b387cddd-4449-4daa-b06a-28018473976e",
-    "timestamp" : "2023-02-13T16:04:32.642Z",
+    "identifier" : "urn:uuid:4ae75b90-39d8-414f-af5b-a8aeac4c636c",
+    "timestamp" : "2023-06-23T06:46:52.366Z",
+    "total" : 7,
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -57,64 +57,36 @@ e: {
       "valueUri" : "http://hl7.eu/fhir/ig/gk/CodeSystem/gatekeeper|0.1.0"
     }],
     "contains" : [{
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
-        "valueString" : "Particulate Matter 10 (Particulate matter which passes through a sizeselective inlet with a 50% efficiency cut-off at 10 μm aerodynamic diameter) particle mass concentration"
-      }],
       "system" : "http://hl7.eu/fhir/ig/gk/CodeSystem/gatekeeper",
       "code" : "pm10-conc",
       "display" : "PM 10 particle mass concentration"
     },
     {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
-        "valueString" : "Particulate Matter 2.5 (Particulate matter which passes through a sizeselective inlet with a 50% efficiency cut-off at 2.5 μm aerodynamic diameter) particle mass concentration"
-      }],
       "system" : "http://hl7.eu/fhir/ig/gk/CodeSystem/gatekeeper",
       "code" : "pm2.5-conc",
       "display" : "PM 2.5 particle mass concentration"
     },
     {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
-        "valueString" : "Particulate Matter 4 (Particulate matter which passes through a sizeselective inlet with a 50% efficiency cut-off at 4 μm aerodynamic diameter) particle mass concentration"
-      }],
       "system" : "http://hl7.eu/fhir/ig/gk/CodeSystem/gatekeeper",
       "code" : "pm4-conc",
       "display" : "PM 4 particle mass concentration"
     },
     {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
-        "valueString" : "Particulate Matter 1 (Particulate matter which passes through a sizeselective inlet with a 50% efficiency cut-off at 1 μm aerodynamic diameter) particle mass concentration"
-      }],
       "system" : "http://hl7.eu/fhir/ig/gk/CodeSystem/gatekeeper",
       "code" : "pm1-conc",
       "display" : "PM 1 particle mass concentration"
     },
     {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
-        "valueString" : "Carbon Monoxide concentration (ppm)"
-      }],
       "system" : "http://hl7.eu/fhir/ig/gk/CodeSystem/gatekeeper",
       "code" : "co-conc",
       "display" : "Carbon Monoxide concentration (ppm)"
     },
     {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
-        "valueString" : "Carbon Dioxide concentration (ppm)"
-      }],
       "system" : "http://hl7.eu/fhir/ig/gk/CodeSystem/gatekeeper",
       "code" : "co2-conc",
       "display" : "Carbon Dioxide concentration (ppm)"
     },
     {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
-        "valueString" : "Volatile Organic Compounds concentration (ppm)"
-      }],
       "system" : "http://hl7.eu/fhir/ig/gk/CodeSystem/gatekeeper",
       "code" : "voc-conc",
       "display" : "Volatile Organic Compounds concentration (ppm)"
@@ -140,11 +112,11 @@ e: {
 e: {
   "valueSet" : {
   "resourceType" : "ValueSet",
-  "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:805b2580-ab0c-4c38-880f-9e8d2c653b7f",
-    "timestamp" : "2023-02-13T16:04:32.939Z",
+    "identifier" : "urn:uuid:8e525959-c015-4e77-acd4-5689c9ee567a",
+    "timestamp" : "2023-06-23T06:46:52.616Z",
+    "total" : 1,
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -158,10 +130,6 @@ e: {
       "valueUri" : "http://hl7.eu/fhir/ig/gk/CodeSystem/gatekeeper|0.1.0"
     }],
     "contains" : [{
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
-        "valueString" : "Measure of the impedance in Ohm. Bioelectrical impedance analysis (BIA) method"
-      }],
       "system" : "http://hl7.eu/fhir/ig/gk/CodeSystem/gatekeeper",
       "code" : "bia-impedance",
       "display" : "BIA impedance [Ohm]"
@@ -195,11 +163,11 @@ e: {
 e: {
   "valueSet" : {
   "resourceType" : "ValueSet",
-  "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:200be16d-99f9-468b-9e37-454bafa4c492",
-    "timestamp" : "2023-02-13T16:04:33.174Z",
+    "identifier" : "urn:uuid:e5cef779-1f59-4896-8709-1d6c88437fa7",
+    "timestamp" : "2023-06-23T06:46:52.944Z",
+    "total" : 3,
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -213,28 +181,16 @@ e: {
       "valueUri" : "http://hl7.eu/fhir/ig/gk/CodeSystem/gatekeeper|0.1.0"
     }],
     "contains" : [{
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
-        "valueString" : "Number of events (medication intakes) at current day"
-      }],
       "system" : "http://hl7.eu/fhir/ig/gk/CodeSystem/gatekeeper",
       "code" : "s4c-nEvent",
       "display" : "Number of events (medication intakes) at current day"
     },
     {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
-        "valueString" : "Number of FoG  episodes at current day"
-      }],
       "system" : "http://hl7.eu/fhir/ig/gk/CodeSystem/gatekeeper",
       "code" : "s4c-nFOG",
       "display" : "Number of FoG  episodes at current day"
     },
     {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
-        "valueString" : "Number of falls at current day"
-      }],
       "system" : "http://hl7.eu/fhir/ig/gk/CodeSystem/gatekeeper",
       "code" : "s4c-nFalls",
       "display" : "Number of falls at current day"
@@ -259,11 +215,11 @@ e: {
 e: {
   "valueSet" : {
   "resourceType" : "ValueSet",
-  "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:bf732eef-5331-4913-8f7e-06a707fa0b1d",
-    "timestamp" : "2023-02-13T16:04:33.470Z",
+    "identifier" : "urn:uuid:14f27d67-227c-45da-a64c-bce2fcb58c65",
+    "timestamp" : "2023-06-23T06:46:53.256Z",
+    "total" : 1,
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -277,10 +233,6 @@ e: {
       "valueUri" : "http://hl7.eu/fhir/ig/gk/CodeSystem/gatekeeper|0.1.0"
     }],
     "contains" : [{
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
-        "valueString" : "People living"
-      }],
       "system" : "http://hl7.eu/fhir/ig/gk/CodeSystem/gatekeeper",
       "code" : "people-living",
       "display" : "People living"

@@ -16,7 +16,9 @@ version: 0.1.0
 name: GatekeeperImplementationGuide
 title: GATEKEEPER Implementation Guide
 status: active
-publisher: GATEKEEPER project
+publisher:
+  name: GATEKEEPER project
+  url: http://gatekeeper-project.eu
 contact:
   - name: GATEKEEPER project
     telecom:
