@@ -655,3 +655,54 @@ Description: "This profile defines how to represent Sleep Duration Observation i
 * value[x] only Quantity
 * value[x] 1..1 MS
 * hasMember 0..0
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Profile: ObservationPugliaGK
+Parent: Observation
+Id: Observation-eu-pgl-gk
+Title: "Observtion - Research Study Puglia Pilot (GateKeeper)"
+Description: "This profile represents the constraints applied to the Observation resource used for a case study in the Puglia Pilot."
+* ^status = #draft
+* . MS
+* extension contains $workflow-researchStudy named workflow-researchStudy 1..1 MS
+* extension[workflow-researchStudy].valueReference only Reference(ResearchStudy)
+* status 1..1	MS
+* code	1..1 MS
+* code from VsPugliaResearchStudyObservationsGK
+* subject	1..1 MS
+* subject only Reference (Patient)
+* effective[x] 1..1 MS
+* effective[x] ^requirements = "The effective type depend on the Observation.code."
+//Constrain 1
+* effective[x] ^constraint[1].key = "GK-obs-pgl-eft-1"
+* effective[x] ^constraint[1].severity = #error
+* effective[x] ^constraint[1].human = "If Observation.code.coding.code is '30525-0' or 'risk-score-ddci' or 'risk-score-cci', the Type of effective[x] MUST be dateTime."
+* effective[x] ^constraint[1].expression = "(Observation.code.coding.code = '30525-0' or Observation.code.coding.code = 'risk-score-ddci' or Observation.code.coding.code = 'risk-score-cci') and Observation.effective.ofType(dateTime)"
+//Constrain 2
+* effective[x] ^constraint[2].key = "GK-obs-pgl-eft-2"
+* effective[x] ^constraint[2].severity = #error
+* effective[x] ^constraint[2].human = "If Observation.code.coding.code is 'healthcare-costs-drugs' or 'healthcare-costs-hospitalizations' or 'healthcare-costs-hospitalizations-unplanned' or 'healthcare-costs-outpatient-visits' or 'hospitalizations-number' or 'hospitalizations-unplanned-number' or 'hospitalizations-length-of-stay' or 'hospitalizations-unplanned-length-of-stay', the Type of effective[x] MUST be Period and start and end MUST be present."
+* effective[x] ^constraint[2].expression = "(Observation.code.coding.code = 'healthcare-costs-drugs' or Observation.code.coding.code = 'healthcare-costs-hospitalizations' or Observation.code.coding.code = 'healthcare-costs-hospitalizations-unplanned' or Observation.code.coding.code = 'healthcare-costs-outpatient-visits' or Observation.code.coding.code = 'hospitalizations-number' or Observation.code.coding.code = 'hospitalizations-unplanned-number' or Observation.code.coding.code = 'hospitalizations-length-of-stay' or Observation.code.coding.code = 'hospitalizations-unplanned-length-of-stay') and Observation.effective.ofType(Period) and Observation.effectivePeriod.start.exists() and Observation.effectivePeriod.end.exists()"
+* value[x] 1..1 MS
+* value[x] ^requirements = "The value Type depend on the Observation.code."
+//Constrain 1
+* value[x] ^constraint[1].key = "GK-obs-pgl-vl-1"
+* value[x] ^constraint[1].severity = #error
+* value[x] ^constraint[1].human = "If Observation.code.coding.code is '30525-0', the Type of value[x] MUST be Quatity and valueQuantity.value, valueQuantity.system and valueQuantity.code MUST be present and valueQuantity.system MUST be 'http://unitsofmeasure.org' and valueQuantity.code MUST be 'a'"
+* value[x] ^constraint[1].expression = "Observation.code.coding.code = '30525-0' and Observation.value.ofType(Quatity) and Observation.valueQuantity.value.exists() and Observation.valueQuantity.system.exists() and Observation.valueQuantity.code.exists() and Observation.valueQuantity.system = 'http://unitsofmeasure.org' and Observation.valueQuantity.code = 'a'"
+//Constrain 2
+* value[x] ^constraint[2].key = "GK-obs-pgl-vl-2"
+* value[x] ^constraint[2].severity = #error
+* value[x] ^constraint[2].human = "If Observation.code.coding.code is 'risk-score-ddci' or 'risk-score-cci' or 'hospitalizations-number' or 'hospitalizations-unplanned-number', the Type of value[x] MUST be integer"
+* value[x] ^constraint[2].expression = "(Observation.code.coding.code = 'risk-score-ddci' or Observation.code.coding.code = 'risk-score-cci' or Observation.code.coding.code = 'hospitalizations-number' or Observation.code.coding.code = 'hospitalizations-unplanned-number') and Observation.value.ofType(integer)"
+//Constrain 3
+* value[x] ^constraint[3].key = "GK-obs-pgl-vl-3"
+* value[x] ^constraint[3].severity = #error
+* value[x] ^constraint[3].human = "If Observation.code.coding.code is 'healthcare-costs-drugs' or 'healthcare-costs-hospitalizations' or 'healthcare-costs-hospitalizations-unplanned' or 'healthcare-costs-outpatient-visits', the Type of value[x] MUST be Quatity and valueQuantity.value, valueQuantity.system and valueQuantity.code MUST be present and valueQuantity.system MUST be 'urn:iso:std:iso:4217' and valueQuantity.code MUST be 'EUR'"
+* value[x] ^constraint[3].expression = "(Observation.code.coding.code = '30525-0' or Observation.code.coding.code = 'healthcare-costs-hospitalizations' or Observation.code.coding.code = 'healthcare-costs-hospitalizations-unplanned' or Observation.code.coding.code = 'healthcare-costs-outpatient-visits') and Observation.value.ofType(Quatity) and Observation.valueQuantity.value.exists() and Observation.valueQuantity.system.exists() and Observation.valueQuantity.code.exists() and Observation.valueQuantity.system = 'urn:iso:std:iso:4217' and Observation.valueQuantity.code = 'EUR'"
+//Constrain 4
+* value[x] ^constraint[4].key = "GK-obs-pgl-vl-4"
+* value[x] ^constraint[4].severity = #error
+* value[x] ^constraint[4].human = "If Observation.code.coding.code is 'hospitalizations-length-of-stay' or 'hospitalizations-unplanned-length-of-stay', the Type of value[x] MUST be Quatity and valueQuantity.value, valueQuantity.system and valueQuantity.code MUST be present and valueQuantity.system MUST be 'http://unitsofmeasure.org' and valueQuantity.code MUST be 'd'"
+* value[x] ^constraint[4].expression = "(Observation.code.coding.code = 'hospitalizations-length-of-stay' or Observation.code.coding.code = 'hospitalizations-unplanned-length-of-stay') and Observation.value.ofType(Quatity) and Observation.valueQuantity.value.exists() and Observation.valueQuantity.system.exists() and Observation.valueQuantity.code.exists() and Observation.valueQuantity.system = 'http://unitsofmeasure.org' and Observation.valueQuantity.code = 'd'"
