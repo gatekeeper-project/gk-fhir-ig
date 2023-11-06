@@ -231,7 +231,17 @@ Description: "Gatekeeper internal Code System"
 * #ruc6	"RUC 6"	"Reference Use Case 6"
 * #ruc7	"RUC 7"	"Reference Use Case 7"
 * #ruc8	"RUC 8"	"Reference Use Case 8"
-
+//Puglia new study
+* #healthcare-costs-drugs "healthcare-costs-drugs" "Healthcare drug costs"
+* #healthcare-costs-hospitalizations "healthcare-costs-hospitalizations" "Healthcare hospitalization costs"
+* #healthcare-costs-hospitalizations-unplanned "healthcare-costs-hospitalizations-unplanned" "Healthcare hospitalizations unplanned costs"
+* #healthcare-costs-outpatient-visits "healthcare-costs-outpatient-visits" "Healthcare outpatient visit costs"
+* #risk-score-ddci "risk-score-ddci" "Risk score ddci"
+* #risk-score-cci "risk-score-cci" "Risk score cci"
+* #hospitalizations-number "hospitalizations-number" "Hospitalization number"
+* #hospitalization-length-of-stay "hospitalization-length-of-stay" "Hospitalization length of stay"
+* #hospitalization-unplanned-number "hospitalization-unplanned-number" "Unplanned hospitalization number"
+* #hospitalization-unplanned-length-of-stay "hospitalization-unplanned-length-of-stay" "Unplanned hospitalization length of stay"
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ValueSet: VsLivingEnvironmentObservationGK
@@ -281,4 +291,25 @@ Description: "LOINC codes used by the Gatekeeper Project for indicating number o
 * $loinc#41950-7 // Number of steps in 24 hour Measured
 * $loinc#41951-5 // Number of steps in 24 hour mean Measured
 * $loinc#55423-8 // Number of steps in unspecified time Pedometer
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+//Value set fro the Puglia new study
+ValueSet: VsPugliaResearchStudyObservationsGK
+Id: ValueSet-PugliaResearchStudyObservations-gk
+Title: "Research Study Observations - Puglia (Gatekeeper)"
+Description: "GK code used in the observations in the Puglia Research Study (Gatekeeper)"
+//-------------------------------------------------------------------------------------------
+* ^copyright = "This material contains content from LOINC (http://loinc.org). LOINC is copyright © 1995-2020, Regenstrief Institute, Inc. and the Logical Observation Identifiers Names and Codes (LOINC) Committee and is available at no cost under the license at http://loinc.org/license. LOINC® is a registered United States trademark of Regenstrief Institute, Inc"
+* $loinc#30525-0 "Age"
+
+* CsGatekeeper#healthcare-costs-drugs "Healthcare drug costs"
+* CsGatekeeper#healthcare-costs-hospitalizations "Healthcare hospitalization costs"
+* CsGatekeeper#healthcare-costs-hospitalizations-unplanned "Healthcare hospitalizations unplanned costs"
+* CsGatekeeper#healthcare-costs-outpatient-visits "Healthcare outpatient visit costs"
+* CsGatekeeper#risk-score-ddci "Risk score ddci"
+* CsGatekeeper#risk-score-cci "Risk score cci"
+* CsGatekeeper#hospitalizations-number "Hospitalization number"
+* CsGatekeeper#hospitalization-length-of-stay "Hospitalization length of stay"
+* CsGatekeeper#hospitalization-unplanned-number "Unplanned hospitalization number"
+* CsGatekeeper#hospitalization-unplanned-length-of-stay "Unplanned hospitalization length of stay"
 
